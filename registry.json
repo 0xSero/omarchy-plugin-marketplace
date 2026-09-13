@@ -167681,6 +167681,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/oliverlukschander/omarchy-vi-resize",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T16:20:38.132Z",
+      "listingValidatedCommit": "358aa4c049cf84112596f8093bd1e189b886fc83",
+      "listingValidatedAt": "2026-09-13T16:20:38.132Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "oliverlukschander/omarchy-vi-resize",
+        "pluginIds": [
+          "oliverlukschander.vi-resize"
+        ],
+        "commit": "358aa4c049cf84112596f8093bd1e189b886fc83",
+        "checkedAt": "2026-09-13T16:20:38.081Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "oliverlukschander/omarchy-vi-resize",
+        "pluginIds": [
+          "oliverlukschander.vi-resize"
+        ],
+        "commit": "358aa4c049cf84112596f8093bd1e189b886fc83",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T16:20:38.081Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T15:47:21.772Z",
+        "requestEventId": 31057493010,
+        "requestedAt": "2026-09-13T16:19:44Z",
+        "reviewedAt": "2026-09-13T16:20:38.081Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "oliverlukschander.vi-resize": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
