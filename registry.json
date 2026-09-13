@@ -168080,6 +168080,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/therealasclepius/omarchy-apple-tv",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T17:17:15.819Z",
+      "listingValidatedCommit": "668bf55d8bf8482825013450095d676c03459138",
+      "listingValidatedAt": "2026-09-13T17:17:15.819Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "therealasclepius/omarchy-apple-tv",
+        "pluginIds": [
+          "kosta.apple-tv"
+        ],
+        "commit": "668bf55d8bf8482825013450095d676c03459138",
+        "checkedAt": "2026-09-13T17:17:15.756Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "therealasclepius/omarchy-apple-tv",
+        "pluginIds": [
+          "kosta.apple-tv"
+        ],
+        "commit": "668bf55d8bf8482825013450095d676c03459138",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T17:17:15.756Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-11T10:54:59.301Z",
+        "requestEventId": 31058829830,
+        "requestedAt": "2026-09-13T17:13:56Z",
+        "reviewedAt": "2026-09-13T17:17:15.756Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kosta.apple-tv": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
