@@ -166457,6 +166457,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mikeg0/omarchy-kids-math",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:01:33.215Z",
+      "listingValidatedCommit": "f48f98efdfecac19ec580b914203fdc74e21a15f",
+      "listingValidatedAt": "2026-09-13T14:01:33.215Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mikeg0/omarchy-kids-math",
+        "pluginIds": [
+          "omarchykids.math"
+        ],
+        "commit": "f48f98efdfecac19ec580b914203fdc74e21a15f",
+        "checkedAt": "2026-09-13T14:01:33.130Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mikeg0/omarchy-kids-math",
+        "pluginIds": [
+          "omarchykids.math"
+        ],
+        "commit": "f48f98efdfecac19ec580b914203fdc74e21a15f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T14:01:33.130Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T23:25:10.236Z",
+        "requestEventId": 31053816986,
+        "requestedAt": "2026-09-13T13:51:34Z",
+        "reviewedAt": "2026-09-13T14:01:33.130Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omarchykids.math": {
+          "category": "Kids",
+          "tags": [
+            "kids",
+            "education",
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
