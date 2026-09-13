@@ -168397,6 +168397,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Atheon/omarchy-magic-keyboard",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T17:53:32.810Z",
+      "listingValidatedCommit": "e15c7cec8aacef834beee362a437db5f138db879",
+      "listingValidatedAt": "2026-09-13T17:53:32.810Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "atheon/omarchy-magic-keyboard",
+        "pluginIds": [
+          "jaroslavh.magic-keyboard"
+        ],
+        "commit": "e15c7cec8aacef834beee362a437db5f138db879",
+        "checkedAt": "2026-09-13T17:53:32.725Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jaroslavh.magic-keyboard": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
