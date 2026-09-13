@@ -166550,6 +166550,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/i12bp8/oShelf",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:07:28.375Z",
+      "listingValidatedCommit": "eecdec9b94c606a1456c0e999b62ce1a33302360",
+      "listingValidatedAt": "2026-09-13T14:07:28.375Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "i12bp8/oshelf",
+        "pluginIds": [
+          "io.github.i12bp8.oshelf"
+        ],
+        "commit": "eecdec9b94c606a1456c0e999b62ce1a33302360",
+        "checkedAt": "2026-09-13T14:07:28.300Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "i12bp8/oshelf",
+        "pluginIds": [
+          "io.github.i12bp8.oshelf"
+        ],
+        "commit": "eecdec9b94c606a1456c0e999b62ce1a33302360",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T14:07:28.300Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-11T07:55:40.458Z",
+        "requestEventId": 31053900026,
+        "requestedAt": "2026-09-13T13:54:49Z",
+        "reviewedAt": "2026-09-13T14:07:28.300Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.i12bp8.oshelf": {
+          "category": "Productivity",
+          "tags": [
+            "system",
+            "workspaces",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
