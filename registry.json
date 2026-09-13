@@ -165612,6 +165612,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/FelipeMayerDev/omarchy-zai-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T12:03:45.430Z",
+      "listingValidatedCommit": "0a03ba6e8c641c2b9f96062d5ae5593ee0a81e88",
+      "listingValidatedAt": "2026-09-13T12:03:45.430Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "felipemayerdev/omarchy-zai-usage",
+        "pluginIds": [
+          "zai.agent-usage"
+        ],
+        "commit": "0a03ba6e8c641c2b9f96062d5ae5593ee0a81e88",
+        "checkedAt": "2026-09-13T12:03:45.341Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "felipemayerdev/omarchy-zai-usage",
+        "pluginIds": [
+          "zai.agent-usage"
+        ],
+        "commit": "0a03ba6e8c641c2b9f96062d5ae5593ee0a81e88",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T12:03:45.341Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T20:57:10.936Z",
+        "requestEventId": 31051058681,
+        "requestedAt": "2026-09-13T11:46:19Z",
+        "reviewedAt": "2026-09-13T12:03:45.341Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "zai.agent-usage": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
