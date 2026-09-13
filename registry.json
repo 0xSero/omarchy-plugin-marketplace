@@ -166980,6 +166980,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/pdaether/omarchy-ploi",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T15:14:58.373Z",
+      "listingValidatedCommit": "1b26b81aadb355d8938d38cd3bee9f9ff2229c11",
+      "listingValidatedAt": "2026-09-13T15:14:58.373Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pdaether/omarchy-ploi",
+        "pluginIds": [
+          "pdaether.ploi"
+        ],
+        "commit": "1b26b81aadb355d8938d38cd3bee9f9ff2229c11",
+        "checkedAt": "2026-09-13T15:14:58.288Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "pdaether.ploi": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
