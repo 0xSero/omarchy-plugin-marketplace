@@ -166813,6 +166813,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/FerC10110/omarchy-save-them-all",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:24:08.651Z",
+      "listingValidatedCommit": "5b4daaea151b5eec58599741efa2df16f9601bd9",
+      "listingValidatedAt": "2026-09-13T14:24:08.651Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ferc10110/omarchy-save-them-all",
+        "pluginIds": [
+          "io.github.ferc10110.save-them-all"
+        ],
+        "commit": "5b4daaea151b5eec58599741efa2df16f9601bd9",
+        "checkedAt": "2026-09-13T14:24:08.565Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ferc10110.save-them-all": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
