@@ -165668,6 +165668,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rubenmeza/omarchy-crashes",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T12:07:07.554Z",
+      "listingValidatedCommit": "2e34fbdd3c2f32fde1eafcff92dd379c6f4f6175",
+      "listingValidatedAt": "2026-09-13T12:07:07.554Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rubenmeza/omarchy-crashes",
+        "pluginIds": [
+          "io.github.rubenmeza.crashes"
+        ],
+        "commit": "2e34fbdd3c2f32fde1eafcff92dd379c6f4f6175",
+        "checkedAt": "2026-09-13T12:07:07.469Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.rubenmeza.crashes": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
