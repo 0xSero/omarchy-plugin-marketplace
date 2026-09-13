@@ -165933,6 +165933,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jondkinney/omarchy-barscreens",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T13:15:19.110Z",
+      "listingValidatedCommit": "0ca668ab1c153f128a9c51bd7c2627eef9d623e3",
+      "listingValidatedAt": "2026-09-13T13:15:19.110Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jondkinney/omarchy-barscreens",
+        "pluginIds": [
+          "io.github.jondkinney.barscreens"
+        ],
+        "commit": "0ca668ab1c153f128a9c51bd7c2627eef9d623e3",
+        "checkedAt": "2026-09-13T13:15:19.023Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.jondkinney.barscreens": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
