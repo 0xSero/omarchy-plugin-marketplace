@@ -127433,8 +127433,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T18:15:46.903Z",
-      "listingValidatedCommit": "55e7cc3e6a09af6decda713694cf518247509f2e",
-      "listingValidatedAt": "2026-09-04T18:15:46.903Z",
+      "listingValidatedCommit": "0d78fab0161a9039989c4cbd9c8c7d3740730546",
+      "listingValidatedAt": "2026-09-13T21:58:51.635Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -127443,35 +127443,14 @@
         "pluginIds": [
           "omarchy-display"
         ],
-        "commit": "55e7cc3e6a09af6decda713694cf518247509f2e",
-        "checkedAt": "2026-09-04T18:15:46.837Z",
+        "commit": "0d78fab0161a9039989c4cbd9c8c7d3740730546",
+        "checkedAt": "2026-09-13T21:58:51.635Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "marashiai/omarchy-display",
-        "pluginIds": [
-          "omarchy-display"
-        ],
-        "commit": "55e7cc3e6a09af6decda713694cf518247509f2e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-04T18:15:46.837Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-30T08:28:18.706Z",
-        "requestEventId": 30573228162,
-        "requestedAt": "2026-09-04T18:14:53Z",
-        "reviewedAt": "2026-09-04T18:15:46.837Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "omarchy-display": {
@@ -127483,7 +127462,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "marashiai/omarchy-display",
+        "pluginIds": [
+          "omarchy-display"
+        ],
+        "commit": "0d78fab0161a9039989c4cbd9c8c7d3740730546",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T21:58:51.635Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T13:57:09.600Z",
+        "requestEventId": 31065662766,
+        "requestedAt": "2026-09-13T21:43:30Z",
+        "reviewedAt": "2026-09-13T21:58:51.635Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "55e7cc3e6a09af6decda713694cf518247509f2e",
+          "validatedAt": "2026-09-04T18:15:46.903Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T21:58:51.635Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "marashiai/omarchy-display",
+            "pluginIds": [
+              "omarchy-display"
+            ],
+            "commit": "55e7cc3e6a09af6decda713694cf518247509f2e",
+            "checkedAt": "2026-09-04T18:15:46.837Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "marashiai/omarchy-display",
+            "pluginIds": [
+              "omarchy-display"
+            ],
+            "commit": "55e7cc3e6a09af6decda713694cf518247509f2e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-04T18:15:46.837Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-30T08:28:18.706Z",
+            "requestEventId": 30573228162,
+            "requestedAt": "2026-09-04T18:14:53Z",
+            "reviewedAt": "2026-09-04T18:15:46.837Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/orospakr/omarchy-homekit",
