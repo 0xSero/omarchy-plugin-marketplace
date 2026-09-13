@@ -167742,6 +167742,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/asaharan/omackey",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T16:23:31.262Z",
+      "listingValidatedCommit": "51c001c4d85e79e464e6b241e1ad0a18989e0a41",
+      "listingValidatedAt": "2026-09-13T16:23:31.262Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "asaharan/omackey",
+        "pluginIds": [
+          "asaharan.omackey"
+        ],
+        "commit": "51c001c4d85e79e464e6b241e1ad0a18989e0a41",
+        "checkedAt": "2026-09-13T16:23:31.188Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "asaharan/omackey",
+        "pluginIds": [
+          "asaharan.omackey"
+        ],
+        "commit": "51c001c4d85e79e464e6b241e1ad0a18989e0a41",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T16:23:31.188Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T04:16:39.687Z",
+        "requestEventId": 31057552857,
+        "requestedAt": "2026-09-13T16:22:05Z",
+        "reviewedAt": "2026-09-13T16:23:31.188Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "asaharan.omackey": {
+          "category": "System",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
