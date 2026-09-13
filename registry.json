@@ -166913,6 +166913,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/obviam/omarchy-stocks-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:57:46.690Z",
+      "listingValidatedCommit": "964f152cfb638ff7a64e0fae5c31e67d7dd1d806",
+      "listingValidatedAt": "2026-09-13T14:57:46.690Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "obviam/omarchy-stocks-plugin",
+        "pluginIds": [
+          "impaler.stocks"
+        ],
+        "commit": "964f152cfb638ff7a64e0fae5c31e67d7dd1d806",
+        "checkedAt": "2026-09-13T14:57:46.616Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "impaler.stocks": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
