@@ -165774,6 +165774,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/eddygarcas/omarchy-sony-wh-ch720n",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T12:18:06.447Z",
+      "listingValidatedCommit": "dfd3b2974a695015080aecbeea3732bd973065a1",
+      "listingValidatedAt": "2026-09-13T12:18:06.447Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "eddygarcas/omarchy-sony-wh-ch720n",
+        "pluginIds": [
+          "eduard.sony-wh-ch720n"
+        ],
+        "commit": "dfd3b2974a695015080aecbeea3732bd973065a1",
+        "checkedAt": "2026-09-13T12:18:06.360Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "eddygarcas/omarchy-sony-wh-ch720n",
+        "pluginIds": [
+          "eduard.sony-wh-ch720n"
+        ],
+        "commit": "dfd3b2974a695015080aecbeea3732bd973065a1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T12:18:06.360Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T19:43:55.774Z",
+        "requestEventId": 31051714347,
+        "requestedAt": "2026-09-13T12:16:43Z",
+        "reviewedAt": "2026-09-13T12:18:06.360Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "eduard.sony-wh-ch720n": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
