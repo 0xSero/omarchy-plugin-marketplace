@@ -167101,6 +167101,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/scoop/omarchy-plugin-uptime-kuma",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T15:25:37.204Z",
+      "listingValidatedCommit": "0aa86b5acf7711531b17eff2b35fe544c5e2294b",
+      "listingValidatedAt": "2026-09-13T15:25:37.204Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "scoop/omarchy-plugin-uptime-kuma",
+        "pluginIds": [
+          "scoop.uptime-kuma"
+        ],
+        "commit": "0aa86b5acf7711531b17eff2b35fe544c5e2294b",
+        "checkedAt": "2026-09-13T15:25:37.122Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "scoop.uptime-kuma": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
