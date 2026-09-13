@@ -166397,6 +166397,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ryankv/omarchy-maestral",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T13:58:41.288Z",
+      "listingValidatedCommit": "64931f03576c7933d9888d354fe140b09ceb323c",
+      "listingValidatedAt": "2026-09-13T13:58:41.288Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ryankv/omarchy-maestral",
+        "pluginIds": [
+          "io.github.ryankv.omarchy-maestral"
+        ],
+        "commit": "64931f03576c7933d9888d354fe140b09ceb323c",
+        "checkedAt": "2026-09-13T13:58:41.207Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ryankv/omarchy-maestral",
+        "pluginIds": [
+          "io.github.ryankv.omarchy-maestral"
+        ],
+        "commit": "64931f03576c7933d9888d354fe140b09ceb323c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T13:58:41.207Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-10T01:43:21.677Z",
+        "requestEventId": 31053761801,
+        "requestedAt": "2026-09-13T13:49:19Z",
+        "reviewedAt": "2026-09-13T13:58:41.207Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ryankv.omarchy-maestral": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
