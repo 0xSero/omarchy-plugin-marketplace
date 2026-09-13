@@ -163313,8 +163313,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-12",
       "listedAt": "2026-09-12T06:10:21.181Z",
-      "listingValidatedCommit": "dbc6c9edef9450a373e98f1e6d7eb66fe37124fe",
-      "listingValidatedAt": "2026-09-12T06:10:21.181Z",
+      "listingValidatedCommit": "989d06d8e07886439f09aacd8dbfbe28655e02f9",
+      "listingValidatedAt": "2026-09-13T11:26:24.991Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -163323,8 +163323,8 @@
         "pluginIds": [
           "zen.lock"
         ],
-        "commit": "dbc6c9edef9450a373e98f1e6d7eb66fe37124fe",
-        "checkedAt": "2026-09-12T06:10:21.098Z",
+        "commit": "989d06d8e07886439f09aacd8dbfbe28655e02f9",
+        "checkedAt": "2026-09-13T11:26:24.991Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -163340,7 +163340,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "dbc6c9edef9450a373e98f1e6d7eb66fe37124fe",
+          "validatedAt": "2026-09-12T06:10:21.181Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T11:26:24.991Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rover-001/zen-lock",
+            "pluginIds": [
+              "zen.lock"
+            ],
+            "commit": "dbc6c9edef9450a373e98f1e6d7eb66fe37124fe",
+            "checkedAt": "2026-09-12T06:10:21.098Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/kaibur02/omarchy-world-radio",
