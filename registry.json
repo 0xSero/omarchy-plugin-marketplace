@@ -167954,6 +167954,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/DuBearte/omarchy-scratchpad",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T17:02:59.341Z",
+      "listingValidatedCommit": "faeb5e34845a0ba7bcc1d198e29af80dae979302",
+      "listingValidatedAt": "2026-09-13T17:02:59.341Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dubearte/omarchy-scratchpad",
+        "pluginIds": [
+          "io.github.dubearte.scratchpad"
+        ],
+        "commit": "faeb5e34845a0ba7bcc1d198e29af80dae979302",
+        "checkedAt": "2026-09-13T17:02:59.256Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.dubearte.scratchpad": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
