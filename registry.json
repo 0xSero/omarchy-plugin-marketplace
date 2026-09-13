@@ -166296,6 +166296,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/OmarCodeHub/omarchy-marketplace",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T13:49:50.697Z",
+      "listingValidatedCommit": "ad7cedebc9d42036a7c710a888cba1e820217eb6",
+      "listingValidatedAt": "2026-09-13T13:49:50.697Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "omarcodehub/omarchy-marketplace",
+        "pluginIds": [
+          "io.github.omarcodehub.plugin-manager"
+        ],
+        "commit": "ad7cedebc9d42036a7c710a888cba1e820217eb6",
+        "checkedAt": "2026-09-13T13:49:50.617Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.omarcodehub.plugin-manager": {
+          "category": "System",
+          "tags": [
+            "system",
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
