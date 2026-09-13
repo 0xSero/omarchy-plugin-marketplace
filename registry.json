@@ -160223,8 +160223,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-11",
       "listedAt": "2026-09-11T00:35:06.264Z",
-      "listingValidatedCommit": "1ad1810b78007ce58e42e21f6200acb9a94aecba",
-      "listingValidatedAt": "2026-09-12T00:25:48.233Z",
+      "listingValidatedCommit": "6796dbb475036f1c3fe4b644cb0e645dbb23f0c7",
+      "listingValidatedAt": "2026-09-13T13:27:55.532Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -160233,8 +160233,8 @@
         "pluginIds": [
           "davidjm.scripture"
         ],
-        "commit": "1ad1810b78007ce58e42e21f6200acb9a94aecba",
-        "checkedAt": "2026-09-12T00:25:48.233Z",
+        "commit": "6796dbb475036f1c3fe4b644cb0e645dbb23f0c7",
+        "checkedAt": "2026-09-13T13:27:55.532Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -160264,6 +160264,26 @@
             ],
             "commit": "f58558464930f9defa848eb5ba9b092138349adc",
             "checkedAt": "2026-09-11T00:35:06.194Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "1ad1810b78007ce58e42e21f6200acb9a94aecba",
+          "validatedAt": "2026-09-12T00:25:48.233Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T13:27:55.532Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davidmessenger123/omarchy-scripture",
+            "pluginIds": [
+              "davidjm.scripture"
+            ],
+            "commit": "1ad1810b78007ce58e42e21f6200acb9a94aecba",
+            "checkedAt": "2026-09-12T00:25:48.233Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
