@@ -119102,8 +119102,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-02",
       "listedAt": "2026-09-02T15:48:45.085Z",
-      "listingValidatedCommit": "3474e2f354afa528ff4b461ad9758177d04ec76c",
-      "listingValidatedAt": "2026-09-02T15:48:45.085Z",
+      "listingValidatedCommit": "1307c4349ceeed72493b67a8913a41230efd4740",
+      "listingValidatedAt": "2026-09-13T13:33:10.598Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -119112,8 +119112,8 @@
         "pluginIds": [
           "ivanskodje.animated-backgrounds"
         ],
-        "commit": "3474e2f354afa528ff4b461ad9758177d04ec76c",
-        "checkedAt": "2026-09-02T15:48:45.026Z",
+        "commit": "1307c4349ceeed72493b67a8913a41230efd4740",
+        "checkedAt": "2026-09-13T13:33:10.598Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -119128,7 +119128,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3474e2f354afa528ff4b461ad9758177d04ec76c",
+          "validatedAt": "2026-09-02T15:48:45.085Z",
+          "branch": "master",
+          "supersededAt": "2026-09-13T13:33:10.598Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ivanskodje/omarchy-animated-backgrounds",
+            "pluginIds": [
+              "ivanskodje.animated-backgrounds"
+            ],
+            "commit": "3474e2f354afa528ff4b461ad9758177d04ec76c",
+            "checkedAt": "2026-09-02T15:48:45.026Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/e2jk/omarchy-aviation-metar-plugin",
