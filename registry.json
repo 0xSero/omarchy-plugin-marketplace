@@ -165899,6 +165899,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/greenermoose/omarchy-fred-workspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T13:09:19.783Z",
+      "listingValidatedCommit": "94362b0c7bf7ba4ddc883d2fd2b96277a4080d8a",
+      "listingValidatedAt": "2026-09-13T13:09:19.783Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "greenermoose/omarchy-fred-workspaces",
+        "pluginIds": [
+          "fred.workspaces"
+        ],
+        "commit": "94362b0c7bf7ba4ddc883d2fd2b96277a4080d8a",
+        "checkedAt": "2026-09-13T13:09:19.699Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fred.workspaces": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "workspaces",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
