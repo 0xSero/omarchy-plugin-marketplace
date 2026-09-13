@@ -123197,8 +123197,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T06:21:02.844Z",
-      "listingValidatedCommit": "21f894c7185bea05e2d200ac9eecbf661ab8751f",
-      "listingValidatedAt": "2026-09-04T06:21:02.844Z",
+      "listingValidatedCommit": "fc98c7c7d2f4b179518c126530b3cf77f54fef88",
+      "listingValidatedAt": "2026-09-13T15:31:17.177Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -123207,8 +123207,8 @@
         "pluginIds": [
           "bert.pane"
         ],
-        "commit": "21f894c7185bea05e2d200ac9eecbf661ab8751f",
-        "checkedAt": "2026-09-04T06:21:02.785Z",
+        "commit": "fc98c7c7d2f4b179518c126530b3cf77f54fef88",
+        "checkedAt": "2026-09-13T15:31:17.177Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -123224,7 +123224,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "21f894c7185bea05e2d200ac9eecbf661ab8751f",
+          "validatedAt": "2026-09-04T06:21:02.844Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T15:31:17.177Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bert0424/omarchy-pane",
+            "pluginIds": [
+              "bert.pane"
+            ],
+            "commit": "21f894c7185bea05e2d200ac9eecbf661ab8751f",
+            "checkedAt": "2026-09-04T06:21:02.785Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/kanthi/omarchy-gati",
