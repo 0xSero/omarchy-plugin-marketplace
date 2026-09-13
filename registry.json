@@ -166516,6 +166516,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/osouthgate/omarchy-minimize",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:04:38.374Z",
+      "listingValidatedCommit": "ce8244d526cfc2887a0f7e2a8b7fbd9951bb60b3",
+      "listingValidatedAt": "2026-09-13T14:04:38.374Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "osouthgate/omarchy-minimize",
+        "pluginIds": [
+          "osouthgate.minimize"
+        ],
+        "commit": "ce8244d526cfc2887a0f7e2a8b7fbd9951bb60b3",
+        "checkedAt": "2026-09-13T14:04:38.293Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "osouthgate.minimize": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
