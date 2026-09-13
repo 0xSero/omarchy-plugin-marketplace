@@ -167466,6 +167466,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/EF-Code/omarchy-flow",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T16:00:29.291Z",
+      "listingValidatedCommit": "393cf43b9a5a016bcc69e79de8091df5215e4f61",
+      "listingValidatedAt": "2026-09-13T16:00:29.291Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ef-code/omarchy-flow",
+        "pluginIds": [
+          "io.github.ef-code.omarchy-flow"
+        ],
+        "commit": "393cf43b9a5a016bcc69e79de8091df5215e4f61",
+        "checkedAt": "2026-09-13T16:00:29.206Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ef-code/omarchy-flow",
+        "pluginIds": [
+          "io.github.ef-code.omarchy-flow"
+        ],
+        "commit": "393cf43b9a5a016bcc69e79de8091df5215e4f61",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T16:00:29.206Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T14:14:47.500Z",
+        "requestEventId": 31056580201,
+        "requestedAt": "2026-09-13T15:45:06Z",
+        "reviewedAt": "2026-09-13T16:00:29.206Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ef-code.omarchy-flow": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
