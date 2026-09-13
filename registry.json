@@ -52256,8 +52256,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-23",
       "listedAt": "2026-08-23T10:08:45.868Z",
-      "listingValidatedCommit": "36c628a4f860cd9278690415474318e2132bd521",
-      "listingValidatedAt": "2026-08-23T10:08:45.868Z",
+      "listingValidatedCommit": "8470829792023413f0208133a5b05a3aaa2b7e4a",
+      "listingValidatedAt": "2026-09-13T22:04:19.032Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -52266,35 +52266,12 @@
         "pluginIds": [
           "donovan.aura"
         ],
-        "commit": "36c628a4f860cd9278690415474318e2132bd521",
-        "checkedAt": "2026-08-23T10:08:45.839Z",
-        "outcome": "review-required",
+        "commit": "8470829792023413f0208133a5b05a3aaa2b7e4a",
+        "checkedAt": "2026-09-13T22:04:19.032Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "privilege"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "donovansb/omarchy-aura",
-        "pluginIds": [
-          "donovan.aura"
-        ],
-        "commit": "36c628a4f860cd9278690415474318e2132bd521",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-23T10:08:45.839Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-23T05:43:27.557Z",
-        "requestEventId": 29868746406,
-        "requestedAt": "2026-08-23T09:59:26Z",
-        "reviewedAt": "2026-08-23T10:08:45.839Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "donovan.aura": {
@@ -52306,7 +52283,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "36c628a4f860cd9278690415474318e2132bd521",
+          "validatedAt": "2026-08-23T10:08:45.868Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T22:04:19.032Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "donovansb/omarchy-aura",
+            "pluginIds": [
+              "donovan.aura"
+            ],
+            "commit": "36c628a4f860cd9278690415474318e2132bd521",
+            "checkedAt": "2026-08-23T10:08:45.839Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "donovansb/omarchy-aura",
+            "pluginIds": [
+              "donovan.aura"
+            ],
+            "commit": "36c628a4f860cd9278690415474318e2132bd521",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-23T10:08:45.839Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-23T05:43:27.557Z",
+            "requestEventId": 29868746406,
+            "requestedAt": "2026-08-23T09:59:26Z",
+            "reviewedAt": "2026-08-23T10:08:45.839Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/camerontucker/omahero",
