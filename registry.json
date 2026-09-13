@@ -167561,6 +167561,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Yendor86/omarchy-portal",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T16:07:10.870Z",
+      "listingValidatedCommit": "c71d021a806cd586af310f208b92c231e0646c40",
+      "listingValidatedAt": "2026-09-13T16:07:10.870Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yendor86/omarchy-portal",
+        "pluginIds": [
+          "yendor.portal"
+        ],
+        "commit": "c71d021a806cd586af310f208b92c231e0646c40",
+        "checkedAt": "2026-09-13T16:07:10.778Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yendor86/omarchy-portal",
+        "pluginIds": [
+          "yendor.portal"
+        ],
+        "commit": "c71d021a806cd586af310f208b92c231e0646c40",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T16:07:10.778Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-10T00:11:45.322Z",
+        "requestEventId": 31056975906,
+        "requestedAt": "2026-09-13T15:59:39Z",
+        "reviewedAt": "2026-09-13T16:07:10.778Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "yendor.portal": {
+          "category": "System",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
