@@ -165515,6 +165515,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/KS7-10/omarchy-pulse",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T11:58:02.186Z",
+      "listingValidatedCommit": "b9c871219d2865f0c906f041984c95e4b5452881",
+      "listingValidatedAt": "2026-09-13T11:58:02.186Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ks7-10/omarchy-pulse",
+        "pluginIds": [
+          "io.github.ks7-10.pulse"
+        ],
+        "commit": "b9c871219d2865f0c906f041984c95e4b5452881",
+        "checkedAt": "2026-09-13T11:58:02.116Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ks7-10.pulse": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
