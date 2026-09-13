@@ -166363,6 +166363,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alfonsobries/fluent-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T13:55:36.118Z",
+      "listingValidatedCommit": "63df629e957c79219e682a8a0c3041b171f166ce",
+      "listingValidatedAt": "2026-09-13T13:55:36.118Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alfonsobries/fluent-omarchy",
+        "pluginIds": [
+          "io.github.alfonsobries.fluent"
+        ],
+        "commit": "63df629e957c79219e682a8a0c3041b171f166ce",
+        "checkedAt": "2026-09-13T13:55:36.045Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.alfonsobries.fluent": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
