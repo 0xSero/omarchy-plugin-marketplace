@@ -164537,8 +164537,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-12",
       "listedAt": "2026-09-12T17:41:46.536Z",
-      "listingValidatedCommit": "3548a188e44c7b2d32b40ce003837a2e3782393f",
-      "listingValidatedAt": "2026-09-12T17:41:46.536Z",
+      "listingValidatedCommit": "046e94437a652e837f257eca2ae4314d5df3754a",
+      "listingValidatedAt": "2026-09-13T11:40:23.693Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -164547,8 +164547,8 @@
         "pluginIds": [
           "nguyenn.clipboard"
         ],
-        "commit": "3548a188e44c7b2d32b40ce003837a2e3782393f",
-        "checkedAt": "2026-09-12T17:41:46.453Z",
+        "commit": "046e94437a652e837f257eca2ae4314d5df3754a",
+        "checkedAt": "2026-09-13T11:40:23.693Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -164563,7 +164563,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3548a188e44c7b2d32b40ce003837a2e3782393f",
+          "validatedAt": "2026-09-12T17:41:46.536Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T11:40:23.693Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "htrnguyen-labs/omarchy-clipboard",
+            "pluginIds": [
+              "nguyenn.clipboard"
+            ],
+            "commit": "3548a188e44c7b2d32b40ce003837a2e3782393f",
+            "checkedAt": "2026-09-12T17:41:46.453Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/vstoms/jabra-omarchy",
