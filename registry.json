@@ -98884,8 +98884,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-30",
       "listedAt": "2026-08-30T08:03:58.056Z",
-      "listingValidatedCommit": "6026f06eaa38850454cf8cb76bf7484b61221182",
-      "listingValidatedAt": "2026-09-10T21:07:24.544Z",
+      "listingValidatedCommit": "8c07a402fd8056d0e08273a5f50539aac391aba6",
+      "listingValidatedAt": "2026-09-13T15:39:43.733Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -98894,8 +98894,8 @@
         "pluginIds": [
           "godhiraj.omaudit-status"
         ],
-        "commit": "6026f06eaa38850454cf8cb76bf7484b61221182",
-        "checkedAt": "2026-09-10T21:07:24.544Z",
+        "commit": "8c07a402fd8056d0e08273a5f50539aac391aba6",
+        "checkedAt": "2026-09-13T15:39:43.733Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -98913,27 +98913,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "godhiraj-code/omarchy-omaudit-status",
-        "pluginIds": [
-          "godhiraj.omaudit-status"
-        ],
-        "commit": "6026f06eaa38850454cf8cb76bf7484b61221182",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-10T21:07:24.544Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-09T13:33:40.629Z",
-        "requestEventId": 30929546142,
-        "requestedAt": "2026-09-10T20:25:37Z",
-        "reviewedAt": "2026-09-10T21:07:24.544Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -98978,8 +98957,72 @@
             "reviewedAt": "2026-08-30T08:03:58.003Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "6026f06eaa38850454cf8cb76bf7484b61221182",
+          "validatedAt": "2026-09-10T21:07:24.544Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T15:39:43.733Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "godhiraj-code/omarchy-omaudit-status",
+            "pluginIds": [
+              "godhiraj.omaudit-status"
+            ],
+            "commit": "6026f06eaa38850454cf8cb76bf7484b61221182",
+            "checkedAt": "2026-09-10T21:07:24.544Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "godhiraj-code/omarchy-omaudit-status",
+            "pluginIds": [
+              "godhiraj.omaudit-status"
+            ],
+            "commit": "6026f06eaa38850454cf8cb76bf7484b61221182",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-10T21:07:24.544Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-09T13:33:40.629Z",
+            "requestEventId": 30929546142,
+            "requestedAt": "2026-09-10T20:25:37Z",
+            "reviewedAt": "2026-09-10T21:07:24.544Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "godhiraj-code/omarchy-omaudit-status",
+        "pluginIds": [
+          "godhiraj.omaudit-status"
+        ],
+        "commit": "8c07a402fd8056d0e08273a5f50539aac391aba6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T15:39:43.733Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T08:05:53.676Z",
+        "requestEventId": 31056110097,
+        "requestedAt": "2026-09-13T15:26:22Z",
+        "reviewedAt": "2026-09-13T15:39:43.733Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/olivgrau/omarchy-netviz3d",
