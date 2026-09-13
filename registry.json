@@ -165333,6 +165333,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jvlianodorneles/alcalc",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T11:46:33.854Z",
+      "listingValidatedCommit": "5bd48948aa23f54d4029f6922c875f6cea3181cc",
+      "listingValidatedAt": "2026-09-13T11:46:33.854Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jvlianodorneles/alcalc",
+        "pluginIds": [
+          "dorneles.alcalc"
+        ],
+        "commit": "5bd48948aa23f54d4029f6922c875f6cea3181cc",
+        "checkedAt": "2026-09-13T11:46:33.771Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jvlianodorneles/alcalc",
+        "pluginIds": [
+          "dorneles.alcalc"
+        ],
+        "commit": "5bd48948aa23f54d4029f6922c875f6cea3181cc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T11:46:33.771Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T19:04:28.239Z",
+        "requestEventId": 31050583557,
+        "requestedAt": "2026-09-13T11:25:11Z",
+        "reviewedAt": "2026-09-13T11:46:33.771Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "dorneles.alcalc": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
