@@ -167527,6 +167527,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ozdil/omarchy-security-sentinel",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T16:04:01.375Z",
+      "listingValidatedCommit": "845dcfcdad70908677122638382e99c1553e4e69",
+      "listingValidatedAt": "2026-09-13T16:04:01.375Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ozdil/omarchy-security-sentinel",
+        "pluginIds": [
+          "ozdil.security-sentinel"
+        ],
+        "commit": "845dcfcdad70908677122638382e99c1553e4e69",
+        "checkedAt": "2026-09-13T16:04:01.294Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ozdil.security-sentinel": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
