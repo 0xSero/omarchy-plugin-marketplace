@@ -168497,6 +168497,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Warexpor/omarchy-43pr-monitor-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T18:10:44.101Z",
+      "listingValidatedCommit": "e172e5c62e6b06c459b390b9c0e90cf1940a48e2",
+      "listingValidatedAt": "2026-09-13T18:10:44.101Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "warexpor/omarchy-43pr-monitor-plugin",
+        "pluginIds": [
+          "warexpor.monitor"
+        ],
+        "commit": "e172e5c62e6b06c459b390b9c0e90cf1940a48e2",
+        "checkedAt": "2026-09-13T18:10:44.014Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "warexpor.monitor": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
