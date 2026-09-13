@@ -167987,6 +167987,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/EF-Code/omarchy-desktop-modes",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T17:11:30.609Z",
+      "listingValidatedCommit": "0704e7d95f70b12bc1e63634a1791ba2a045e27d",
+      "listingValidatedAt": "2026-09-13T17:11:30.609Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ef-code/omarchy-desktop-modes",
+        "pluginIds": [
+          "io.github.ef-code.desktop-modes"
+        ],
+        "commit": "0704e7d95f70b12bc1e63634a1791ba2a045e27d",
+        "checkedAt": "2026-09-13T17:11:30.528Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ef-code.desktop-modes": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
