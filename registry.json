@@ -166719,6 +166719,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/GrootAiInfinity/omarchy-privacy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:16:52.796Z",
+      "listingValidatedCommit": "ca994e5763aa1ab0ab55c5f725074b6626f5ce17",
+      "listingValidatedAt": "2026-09-13T14:16:52.796Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grootaiinfinity/omarchy-privacy",
+        "pluginIds": [
+          "io.github.grootaiinfinity.privacy"
+        ],
+        "commit": "ca994e5763aa1ab0ab55c5f725074b6626f5ce17",
+        "checkedAt": "2026-09-13T14:16:52.711Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "grootaiinfinity/omarchy-privacy",
+        "pluginIds": [
+          "io.github.grootaiinfinity.privacy"
+        ],
+        "commit": "ca994e5763aa1ab0ab55c5f725074b6626f5ce17",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T14:16:52.711Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-09T23:36:20.853Z",
+        "requestEventId": 31054127637,
+        "requestedAt": "2026-09-13T14:03:15Z",
+        "reviewedAt": "2026-09-13T14:16:52.711Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.grootaiinfinity.privacy": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
