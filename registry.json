@@ -169024,6 +169024,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Aniakea/zhipu-coding-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T22:12:44.534Z",
+      "listingValidatedCommit": "a38fe1495533021b979fbbfd8046bcff40f6399e",
+      "listingValidatedAt": "2026-09-13T22:12:44.534Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "aniakea/zhipu-coding-usage",
+        "pluginIds": [
+          "io.github.aniakea.zhipu-coding-usage"
+        ],
+        "commit": "a38fe1495533021b979fbbfd8046bcff40f6399e",
+        "checkedAt": "2026-09-13T22:12:44.451Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.aniakea.zhipu-coding-usage": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
