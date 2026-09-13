@@ -167012,6 +167012,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/layolayo/omarchy-the-eternal-moment",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T15:19:20.533Z",
+      "listingValidatedCommit": "9277728118ca2c16a3d30ccf7369339491f9ecf9",
+      "listingValidatedAt": "2026-09-13T15:19:20.533Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "layolayo/omarchy-the-eternal-moment",
+        "pluginIds": [
+          "io.github.layolayo.eternal-moment"
+        ],
+        "commit": "9277728118ca2c16a3d30ccf7369339491f9ecf9",
+        "checkedAt": "2026-09-13T15:19:20.451Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.layolayo.eternal-moment": {
+          "category": "Productivity",
+          "tags": [
+            "education",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
