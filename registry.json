@@ -167921,6 +167921,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/arpitjalan/omarchy-jotdown",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T16:57:51.173Z",
+      "listingValidatedCommit": "3809730ad4b5081ed7ba4d0a7e5e788242a0d186",
+      "listingValidatedAt": "2026-09-13T16:57:51.173Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "arpitjalan/omarchy-jotdown",
+        "pluginIds": [
+          "arpitjalan.jotdown"
+        ],
+        "commit": "3809730ad4b5081ed7ba4d0a7e5e788242a0d186",
+        "checkedAt": "2026-09-13T16:57:51.099Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "arpitjalan.jotdown": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
