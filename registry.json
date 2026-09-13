@@ -168430,6 +168430,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/CornillieJ/omarchy-icon-picker",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T17:56:26.907Z",
+      "listingValidatedCommit": "46d475329f7626cfc332269fca14bd0aa9a1c6d5",
+      "listingValidatedAt": "2026-09-13T17:56:26.907Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cornilliej/omarchy-icon-picker",
+        "pluginIds": [
+          "jeffrey.icons"
+        ],
+        "commit": "46d475329f7626cfc332269fca14bd0aa9a1c6d5",
+        "checkedAt": "2026-09-13T17:56:26.825Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jeffrey.icons": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
