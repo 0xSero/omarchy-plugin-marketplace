@@ -48034,8 +48034,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-22",
       "listedAt": "2026-08-22T20:29:21.412Z",
-      "listingValidatedCommit": "361fc7e58048f7c8847c41cc83780fff01417157",
-      "listingValidatedAt": "2026-08-29T17:23:26.404Z",
+      "listingValidatedCommit": "ed716ddc3af15080680e0b8cad8e5dfc133e6b78",
+      "listingValidatedAt": "2026-09-13T13:25:23.858Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -48044,8 +48044,8 @@
         "pluginIds": [
           "nosignal.motion-wallpaper"
         ],
-        "commit": "361fc7e58048f7c8847c41cc83780fff01417157",
-        "checkedAt": "2026-08-29T17:23:26.404Z",
+        "commit": "ed716ddc3af15080680e0b8cad8e5dfc133e6b78",
+        "checkedAt": "2026-09-13T13:25:23.857Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -48065,29 +48065,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "28allday/motion-wallpaper-omarchy",
-        "pluginIds": [
-          "nosignal.motion-wallpaper"
-        ],
-        "commit": "361fc7e58048f7c8847c41cc83780fff01417157",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-29T17:23:26.404Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-28T19:55:20.704Z",
-        "requestEventId": 30215997318,
-        "requestedAt": "2026-08-29T17:14:48Z",
-        "reviewedAt": "2026-08-29T17:23:26.404Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -48136,8 +48113,78 @@
             "reviewedAt": "2026-08-22T20:29:21.384Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "361fc7e58048f7c8847c41cc83780fff01417157",
+          "validatedAt": "2026-08-29T17:23:26.404Z",
+          "branch": "master",
+          "supersededAt": "2026-09-13T13:25:23.858Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "28allday/motion-wallpaper-omarchy",
+            "pluginIds": [
+              "nosignal.motion-wallpaper"
+            ],
+            "commit": "361fc7e58048f7c8847c41cc83780fff01417157",
+            "checkedAt": "2026-08-29T17:23:26.404Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "28allday/motion-wallpaper-omarchy",
+            "pluginIds": [
+              "nosignal.motion-wallpaper"
+            ],
+            "commit": "361fc7e58048f7c8847c41cc83780fff01417157",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-29T17:23:26.404Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-28T19:55:20.704Z",
+            "requestEventId": 30215997318,
+            "requestedAt": "2026-08-29T17:14:48Z",
+            "reviewedAt": "2026-08-29T17:23:26.404Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "28allday/motion-wallpaper-omarchy",
+        "pluginIds": [
+          "nosignal.motion-wallpaper"
+        ],
+        "commit": "ed716ddc3af15080680e0b8cad8e5dfc133e6b78",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T13:25:23.857Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T20:21:31.648Z",
+        "requestEventId": 31053036575,
+        "requestedAt": "2026-09-13T13:18:12Z",
+        "reviewedAt": "2026-09-13T13:25:23.858Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Davidxap/omarchy-zen",
