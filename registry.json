@@ -168649,6 +168649,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/badspelr/omarchy-workspace-map",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T21:41:41.153Z",
+      "listingValidatedCommit": "6b52fc0139f6a884eda41e873fa54ff057c40292",
+      "listingValidatedAt": "2026-09-13T21:41:41.153Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "badspelr/omarchy-workspace-map",
+        "pluginIds": [
+          "dniel.workspace-map"
+        ],
+        "commit": "6b52fc0139f6a884eda41e873fa54ff057c40292",
+        "checkedAt": "2026-09-13T21:41:41.066Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dniel.workspace-map": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
