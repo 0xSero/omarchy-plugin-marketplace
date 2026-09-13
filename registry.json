@@ -166607,6 +166607,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tzglobic/omarchy-monitor-arranger",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:10:27.226Z",
+      "listingValidatedCommit": "818c6b1e5c7b7c1e575b26590902f86ba8d6a5e4",
+      "listingValidatedAt": "2026-09-13T14:10:27.226Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tzglobic/omarchy-monitor-arranger",
+        "pluginIds": [
+          "tzglobic.monitor-arranger"
+        ],
+        "commit": "818c6b1e5c7b7c1e575b26590902f86ba8d6a5e4",
+        "checkedAt": "2026-09-13T14:10:27.151Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tzglobic/omarchy-monitor-arranger",
+        "pluginIds": [
+          "tzglobic.monitor-arranger"
+        ],
+        "commit": "818c6b1e5c7b7c1e575b26590902f86ba8d6a5e4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T14:10:27.151Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T13:18:23.112Z",
+        "requestEventId": 31053937566,
+        "requestedAt": "2026-09-13T13:56:19Z",
+        "reviewedAt": "2026-09-13T14:10:27.151Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "tzglobic.monitor-arranger": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
