@@ -165740,6 +165740,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/rdoupe/omarchy-clanky",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T12:13:14.817Z",
+      "listingValidatedCommit": "528bb2b4b742660d268f5d5298c4de6365c04147",
+      "listingValidatedAt": "2026-09-13T12:13:14.817Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rdoupe/omarchy-clanky",
+        "pluginIds": [
+          "io.github.rdoupe.clanky"
+        ],
+        "commit": "528bb2b4b742660d268f5d5298c4de6365c04147",
+        "checkedAt": "2026-09-13T12:13:14.740Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.rdoupe.clanky": {
+          "category": "Desktop",
+          "tags": [
+            "ai",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
