@@ -147820,8 +147820,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T13:06:19.333Z",
-      "listingValidatedCommit": "9c1a9245fd9ef6ba2c1d7a883c2cb8d263692a6d",
-      "listingValidatedAt": "2026-09-08T13:06:19.333Z",
+      "listingValidatedCommit": "3b8ef00f4f6c713aec43cc7af5a8a3964e00c4dd",
+      "listingValidatedAt": "2026-09-13T15:52:53.422Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -147830,8 +147830,8 @@
         "pluginIds": [
           "callum.binaural"
         ],
-        "commit": "9c1a9245fd9ef6ba2c1d7a883c2cb8d263692a6d",
-        "checkedAt": "2026-09-08T13:06:19.246Z",
+        "commit": "3b8ef00f4f6c713aec43cc7af5a8a3964e00c4dd",
+        "checkedAt": "2026-09-13T15:52:53.422Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -147847,7 +147847,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9c1a9245fd9ef6ba2c1d7a883c2cb8d263692a6d",
+          "validatedAt": "2026-09-08T13:06:19.333Z",
+          "branch": "main",
+          "supersededAt": "2026-09-13T15:52:53.422Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "clumzeez/omarchy-binaural",
+            "pluginIds": [
+              "callum.binaural"
+            ],
+            "commit": "9c1a9245fd9ef6ba2c1d7a883c2cb8d263692a6d",
+            "checkedAt": "2026-09-08T13:06:19.246Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Realrandombacon/lavalamp",
