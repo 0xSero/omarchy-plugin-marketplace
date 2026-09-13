@@ -166845,6 +166845,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/codemonkey76/omarchy-batch",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T14:27:43.782Z",
+      "listingValidatedCommit": "9622e6459f80d6f478f6fee52d03793b450410bc",
+      "listingValidatedAt": "2026-09-13T14:27:43.782Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "codemonkey76/omarchy-batch",
+        "pluginIds": [
+          "io.github.codemonkey76.batch"
+        ],
+        "commit": "9622e6459f80d6f478f6fee52d03793b450410bc",
+        "checkedAt": "2026-09-13T14:27:43.697Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.codemonkey76.batch": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
