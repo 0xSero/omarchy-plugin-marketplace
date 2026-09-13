@@ -168263,6 +168263,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/MBhalkar/omarchy-workspace-rename",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T17:40:27.623Z",
+      "listingValidatedCommit": "a13a1938565849e4835e51c1d948e80b11fef50d",
+      "listingValidatedAt": "2026-09-13T17:40:27.623Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mbhalkar/omarchy-workspace-rename",
+        "pluginIds": [
+          "io.github.mbhalkar.workspace-rename"
+        ],
+        "commit": "a13a1938565849e4835e51c1d948e80b11fef50d",
+        "checkedAt": "2026-09-13T17:40:27.547Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.mbhalkar.workspace-rename": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "bar",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
