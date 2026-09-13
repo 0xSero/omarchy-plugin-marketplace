@@ -167045,6 +167045,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rdoupe-omarchy/omarchy-underpants",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T15:22:25.218Z",
+      "listingValidatedCommit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
+      "listingValidatedAt": "2026-09-13T15:22:25.218Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rdoupe-omarchy/omarchy-underpants",
+        "pluginIds": [
+          "douper.underpants"
+        ],
+        "commit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
+        "checkedAt": "2026-09-13T15:22:25.143Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rdoupe-omarchy/omarchy-underpants",
+        "pluginIds": [
+          "douper.underpants"
+        ],
+        "commit": "49573826b1d46eec7c35a08ac5c14c4c1b64f604",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-13T15:22:25.143Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T20:57:02.978Z",
+        "requestEventId": 31055945582,
+        "requestedAt": "2026-09-13T15:19:23Z",
+        "reviewedAt": "2026-09-13T15:22:25.143Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "douper.underpants": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
