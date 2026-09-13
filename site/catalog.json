@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:23:31.753Z",
+  "generatedAt": "2026-09-13T16:44:06.620Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -168056,6 +168056,56 @@
       "upstreamValidatedAt": "2026-09-13T16:23:31.753Z",
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "b06e14432d16f8c1509f754afe2e946f05a872cdc60934e754a112e9f8c54631",
+      "status": "Available"
+    },
+    {
+      "id": "mlhunter.pomodoro",
+      "name": "Pomodoro",
+      "description": "A bar-resident Pomodoro focus timer with configurable work/break/long-break durations and cycle counts. Runs a background countdown daemon and stays theme-compatible via Omarchy shell tokens.",
+      "author": "mlhunter",
+      "version": "1.1.1",
+      "repo": "https://github.com/rokan00/omarchy-pomodoro",
+      "sourceType": "community",
+      "verificationStatus": "verified",
+      "verificationSnapshotStatus": "verified",
+      "verificationCoverage": "snapshot-verified",
+      "verificationBaselineVersion": "3",
+      "verificationCommit": "ffe9b1bee16c86302d63bc542b35fc3c3c231af9",
+      "verificationCheckedAt": "2026-09-13T16:44:06.082Z",
+      "manifestPath": "manifest.json",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T16:44:06.166Z",
+      "repositoryLayout": "root-plugin",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/rokan00/omarchy-pomodoro.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
+      "category": "Productivity",
+      "tags": [
+        "bar",
+        "quickshell"
+      ],
+      "license": "MIT",
+      "stars": 0,
+      "repositoryUpdatedAt": "2026-09-13T15:25:51Z",
+      "repositoryRelease": {
+        "tag": "v1.1.1",
+        "url": "https://github.com/rokan00/omarchy-pomodoro/releases/tag/v1.1.1",
+        "publishedAt": "2026-09-13T15:25:58Z"
+      },
+      "accent": "violet",
+      "initials": "P",
+      "kind": "Bar widget",
+      "listingValidatedCommit": "ffe9b1bee16c86302d63bc542b35fc3c3c231af9",
+      "listingValidatedAt": "2026-09-13T16:44:06.166Z",
+      "listingValidatedBranch": "master",
+      "upstreamObservedCommit": "ffe9b1bee16c86302d63bc542b35fc3c3c231af9",
+      "upstreamObservedBranch": "master",
+      "upstreamCheckedAt": "2026-09-13T16:44:06.620Z",
+      "upstreamCheckStatus": "passed",
+      "upstreamValidatedCommit": "ffe9b1bee16c86302d63bc542b35fc3c3c231af9",
+      "upstreamValidatedAt": "2026-09-13T16:44:06.620Z",
+      "upstreamValidationVersion": 1,
+      "upstreamSourceFingerprint": "0961c13ec2aae982daca18c4538b8114386e3deb184e86453ce495e682e63127",
       "status": "Available"
     },
     {
