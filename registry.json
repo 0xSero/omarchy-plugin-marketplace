@@ -165866,6 +165866,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/pbjorklund/omarchy-secondary-black-background",
+      "type": "plugin-source",
+      "addedAt": "2026-09-13",
+      "listedAt": "2026-09-13T13:04:10.081Z",
+      "listingValidatedCommit": "01b0a777f1d2649d60c2b09eff502198dd64457a",
+      "listingValidatedAt": "2026-09-13T13:04:10.081Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pbjorklund/omarchy-secondary-black-background",
+        "pluginIds": [
+          "io.github.pbjorklund.secondary-black-background"
+        ],
+        "commit": "01b0a777f1d2649d60c2b09eff502198dd64457a",
+        "checkedAt": "2026-09-13T13:04:10.008Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.pbjorklund.secondary-black-background": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
