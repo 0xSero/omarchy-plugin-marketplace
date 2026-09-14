@@ -169329,6 +169329,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jgarza9788/scrolldock",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T06:56:11.567Z",
+      "listingValidatedCommit": "11aa8aeb5f3e3020ecb8a6cad5b0bbb2922593a6",
+      "listingValidatedAt": "2026-09-14T06:56:11.567Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jgarza9788/scrolldock",
+        "pluginIds": [
+          "jgarza.scrolldock"
+        ],
+        "commit": "11aa8aeb5f3e3020ecb8a6cad5b0bbb2922593a6",
+        "checkedAt": "2026-09-14T06:56:11.483Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jgarza.scrolldock": {
+          "category": "Desktop",
+          "tags": [
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
