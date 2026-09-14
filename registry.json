@@ -169058,6 +169058,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/pennyfx/omarchy-audio-control",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T06:36:23.277Z",
+      "listingValidatedCommit": "8f3a17066bf889f1b24b8c212f873e76a2533134",
+      "listingValidatedAt": "2026-09-14T06:36:23.277Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pennyfx/omarchy-audio-control",
+        "pluginIds": [
+          "pennyfx.audio-control"
+        ],
+        "commit": "8f3a17066bf889f1b24b8c212f873e76a2533134",
+        "checkedAt": "2026-09-14T06:36:23.222Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pennyfx/omarchy-audio-control",
+        "pluginIds": [
+          "pennyfx.audio-control"
+        ],
+        "commit": "8f3a17066bf889f1b24b8c212f873e76a2533134",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T06:36:23.222Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-09T19:37:12.159Z",
+        "requestEventId": 31081416757,
+        "requestedAt": "2026-09-14T06:35:14Z",
+        "reviewedAt": "2026-09-14T06:36:23.222Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "pennyfx.audio-control": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
