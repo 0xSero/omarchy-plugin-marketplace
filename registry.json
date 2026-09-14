@@ -171686,6 +171686,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dreed47/omarchy-makerworld",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:51:11.464Z",
+      "listingValidatedCommit": "720b51f2ebd36c1664cb459a55bad8d8a1bf1b4e",
+      "listingValidatedAt": "2026-09-14T23:51:11.464Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dreed47/omarchy-makerworld",
+        "pluginIds": [
+          "io.github.dreed47.makerworld"
+        ],
+        "commit": "720b51f2ebd36c1664cb459a55bad8d8a1bf1b4e",
+        "checkedAt": "2026-09-14T23:51:11.389Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.dreed47.makerworld": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
