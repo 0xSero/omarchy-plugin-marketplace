@@ -169264,6 +169264,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/asdfsnlr/omabrickbird",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T06:50:19.354Z",
+      "listingValidatedCommit": "3452bfe792b6d83474fc8edf6e5d9e7d3cd08674",
+      "listingValidatedAt": "2026-09-14T06:50:19.354Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "asdfsnlr/omabrickbird",
+        "pluginIds": [
+          "asdfsnlr.omabrickbird"
+        ],
+        "commit": "3452bfe792b6d83474fc8edf6e5d9e7d3cd08674",
+        "checkedAt": "2026-09-14T06:50:19.262Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "asdfsnlr.omabrickbird": {
+          "category": "Other",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
