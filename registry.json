@@ -171304,6 +171304,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ekollof/omarchy-osk",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:27:40.731Z",
+      "listingValidatedCommit": "60d022fa34eb878c1c4f615a30f6314367052265",
+      "listingValidatedAt": "2026-09-14T23:27:40.731Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ekollof/omarchy-osk",
+        "pluginIds": [
+          "ekollof.osk"
+        ],
+        "commit": "60d022fa34eb878c1c4f615a30f6314367052265",
+        "checkedAt": "2026-09-14T23:27:40.667Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ekollof/omarchy-osk",
+        "pluginIds": [
+          "ekollof.osk"
+        ],
+        "commit": "60d022fa34eb878c1c4f615a30f6314367052265",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T23:27:40.667Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T19:43:53.102Z",
+        "requestEventId": 31136440627,
+        "requestedAt": "2026-09-14T23:26:28Z",
+        "reviewedAt": "2026-09-14T23:27:40.667Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ekollof.osk": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
