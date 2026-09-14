@@ -152534,8 +152534,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T19:27:44.366Z",
-      "listingValidatedCommit": "fc8172b5b3e43808c6bb5d16b5d2bc89b5e10da5",
-      "listingValidatedAt": "2026-09-08T19:27:44.366Z",
+      "listingValidatedCommit": "c1f890c5d81382d34e4236168004e0cb4312712f",
+      "listingValidatedAt": "2026-09-14T11:09:09.963Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -152544,8 +152544,8 @@
         "pluginIds": [
           "latecompile.caffeine-curve"
         ],
-        "commit": "fc8172b5b3e43808c6bb5d16b5d2bc89b5e10da5",
-        "checkedAt": "2026-09-08T19:27:44.289Z",
+        "commit": "c1f890c5d81382d34e4236168004e0cb4312712f",
+        "checkedAt": "2026-09-14T11:09:09.963Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -152559,7 +152559,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "fc8172b5b3e43808c6bb5d16b5d2bc89b5e10da5",
+          "validatedAt": "2026-09-08T19:27:44.366Z",
+          "branch": "main",
+          "supersededAt": "2026-09-14T11:09:09.963Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "latecompile/omarchy-caffeine-curve",
+            "pluginIds": [
+              "latecompile.caffeine-curve"
+            ],
+            "commit": "fc8172b5b3e43808c6bb5d16b5d2bc89b5e10da5",
+            "checkedAt": "2026-09-08T19:27:44.289Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Davedes83/fossfetch",
