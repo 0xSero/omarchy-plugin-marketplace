@@ -165887,8 +165887,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-12",
       "listedAt": "2026-09-12T17:41:46.536Z",
-      "listingValidatedCommit": "046e94437a652e837f257eca2ae4314d5df3754a",
-      "listingValidatedAt": "2026-09-13T11:40:23.693Z",
+      "listingValidatedCommit": "aa05ae21eea9ce240255065dc1e82cf8bc3fe871",
+      "listingValidatedAt": "2026-09-14T20:56:21.111Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -165897,8 +165897,8 @@
         "pluginIds": [
           "nguyenn.clipboard"
         ],
-        "commit": "046e94437a652e837f257eca2ae4314d5df3754a",
-        "checkedAt": "2026-09-13T11:40:23.693Z",
+        "commit": "aa05ae21eea9ce240255065dc1e82cf8bc3fe871",
+        "checkedAt": "2026-09-14T20:56:21.111Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -165929,6 +165929,26 @@
             ],
             "commit": "3548a188e44c7b2d32b40ce003837a2e3782393f",
             "checkedAt": "2026-09-12T17:41:46.453Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "046e94437a652e837f257eca2ae4314d5df3754a",
+          "validatedAt": "2026-09-13T11:40:23.693Z",
+          "branch": "main",
+          "supersededAt": "2026-09-14T20:56:21.111Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "htrnguyen-labs/omarchy-clipboard",
+            "pluginIds": [
+              "nguyenn.clipboard"
+            ],
+            "commit": "046e94437a652e837f257eca2ae4314d5df3754a",
+            "checkedAt": "2026-09-13T11:40:23.693Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
