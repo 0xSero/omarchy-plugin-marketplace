@@ -171005,6 +171005,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nico-m-dev/omarchy-convcalc",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T22:25:51.934Z",
+      "listingValidatedCommit": "2bcad80a35b4863c4a82e8048298a3af852b1a6a",
+      "listingValidatedAt": "2026-09-14T22:25:51.934Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nico-m-dev/omarchy-convcalc",
+        "pluginIds": [
+          "io.github.nico-m-dev.convcalc"
+        ],
+        "commit": "2bcad80a35b4863c4a82e8048298a3af852b1a6a",
+        "checkedAt": "2026-09-14T22:25:51.857Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.nico-m-dev.convcalc": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
