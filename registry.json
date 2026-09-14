@@ -171137,6 +171137,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/SwadowMaster/omarchy-spotify",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T22:37:44.202Z",
+      "listingValidatedCommit": "bbdaf4ef11a4c5bc1304e34d84ec647bce7e09a4",
+      "listingValidatedAt": "2026-09-14T22:37:44.202Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "swadowmaster/omarchy-spotify",
+        "pluginIds": [
+          "io.github.swadowmaster.spotify"
+        ],
+        "commit": "bbdaf4ef11a4c5bc1304e34d84ec647bce7e09a4",
+        "checkedAt": "2026-09-14T22:37:44.126Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.swadowmaster.spotify": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
