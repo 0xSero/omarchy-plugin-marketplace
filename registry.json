@@ -171239,6 +171239,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hmarquez-solutions/omarchy-buds",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:22:48.776Z",
+      "listingValidatedCommit": "0dd3b7b15b717641706072b3ab73ba2c3aa1edd2",
+      "listingValidatedAt": "2026-09-14T23:22:48.776Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hmarquez-solutions/omarchy-buds",
+        "pluginIds": [
+          "io.github.hmarquez-solutions.buds"
+        ],
+        "commit": "0dd3b7b15b717641706072b3ab73ba2c3aa1edd2",
+        "checkedAt": "2026-09-14T23:22:48.697Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hmarquez-solutions/omarchy-buds",
+        "pluginIds": [
+          "io.github.hmarquez-solutions.buds"
+        ],
+        "commit": "0dd3b7b15b717641706072b3ab73ba2c3aa1edd2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T23:22:48.697Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T18:00:28.505Z",
+        "requestEventId": 31136267188,
+        "requestedAt": "2026-09-14T23:21:26Z",
+        "reviewedAt": "2026-09-14T23:22:48.697Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.hmarquez-solutions.buds": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
