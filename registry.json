@@ -170219,6 +170219,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/u64a/omarchy-project-launcher",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T14:39:20.098Z",
+      "listingValidatedCommit": "04bbe853643466bbbe077835d08e6ca6f1829c24",
+      "listingValidatedAt": "2026-09-14T14:39:20.098Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "u64a/omarchy-project-launcher",
+        "pluginIds": [
+          "io.github.u64a.project-launcher"
+        ],
+        "commit": "04bbe853643466bbbe077835d08e6ca6f1829c24",
+        "checkedAt": "2026-09-14T14:39:20.004Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.u64a.project-launcher": {
+          "category": "Developer Tools",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
