@@ -169608,6 +169608,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/carlossf12/lock-screen",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T09:16:04.853Z",
+      "listingValidatedCommit": "0b2f776723a7c8bfd850442c0a42bc9d03f65446",
+      "listingValidatedAt": "2026-09-14T09:16:04.853Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "carlossf12/lock-screen",
+        "pluginIds": [
+          "carlossf12.lock-screen"
+        ],
+        "commit": "0b2f776723a7c8bfd850442c0a42bc9d03f65446",
+        "checkedAt": "2026-09-14T09:16:04.766Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "carlossf12.lock-screen": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
