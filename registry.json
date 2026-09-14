@@ -171719,6 +171719,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mkelk/keepass-picker",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:54:29.340Z",
+      "listingValidatedCommit": "659b31f138d80855c9ef25f896ed8f6e7e5142d0",
+      "listingValidatedAt": "2026-09-14T23:54:29.340Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mkelk/keepass-picker",
+        "pluginIds": [
+          "mkelk.keepass-picker"
+        ],
+        "commit": "659b31f138d80855c9ef25f896ed8f6e7e5142d0",
+        "checkedAt": "2026-09-14T23:54:29.265Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mkelk.keepass-picker": {
+          "category": "Productivity",
+          "tags": [
+            "security",
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
