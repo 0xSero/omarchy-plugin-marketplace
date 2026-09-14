@@ -169232,6 +169232,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/asdfsnlr/omabricktetris",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T06:46:48.789Z",
+      "listingValidatedCommit": "2a88b4d45396a67f281a400991255227a0eb9a7d",
+      "listingValidatedAt": "2026-09-14T06:46:48.789Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "asdfsnlr/omabricktetris",
+        "pluginIds": [
+          "asdfsnlr.omabricktetris"
+        ],
+        "commit": "2a88b4d45396a67f281a400991255227a0eb9a7d",
+        "checkedAt": "2026-09-14T06:46:48.717Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "asdfsnlr.omabricktetris": {
+          "category": "Other",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
