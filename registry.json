@@ -170726,6 +170726,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/zamak/omagemba",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T22:00:11.582Z",
+      "listingValidatedCommit": "a0fdcc7554515437deb9e7daff5a38b62f3de29a",
+      "listingValidatedAt": "2026-09-14T22:00:11.582Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zamak/omagemba",
+        "pluginIds": [
+          "tiho.omagemba"
+        ],
+        "commit": "a0fdcc7554515437deb9e7daff5a38b62f3de29a",
+        "checkedAt": "2026-09-14T22:00:11.492Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "tiho.omagemba": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
