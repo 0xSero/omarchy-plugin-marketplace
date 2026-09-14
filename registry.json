@@ -171070,6 +171070,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Engida2312/omarchy-auto-brightness",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T22:31:55.877Z",
+      "listingValidatedCommit": "da4f88963cd22f9b07725c0eded7b016fd79073e",
+      "listingValidatedAt": "2026-09-14T22:31:55.877Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "engida2312/omarchy-auto-brightness",
+        "pluginIds": [
+          "engida.autobrightness"
+        ],
+        "commit": "da4f88963cd22f9b07725c0eded7b016fd79073e",
+        "checkedAt": "2026-09-14T22:31:55.790Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "engida.autobrightness": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
