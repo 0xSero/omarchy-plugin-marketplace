@@ -170352,6 +170352,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kenhara/omarchy-sparklekeys",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T20:42:33.437Z",
+      "listingValidatedCommit": "de0400fdd5a45c00d665b47d5f1b3bc9f3faff9b",
+      "listingValidatedAt": "2026-09-14T20:42:33.437Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kenhara/omarchy-sparklekeys",
+        "pluginIds": [
+          "kenhara.sparklekeys"
+        ],
+        "commit": "de0400fdd5a45c00d665b47d5f1b3bc9f3faff9b",
+        "checkedAt": "2026-09-14T20:42:33.359Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kenhara.sparklekeys": {
+          "category": "Kids",
+          "tags": [
+            "education",
+            "kids"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
