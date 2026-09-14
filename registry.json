@@ -171171,6 +171171,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/l-kedzielawski/omarchy-plugin-zones",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T22:40:57.719Z",
+      "listingValidatedCommit": "de5ea75cf394d521d2784c85e5b1b68059781c56",
+      "listingValidatedAt": "2026-09-14T22:40:57.719Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "l-kedzielawski/omarchy-plugin-zones",
+        "pluginIds": [
+          "io.github.l-kedzielawski.zones"
+        ],
+        "commit": "de5ea75cf394d521d2784c85e5b1b68059781c56",
+        "checkedAt": "2026-09-14T22:40:57.634Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.l-kedzielawski.zones": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
