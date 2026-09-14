@@ -93586,8 +93586,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-28",
       "listedAt": "2026-08-28T22:22:51.353Z",
-      "listingValidatedCommit": "8b614466e9e2cc386aef93cccfcd1c70900f68b6",
-      "listingValidatedAt": "2026-08-28T22:22:51.353Z",
+      "listingValidatedCommit": "d95d08abfa9d00f4a901cf827153e599b14fbba3",
+      "listingValidatedAt": "2026-09-14T11:17:56.230Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -93596,35 +93596,14 @@
         "pluginIds": [
           "melonamin.fast"
         ],
-        "commit": "8b614466e9e2cc386aef93cccfcd1c70900f68b6",
-        "checkedAt": "2026-08-28T22:22:51.307Z",
+        "commit": "d95d08abfa9d00f4a901cf827153e599b14fbba3",
+        "checkedAt": "2026-09-14T11:17:56.230Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "melonamin/omarchy-fast",
-        "pluginIds": [
-          "melonamin.fast"
-        ],
-        "commit": "8b614466e9e2cc386aef93cccfcd1c70900f68b6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-28T22:22:51.307Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-28T14:56:55.707Z",
-        "requestEventId": 30190790604,
-        "requestedAt": "2026-08-28T22:22:18Z",
-        "reviewedAt": "2026-08-28T22:22:51.308Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "melonamin.fast": {
@@ -93635,7 +93614,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "melonamin/omarchy-fast",
+        "pluginIds": [
+          "melonamin.fast"
+        ],
+        "commit": "d95d08abfa9d00f4a901cf827153e599b14fbba3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T11:17:56.230Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T19:27:11.279Z",
+        "requestEventId": 31094594507,
+        "requestedAt": "2026-09-14T10:53:15Z",
+        "reviewedAt": "2026-09-14T11:17:56.230Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8b614466e9e2cc386aef93cccfcd1c70900f68b6",
+          "validatedAt": "2026-08-28T22:22:51.353Z",
+          "branch": "main",
+          "supersededAt": "2026-09-14T11:17:56.230Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "melonamin/omarchy-fast",
+            "pluginIds": [
+              "melonamin.fast"
+            ],
+            "commit": "8b614466e9e2cc386aef93cccfcd1c70900f68b6",
+            "checkedAt": "2026-08-28T22:22:51.307Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "melonamin/omarchy-fast",
+            "pluginIds": [
+              "melonamin.fast"
+            ],
+            "commit": "8b614466e9e2cc386aef93cccfcd1c70900f68b6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-28T22:22:51.307Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-28T14:56:55.707Z",
+            "requestEventId": 30190790604,
+            "requestedAt": "2026-08-28T22:22:18Z",
+            "reviewedAt": "2026-08-28T22:22:51.308Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/intrepid-developer/omarchy-network-devices",
