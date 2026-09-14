@@ -171365,6 +171365,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/nodramaollama/omarchy-nitro-control",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:31:09.010Z",
+      "listingValidatedCommit": "2a6767068672307199719f85f4f09427115ba9dd",
+      "listingValidatedAt": "2026-09-14T23:31:09.010Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nodramaollama/omarchy-nitro-control",
+        "pluginIds": [
+          "nitro.control"
+        ],
+        "commit": "2a6767068672307199719f85f4f09427115ba9dd",
+        "checkedAt": "2026-09-14T23:31:08.923Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nodramaollama/omarchy-nitro-control",
+        "pluginIds": [
+          "nitro.control"
+        ],
+        "commit": "2a6767068672307199719f85f4f09427115ba9dd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T23:31:08.923Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-09T13:31:34.935Z",
+        "requestEventId": 31136497697,
+        "requestedAt": "2026-09-14T23:28:08Z",
+        "reviewedAt": "2026-09-14T23:31:08.923Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nitro.control": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
