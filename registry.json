@@ -169517,6 +169517,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jramiresbrito/omarchy-bar-zoom",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T07:11:12.322Z",
+      "listingValidatedCommit": "435468efad2c950b2f9d8eafb6aceb92954197f9",
+      "listingValidatedAt": "2026-09-14T07:11:12.322Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jramiresbrito/omarchy-bar-zoom",
+        "pluginIds": [
+          "io.github.jramiresbrito.bar-zoom"
+        ],
+        "commit": "435468efad2c950b2f9d8eafb6aceb92954197f9",
+        "checkedAt": "2026-09-14T07:11:12.262Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.jramiresbrito.bar-zoom": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
