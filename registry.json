@@ -170285,6 +170285,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/LarsLarkin/pacman-workspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T20:37:03.427Z",
+      "listingValidatedCommit": "f5e02f10dfa399f3bf0c288ac1edf83fde5975fa",
+      "listingValidatedAt": "2026-09-14T20:37:03.427Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "larslarkin/pacman-workspaces",
+        "pluginIds": [
+          "pacman-workspaces"
+        ],
+        "commit": "f5e02f10dfa399f3bf0c288ac1edf83fde5975fa",
+        "checkedAt": "2026-09-14T20:37:03.382Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "pacman-workspaces": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
