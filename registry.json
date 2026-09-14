@@ -171432,6 +171432,79 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/canerakdas/omapad",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:34:10.476Z",
+      "listingValidatedCommit": "12f920a31d689a45893d1fb6b02bc39d08c88253",
+      "listingValidatedAt": "2026-09-14T23:34:10.476Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "canerakdas/omapad",
+        "pluginIds": [
+          "canerakdas.omapad"
+        ],
+        "commit": "12f920a31d689a45893d1fb6b02bc39d08c88253",
+        "checkedAt": "2026-09-14T23:34:10.393Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "canerakdas/omapad",
+        "pluginIds": [
+          "canerakdas.omapad"
+        ],
+        "commit": "12f920a31d689a45893d1fb6b02bc39d08c88253",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T23:34:10.393Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-09T16:07:42.601Z",
+        "requestEventId": 31136591222,
+        "requestedAt": "2026-09-14T23:30:51Z",
+        "reviewedAt": "2026-09-14T23:34:10.393Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "canerakdas.omapad": {
+          "category": "Desktop",
+          "tags": [
+            "games",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
