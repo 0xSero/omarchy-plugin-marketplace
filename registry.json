@@ -171205,6 +171205,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/finna/omarchy-herdr-hud",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:18:08.967Z",
+      "listingValidatedCommit": "abbcb59adfa9a6922aaba832ccd9e0c8dcc94230",
+      "listingValidatedAt": "2026-09-14T23:18:08.967Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "finna/omarchy-herdr-hud",
+        "pluginIds": [
+          "finna.herdr-hud"
+        ],
+        "commit": "abbcb59adfa9a6922aaba832ccd9e0c8dcc94230",
+        "checkedAt": "2026-09-14T23:18:08.879Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "finna.herdr-hud": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
