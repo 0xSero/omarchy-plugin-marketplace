@@ -169174,6 +169174,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/durak1frt-cyber/omarchy-salah",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T06:42:32.585Z",
+      "listingValidatedCommit": "7345695c1d29bb4fcc09677e1517d19b92626577",
+      "listingValidatedAt": "2026-09-14T06:42:32.585Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "durak1frt-cyber/omarchy-salah",
+        "pluginIds": [
+          "salah.prayer-times"
+        ],
+        "commit": "7345695c1d29bb4fcc09677e1517d19b92626577",
+        "checkedAt": "2026-09-14T06:42:32.508Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "durak1frt-cyber/omarchy-salah",
+        "pluginIds": [
+          "salah.prayer-times"
+        ],
+        "commit": "7345695c1d29bb4fcc09677e1517d19b92626577",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T06:42:32.508Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T23:43:16.790Z",
+        "requestEventId": 31081529849,
+        "requestedAt": "2026-09-14T06:37:49Z",
+        "reviewedAt": "2026-09-14T06:42:32.508Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "salah.prayer-times": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
