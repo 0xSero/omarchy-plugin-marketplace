@@ -171628,6 +171628,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/data-goblin/fileblade",
+      "type": "plugin-source",
+      "addedAt": "2026-09-14",
+      "listedAt": "2026-09-14T23:43:10.518Z",
+      "listingValidatedCommit": "b8ff4b6d73d23d70eef736c6efc6de8456cb71d3",
+      "listingValidatedAt": "2026-09-14T23:43:10.518Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "data-goblin/fileblade",
+        "pluginIds": [
+          "data-goblin.fileblade"
+        ],
+        "commit": "b8ff4b6d73d23d70eef736c6efc6de8456cb71d3",
+        "checkedAt": "2026-09-14T23:43:10.433Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "data-goblin/fileblade",
+        "pluginIds": [
+          "data-goblin.fileblade"
+        ],
+        "commit": "b8ff4b6d73d23d70eef736c6efc6de8456cb71d3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-14T23:43:10.433Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-09T10:32:17.189Z",
+        "requestEventId": 31136876201,
+        "requestedAt": "2026-09-14T23:39:14Z",
+        "reviewedAt": "2026-09-14T23:43:10.433Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "data-goblin.fileblade": {
+          "category": "Developer Tools",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
