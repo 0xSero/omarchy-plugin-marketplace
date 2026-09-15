@@ -171850,6 +171850,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/entroit/omaflow",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T00:06:10.803Z",
+      "listingValidatedCommit": "14bd5a018c9bc09bfcc50cdaec0e460d20377f7c",
+      "listingValidatedAt": "2026-09-15T00:06:10.803Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "entroit/omaflow",
+        "pluginIds": [
+          "entroit.omaflow"
+        ],
+        "commit": "14bd5a018c9bc09bfcc50cdaec0e460d20377f7c",
+        "checkedAt": "2026-09-15T00:06:10.722Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "entroit/omaflow",
+        "pluginIds": [
+          "entroit.omaflow"
+        ],
+        "commit": "14bd5a018c9bc09bfcc50cdaec0e460d20377f7c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T00:06:10.722Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-09T18:25:06.915Z",
+        "requestEventId": 31137724158,
+        "requestedAt": "2026-09-15T00:03:38Z",
+        "reviewedAt": "2026-09-15T00:06:10.722Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "entroit.omaflow": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
