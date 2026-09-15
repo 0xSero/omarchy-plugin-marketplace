@@ -172003,6 +172003,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nixfred/infomarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T00:19:13.392Z",
+      "listingValidatedCommit": "54f8d3518e206904298f5f8e41003bc993cc1356",
+      "listingValidatedAt": "2026-09-15T00:19:13.392Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nixfred/infomarchy",
+        "pluginIds": [
+          "nixfred.infomarchy"
+        ],
+        "commit": "54f8d3518e206904298f5f8e41003bc993cc1356",
+        "checkedAt": "2026-09-15T00:19:13.309Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nixfred/infomarchy",
+        "pluginIds": [
+          "nixfred.infomarchy"
+        ],
+        "commit": "54f8d3518e206904298f5f8e41003bc993cc1356",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T00:19:13.309Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T19:16:53.957Z",
+        "requestEventId": 31138281791,
+        "requestedAt": "2026-09-15T00:17:51Z",
+        "reviewedAt": "2026-09-15T00:19:13.309Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nixfred.infomarchy": {
+          "category": "Desktop",
+          "tags": [
+            "ai",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
