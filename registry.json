@@ -173287,6 +173287,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tymurbogach/omarchy-sleepwalker",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:16:39.241Z",
+      "listingValidatedCommit": "823b3c9b54e789391ad175964ad9907ecc13c334",
+      "listingValidatedAt": "2026-09-15T19:16:39.241Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tymurbogach/omarchy-sleepwalker",
+        "pluginIds": [
+          "io.github.tymurbogach.sleepwalker"
+        ],
+        "commit": "823b3c9b54e789391ad175964ad9907ecc13c334",
+        "checkedAt": "2026-09-15T19:16:39.164Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tymurbogach/omarchy-sleepwalker",
+        "pluginIds": [
+          "io.github.tymurbogach.sleepwalker"
+        ],
+        "commit": "823b3c9b54e789391ad175964ad9907ecc13c334",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T19:16:39.164Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T01:36:09.166Z",
+        "requestEventId": 31197094555,
+        "requestedAt": "2026-09-15T19:02:24Z",
+        "reviewedAt": "2026-09-15T19:16:39.164Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.tymurbogach.sleepwalker": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "power-management",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
