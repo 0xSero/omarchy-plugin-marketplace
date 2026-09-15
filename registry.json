@@ -171913,6 +171913,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/pantherdev2024/Quartermaster",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T00:09:39.016Z",
+      "listingValidatedCommit": "3ca7f50f9257b7e58813146a513d067b4fc87282",
+      "listingValidatedAt": "2026-09-15T00:09:39.016Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pantherdev2024/quartermaster",
+        "pluginIds": [
+          "io.github.pantherdev2024.quartermaster"
+        ],
+        "commit": "3ca7f50f9257b7e58813146a513d067b4fc87282",
+        "checkedAt": "2026-09-15T00:09:38.948Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.pantherdev2024.quartermaster": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
