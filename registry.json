@@ -175106,6 +175106,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/axelfontaine/omarchy-logitech-unifying",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T23:41:15.676Z",
+      "listingValidatedCommit": "be22d521a34c82e41ea296fdaf9fb3e731dfd849",
+      "listingValidatedAt": "2026-09-15T23:41:15.676Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "axelfontaine/omarchy-logitech-unifying",
+        "pluginIds": [
+          "axelfontaine.logitech-unifying"
+        ],
+        "commit": "be22d521a34c82e41ea296fdaf9fb3e731dfd849",
+        "checkedAt": "2026-09-15T23:41:15.589Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "axelfontaine/omarchy-logitech-unifying",
+        "pluginIds": [
+          "axelfontaine.logitech-unifying"
+        ],
+        "commit": "be22d521a34c82e41ea296fdaf9fb3e731dfd849",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T23:41:15.589Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T20:42:48.610Z",
+        "requestEventId": 31210394934,
+        "requestedAt": "2026-09-15T23:39:50Z",
+        "reviewedAt": "2026-09-15T23:41:15.589Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "axelfontaine.logitech-unifying": {
+          "category": "Hardware",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
