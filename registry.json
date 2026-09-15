@@ -174613,6 +174613,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/davefano/omarchy-transcripts",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:59:59.985Z",
+      "listingValidatedCommit": "f5b6ead103b14db74cfe81ed3a4f1610a44a30f1",
+      "listingValidatedAt": "2026-09-15T21:59:59.985Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "davefano/omarchy-transcripts",
+        "pluginIds": [
+          "io.github.davefano.transcripts"
+        ],
+        "commit": "f5b6ead103b14db74cfe81ed3a4f1610a44a30f1",
+        "checkedAt": "2026-09-15T21:59:59.906Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "davefano/omarchy-transcripts",
+        "pluginIds": [
+          "io.github.davefano.transcripts"
+        ],
+        "commit": "f5b6ead103b14db74cfe81ed3a4f1610a44a30f1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T21:59:59.906Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T21:03:20.808Z",
+        "requestEventId": 31206277777,
+        "requestedAt": "2026-09-15T21:55:59Z",
+        "reviewedAt": "2026-09-15T21:59:59.906Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.davefano.transcripts": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
