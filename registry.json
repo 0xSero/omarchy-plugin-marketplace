@@ -173973,6 +173973,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ehlxr/advanced-workspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T20:48:52.336Z",
+      "listingValidatedCommit": "76605c83eefdd84eb49562845b0ca58a0eeb6519",
+      "listingValidatedAt": "2026-09-15T20:48:52.336Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ehlxr/advanced-workspaces",
+        "pluginIds": [
+          "io.github.ehlxr.advanced-workspaces"
+        ],
+        "commit": "76605c83eefdd84eb49562845b0ca58a0eeb6519",
+        "checkedAt": "2026-09-15T20:48:52.250Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ehlxr.advanced-workspaces": {
+          "category": "Widgets",
+          "tags": [
+            "workspaces",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
