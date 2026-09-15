@@ -174251,6 +174251,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jkarmel/omarchy-clipboard-collector",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:30:48.376Z",
+      "listingValidatedCommit": "41c2dbb7c79a094dc4d74a9e5e685c85a28eff0d",
+      "listingValidatedAt": "2026-09-15T21:30:48.376Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jkarmel/omarchy-clipboard-collector",
+        "pluginIds": [
+          "jkarmel.clipboard-collector"
+        ],
+        "commit": "41c2dbb7c79a094dc4d74a9e5e685c85a28eff0d",
+        "checkedAt": "2026-09-15T21:30:48.322Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jkarmel/omarchy-clipboard-collector",
+        "pluginIds": [
+          "jkarmel.clipboard-collector"
+        ],
+        "commit": "41c2dbb7c79a094dc4d74a9e5e685c85a28eff0d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T21:30:48.322Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T22:24:07.482Z",
+        "requestEventId": 31204954432,
+        "requestedAt": "2026-09-15T21:26:48Z",
+        "reviewedAt": "2026-09-15T21:30:48.323Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jkarmel.clipboard-collector": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
