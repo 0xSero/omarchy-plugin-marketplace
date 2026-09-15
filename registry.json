@@ -118744,8 +118744,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-02",
       "listedAt": "2026-09-02T08:40:06.037Z",
-      "listingValidatedCommit": "80d2d9af291f39178366ad507205437166153015",
-      "listingValidatedAt": "2026-09-04T15:04:35.740Z",
+      "listingValidatedCommit": "79b580b5734f99f1cf32e7e25a83273215402561",
+      "listingValidatedAt": "2026-09-15T18:41:00.943Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -118754,8 +118754,8 @@
         "pluginIds": [
           "io.github.stoogs.chordpumper-promarchy"
         ],
-        "commit": "80d2d9af291f39178366ad507205437166153015",
-        "checkedAt": "2026-09-04T15:04:35.740Z",
+        "commit": "79b580b5734f99f1cf32e7e25a83273215402561",
+        "checkedAt": "2026-09-15T18:41:00.943Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -118864,6 +118864,49 @@
             "reviewedAt": "2026-09-04T00:29:01.042Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "80d2d9af291f39178366ad507205437166153015",
+          "validatedAt": "2026-09-04T15:04:35.740Z",
+          "branch": "main",
+          "supersededAt": "2026-09-15T18:41:00.943Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "stoogs/chordpumper-promarchy",
+            "pluginIds": [
+              "io.github.stoogs.chordpumper-promarchy"
+            ],
+            "commit": "80d2d9af291f39178366ad507205437166153015",
+            "checkedAt": "2026-09-04T15:04:35.740Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "stoogs/chordpumper-promarchy",
+            "pluginIds": [
+              "io.github.stoogs.chordpumper-promarchy"
+            ],
+            "commit": "80d2d9af291f39178366ad507205437166153015",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-04T15:04:35.740Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-04T14:03:56.374Z",
+            "requestEventId": 30559893983,
+            "requestedAt": "2026-09-04T14:20:00Z",
+            "reviewedAt": "2026-09-04T15:04:35.740Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -118872,19 +118915,19 @@
         "pluginIds": [
           "io.github.stoogs.chordpumper-promarchy"
         ],
-        "commit": "80d2d9af291f39178366ad507205437166153015",
+        "commit": "79b580b5734f99f1cf32e7e25a83273215402561",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-04T15:04:35.740Z",
+        "baselineCheckedAt": "2026-09-15T18:41:00.943Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-04T14:03:56.374Z",
-        "requestEventId": 30559893983,
-        "requestedAt": "2026-09-04T14:20:00Z",
-        "reviewedAt": "2026-09-04T15:04:35.740Z",
+        "reviewedBaselineCheckedAt": "2026-09-11T06:57:22.001Z",
+        "requestEventId": 31195128755,
+        "requestedAt": "2026-09-15T18:28:33Z",
+        "reviewedAt": "2026-09-15T18:41:00.943Z",
         "reviewer": "HANCORE-linux"
       }
     },
