@@ -173346,6 +173346,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tbassss/omarchy-breadcrumb",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:20:44.290Z",
+      "listingValidatedCommit": "4e8a7db9ecaf29b4a06261d88f2cd50cf8fea9a9",
+      "listingValidatedAt": "2026-09-15T19:20:44.290Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tbassss/omarchy-breadcrumb",
+        "pluginIds": [
+          "tbassss.breadcrumb"
+        ],
+        "commit": "4e8a7db9ecaf29b4a06261d88f2cd50cf8fea9a9",
+        "checkedAt": "2026-09-15T19:20:44.205Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "tbassss.breadcrumb": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
