@@ -173731,6 +173731,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kinarajv/omarchy-power-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T20:09:40.296Z",
+      "listingValidatedCommit": "c4bfc457ed900938a1330a018f0f6d01cf459f07",
+      "listingValidatedAt": "2026-09-15T20:09:40.296Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kinarajv/omarchy-power-monitor",
+        "pluginIds": [
+          "kinarajv.power-monitor"
+        ],
+        "commit": "c4bfc457ed900938a1330a018f0f6d01cf459f07",
+        "checkedAt": "2026-09-15T20:09:40.205Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kinarajv/omarchy-power-monitor",
+        "pluginIds": [
+          "kinarajv.power-monitor"
+        ],
+        "commit": "c4bfc457ed900938a1330a018f0f6d01cf459f07",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T20:09:40.205Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T09:23:03.577Z",
+        "requestEventId": 31200709143,
+        "requestedAt": "2026-09-15T20:08:15Z",
+        "reviewedAt": "2026-09-15T20:09:40.205Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kinarajv.power-monitor": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
