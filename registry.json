@@ -173043,6 +173043,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/fraction12/omarchy-codex-micro",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:00:28.957Z",
+      "listingValidatedCommit": "1ae123cf082e7170e9ab4658d7ee4b77e3ea7cbc",
+      "listingValidatedAt": "2026-09-15T19:00:28.957Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "fraction12/omarchy-codex-micro",
+        "pluginIds": [
+          "fraction12.codex-micro"
+        ],
+        "commit": "1ae123cf082e7170e9ab4658d7ee4b77e3ea7cbc",
+        "checkedAt": "2026-09-15T19:00:28.877Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "fraction12/omarchy-codex-micro",
+        "pluginIds": [
+          "fraction12.codex-micro"
+        ],
+        "commit": "1ae123cf082e7170e9ab4658d7ee4b77e3ea7cbc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T19:00:28.877Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-11T02:25:13.146Z",
+        "requestEventId": 31195884530,
+        "requestedAt": "2026-09-15T18:41:30Z",
+        "reviewedAt": "2026-09-15T19:00:28.877Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "fraction12.codex-micro": {
+          "category": "Hardware",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
