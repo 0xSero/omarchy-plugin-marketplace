@@ -173884,6 +173884,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cfaulkingham/omasnapshot",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T20:33:13.419Z",
+      "listingValidatedCommit": "496261923a091b774462e88c886cb04dcdd46d56",
+      "listingValidatedAt": "2026-09-15T20:33:13.419Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cfaulkingham/omasnapshot",
+        "pluginIds": [
+          "io.github.cfaulkingham.omasnapshot"
+        ],
+        "commit": "496261923a091b774462e88c886cb04dcdd46d56",
+        "checkedAt": "2026-09-15T20:33:13.333Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cfaulkingham/omasnapshot",
+        "pluginIds": [
+          "io.github.cfaulkingham.omasnapshot"
+        ],
+        "commit": "496261923a091b774462e88c886cb04dcdd46d56",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T20:33:13.333Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T11:51:04.110Z",
+        "requestEventId": 31201977334,
+        "requestedAt": "2026-09-15T20:31:28Z",
+        "reviewedAt": "2026-09-15T20:33:13.333Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.cfaulkingham.omasnapshot": {
+          "category": "System",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
