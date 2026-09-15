@@ -174844,6 +174844,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/m7sh/mush.workspace",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T22:14:21.660Z",
+      "listingValidatedCommit": "63cc3d9a35afd0effc10c828763c491545ebe32f",
+      "listingValidatedAt": "2026-09-15T22:14:21.660Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "m7sh/mush.workspace",
+        "pluginIds": [
+          "mush.workspaces"
+        ],
+        "commit": "63cc3d9a35afd0effc10c828763c491545ebe32f",
+        "checkedAt": "2026-09-15T22:14:21.576Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "m7sh/mush.workspace",
+        "pluginIds": [
+          "mush.workspaces"
+        ],
+        "commit": "63cc3d9a35afd0effc10c828763c491545ebe32f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T22:14:21.576Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T10:27:06.233Z",
+        "requestEventId": 31206791962,
+        "requestedAt": "2026-09-15T22:07:46Z",
+        "reviewedAt": "2026-09-15T22:14:21.576Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mush.workspaces": {
+          "category": "Appearance",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
