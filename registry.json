@@ -174100,6 +174100,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/PlainPresence/PortLens",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:20:57.233Z",
+      "listingValidatedCommit": "427cb1b489fae6762210ff7647a6aa30255e5d56",
+      "listingValidatedAt": "2026-09-15T21:20:57.233Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "plainpresence/portlens",
+        "pluginIds": [
+          "plainpresence.portlens"
+        ],
+        "commit": "427cb1b489fae6762210ff7647a6aa30255e5d56",
+        "checkedAt": "2026-09-15T21:20:57.161Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "plainpresence/portlens",
+        "pluginIds": [
+          "plainpresence.portlens"
+        ],
+        "commit": "427cb1b489fae6762210ff7647a6aa30255e5d56",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T21:20:57.161Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T21:06:01.869Z",
+        "requestEventId": 31204604681,
+        "requestedAt": "2026-09-15T21:19:37Z",
+        "reviewedAt": "2026-09-15T21:20:57.161Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "plainpresence.portlens": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
