@@ -173634,6 +173634,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jwahdatehagh/omarchy-gopro",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:46:17.618Z",
+      "listingValidatedCommit": "3b5b391f039c5c75d5260b2a3663dc5034568002",
+      "listingValidatedAt": "2026-09-15T19:46:17.618Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jwahdatehagh/omarchy-gopro",
+        "pluginIds": [
+          "digital.1001.gopro"
+        ],
+        "commit": "3b5b391f039c5c75d5260b2a3663dc5034568002",
+        "checkedAt": "2026-09-15T19:46:17.540Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "digital.1001.gopro": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
