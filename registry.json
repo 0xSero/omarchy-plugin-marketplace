@@ -172592,6 +172592,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/bernardcosta/omarchy-omacoins",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T18:27:08.765Z",
+      "listingValidatedCommit": "58bb93afd0c28a30acc94eac7c22eb1b77c064d2",
+      "listingValidatedAt": "2026-09-15T18:27:08.765Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bernardcosta/omarchy-omacoins",
+        "pluginIds": [
+          "ber.omacoins"
+        ],
+        "commit": "58bb93afd0c28a30acc94eac7c22eb1b77c064d2",
+        "checkedAt": "2026-09-15T18:27:08.680Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ber.omacoins": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
