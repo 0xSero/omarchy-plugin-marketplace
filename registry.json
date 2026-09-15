@@ -175162,6 +175162,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/axelfontaine/omarchy-logitech-bolt",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T23:44:19.541Z",
+      "listingValidatedCommit": "f3e9256758ca748f358b997bb7c5e41145cc3757",
+      "listingValidatedAt": "2026-09-15T23:44:19.541Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "axelfontaine/omarchy-logitech-bolt",
+        "pluginIds": [
+          "axelfontaine.logitech-bolt"
+        ],
+        "commit": "f3e9256758ca748f358b997bb7c5e41145cc3757",
+        "checkedAt": "2026-09-15T23:44:19.449Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "axelfontaine/omarchy-logitech-bolt",
+        "pluginIds": [
+          "axelfontaine.logitech-bolt"
+        ],
+        "commit": "f3e9256758ca748f358b997bb7c5e41145cc3757",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T23:44:19.449Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T20:43:54.585Z",
+        "requestEventId": 31210431487,
+        "requestedAt": "2026-09-15T23:40:52Z",
+        "reviewedAt": "2026-09-15T23:44:19.449Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "axelfontaine.logitech-bolt": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
