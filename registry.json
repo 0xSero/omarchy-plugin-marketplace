@@ -173472,6 +173472,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jvlianodorneles/omafly",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:34:02.621Z",
+      "listingValidatedCommit": "d052d63713c56904d69ebfa2e663b3313cd941b1",
+      "listingValidatedAt": "2026-09-15T19:34:02.621Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jvlianodorneles/omafly",
+        "pluginIds": [
+          "dorneles.omafly"
+        ],
+        "commit": "d052d63713c56904d69ebfa2e663b3313cd941b1",
+        "checkedAt": "2026-09-15T19:34:02.567Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dorneles.omafly": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
