@@ -174899,6 +174899,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/matteodevenuto/omarchy-corsair-cooling",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T22:17:21.865Z",
+      "listingValidatedCommit": "7250efd549485abbed9d336d6908a599187b4942",
+      "listingValidatedAt": "2026-09-15T22:17:21.865Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "matteodevenuto/omarchy-corsair-cooling",
+        "pluginIds": [
+          "matteodevenuto.corsair-cooling"
+        ],
+        "commit": "7250efd549485abbed9d336d6908a599187b4942",
+        "checkedAt": "2026-09-15T22:17:21.791Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "matteodevenuto/omarchy-corsair-cooling",
+        "pluginIds": [
+          "matteodevenuto.corsair-cooling"
+        ],
+        "commit": "7250efd549485abbed9d336d6908a599187b4942",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T22:17:21.791Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T13:53:36.784Z",
+        "requestEventId": 31206871345,
+        "requestedAt": "2026-09-15T22:09:36Z",
+        "reviewedAt": "2026-09-15T22:17:21.791Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "matteodevenuto.corsair-cooling": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
