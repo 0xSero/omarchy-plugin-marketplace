@@ -174992,6 +174992,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/SwadowMaster/omarchy-wireguard",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T23:01:05.377Z",
+      "listingValidatedCommit": "1b2b985e57b44c9b044c18fe81871a81d93f48d7",
+      "listingValidatedAt": "2026-09-15T23:01:05.377Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "swadowmaster/omarchy-wireguard",
+        "pluginIds": [
+          "io.github.swadowmaster.wireguard"
+        ],
+        "commit": "1b2b985e57b44c9b044c18fe81871a81d93f48d7",
+        "checkedAt": "2026-09-15T23:01:05.300Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "swadowmaster/omarchy-wireguard",
+        "pluginIds": [
+          "io.github.swadowmaster.wireguard"
+        ],
+        "commit": "1b2b985e57b44c9b044c18fe81871a81d93f48d7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T23:01:05.300Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T16:13:45.370Z",
+        "requestEventId": 31208923940,
+        "requestedAt": "2026-09-15T22:59:42Z",
+        "reviewedAt": "2026-09-15T23:01:05.300Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.swadowmaster.wireguard": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
