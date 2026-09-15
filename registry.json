@@ -174552,6 +174552,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/swey-l1/omarchy-android-tv-remote",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:57:21.702Z",
+      "listingValidatedCommit": "75bdb5520810120168e9e1dac87c082b9675af2e",
+      "listingValidatedAt": "2026-09-15T21:57:21.702Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "swey-l1/omarchy-android-tv-remote",
+        "pluginIds": [
+          "io.github.swey-l1.atv-remote"
+        ],
+        "commit": "75bdb5520810120168e9e1dac87c082b9675af2e",
+        "checkedAt": "2026-09-15T21:57:21.654Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "swey-l1/omarchy-android-tv-remote",
+        "pluginIds": [
+          "io.github.swey-l1.atv-remote"
+        ],
+        "commit": "75bdb5520810120168e9e1dac87c082b9675af2e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T21:57:21.654Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T14:39:28.146Z",
+        "requestEventId": 31206230004,
+        "requestedAt": "2026-09-15T21:54:55Z",
+        "reviewedAt": "2026-09-15T21:57:21.654Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.swey-l1.atv-remote": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
