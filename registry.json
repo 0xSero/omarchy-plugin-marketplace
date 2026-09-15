@@ -174157,6 +174157,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/joecastro/omarchy-lastpass-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:24:15.380Z",
+      "listingValidatedCommit": "211a0fef629f0eff533b079a8a0fe55819a391ad",
+      "listingValidatedAt": "2026-09-15T21:24:15.380Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "joecastro/omarchy-lastpass-plugin",
+        "pluginIds": [
+          "joecastro.lastpass"
+        ],
+        "commit": "211a0fef629f0eff533b079a8a0fe55819a391ad",
+        "checkedAt": "2026-09-15T21:24:15.292Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "joecastro.lastpass": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
