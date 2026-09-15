@@ -173939,6 +173939,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/shabdar/omarchy-ask",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T20:39:13.881Z",
+      "listingValidatedCommit": "a9f81ffa651e685b0b2744239a1ac7c9a7d01c77",
+      "listingValidatedAt": "2026-09-15T20:39:13.881Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shabdar/omarchy-ask",
+        "pluginIds": [
+          "io.github.shabdar.omask"
+        ],
+        "commit": "a9f81ffa651e685b0b2744239a1ac7c9a7d01c77",
+        "checkedAt": "2026-09-15T20:39:13.796Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.shabdar.omask": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
