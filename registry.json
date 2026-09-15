@@ -173668,6 +173668,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RadicalGitter/legion-super-key-rgb",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:53:24.848Z",
+      "listingValidatedCommit": "589f65c68b96d394e8f7524821572c3628855cb5",
+      "listingValidatedAt": "2026-09-15T19:53:24.848Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "radicalgitter/legion-super-key-rgb",
+        "pluginIds": [
+          "io.github.radicalgitter.legion-super-key-rgb"
+        ],
+        "commit": "589f65c68b96d394e8f7524821572c3628855cb5",
+        "checkedAt": "2026-09-15T19:53:24.761Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "radicalgitter/legion-super-key-rgb",
+        "pluginIds": [
+          "io.github.radicalgitter.legion-super-key-rgb"
+        ],
+        "commit": "589f65c68b96d394e8f7524821572c3628855cb5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T19:53:24.761Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-12T23:46:07.366Z",
+        "requestEventId": 31199849552,
+        "requestedAt": "2026-09-15T19:52:01Z",
+        "reviewedAt": "2026-09-15T19:53:24.761Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.radicalgitter.legion-super-key-rgb": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
