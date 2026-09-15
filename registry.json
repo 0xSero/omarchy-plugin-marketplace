@@ -172251,6 +172251,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/seanpk/omarchy-dock-workspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T18:01:46.805Z",
+      "listingValidatedCommit": "c4709779ba95db12d6706f86c570434fe275d3ce",
+      "listingValidatedAt": "2026-09-15T18:01:46.805Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "seanpk/omarchy-dock-workspaces",
+        "pluginIds": [
+          "seanpk.dock-workspaces"
+        ],
+        "commit": "c4709779ba95db12d6706f86c570434fe275d3ce",
+        "checkedAt": "2026-09-15T18:01:46.725Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "seanpk/omarchy-dock-workspaces",
+        "pluginIds": [
+          "seanpk.dock-workspaces"
+        ],
+        "commit": "c4709779ba95db12d6706f86c570434fe275d3ce",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T18:01:46.725Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T00:34:39.492Z",
+        "requestEventId": 31193361335,
+        "requestedAt": "2026-09-15T17:58:53Z",
+        "reviewedAt": "2026-09-15T18:01:46.725Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "seanpk.dock-workspaces": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
