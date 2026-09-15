@@ -173601,6 +173601,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/r0b0tlab/omarchy-hermes-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:43:12.693Z",
+      "listingValidatedCommit": "e41aae55fc386ee1154b203846775007555d3dcb",
+      "listingValidatedAt": "2026-09-15T19:43:12.693Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "r0b0tlab/omarchy-hermes-usage",
+        "pluginIds": [
+          "io.github.r0b0tlab.hermes-usage"
+        ],
+        "commit": "e41aae55fc386ee1154b203846775007555d3dcb",
+        "checkedAt": "2026-09-15T19:43:12.601Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.r0b0tlab.hermes-usage": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
