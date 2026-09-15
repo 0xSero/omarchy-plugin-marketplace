@@ -173438,6 +173438,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Meenun-123/omarchy-plugin-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T19:27:03.811Z",
+      "listingValidatedCommit": "0b314e9ef67673bb382ef93863af0c0998ee23cf",
+      "listingValidatedAt": "2026-09-15T19:27:03.811Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "meenun-123/omarchy-plugin-manager",
+        "pluginIds": [
+          "community.plugin-manager"
+        ],
+        "commit": "0b314e9ef67673bb382ef93863af0c0998ee23cf",
+        "checkedAt": "2026-09-15T19:27:03.731Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "community.plugin-manager": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
