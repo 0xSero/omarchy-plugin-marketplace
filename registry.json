@@ -174455,6 +174455,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/janaki-sasidhar/omarchy-window-shelf",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:51:07.193Z",
+      "listingValidatedCommit": "f202517cb8cd58aaa76f04a4117f770162c69a1b",
+      "listingValidatedAt": "2026-09-15T21:51:07.193Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "janaki-sasidhar/omarchy-window-shelf",
+        "pluginIds": [
+          "sasidhar.window-shelf"
+        ],
+        "commit": "f202517cb8cd58aaa76f04a4117f770162c69a1b",
+        "checkedAt": "2026-09-15T21:51:07.122Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "janaki-sasidhar/omarchy-window-shelf",
+        "pluginIds": [
+          "sasidhar.window-shelf"
+        ],
+        "commit": "f202517cb8cd58aaa76f04a4117f770162c69a1b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T21:51:07.122Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T04:08:24.971Z",
+        "requestEventId": 31205972736,
+        "requestedAt": "2026-09-15T21:49:12Z",
+        "reviewedAt": "2026-09-15T21:51:07.122Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sasidhar.window-shelf": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
