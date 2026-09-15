@@ -172660,6 +172660,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dharmapurikar/otter",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T18:32:41.754Z",
+      "listingValidatedCommit": "59f160c4793aba4e87dca0e8d5c104f7152f47c6",
+      "listingValidatedAt": "2026-09-15T18:32:41.754Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dharmapurikar/otter",
+        "pluginIds": [
+          "io.github.dharmapurikar.otter"
+        ],
+        "commit": "59f160c4793aba4e87dca0e8d5c104f7152f47c6",
+        "checkedAt": "2026-09-15T18:32:41.686Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.dharmapurikar.otter": {
+          "category": "Productivity",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
