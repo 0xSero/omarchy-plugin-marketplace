@@ -174398,6 +174398,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/brianirish/omarchy-mouse-battery",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:42:15.762Z",
+      "listingValidatedCommit": "db221239545a500c006a6209aa2f5714f2c4c438",
+      "listingValidatedAt": "2026-09-15T21:42:15.762Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "brianirish/omarchy-mouse-battery",
+        "pluginIds": [
+          "brianirish.mouse-battery"
+        ],
+        "commit": "db221239545a500c006a6209aa2f5714f2c4c438",
+        "checkedAt": "2026-09-15T21:42:15.683Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brianirish/omarchy-mouse-battery",
+        "pluginIds": [
+          "brianirish.mouse-battery"
+        ],
+        "commit": "db221239545a500c006a6209aa2f5714f2c4c438",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T21:42:15.683Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T00:33:51.390Z",
+        "requestEventId": 31205597658,
+        "requestedAt": "2026-09-15T21:40:47Z",
+        "reviewedAt": "2026-09-15T21:42:15.683Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "brianirish.mouse-battery": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
