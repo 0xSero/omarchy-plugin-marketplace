@@ -174191,6 +174191,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jkarmel/omarchy-terminal-history",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:28:02.835Z",
+      "listingValidatedCommit": "c736f698d48de057bbb4d636a3d8642bee505dbb",
+      "listingValidatedAt": "2026-09-15T21:28:02.835Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jkarmel/omarchy-terminal-history",
+        "pluginIds": [
+          "jkarmel.history-search"
+        ],
+        "commit": "c736f698d48de057bbb4d636a3d8642bee505dbb",
+        "checkedAt": "2026-09-15T21:28:02.747Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jkarmel/omarchy-terminal-history",
+        "pluginIds": [
+          "jkarmel.history-search"
+        ],
+        "commit": "c736f698d48de057bbb4d636a3d8642bee505dbb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T21:28:02.747Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T22:23:58.223Z",
+        "requestEventId": 31204896582,
+        "requestedAt": "2026-09-15T21:25:35Z",
+        "reviewedAt": "2026-09-15T21:28:02.747Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jkarmel.history-search": {
+          "category": "Developer Tools",
+          "tags": [
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
