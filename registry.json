@@ -172984,6 +172984,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/benryanx/mote",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T18:57:18.473Z",
+      "listingValidatedCommit": "e7bbbbb6f8f5781008a071f563a99c6cf561c2c6",
+      "listingValidatedAt": "2026-09-15T18:57:18.473Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "benryanx/mote",
+        "pluginIds": [
+          "io.github.benryanx.mote"
+        ],
+        "commit": "e7bbbbb6f8f5781008a071f563a99c6cf561c2c6",
+        "checkedAt": "2026-09-15T18:57:18.385Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "benryanx/mote",
+        "pluginIds": [
+          "io.github.benryanx.mote"
+        ],
+        "commit": "e7bbbbb6f8f5781008a071f563a99c6cf561c2c6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T18:57:18.385Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T23:17:08.590Z",
+        "requestEventId": 31195794123,
+        "requestedAt": "2026-09-15T18:39:58Z",
+        "reviewedAt": "2026-09-15T18:57:18.385Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.benryanx.mote": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
