@@ -172535,6 +172535,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ShamatienkoYaroslav/omarchy-kanji",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T18:23:59.072Z",
+      "listingValidatedCommit": "5c9a9f9c0a60a8e758cf9c4f00531f0d2f1006a2",
+      "listingValidatedAt": "2026-09-15T18:23:59.072Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shamatienkoyaroslav/omarchy-kanji",
+        "pluginIds": [
+          "io.github.shamatienkoyaroslav.kanji"
+        ],
+        "commit": "5c9a9f9c0a60a8e758cf9c4f00531f0d2f1006a2",
+        "checkedAt": "2026-09-15T18:23:59.008Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "shamatienkoyaroslav/omarchy-kanji",
+        "pluginIds": [
+          "io.github.shamatienkoyaroslav.kanji"
+        ],
+        "commit": "5c9a9f9c0a60a8e758cf9c4f00531f0d2f1006a2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T18:23:59.008Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T13:44:09.522Z",
+        "requestEventId": 31194208283,
+        "requestedAt": "2026-09-15T18:13:22Z",
+        "reviewedAt": "2026-09-15T18:23:59.008Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.shamatienkoyaroslav.kanji": {
+          "category": "Other",
+          "tags": [
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
