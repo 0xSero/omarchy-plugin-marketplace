@@ -174366,6 +174366,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/EdGracia/respice",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T21:37:29.337Z",
+      "listingValidatedCommit": "00dedd9433d0308999048d066ad6d22a5095f02e",
+      "listingValidatedAt": "2026-09-15T21:37:29.337Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "edgracia/respice",
+        "pluginIds": [
+          "io.github.edgracia.respice"
+        ],
+        "commit": "00dedd9433d0308999048d066ad6d22a5095f02e",
+        "checkedAt": "2026-09-15T21:37:29.255Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.edgracia.respice": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
