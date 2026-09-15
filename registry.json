@@ -174732,6 +174732,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/xpusostomos/omarchy-vpn",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T22:07:54.424Z",
+      "listingValidatedCommit": "194307bdbb75b6882c3e52480cb1c926204c9fd7",
+      "listingValidatedAt": "2026-09-15T22:07:54.424Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "xpusostomos/omarchy-vpn",
+        "pluginIds": [
+          "xpusostomos.vpn"
+        ],
+        "commit": "194307bdbb75b6882c3e52480cb1c926204c9fd7",
+        "checkedAt": "2026-09-15T22:07:54.347Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "xpusostomos/omarchy-vpn",
+        "pluginIds": [
+          "xpusostomos.vpn"
+        ],
+        "commit": "194307bdbb75b6882c3e52480cb1c926204c9fd7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T22:07:54.347Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T09:49:59.344Z",
+        "requestEventId": 31206665304,
+        "requestedAt": "2026-09-15T22:04:54Z",
+        "reviewedAt": "2026-09-15T22:07:54.347Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "xpusostomos.vpn": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
