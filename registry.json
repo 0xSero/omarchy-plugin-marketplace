@@ -172816,6 +172816,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/GrootAiInfinity/omarchy-vpn",
+      "type": "plugin-source",
+      "addedAt": "2026-09-15",
+      "listedAt": "2026-09-15T18:47:27.382Z",
+      "listingValidatedCommit": "20a12dee48297d5c312979e6cebb6951aa99d582",
+      "listingValidatedAt": "2026-09-15T18:47:27.382Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grootaiinfinity/omarchy-vpn",
+        "pluginIds": [
+          "io.github.grootaiinfinity.vpn"
+        ],
+        "commit": "20a12dee48297d5c312979e6cebb6951aa99d582",
+        "checkedAt": "2026-09-15T18:47:27.304Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "grootaiinfinity/omarchy-vpn",
+        "pluginIds": [
+          "io.github.grootaiinfinity.vpn"
+        ],
+        "commit": "20a12dee48297d5c312979e6cebb6951aa99d582",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-15T18:47:27.304Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T02:08:17.248Z",
+        "requestEventId": 31195367693,
+        "requestedAt": "2026-09-15T18:32:36Z",
+        "reviewedAt": "2026-09-15T18:47:27.304Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.grootaiinfinity.vpn": {
+          "category": "System",
+          "tags": [
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
