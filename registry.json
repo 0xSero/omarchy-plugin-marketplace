@@ -175530,6 +175530,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sudoAPWH/omarchy-napkin",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T00:19:16.069Z",
+      "listingValidatedCommit": "8bdb34a7457830d16a2cd1b818e3c29ccb68e9bf",
+      "listingValidatedAt": "2026-09-16T00:19:16.069Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sudoapwh/omarchy-napkin",
+        "pluginIds": [
+          "omarchy-napkin"
+        ],
+        "commit": "8bdb34a7457830d16a2cd1b818e3c29ccb68e9bf",
+        "checkedAt": "2026-09-16T00:19:15.987Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sudoapwh/omarchy-napkin",
+        "pluginIds": [
+          "omarchy-napkin"
+        ],
+        "commit": "8bdb34a7457830d16a2cd1b818e3c29ccb68e9bf",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T00:19:15.987Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T23:13:07.581Z",
+        "requestEventId": 31211740423,
+        "requestedAt": "2026-09-16T00:17:54Z",
+        "reviewedAt": "2026-09-16T00:19:15.987Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omarchy-napkin": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
