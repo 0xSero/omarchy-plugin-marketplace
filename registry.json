@@ -178139,6 +178139,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/aserper/omarchy-power-aware-idle",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:17:56.015Z",
+      "listingValidatedCommit": "cf705aba4a1028c6779ecbb72d1735ffa8d9ee4a",
+      "listingValidatedAt": "2026-09-16T09:17:56.015Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "aserper/omarchy-power-aware-idle",
+        "pluginIds": [
+          "io.github.aserper.power-aware-idle"
+        ],
+        "commit": "cf705aba4a1028c6779ecbb72d1735ffa8d9ee4a",
+        "checkedAt": "2026-09-16T09:17:55.928Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.aserper.power-aware-idle": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
