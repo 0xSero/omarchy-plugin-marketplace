@@ -179395,6 +179395,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dutchster/omachron",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T16:05:57.961Z",
+      "listingValidatedCommit": "308caa211dfa524c3b54383bdc9ba5fd5b0e2116",
+      "listingValidatedAt": "2026-09-16T16:05:57.961Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dutchster/omachron",
+        "pluginIds": [
+          "dutchster.omachron"
+        ],
+        "commit": "308caa211dfa524c3b54383bdc9ba5fd5b0e2116",
+        "checkedAt": "2026-09-16T16:05:57.868Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dutchster.omachron": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "launcher",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
