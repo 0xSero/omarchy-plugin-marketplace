@@ -176468,6 +176468,75 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/SantanaJcp/omarchyair",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T01:25:43.411Z",
+      "listingValidatedCommit": "108a895e7bf25e0967c284a8b1055d94ff107c19",
+      "listingValidatedAt": "2026-09-16T01:25:43.411Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "santanajcp/omarchyair",
+        "pluginIds": [
+          "community.omarchyair"
+        ],
+        "commit": "108a895e7bf25e0967c284a8b1055d94ff107c19",
+        "checkedAt": "2026-09-16T01:25:43.356Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "santanajcp/omarchyair",
+        "pluginIds": [
+          "community.omarchyair"
+        ],
+        "commit": "108a895e7bf25e0967c284a8b1055d94ff107c19",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T01:25:43.356Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T13:18:36.957Z",
+        "requestEventId": 31213951578,
+        "requestedAt": "2026-09-16T01:22:53Z",
+        "reviewedAt": "2026-09-16T01:25:43.356Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "community.omarchyair": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
