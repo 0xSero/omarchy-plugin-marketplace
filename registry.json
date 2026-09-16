@@ -182288,6 +182288,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/spin1951/omarchy-float-new-windows-toggle",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:02:25.467Z",
+      "listingValidatedCommit": "da0264114e2aa698c6e9a7b0eb7a289aed4b5504",
+      "listingValidatedAt": "2026-09-16T20:02:25.467Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "spin1951/omarchy-float-new-windows-toggle",
+        "pluginIds": [
+          "spin1951.float-new-windows"
+        ],
+        "commit": "da0264114e2aa698c6e9a7b0eb7a289aed4b5504",
+        "checkedAt": "2026-09-16T20:02:25.388Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "spin1951/omarchy-float-new-windows-toggle",
+        "pluginIds": [
+          "spin1951.float-new-windows"
+        ],
+        "commit": "da0264114e2aa698c6e9a7b0eb7a289aed4b5504",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T20:02:25.388Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T15:12:57.145Z",
+        "requestEventId": 31271581870,
+        "requestedAt": "2026-09-16T19:41:39Z",
+        "reviewedAt": "2026-09-16T20:02:25.388Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "spin1951.float-new-windows": {
+          "category": "Widgets",
+          "tags": [
+            "hyprland",
+            "bar",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
