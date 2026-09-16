@@ -177034,6 +177034,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/TerrifiedBug/omacast",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T07:04:07.831Z",
+      "listingValidatedCommit": "25956fac1bbf2a09ed20382c1a0ee75142fee833",
+      "listingValidatedAt": "2026-09-16T07:04:07.831Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "terrifiedbug/omacast",
+        "pluginIds": [
+          "io.github.terrifiedbug.omacast"
+        ],
+        "commit": "25956fac1bbf2a09ed20382c1a0ee75142fee833",
+        "checkedAt": "2026-09-16T07:04:07.757Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.terrifiedbug.omacast": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
