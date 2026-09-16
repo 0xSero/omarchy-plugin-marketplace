@@ -177608,6 +177608,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jkarmel/omarchy-plugin-search",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T08:28:05.284Z",
+      "listingValidatedCommit": "f80412efa48f62bfdf7f385da408c79559b71fdd",
+      "listingValidatedAt": "2026-09-16T08:28:05.284Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jkarmel/omarchy-plugin-search",
+        "pluginIds": [
+          "jkarmel.plugin-search"
+        ],
+        "commit": "f80412efa48f62bfdf7f385da408c79559b71fdd",
+        "checkedAt": "2026-09-16T08:28:05.208Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jkarmel/omarchy-plugin-search",
+        "pluginIds": [
+          "jkarmel.plugin-search"
+        ],
+        "commit": "f80412efa48f62bfdf7f385da408c79559b71fdd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T08:28:05.208Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T16:48:25.512Z",
+        "requestEventId": 31230644299,
+        "requestedAt": "2026-09-16T08:24:35Z",
+        "reviewedAt": "2026-09-16T08:28:05.208Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jkarmel.plugin-search": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
