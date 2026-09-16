@@ -178275,6 +178275,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jankeesvw/omarchy-clippy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:33:28.996Z",
+      "listingValidatedCommit": "83369dfecefeb3b6ea7feb119900f959a3a10414",
+      "listingValidatedAt": "2026-09-16T09:33:28.996Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jankeesvw/omarchy-clippy",
+        "pluginIds": [
+          "jankeesvw.clippy"
+        ],
+        "commit": "83369dfecefeb3b6ea7feb119900f959a3a10414",
+        "checkedAt": "2026-09-16T09:33:28.913Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jankeesvw/omarchy-clippy",
+        "pluginIds": [
+          "jankeesvw.clippy"
+        ],
+        "commit": "83369dfecefeb3b6ea7feb119900f959a3a10414",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T09:33:28.913Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T11:59:53.279Z",
+        "requestEventId": 31233654144,
+        "requestedAt": "2026-09-16T09:19:38Z",
+        "reviewedAt": "2026-09-16T09:33:28.913Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jankeesvw.clippy": {
+          "category": "Desktop",
+          "tags": [
+            "education",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
