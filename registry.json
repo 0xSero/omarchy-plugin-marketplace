@@ -177980,6 +177980,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tcballard/omarchy-plugin-tidyup",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:05:28.659Z",
+      "listingValidatedCommit": "69ec69d92b9b3a176d5118a0602df028aec7b0ac",
+      "listingValidatedAt": "2026-09-16T09:05:28.659Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tcballard/omarchy-plugin-tidyup",
+        "pluginIds": [
+          "io.github.tcballard.tidyup"
+        ],
+        "commit": "69ec69d92b9b3a176d5118a0602df028aec7b0ac",
+        "checkedAt": "2026-09-16T09:05:28.577Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tcballard/omarchy-plugin-tidyup",
+        "pluginIds": [
+          "io.github.tcballard.tidyup"
+        ],
+        "commit": "69ec69d92b9b3a176d5118a0602df028aec7b0ac",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T09:05:28.577Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T05:44:56.257Z",
+        "requestEventId": 31232213769,
+        "requestedAt": "2026-09-16T08:53:38Z",
+        "reviewedAt": "2026-09-16T09:05:28.578Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.tcballard.tidyup": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
