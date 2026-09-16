@@ -176251,6 +176251,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/vitorcanoas/omarchy-wallpaper-per-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T01:15:00.432Z",
+      "listingValidatedCommit": "130abcd873835dd3bc0567d8f1fd8f5303dbef94",
+      "listingValidatedAt": "2026-09-16T01:15:00.432Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vitorcanoas/omarchy-wallpaper-per-monitor",
+        "pluginIds": [
+          "vitorcanoas.background-per-monitor"
+        ],
+        "commit": "130abcd873835dd3bc0567d8f1fd8f5303dbef94",
+        "checkedAt": "2026-09-16T01:15:00.342Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vitorcanoas/omarchy-wallpaper-per-monitor",
+        "pluginIds": [
+          "vitorcanoas.background-per-monitor"
+        ],
+        "commit": "130abcd873835dd3bc0567d8f1fd8f5303dbef94",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T01:15:00.342Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T18:39:40.358Z",
+        "requestEventId": 31213585758,
+        "requestedAt": "2026-09-16T01:12:07Z",
+        "reviewedAt": "2026-09-16T01:15:00.342Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "vitorcanoas.background-per-monitor": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
