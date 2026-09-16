@@ -180460,6 +180460,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/NonMirror/omarchy-open-url",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T17:16:54.529Z",
+      "listingValidatedCommit": "329cd7f505c5927d1d3beae1bbc8016a3d2e508f",
+      "listingValidatedAt": "2026-09-16T17:16:54.529Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nonmirror/omarchy-open-url",
+        "pluginIds": [
+          "nonmirror.open-url"
+        ],
+        "commit": "329cd7f505c5927d1d3beae1bbc8016a3d2e508f",
+        "checkedAt": "2026-09-16T17:16:54.438Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nonmirror.open-url": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
