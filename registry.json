@@ -179615,6 +179615,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gabamnml/omarchy-sony-headphones",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T16:23:34.636Z",
+      "listingValidatedCommit": "5ed5bbbf9740fad16046a6ab49afe26036f0733b",
+      "listingValidatedAt": "2026-09-16T16:23:34.636Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gabamnml/omarchy-sony-headphones",
+        "pluginIds": [
+          "gabamnml.sony-headphones"
+        ],
+        "commit": "5ed5bbbf9740fad16046a6ab49afe26036f0733b",
+        "checkedAt": "2026-09-16T16:23:34.543Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gabamnml.sony-headphones": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
