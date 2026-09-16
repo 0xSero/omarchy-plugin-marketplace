@@ -178072,6 +178072,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dmajerus6/omaflappy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:11:43.763Z",
+      "listingValidatedCommit": "31c4d5d90d7faef29976532077906ed47741b9a0",
+      "listingValidatedAt": "2026-09-16T09:11:43.763Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dmajerus6/omaflappy",
+        "pluginIds": [
+          "dmaje.omaflappy"
+        ],
+        "commit": "31c4d5d90d7faef29976532077906ed47741b9a0",
+        "checkedAt": "2026-09-16T09:11:43.686Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dmaje.omaflappy": {
+          "category": "Other",
+          "tags": [
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
