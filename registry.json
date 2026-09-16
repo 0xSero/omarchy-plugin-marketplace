@@ -27983,8 +27983,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-20",
       "listedAt": "2026-08-20T01:23:38.160Z",
-      "listingValidatedCommit": "f0d596ae3cb1cf556b3372c3583bfb73ffa11e44",
-      "listingValidatedAt": "2026-08-20T01:23:38.160Z",
+      "listingValidatedCommit": "93f1388c770246e0f419c372de33476f0f0f0e1a",
+      "listingValidatedAt": "2026-09-16T18:10:01.632Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -27993,8 +27993,8 @@
         "pluginIds": [
           "melonamin.flare"
         ],
-        "commit": "f0d596ae3cb1cf556b3372c3583bfb73ffa11e44",
-        "checkedAt": "2026-08-20T01:03:52.793Z",
+        "commit": "93f1388c770246e0f419c372de33476f0f0f0e1a",
+        "checkedAt": "2026-09-16T18:10:01.632Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -28010,7 +28010,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f0d596ae3cb1cf556b3372c3583bfb73ffa11e44",
+          "validatedAt": "2026-08-20T01:23:38.160Z",
+          "branch": "main",
+          "supersededAt": "2026-09-16T18:10:01.632Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "melonamin/omarchy-flare",
+            "pluginIds": [
+              "melonamin.flare"
+            ],
+            "commit": "f0d596ae3cb1cf556b3372c3583bfb73ffa11e44",
+            "checkedAt": "2026-08-20T01:03:52.793Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/DailenG/omartfy",
