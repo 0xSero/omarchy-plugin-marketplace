@@ -180560,6 +180560,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/key-arg/omarchy-statable",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T17:27:11.636Z",
+      "listingValidatedCommit": "2519dd4f8df0c18b20e4f1c5e3f136957bf1bbb8",
+      "listingValidatedAt": "2026-09-16T17:27:11.636Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "key-arg/omarchy-statable",
+        "pluginIds": [
+          "com.statable.now"
+        ],
+        "commit": "2519dd4f8df0c18b20e4f1c5e3f136957bf1bbb8",
+        "checkedAt": "2026-09-16T17:27:11.568Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "com.statable.now": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
