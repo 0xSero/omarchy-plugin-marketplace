@@ -176604,6 +176604,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ninepointlabs/omarchy-upcoming",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T01:47:03.412Z",
+      "listingValidatedCommit": "45f0d46578bc7b12f52f4ef2e4bf34270280aecb",
+      "listingValidatedAt": "2026-09-16T01:47:03.412Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ninepointlabs/omarchy-upcoming",
+        "pluginIds": [
+          "ninepointlabs.upcoming"
+        ],
+        "commit": "45f0d46578bc7b12f52f4ef2e4bf34270280aecb",
+        "checkedAt": "2026-09-16T01:47:03.334Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ninepointlabs/omarchy-upcoming",
+        "pluginIds": [
+          "ninepointlabs.upcoming"
+        ],
+        "commit": "45f0d46578bc7b12f52f4ef2e4bf34270280aecb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T01:47:03.334Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T01:59:06.433Z",
+        "requestEventId": 31214714470,
+        "requestedAt": "2026-09-16T01:45:45Z",
+        "reviewedAt": "2026-09-16T01:47:03.334Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ninepointlabs.upcoming": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
