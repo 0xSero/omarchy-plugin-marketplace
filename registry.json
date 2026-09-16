@@ -182632,6 +182632,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/arikisonfire/omarchy-bar-folder",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:33:11.774Z",
+      "listingValidatedCommit": "40597d02f344c1238d7989c48722da0ccedd5f7d",
+      "listingValidatedAt": "2026-09-16T20:33:11.774Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "arikisonfire/omarchy-bar-folder",
+        "pluginIds": [
+          "io.github.arikisonfire.bar-folder"
+        ],
+        "commit": "40597d02f344c1238d7989c48722da0ccedd5f7d",
+        "checkedAt": "2026-09-16T20:33:11.689Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.arikisonfire.bar-folder": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
