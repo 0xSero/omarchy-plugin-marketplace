@@ -177000,6 +177000,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Evol-Luci/ascii_screensaver_plugin_omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T06:50:01.426Z",
+      "listingValidatedCommit": "3fb252c1c9f474fa7376d7c7762564934a7ae4c8",
+      "listingValidatedAt": "2026-09-16T06:50:01.426Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "evol-luci/ascii_screensaver_plugin_omarchy",
+        "pluginIds": [
+          "io.github.evol-luci.ascii-screensaver"
+        ],
+        "commit": "3fb252c1c9f474fa7376d7c7762564934a7ae4c8",
+        "checkedAt": "2026-09-16T06:50:01.352Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.evol-luci.ascii-screensaver": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
