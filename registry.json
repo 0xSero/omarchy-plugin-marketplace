@@ -181628,6 +181628,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/LosokosG/omarchy-window-gallery",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:17:43.240Z",
+      "listingValidatedCommit": "c297b085c827797ee20970c96ac4d3950d69a981",
+      "listingValidatedAt": "2026-09-16T19:17:43.240Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "losokosg/omarchy-window-gallery",
+        "pluginIds": [
+          "losokos.window-gallery"
+        ],
+        "commit": "c297b085c827797ee20970c96ac4d3950d69a981",
+        "checkedAt": "2026-09-16T19:17:43.147Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "losokosg/omarchy-window-gallery",
+        "pluginIds": [
+          "losokos.window-gallery"
+        ],
+        "commit": "c297b085c827797ee20970c96ac4d3950d69a981",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T19:17:43.147Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T17:37:31.125Z",
+        "requestEventId": 31269329294,
+        "requestedAt": "2026-09-16T19:00:36Z",
+        "reviewedAt": "2026-09-16T19:17:43.147Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "losokos.window-gallery": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
