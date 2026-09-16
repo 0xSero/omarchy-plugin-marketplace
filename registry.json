@@ -181167,6 +181167,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kt3v/omarchy-herdr-hud-native",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T18:43:32.627Z",
+      "listingValidatedCommit": "9b78517140875ebb1f658cff403439498ab22b30",
+      "listingValidatedAt": "2026-09-16T18:43:32.627Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kt3v/omarchy-herdr-hud-native",
+        "pluginIds": [
+          "indie.herdr-hud"
+        ],
+        "commit": "9b78517140875ebb1f658cff403439498ab22b30",
+        "checkedAt": "2026-09-16T18:43:32.546Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kt3v/omarchy-herdr-hud-native",
+        "pluginIds": [
+          "indie.herdr-hud"
+        ],
+        "commit": "9b78517140875ebb1f658cff403439498ab22b30",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T18:43:32.546Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T08:20:30.335Z",
+        "requestEventId": 31267985025,
+        "requestedAt": "2026-09-16T18:38:18Z",
+        "reviewedAt": "2026-09-16T18:43:32.546Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "indie.herdr-hud": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
