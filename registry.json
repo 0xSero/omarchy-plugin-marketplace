@@ -182255,6 +182255,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/paudelsamir/switcher",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:59:12.286Z",
+      "listingValidatedCommit": "d8e257baf03dc6878b91bb646b82ba5ba3ee01bc",
+      "listingValidatedAt": "2026-09-16T19:59:12.286Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paudelsamir/switcher",
+        "pluginIds": [
+          "paudelsamir.switcher"
+        ],
+        "commit": "d8e257baf03dc6878b91bb646b82ba5ba3ee01bc",
+        "checkedAt": "2026-09-16T19:59:12.197Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "paudelsamir.switcher": {
+          "category": "Productivity",
+          "tags": [
+            "workspaces",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
