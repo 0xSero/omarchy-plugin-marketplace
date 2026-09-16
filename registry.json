@@ -178779,6 +178779,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alansnchz0/omarchy-wireguard-manager",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T10:07:36.157Z",
+      "listingValidatedCommit": "e61e5dd3693bfcec9ea2d65aeab2893d1901cd78",
+      "listingValidatedAt": "2026-09-16T10:07:36.157Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alansnchz0/omarchy-wireguard-manager",
+        "pluginIds": [
+          "io.github.alansnchz0.wireguard-manager"
+        ],
+        "commit": "e61e5dd3693bfcec9ea2d65aeab2893d1901cd78",
+        "checkedAt": "2026-09-16T10:07:36.069Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alansnchz0/omarchy-wireguard-manager",
+        "pluginIds": [
+          "io.github.alansnchz0.wireguard-manager"
+        ],
+        "commit": "e61e5dd3693bfcec9ea2d65aeab2893d1901cd78",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T10:07:36.069Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T18:27:11.753Z",
+        "requestEventId": 31235594993,
+        "requestedAt": "2026-09-16T09:53:08Z",
+        "reviewedAt": "2026-09-16T10:07:36.069Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.alansnchz0.wireguard-manager": {
+          "category": "System",
+          "tags": [
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
