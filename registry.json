@@ -179708,6 +179708,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/outcrop-labs/skal-bar",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T16:29:50.861Z",
+      "listingValidatedCommit": "21b19079565714a7bbeb6a6fbed844395cb0d36d",
+      "listingValidatedAt": "2026-09-16T16:29:50.861Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "outcrop-labs/skal-bar",
+        "pluginIds": [
+          "skal.bar"
+        ],
+        "commit": "21b19079565714a7bbeb6a6fbed844395cb0d36d",
+        "checkedAt": "2026-09-16T16:29:50.775Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "outcrop-labs/skal-bar",
+        "pluginIds": [
+          "skal.bar"
+        ],
+        "commit": "21b19079565714a7bbeb6a6fbed844395cb0d36d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T16:29:50.775Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T14:47:06.472Z",
+        "requestEventId": 31259332915,
+        "requestedAt": "2026-09-16T16:14:04Z",
+        "reviewedAt": "2026-09-16T16:29:50.775Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "skal.bar": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
