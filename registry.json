@@ -181283,6 +181283,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/TheBoxer71/OmniTiler",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T18:50:07.115Z",
+      "listingValidatedCommit": "377553b1b9f3c9e087ad6c233b9c30f9a46c47b5",
+      "listingValidatedAt": "2026-09-16T18:50:07.115Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "theboxer71/omnitiler",
+        "pluginIds": [
+          "theboxer71.omnitiler"
+        ],
+        "commit": "377553b1b9f3c9e087ad6c233b9c30f9a46c47b5",
+        "checkedAt": "2026-09-16T18:50:07.034Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "theboxer71/omnitiler",
+        "pluginIds": [
+          "theboxer71.omnitiler"
+        ],
+        "commit": "377553b1b9f3c9e087ad6c233b9c30f9a46c47b5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T18:50:07.034Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T10:04:13.702Z",
+        "requestEventId": 31268046191,
+        "requestedAt": "2026-09-16T18:39:17Z",
+        "reviewedAt": "2026-09-16T18:50:07.034Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "theboxer71.omnitiler": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
