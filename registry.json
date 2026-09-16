@@ -175900,6 +175900,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/GazzasaurusRex/oneplus-buds-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T00:51:23.207Z",
+      "listingValidatedCommit": "6e6622df284327e441b1d66087ed2a0058136ea7",
+      "listingValidatedAt": "2026-09-16T00:51:23.207Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gazzasaurusrex/oneplus-buds-omarchy",
+        "pluginIds": [
+          "oneplus-buds.control"
+        ],
+        "commit": "6e6622df284327e441b1d66087ed2a0058136ea7",
+        "checkedAt": "2026-09-16T00:51:23.144Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gazzasaurusrex/oneplus-buds-omarchy",
+        "pluginIds": [
+          "oneplus-buds.control"
+        ],
+        "commit": "6e6622df284327e441b1d66087ed2a0058136ea7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T00:51:23.144Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-10T20:47:40.725Z",
+        "requestEventId": 31212820103,
+        "requestedAt": "2026-09-16T00:50:05Z",
+        "reviewedAt": "2026-09-16T00:51:23.144Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "oneplus-buds.control": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
