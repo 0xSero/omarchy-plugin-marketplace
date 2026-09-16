@@ -178332,6 +178332,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nwohater/MixTape-Omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:36:32.395Z",
+      "listingValidatedCommit": "f8eab8689b6535e330e05793ffed925cd5d54ed2",
+      "listingValidatedAt": "2026-09-16T09:36:32.395Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nwohater/mixtape-omarchy",
+        "pluginIds": [
+          "io.github.nwohater.mixtape"
+        ],
+        "commit": "f8eab8689b6535e330e05793ffed925cd5d54ed2",
+        "checkedAt": "2026-09-16T09:36:32.316Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nwohater/mixtape-omarchy",
+        "pluginIds": [
+          "io.github.nwohater.mixtape"
+        ],
+        "commit": "f8eab8689b6535e330e05793ffed925cd5d54ed2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T09:36:32.316Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T00:29:17.050Z",
+        "requestEventId": 31234141015,
+        "requestedAt": "2026-09-16T09:28:15Z",
+        "reviewedAt": "2026-09-16T09:36:32.316Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.nwohater.mixtape": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
