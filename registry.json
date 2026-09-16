@@ -182988,6 +182988,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sudoAPWH/omarchy-readout",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:58:17.625Z",
+      "listingValidatedCommit": "366bb7c95326a7f21d6e221f277a8769a5877b57",
+      "listingValidatedAt": "2026-09-16T20:58:17.625Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sudoapwh/omarchy-readout",
+        "pluginIds": [
+          "io.github.sudoapwh.readout"
+        ],
+        "commit": "366bb7c95326a7f21d6e221f277a8769a5877b57",
+        "checkedAt": "2026-09-16T20:58:17.542Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sudoapwh/omarchy-readout",
+        "pluginIds": [
+          "io.github.sudoapwh.readout"
+        ],
+        "commit": "366bb7c95326a7f21d6e221f277a8769a5877b57",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T20:58:17.542Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T03:18:25.690Z",
+        "requestEventId": 31275083326,
+        "requestedAt": "2026-09-16T20:46:59Z",
+        "reviewedAt": "2026-09-16T20:58:17.542Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.sudoapwh.readout": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
