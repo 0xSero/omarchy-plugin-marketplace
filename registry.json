@@ -177517,6 +177517,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Yani3rt/rtsp-camera-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T08:21:44.641Z",
+      "listingValidatedCommit": "ca7a2e89f95dfd1b53a6bb95167918b4ec513e42",
+      "listingValidatedAt": "2026-09-16T08:21:44.641Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yani3rt/rtsp-camera-plugin",
+        "pluginIds": [
+          "yani.camera"
+        ],
+        "commit": "ca7a2e89f95dfd1b53a6bb95167918b4ec513e42",
+        "checkedAt": "2026-09-16T08:21:44.558Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "yani.camera": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
