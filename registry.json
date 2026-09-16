@@ -181743,6 +181743,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/antongisli/omarchy-nebius",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:24:29.844Z",
+      "listingValidatedCommit": "1655058e5d29d190e08b7e695a9947a97703206b",
+      "listingValidatedAt": "2026-09-16T19:24:29.844Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "antongisli/omarchy-nebius",
+        "pluginIds": [
+          "nebius"
+        ],
+        "commit": "1655058e5d29d190e08b7e695a9947a97703206b",
+        "checkedAt": "2026-09-16T19:24:29.753Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "antongisli/omarchy-nebius",
+        "pluginIds": [
+          "nebius"
+        ],
+        "commit": "1655058e5d29d190e08b7e695a9947a97703206b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T19:24:29.753Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T15:34:16.323Z",
+        "requestEventId": 31269490469,
+        "requestedAt": "2026-09-16T19:03:23Z",
+        "reviewedAt": "2026-09-16T19:24:29.753Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nebius": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
