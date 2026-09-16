@@ -177769,6 +177769,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Ahmed-Sinkeat/omarchy-clipstack",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T08:43:02.227Z",
+      "listingValidatedCommit": "8cafe9f3321c0ca60182e7285c768e4ea98b11f8",
+      "listingValidatedAt": "2026-09-16T08:43:02.227Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ahmed-sinkeat/omarchy-clipstack",
+        "pluginIds": [
+          "sinkeat.clipstack"
+        ],
+        "commit": "8cafe9f3321c0ca60182e7285c768e4ea98b11f8",
+        "checkedAt": "2026-09-16T08:43:02.146Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "sinkeat.clipstack": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
