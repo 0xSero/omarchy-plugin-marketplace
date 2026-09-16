@@ -176075,6 +176075,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/brenoperucchi/omasession",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T01:01:04.832Z",
+      "listingValidatedCommit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
+      "listingValidatedAt": "2026-09-16T01:01:04.832Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "brenoperucchi/omasession",
+        "pluginIds": [
+          "brenoperucchi.omasession"
+        ],
+        "commit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
+        "checkedAt": "2026-09-16T01:01:04.747Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brenoperucchi/omasession",
+        "pluginIds": [
+          "brenoperucchi.omasession"
+        ],
+        "commit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T01:01:04.747Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T00:12:36.636Z",
+        "requestEventId": 31213089306,
+        "requestedAt": "2026-09-16T00:57:35Z",
+        "reviewedAt": "2026-09-16T01:01:04.747Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "brenoperucchi.omasession": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
