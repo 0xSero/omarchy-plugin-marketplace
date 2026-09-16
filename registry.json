@@ -178893,6 +178893,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AngeeelD/omaltbar",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T10:14:01.390Z",
+      "listingValidatedCommit": "a8a99a97ebb9862314a5d162cfe1b50a6b1bce64",
+      "listingValidatedAt": "2026-09-16T10:14:01.390Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "angeeeld/omaltbar",
+        "pluginIds": [
+          "angeeeld.omaltbar"
+        ],
+        "commit": "a8a99a97ebb9862314a5d162cfe1b50a6b1bce64",
+        "checkedAt": "2026-09-16T10:14:01.336Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "angeeeld/omaltbar",
+        "pluginIds": [
+          "angeeeld.omaltbar"
+        ],
+        "commit": "a8a99a97ebb9862314a5d162cfe1b50a6b1bce64",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T10:14:01.336Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T20:08:41.786Z",
+        "requestEventId": 31236005770,
+        "requestedAt": "2026-09-16T09:59:41Z",
+        "reviewedAt": "2026-09-16T10:14:01.336Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "angeeeld.omaltbar": {
+          "category": "Appearance",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
