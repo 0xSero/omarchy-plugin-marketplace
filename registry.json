@@ -182538,6 +182538,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/stevemcqueenz/omarchy-temps-and-fans",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:22:30.411Z",
+      "listingValidatedCommit": "d07a05b5e60140f38978dc5bbde2d731693a702c",
+      "listingValidatedAt": "2026-09-16T20:22:30.411Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "stevemcqueenz/omarchy-temps-and-fans",
+        "pluginIds": [
+          "thermals.fans"
+        ],
+        "commit": "d07a05b5e60140f38978dc5bbde2d731693a702c",
+        "checkedAt": "2026-09-16T20:22:30.355Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "stevemcqueenz/omarchy-temps-and-fans",
+        "pluginIds": [
+          "thermals.fans"
+        ],
+        "commit": "d07a05b5e60140f38978dc5bbde2d731693a702c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T20:22:30.355Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T18:44:44.944Z",
+        "requestEventId": 31272819465,
+        "requestedAt": "2026-09-16T20:05:06Z",
+        "reviewedAt": "2026-09-16T20:22:30.355Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "thermals.fans": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
