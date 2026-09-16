@@ -182870,6 +182870,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/GrantAbell/Omarchy-Three-State-Bar",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:51:14.956Z",
+      "listingValidatedCommit": "c1c49ba5f9a31e8e9ce32c6c01dd482fbdb8d099",
+      "listingValidatedAt": "2026-09-16T20:51:14.956Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grantabell/omarchy-three-state-bar",
+        "pluginIds": [
+          "grantabell.three-state-bar"
+        ],
+        "commit": "c1c49ba5f9a31e8e9ce32c6c01dd482fbdb8d099",
+        "checkedAt": "2026-09-16T20:51:14.861Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "grantabell/omarchy-three-state-bar",
+        "pluginIds": [
+          "grantabell.three-state-bar"
+        ],
+        "commit": "c1c49ba5f9a31e8e9ce32c6c01dd482fbdb8d099",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T20:51:14.861Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T23:50:44.663Z",
+        "requestEventId": 31274219148,
+        "requestedAt": "2026-09-16T20:30:44Z",
+        "reviewedAt": "2026-09-16T20:51:14.861Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "grantabell.three-state-bar": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
