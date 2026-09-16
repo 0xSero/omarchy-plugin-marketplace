@@ -175585,6 +175585,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/thefreshoffice/omarchy-speaker-calibrator",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T00:24:54.802Z",
+      "listingValidatedCommit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
+      "listingValidatedAt": "2026-09-16T00:24:54.802Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "thefreshoffice/omarchy-speaker-calibrator",
+        "pluginIds": [
+          "thefreshoffice.speaker-calibrator"
+        ],
+        "commit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
+        "checkedAt": "2026-09-16T00:24:54.748Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thefreshoffice/omarchy-speaker-calibrator",
+        "pluginIds": [
+          "thefreshoffice.speaker-calibrator"
+        ],
+        "commit": "08be2c30c74ed9dfa845aab2d3d64185056502f3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T00:24:54.748Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T22:17:28.096Z",
+        "requestEventId": 31211940319,
+        "requestedAt": "2026-09-16T00:23:54Z",
+        "reviewedAt": "2026-09-16T00:24:54.748Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "thefreshoffice.speaker-calibrator": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
