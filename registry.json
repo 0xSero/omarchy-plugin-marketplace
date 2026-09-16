@@ -182813,6 +182813,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/MASH2RAFI/omarchy-kronos",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:47:28.071Z",
+      "listingValidatedCommit": "21643569798791a7537072b3845ce3af1ae9b55b",
+      "listingValidatedAt": "2026-09-16T20:47:28.071Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mash2rafi/omarchy-kronos",
+        "pluginIds": [
+          "mash2rafi.kronos"
+        ],
+        "commit": "21643569798791a7537072b3845ce3af1ae9b55b",
+        "checkedAt": "2026-09-16T20:47:27.992Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mash2rafi/omarchy-kronos",
+        "pluginIds": [
+          "mash2rafi.kronos"
+        ],
+        "commit": "21643569798791a7537072b3845ce3af1ae9b55b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T20:47:27.992Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T02:01:00.536Z",
+        "requestEventId": 31274159583,
+        "requestedAt": "2026-09-16T20:29:38Z",
+        "reviewedAt": "2026-09-16T20:47:27.992Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mash2rafi.kronos": {
+          "category": "Widgets",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
