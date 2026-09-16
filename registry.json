@@ -182347,6 +182347,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/karamble/omarchy-omagihu",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:05:10.238Z",
+      "listingValidatedCommit": "c3fc121d3d61c5b36e62d7587e1159a9d1a389a5",
+      "listingValidatedAt": "2026-09-16T20:05:10.238Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "karamble/omarchy-omagihu",
+        "pluginIds": [
+          "karamble.omagihu"
+        ],
+        "commit": "c3fc121d3d61c5b36e62d7587e1159a9d1a389a5",
+        "checkedAt": "2026-09-16T20:05:10.157Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "karamble.omagihu": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
