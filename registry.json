@@ -178578,6 +178578,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ElChacoVeloz/my-servers-uptime-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:55:12.687Z",
+      "listingValidatedCommit": "a178cb0c05e82d74e1b8aa9e485077d1dafb3580",
+      "listingValidatedAt": "2026-09-16T09:55:12.687Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "elchacoveloz/my-servers-uptime-monitor",
+        "pluginIds": [
+          "iserrano.uptime-monitor"
+        ],
+        "commit": "a178cb0c05e82d74e1b8aa9e485077d1dafb3580",
+        "checkedAt": "2026-09-16T09:55:12.601Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "elchacoveloz/my-servers-uptime-monitor",
+        "pluginIds": [
+          "iserrano.uptime-monitor"
+        ],
+        "commit": "a178cb0c05e82d74e1b8aa9e485077d1dafb3580",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T09:55:12.601Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T17:08:39.098Z",
+        "requestEventId": 31235188114,
+        "requestedAt": "2026-09-16T09:46:38Z",
+        "reviewedAt": "2026-09-16T09:55:12.601Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "iserrano.uptime-monitor": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
