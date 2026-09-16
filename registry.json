@@ -181502,6 +181502,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Owaisshaikh11/omarchy-session-menu",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:05:32.859Z",
+      "listingValidatedCommit": "4d1c6fed0dcf143e7c03b0ecb88a495c5249cb68",
+      "listingValidatedAt": "2026-09-16T19:05:32.859Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "owaisshaikh11/omarchy-session-menu",
+        "pluginIds": [
+          "owaiss.session-menu"
+        ],
+        "commit": "4d1c6fed0dcf143e7c03b0ecb88a495c5249cb68",
+        "checkedAt": "2026-09-16T19:05:32.791Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "owaisshaikh11/omarchy-session-menu",
+        "pluginIds": [
+          "owaiss.session-menu"
+        ],
+        "commit": "4d1c6fed0dcf143e7c03b0ecb88a495c5249cb68",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T19:05:32.791Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T13:28:26.335Z",
+        "requestEventId": 31268185155,
+        "requestedAt": "2026-09-16T18:41:36Z",
+        "reviewedAt": "2026-09-16T19:05:32.791Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "owaiss.session-menu": {
+          "category": "System",
+          "tags": [
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
