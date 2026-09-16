@@ -180753,6 +180753,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jhonoryza/omarchy-sysmem",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T17:44:51.643Z",
+      "listingValidatedCommit": "a49a6c0408218662a3280aa6d20cf667be0f1dda",
+      "listingValidatedAt": "2026-09-16T17:44:51.643Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jhonoryza/omarchy-sysmem",
+        "pluginIds": [
+          "vm.sysmem"
+        ],
+        "commit": "a49a6c0408218662a3280aa6d20cf667be0f1dda",
+        "checkedAt": "2026-09-16T17:44:51.549Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "vm.sysmem": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
