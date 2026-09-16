@@ -180366,6 +180366,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/daniellopez12/just-right-weather",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T17:10:27.809Z",
+      "listingValidatedCommit": "35e6b6e37f4fdcd52fb739548ee4e1e4debd7aed",
+      "listingValidatedAt": "2026-09-16T17:10:27.809Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "daniellopez12/just-right-weather",
+        "pluginIds": [
+          "io.github.daniellopez12.just-right-weather"
+        ],
+        "commit": "35e6b6e37f4fdcd52fb739548ee4e1e4debd7aed",
+        "checkedAt": "2026-09-16T17:10:27.731Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.daniellopez12.just-right-weather": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
