@@ -180820,6 +180820,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alebak/omarchy-touchpad-auto",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T17:52:15.053Z",
+      "listingValidatedCommit": "b7bcc452a40eaf3b1d84e253dd541e945ea55c73",
+      "listingValidatedAt": "2026-09-16T17:52:15.053Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alebak/omarchy-touchpad-auto",
+        "pluginIds": [
+          "io.github.alebak.touchpad-auto"
+        ],
+        "commit": "b7bcc452a40eaf3b1d84e253dd541e945ea55c73",
+        "checkedAt": "2026-09-16T17:52:14.965Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.alebak.touchpad-auto": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
