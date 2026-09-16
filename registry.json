@@ -180091,6 +180091,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/pkeenan87/omarchy-ubiquiti-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T16:53:17.430Z",
+      "listingValidatedCommit": "3dd66072b7c2e3f4a2c603a02387b4d87183f95d",
+      "listingValidatedAt": "2026-09-16T16:53:17.430Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pkeenan87/omarchy-ubiquiti-plugin",
+        "pluginIds": [
+          "io.github.pkeenan87.unifi-network"
+        ],
+        "commit": "3dd66072b7c2e3f4a2c603a02387b4d87183f95d",
+        "checkedAt": "2026-09-16T16:53:17.343Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pkeenan87/omarchy-ubiquiti-plugin",
+        "pluginIds": [
+          "io.github.pkeenan87.unifi-network"
+        ],
+        "commit": "3dd66072b7c2e3f4a2c603a02387b4d87183f95d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T16:53:17.343Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T12:08:38.702Z",
+        "requestEventId": 31260101691,
+        "requestedAt": "2026-09-16T16:27:05Z",
+        "reviewedAt": "2026-09-16T16:53:17.343Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.pkeenan87.unifi-network": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
