@@ -181340,6 +181340,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/arsinghin/drives",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T18:53:21.940Z",
+      "listingValidatedCommit": "66ac09e1c37c9c02c60f76cafe8e6794232e3779",
+      "listingValidatedAt": "2026-09-16T18:53:21.940Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "arsinghin/drives",
+        "pluginIds": [
+          "drives"
+        ],
+        "commit": "66ac09e1c37c9c02c60f76cafe8e6794232e3779",
+        "checkedAt": "2026-09-16T18:53:21.858Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "drives": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
