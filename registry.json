@@ -155291,8 +155291,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T23:53:04.146Z",
-      "listingValidatedCommit": "438ba923c8b0c11f84e16204a3e01d7c72f16142",
-      "listingValidatedAt": "2026-09-08T23:53:04.146Z",
+      "listingValidatedCommit": "5938e5b0e51fdc079ab0a1f5d75fe06f44dad8ca",
+      "listingValidatedAt": "2026-09-16T08:46:32.820Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -155301,8 +155301,8 @@
         "pluginIds": [
           "io.github.mapleroyal.theme-come-true"
         ],
-        "commit": "438ba923c8b0c11f84e16204a3e01d7c72f16142",
-        "checkedAt": "2026-09-08T23:53:04.068Z",
+        "commit": "5938e5b0e51fdc079ab0a1f5d75fe06f44dad8ca",
+        "checkedAt": "2026-09-16T08:46:32.819Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -155316,7 +155316,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "438ba923c8b0c11f84e16204a3e01d7c72f16142",
+          "validatedAt": "2026-09-08T23:53:04.146Z",
+          "branch": "main",
+          "supersededAt": "2026-09-16T08:46:32.820Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mapleroyal/theme-come-true",
+            "pluginIds": [
+              "io.github.mapleroyal.theme-come-true"
+            ],
+            "commit": "438ba923c8b0c11f84e16204a3e01d7c72f16142",
+            "checkedAt": "2026-09-08T23:53:04.068Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/CostaFot/omarchy-android-dev",
