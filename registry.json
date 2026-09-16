@@ -140768,8 +140768,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-06",
       "listedAt": "2026-09-06T20:37:00.072Z",
-      "listingValidatedCommit": "9bfaaa36759f2478469480712f67102d95f06dc6",
-      "listingValidatedAt": "2026-09-06T20:37:00.072Z",
+      "listingValidatedCommit": "3856be2f93b4374763d35778c97d9bbd4d08ff59",
+      "listingValidatedAt": "2026-09-16T18:21:57.176Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -140778,8 +140778,8 @@
         "pluginIds": [
           "io.github.ollieedgeley.ai-frontier-status"
         ],
-        "commit": "9bfaaa36759f2478469480712f67102d95f06dc6",
-        "checkedAt": "2026-09-06T20:37:00.003Z",
+        "commit": "3856be2f93b4374763d35778c97d9bbd4d08ff59",
+        "checkedAt": "2026-09-16T18:21:57.175Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -140795,7 +140795,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9bfaaa36759f2478469480712f67102d95f06dc6",
+          "validatedAt": "2026-09-06T20:37:00.072Z",
+          "branch": "main",
+          "supersededAt": "2026-09-16T18:21:57.176Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ollieedgeley/ai-frontier-status",
+            "pluginIds": [
+              "io.github.ollieedgeley.ai-frontier-status"
+            ],
+            "commit": "9bfaaa36759f2478469480712f67102d95f06dc6",
+            "checkedAt": "2026-09-06T20:37:00.003Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/bprendie/faraday",
