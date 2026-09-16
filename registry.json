@@ -175469,6 +175469,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/luneth90/omamigrate",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T00:13:32.550Z",
+      "listingValidatedCommit": "f66c0f05c61d5e4e4dad9527ebc5bac06dfb7125",
+      "listingValidatedAt": "2026-09-16T00:13:32.550Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "luneth90/omamigrate",
+        "pluginIds": [
+          "luneth90.omamigrate"
+        ],
+        "commit": "f66c0f05c61d5e4e4dad9527ebc5bac06dfb7125",
+        "checkedAt": "2026-09-16T00:13:32.466Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "luneth90/omamigrate",
+        "pluginIds": [
+          "luneth90.omamigrate"
+        ],
+        "commit": "f66c0f05c61d5e4e4dad9527ebc5bac06dfb7125",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T00:13:32.466Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-15T23:02:04.039Z",
+        "requestEventId": 31211496197,
+        "requestedAt": "2026-09-16T00:10:57Z",
+        "reviewedAt": "2026-09-16T00:13:32.466Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "luneth90.omamigrate": {
+          "category": "System",
+          "tags": [
+            "system",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
