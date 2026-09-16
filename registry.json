@@ -177866,6 +177866,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RibatTRW/todochy",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T08:55:42.867Z",
+      "listingValidatedCommit": "8bfbdb89745f7712acfe0323b61b5ada01108fac",
+      "listingValidatedAt": "2026-09-16T08:55:42.867Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ribattrw/todochy",
+        "pluginIds": [
+          "ribattrw.todochy"
+        ],
+        "commit": "8bfbdb89745f7712acfe0323b61b5ada01108fac",
+        "checkedAt": "2026-09-16T08:55:42.781Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ribattrw.todochy": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
