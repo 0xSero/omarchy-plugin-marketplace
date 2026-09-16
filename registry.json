@@ -182072,6 +182072,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/outcrop-labs/skal-swap",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:44:58.590Z",
+      "listingValidatedCommit": "7f29b356015a2385b0656aa1b0ac9b1e89f35265",
+      "listingValidatedAt": "2026-09-16T19:44:58.590Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "outcrop-labs/skal-swap",
+        "pluginIds": [
+          "skal.swap"
+        ],
+        "commit": "7f29b356015a2385b0656aa1b0ac9b1e89f35265",
+        "checkedAt": "2026-09-16T19:44:58.510Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "skal.swap": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
