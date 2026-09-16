@@ -177426,6 +177426,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ReidenXerx/omarchy-barber",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T08:09:41.277Z",
+      "listingValidatedCommit": "7752a13208c6562946622dcf8edb4fbc1882a101",
+      "listingValidatedAt": "2026-09-16T08:09:41.277Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "reidenxerx/omarchy-barber",
+        "pluginIds": [
+          "reidenxerx.barber"
+        ],
+        "commit": "7752a13208c6562946622dcf8edb4fbc1882a101",
+        "checkedAt": "2026-09-16T08:09:41.199Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "reidenxerx/omarchy-barber",
+        "pluginIds": [
+          "reidenxerx.barber"
+        ],
+        "commit": "7752a13208c6562946622dcf8edb4fbc1882a101",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T08:09:41.199Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T21:00:20.664Z",
+        "requestEventId": 31229600370,
+        "requestedAt": "2026-09-16T08:05:43Z",
+        "reviewedAt": "2026-09-16T08:09:41.199Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "reidenxerx.barber": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
