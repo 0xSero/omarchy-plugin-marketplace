@@ -178397,6 +178397,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/crumble21/omarchy-notch-bar",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:40:08.522Z",
+      "listingValidatedCommit": "460dd8e28d2750adffac118d019069591b14b5e7",
+      "listingValidatedAt": "2026-09-16T09:40:08.522Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "crumble21/omarchy-notch-bar",
+        "pluginIds": [
+          "io.github.crumble21.notch-bar"
+        ],
+        "commit": "460dd8e28d2750adffac118d019069591b14b5e7",
+        "checkedAt": "2026-09-16T09:40:08.437Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.crumble21.notch-bar": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
