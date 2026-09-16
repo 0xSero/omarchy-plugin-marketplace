@@ -181685,6 +181685,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/keegan-sucks/omarchy-flowstate",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:21:09.771Z",
+      "listingValidatedCommit": "329a2278f4477d882f7dff0df316d4f5f58595e9",
+      "listingValidatedAt": "2026-09-16T19:21:09.771Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "keegan-sucks/omarchy-flowstate",
+        "pluginIds": [
+          "io.github.keegan-sucks.flowstate"
+        ],
+        "commit": "329a2278f4477d882f7dff0df316d4f5f58595e9",
+        "checkedAt": "2026-09-16T19:21:09.682Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "keegan-sucks/omarchy-flowstate",
+        "pluginIds": [
+          "io.github.keegan-sucks.flowstate"
+        ],
+        "commit": "329a2278f4477d882f7dff0df316d4f5f58595e9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T19:21:09.682Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T16:57:27.205Z",
+        "requestEventId": 31269359388,
+        "requestedAt": "2026-09-16T19:01:08Z",
+        "reviewedAt": "2026-09-16T19:21:09.682Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.keegan-sucks.flowstate": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
