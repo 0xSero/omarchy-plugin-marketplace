@@ -179649,6 +179649,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/leofle/omarchy-cleanlock",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T16:26:31.841Z",
+      "listingValidatedCommit": "128bd8da794bee276ace2cc653fbc8fb4d72d7ec",
+      "listingValidatedAt": "2026-09-16T16:26:31.841Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "leofle/omarchy-cleanlock",
+        "pluginIds": [
+          "io.github.leofle.cleanlock"
+        ],
+        "commit": "128bd8da794bee276ace2cc653fbc8fb4d72d7ec",
+        "checkedAt": "2026-09-16T16:26:31.793Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "leofle/omarchy-cleanlock",
+        "pluginIds": [
+          "io.github.leofle.cleanlock"
+        ],
+        "commit": "128bd8da794bee276ace2cc653fbc8fb4d72d7ec",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T16:26:31.793Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T13:43:07.255Z",
+        "requestEventId": 31259222269,
+        "requestedAt": "2026-09-16T16:12:10Z",
+        "reviewedAt": "2026-09-16T16:26:31.793Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.leofle.cleanlock": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
