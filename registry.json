@@ -180626,6 +180626,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kaiizu/runningcat",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T17:34:00.409Z",
+      "listingValidatedCommit": "63146002445fa92ea43c57973d56b21c1347deba",
+      "listingValidatedAt": "2026-09-16T17:34:00.409Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kaiizu/runningcat",
+        "pluginIds": [
+          "io.github.kaiizu.runcat"
+        ],
+        "commit": "63146002445fa92ea43c57973d56b21c1347deba",
+        "checkedAt": "2026-09-16T17:34:00.316Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.kaiizu.runcat": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
