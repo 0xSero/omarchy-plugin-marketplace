@@ -176733,6 +176733,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cordrogue/omatate",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T06:31:13.221Z",
+      "listingValidatedCommit": "3a4d4e8ebc4ad426936bae39ec80ec1a25ae1981",
+      "listingValidatedAt": "2026-09-16T06:31:13.221Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cordrogue/omatate",
+        "pluginIds": [
+          "cordrogue.omatate"
+        ],
+        "commit": "3a4d4e8ebc4ad426936bae39ec80ec1a25ae1981",
+        "checkedAt": "2026-09-16T06:31:13.145Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "cordrogue.omatate": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
