@@ -177279,6 +177279,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/greenermoose/omarchy-fred-clock",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T07:42:33.187Z",
+      "listingValidatedCommit": "dc6f3dbd1323e8bc11bbf481ab9909a4d4fd009f",
+      "listingValidatedAt": "2026-09-16T07:42:33.187Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "greenermoose/omarchy-fred-clock",
+        "pluginIds": [
+          "fred.clock"
+        ],
+        "commit": "dc6f3dbd1323e8bc11bbf481ab9909a4d4fd009f",
+        "checkedAt": "2026-09-16T07:42:33.101Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fred.clock": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
