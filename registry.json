@@ -178688,6 +178688,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Mindful-Stack/omyview",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T10:01:12.482Z",
+      "listingValidatedCommit": "26c6c11e292aff4b3f991370935107587bfca88f",
+      "listingValidatedAt": "2026-09-16T10:01:12.482Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mindful-stack/omyview",
+        "pluginIds": [
+          "se.mindfulstack.omyview"
+        ],
+        "commit": "26c6c11e292aff4b3f991370935107587bfca88f",
+        "checkedAt": "2026-09-16T10:01:12.395Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "se.mindfulstack.omyview": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
