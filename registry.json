@@ -176377,6 +176377,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/marcho78/omarchy-lockbox",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T01:20:48.524Z",
+      "listingValidatedCommit": "090f2d9d4e9484f4c5f371def1705220d28dbb3e",
+      "listingValidatedAt": "2026-09-16T01:20:48.524Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "marcho78/omarchy-lockbox",
+        "pluginIds": [
+          "marcho78.lockbox"
+        ],
+        "commit": "090f2d9d4e9484f4c5f371def1705220d28dbb3e",
+        "checkedAt": "2026-09-16T01:20:48.457Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "marcho78/omarchy-lockbox",
+        "pluginIds": [
+          "marcho78.lockbox"
+        ],
+        "commit": "090f2d9d4e9484f4c5f371def1705220d28dbb3e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T01:20:48.457Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T01:09:14.886Z",
+        "requestEventId": 31213766022,
+        "requestedAt": "2026-09-16T01:17:20Z",
+        "reviewedAt": "2026-09-16T01:20:48.457Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "marcho78.lockbox": {
+          "category": "System",
+          "tags": [
+            "security",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
