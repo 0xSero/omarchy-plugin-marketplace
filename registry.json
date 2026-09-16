@@ -179338,6 +179338,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rogersmitha51/OmarchyChime",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T16:02:26.028Z",
+      "listingValidatedCommit": "ea839f2a35b1251a77bf39ef6c63c603a6989b0e",
+      "listingValidatedAt": "2026-09-16T16:02:26.028Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rogersmitha51/omarchychime",
+        "pluginIds": [
+          "omarchychime.sounds"
+        ],
+        "commit": "ea839f2a35b1251a77bf39ef6c63c603a6989b0e",
+        "checkedAt": "2026-09-16T16:02:25.947Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rogersmitha51/omarchychime",
+        "pluginIds": [
+          "omarchychime.sounds"
+        ],
+        "commit": "ea839f2a35b1251a77bf39ef6c63c603a6989b0e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T16:02:25.947Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T22:56:05.583Z",
+        "requestEventId": 31258214913,
+        "requestedAt": "2026-09-16T15:56:04Z",
+        "reviewedAt": "2026-09-16T16:02:25.947Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omarchychime.sounds": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
