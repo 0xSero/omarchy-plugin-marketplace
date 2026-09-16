@@ -178948,6 +178948,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RidgetopAi/omarcade",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T10:17:07.266Z",
+      "listingValidatedCommit": "8cad95a74cd16fceba37d8e532f6fd8d9717994e",
+      "listingValidatedAt": "2026-09-16T10:17:07.266Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ridgetopai/omarcade",
+        "pluginIds": [
+          "ridgetopai.omarcade"
+        ],
+        "commit": "8cad95a74cd16fceba37d8e532f6fd8d9717994e",
+        "checkedAt": "2026-09-16T10:17:07.195Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ridgetopai/omarcade",
+        "pluginIds": [
+          "ridgetopai.omarcade"
+        ],
+        "commit": "8cad95a74cd16fceba37d8e532f6fd8d9717994e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T10:17:07.195Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-13T22:35:25.102Z",
+        "requestEventId": 31236846336,
+        "requestedAt": "2026-09-16T10:13:49Z",
+        "reviewedAt": "2026-09-16T10:17:07.195Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ridgetopai.omarcade": {
+          "category": "Other",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
