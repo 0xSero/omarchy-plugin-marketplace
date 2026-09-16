@@ -182415,6 +182415,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ryenski/omarchy-taildrop",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:12:12.760Z",
+      "listingValidatedCommit": "34b2b182cd1152473c9c9aaff45a4c2728fcefd0",
+      "listingValidatedAt": "2026-09-16T20:12:12.760Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ryenski/omarchy-taildrop",
+        "pluginIds": [
+          "ryenski.taildrop"
+        ],
+        "commit": "34b2b182cd1152473c9c9aaff45a4c2728fcefd0",
+        "checkedAt": "2026-09-16T20:12:12.677Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ryenski.taildrop": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
