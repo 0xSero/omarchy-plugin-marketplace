@@ -180210,6 +180210,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ZA512/OmaRun",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T16:59:52.384Z",
+      "listingValidatedCommit": "d0f61a34c083cdf7614ecbb021b97509f83e06d5",
+      "listingValidatedAt": "2026-09-16T16:59:52.384Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "za512/omarun",
+        "pluginIds": [
+          "io.github.za512.omarun"
+        ],
+        "commit": "d0f61a34c083cdf7614ecbb021b97509f83e06d5",
+        "checkedAt": "2026-09-16T16:59:52.297Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "za512/omarun",
+        "pluginIds": [
+          "io.github.za512.omarun"
+        ],
+        "commit": "d0f61a34c083cdf7614ecbb021b97509f83e06d5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T16:59:52.297Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T14:49:18.174Z",
+        "requestEventId": 31260374435,
+        "requestedAt": "2026-09-16T16:31:49Z",
+        "reviewedAt": "2026-09-16T16:59:52.297Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.za512.omarun": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
