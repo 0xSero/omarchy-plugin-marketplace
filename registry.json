@@ -181133,6 +181133,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sunny0826/omarchy-dim",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T18:40:23.226Z",
+      "listingValidatedCommit": "15307db5b566ca35ce35e06b6b4509052a46e4c1",
+      "listingValidatedAt": "2026-09-16T18:40:23.226Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sunny0826/omarchy-dim",
+        "pluginIds": [
+          "sunny0826.dim"
+        ],
+        "commit": "15307db5b566ca35ce35e06b6b4509052a46e4c1",
+        "checkedAt": "2026-09-16T18:40:23.145Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "sunny0826.dim": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
