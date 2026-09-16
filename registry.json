@@ -182926,6 +182926,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jayosays/omablinker",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:54:57.507Z",
+      "listingValidatedCommit": "5f7a787edc62f23aa343f132638cf5184287d7a4",
+      "listingValidatedAt": "2026-09-16T20:54:57.507Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jayosays/omablinker",
+        "pluginIds": [
+          "jayosays.omablinker"
+        ],
+        "commit": "5f7a787edc62f23aa343f132638cf5184287d7a4",
+        "checkedAt": "2026-09-16T20:54:57.422Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jayosays/omablinker",
+        "pluginIds": [
+          "jayosays.omablinker"
+        ],
+        "commit": "5f7a787edc62f23aa343f132638cf5184287d7a4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T20:54:57.422Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T08:00:30.264Z",
+        "requestEventId": 31274598718,
+        "requestedAt": "2026-09-16T20:38:01Z",
+        "reviewedAt": "2026-09-16T20:54:57.422Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jayosays.omablinker": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
