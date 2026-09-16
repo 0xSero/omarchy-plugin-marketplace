@@ -175748,6 +175748,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/OmarchyFans/omarchy-fans-omacalc-84",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T00:37:35.465Z",
+      "listingValidatedCommit": "1503624cda398724f4303a381a9a917b1f2aa41c",
+      "listingValidatedAt": "2026-09-16T00:37:35.465Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "omarchyfans/omarchy-fans-omacalc-84",
+        "pluginIds": [
+          "fans.omarchy.omacalc-84"
+        ],
+        "commit": "1503624cda398724f4303a381a9a917b1f2aa41c",
+        "checkedAt": "2026-09-16T00:37:35.412Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "omarchyfans/omarchy-fans-omacalc-84",
+        "pluginIds": [
+          "fans.omarchy.omacalc-84"
+        ],
+        "commit": "1503624cda398724f4303a381a9a917b1f2aa41c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T00:37:35.412Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-14T04:44:06.865Z",
+        "requestEventId": 31212285926,
+        "requestedAt": "2026-09-16T00:34:20Z",
+        "reviewedAt": "2026-09-16T00:37:35.412Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "fans.omarchy.omacalc-84": {
+          "category": "Productivity",
+          "tags": [
+            "education",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
