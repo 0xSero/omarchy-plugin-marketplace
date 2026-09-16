@@ -176665,6 +176665,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/zednaked/omarchy-ganja",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T06:10:13.797Z",
+      "listingValidatedCommit": "854dfe0a5ed30853775a4ebfc14d8e27340df3f4",
+      "listingValidatedAt": "2026-09-16T06:10:13.797Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zednaked/omarchy-ganja",
+        "pluginIds": [
+          "zed.ganja"
+        ],
+        "commit": "854dfe0a5ed30853775a4ebfc14d8e27340df3f4",
+        "checkedAt": "2026-09-16T06:10:13.748Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "zed.ganja": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
