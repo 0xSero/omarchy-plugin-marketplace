@@ -181917,6 +181917,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/JMThomas00/omarchy-uplink",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:34:53.082Z",
+      "listingValidatedCommit": "d3286a2c9652a82891af1cd8f3a7db2b77ddb5f3",
+      "listingValidatedAt": "2026-09-16T19:34:53.082Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jmthomas00/omarchy-uplink",
+        "pluginIds": [
+          "jmthomas00.uplink"
+        ],
+        "commit": "d3286a2c9652a82891af1cd8f3a7db2b77ddb5f3",
+        "checkedAt": "2026-09-16T19:34:52.998Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jmthomas00/omarchy-uplink",
+        "pluginIds": [
+          "jmthomas00.uplink"
+        ],
+        "commit": "d3286a2c9652a82891af1cd8f3a7db2b77ddb5f3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-16T19:34:52.998Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T17:34:37.648Z",
+        "requestEventId": 31269670017,
+        "requestedAt": "2026-09-16T19:06:27Z",
+        "reviewedAt": "2026-09-16T19:34:52.998Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jmthomas00.uplink": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
