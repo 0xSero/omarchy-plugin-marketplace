@@ -182599,6 +182599,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/arikisonfire/omarchy-macbook-keyboard-backlight",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T20:25:37.073Z",
+      "listingValidatedCommit": "3e182a620789ee8aaead4f01ff29e37ea45fb4ac",
+      "listingValidatedAt": "2026-09-16T20:25:37.073Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "arikisonfire/omarchy-macbook-keyboard-backlight",
+        "pluginIds": [
+          "io.github.arikisonfire.keyboard-backlight"
+        ],
+        "commit": "3e182a620789ee8aaead4f01ff29e37ea45fb4ac",
+        "checkedAt": "2026-09-16T20:25:36.989Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.arikisonfire.keyboard-backlight": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
