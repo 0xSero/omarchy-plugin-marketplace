@@ -182039,6 +182039,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/chrisandtre/omarchy-bing-wallpaper",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T19:41:45.846Z",
+      "listingValidatedCommit": "349e4f8b5e92208c79c652aa77970eb973c3e951",
+      "listingValidatedAt": "2026-09-16T19:41:45.846Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "chrisandtre/omarchy-bing-wallpaper",
+        "pluginIds": [
+          "io.github.chrisandtre.bing-wallpaper"
+        ],
+        "commit": "349e4f8b5e92208c79c652aa77970eb973c3e951",
+        "checkedAt": "2026-09-16T19:41:45.751Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.chrisandtre.bing-wallpaper": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
