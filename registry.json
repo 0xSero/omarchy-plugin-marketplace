@@ -178241,6 +178241,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/3EYE3Y3/omarchy-fretboard",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T09:28:16.189Z",
+      "listingValidatedCommit": "5d17520b9ad8d0ede99079b1e0099f60f9713495",
+      "listingValidatedAt": "2026-09-16T09:28:16.189Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "3eye3y3/omarchy-fretboard",
+        "pluginIds": [
+          "io.github.3eye3y3.fretboard"
+        ],
+        "commit": "5d17520b9ad8d0ede99079b1e0099f60f9713495",
+        "checkedAt": "2026-09-16T09:28:16.102Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.3eye3y3.fretboard": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "education",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
