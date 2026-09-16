@@ -177068,6 +177068,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Kb2uka/omarchy-dock-doctor",
+      "type": "plugin-source",
+      "addedAt": "2026-09-16",
+      "listedAt": "2026-09-16T07:16:03.944Z",
+      "listingValidatedCommit": "052802d4f85ebdc152bc7d2a15de7f1a99c6a3af",
+      "listingValidatedAt": "2026-09-16T07:16:03.944Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kb2uka/omarchy-dock-doctor",
+        "pluginIds": [
+          "kb2uka.dock-doctor"
+        ],
+        "commit": "052802d4f85ebdc152bc7d2a15de7f1a99c6a3af",
+        "checkedAt": "2026-09-16T07:16:03.893Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kb2uka.dock-doctor": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
