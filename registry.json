@@ -183785,6 +183785,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Silkvain/Dockseid",
+      "type": "plugin-source",
+      "addedAt": "2026-09-17",
+      "listedAt": "2026-09-17T07:41:47.491Z",
+      "listingValidatedCommit": "2a7e0ed7815a6717b383efee448cd8c97c1232e3",
+      "listingValidatedAt": "2026-09-17T07:41:47.491Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "silkvain/dockseid",
+        "pluginIds": [
+          "io.github.silkvain.dockseid"
+        ],
+        "commit": "2a7e0ed7815a6717b383efee448cd8c97c1232e3",
+        "checkedAt": "2026-09-17T07:41:47.415Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.silkvain.dockseid": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
