@@ -183817,6 +183817,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jeffsauer/radio-garden-bar-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-09-17",
+      "listedAt": "2026-09-17T07:45:30.837Z",
+      "listingValidatedCommit": "2ceb4f05e923cf408793f7007f8d90a7449968a8",
+      "listingValidatedAt": "2026-09-17T07:45:30.837Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jeffsauer/radio-garden-bar-widget",
+        "pluginIds": [
+          "com.darkhorse-studios.radio-garden-bar-widget"
+        ],
+        "commit": "2ceb4f05e923cf408793f7007f8d90a7449968a8",
+        "checkedAt": "2026-09-17T07:45:30.755Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "com.darkhorse-studios.radio-garden-bar-widget": {
+          "category": "Widgets",
+          "tags": [
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
