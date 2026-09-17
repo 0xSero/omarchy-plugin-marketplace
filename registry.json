@@ -183881,6 +183881,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/duketopceo/omarchy-bumblebee",
+      "type": "plugin-source",
+      "addedAt": "2026-09-17",
+      "listedAt": "2026-09-17T07:52:48.466Z",
+      "listingValidatedCommit": "f0c87b2ef76d64dcac4279dc3febef8362ca748c",
+      "listingValidatedAt": "2026-09-17T07:52:48.466Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "duketopceo/omarchy-bumblebee",
+        "pluginIds": [
+          "io.github.duketopceo.bumblebee"
+        ],
+        "commit": "f0c87b2ef76d64dcac4279dc3febef8362ca748c",
+        "checkedAt": "2026-09-17T07:52:48.392Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.duketopceo.bumblebee": {
+          "category": "System",
+          "tags": [
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
