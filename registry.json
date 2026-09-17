@@ -157902,8 +157902,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-09",
       "listedAt": "2026-09-09T16:12:05.434Z",
-      "listingValidatedCommit": "a65c76495baaead6e0398917e57c9994982b5403",
-      "listingValidatedAt": "2026-09-09T16:12:05.434Z",
+      "listingValidatedCommit": "cd2baa19344712cfcc7e0a8e1406fa523237569c",
+      "listingValidatedAt": "2026-09-17T06:41:38.834Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -157912,8 +157912,8 @@
         "pluginIds": [
           "better-workspaces"
         ],
-        "commit": "a65c76495baaead6e0398917e57c9994982b5403",
-        "checkedAt": "2026-09-09T16:12:05.361Z",
+        "commit": "cd2baa19344712cfcc7e0a8e1406fa523237569c",
+        "checkedAt": "2026-09-17T06:41:38.834Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -157929,7 +157929,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a65c76495baaead6e0398917e57c9994982b5403",
+          "validatedAt": "2026-09-09T16:12:05.434Z",
+          "branch": "main",
+          "supersededAt": "2026-09-17T06:41:38.834Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lukastrust/betterworkspaces",
+            "pluginIds": [
+              "better-workspaces"
+            ],
+            "commit": "a65c76495baaead6e0398917e57c9994982b5403",
+            "checkedAt": "2026-09-09T16:12:05.361Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/MichaelCodeToLimit/omarchy-tea-counter",
