@@ -183478,6 +183478,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dzanaga/omarchy-multi-workspaces-indicator",
+      "type": "plugin-source",
+      "addedAt": "2026-09-17",
+      "listedAt": "2026-09-17T07:20:07.211Z",
+      "listingValidatedCommit": "6ccb7d0464a9268991e05dc53ef9a6f5a871b3d3",
+      "listingValidatedAt": "2026-09-17T07:20:07.211Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dzanaga/omarchy-multi-workspaces-indicator",
+        "pluginIds": [
+          "io.github.dzanaga.multi-workspaces-indicator"
+        ],
+        "commit": "6ccb7d0464a9268991e05dc53ef9a6f5a871b3d3",
+        "checkedAt": "2026-09-17T07:20:07.128Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.dzanaga.multi-workspaces-indicator": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
