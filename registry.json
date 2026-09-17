@@ -183849,6 +183849,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jeffsauer/tmog-bar-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-09-17",
+      "listedAt": "2026-09-17T07:48:55.036Z",
+      "listingValidatedCommit": "5face662113226caa3641a6b6963d4ae2e0d1aba",
+      "listingValidatedAt": "2026-09-17T07:48:55.036Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jeffsauer/tmog-bar-widget",
+        "pluginIds": [
+          "com.darkhorse-studios.tmog-bar-widget"
+        ],
+        "commit": "5face662113226caa3641a6b6963d4ae2e0d1aba",
+        "checkedAt": "2026-09-17T07:48:54.949Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "com.darkhorse-studios.tmog-bar-widget": {
+          "category": "Widgets",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
