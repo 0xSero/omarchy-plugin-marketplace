@@ -183044,6 +183044,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hehh2001/omarchy-network-plus",
+      "type": "plugin-source",
+      "addedAt": "2026-09-17",
+      "listedAt": "2026-09-17T06:24:37.861Z",
+      "listingValidatedCommit": "bfe1b4853f3ab9c2befba22b41c36d8b3495f69a",
+      "listingValidatedAt": "2026-09-17T06:24:37.861Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hehh2001/omarchy-network-plus",
+        "pluginIds": [
+          "zzb.network"
+        ],
+        "commit": "bfe1b4853f3ab9c2befba22b41c36d8b3495f69a",
+        "checkedAt": "2026-09-17T06:24:37.770Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "zzb.network": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
