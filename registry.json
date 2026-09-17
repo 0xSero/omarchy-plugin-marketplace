@@ -43507,8 +43507,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-21",
       "listedAt": "2026-08-21T22:55:49.822Z",
-      "listingValidatedCommit": "986604e0a7275f7060ac18adec7493393c55906f",
-      "listingValidatedAt": "2026-08-21T22:55:49.822Z",
+      "listingValidatedCommit": "fda4aaa88e6f47af1925ae4eb7b18e9ba5bfc7fa",
+      "listingValidatedAt": "2026-09-17T06:45:18.204Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -43517,8 +43517,8 @@
         "pluginIds": [
           "io.github.calebhat.weather"
         ],
-        "commit": "986604e0a7275f7060ac18adec7493393c55906f",
-        "checkedAt": "2026-08-21T22:55:49.798Z",
+        "commit": "fda4aaa88e6f47af1925ae4eb7b18e9ba5bfc7fa",
+        "checkedAt": "2026-09-17T06:45:18.204Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -43534,7 +43534,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "986604e0a7275f7060ac18adec7493393c55906f",
+          "validatedAt": "2026-08-21T22:55:49.822Z",
+          "branch": "main",
+          "supersededAt": "2026-09-17T06:45:18.204Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "calebhat/omarchy-weather",
+            "pluginIds": [
+              "io.github.calebhat.weather"
+            ],
+            "commit": "986604e0a7275f7060ac18adec7493393c55906f",
+            "checkedAt": "2026-08-21T22:55:49.798Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/yogeshojha/blip",
