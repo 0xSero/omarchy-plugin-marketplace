@@ -183078,6 +183078,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/thinklinux/omacursorshake",
+      "type": "plugin-source",
+      "addedAt": "2026-09-17",
+      "listedAt": "2026-09-17T06:27:40.504Z",
+      "listingValidatedCommit": "7374e62ed9ac2f07470b0b2f7d16993df2ce47ad",
+      "listingValidatedAt": "2026-09-17T06:27:40.504Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "thinklinux/omacursorshake",
+        "pluginIds": [
+          "io.github.thinklinux.omacursorshake"
+        ],
+        "commit": "7374e62ed9ac2f07470b0b2f7d16993df2ce47ad",
+        "checkedAt": "2026-09-17T06:27:40.431Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thinklinux/omacursorshake",
+        "pluginIds": [
+          "io.github.thinklinux.omacursorshake"
+        ],
+        "commit": "7374e62ed9ac2f07470b0b2f7d16993df2ce47ad",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-09-17T06:27:40.431Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-09-16T20:27:20.752Z",
+        "requestEventId": 31298368540,
+        "requestedAt": "2026-09-17T06:26:08Z",
+        "reviewedAt": "2026-09-17T06:27:40.431Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.thinklinux.omacursorshake": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
