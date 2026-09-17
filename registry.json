@@ -170882,8 +170882,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-14",
       "listedAt": "2026-09-14T14:33:50.273Z",
-      "listingValidatedCommit": "a9b97b1328da422d37d3975906f9ad3ed5c1e0c4",
-      "listingValidatedAt": "2026-09-14T14:33:50.273Z",
+      "listingValidatedCommit": "ba0dbcb022df506f03f22a0957d5682808ba40a6",
+      "listingValidatedAt": "2026-09-17T06:57:51.968Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -170892,8 +170892,8 @@
         "pluginIds": [
           "io.github.decadentsavant.baton"
         ],
-        "commit": "a9b97b1328da422d37d3975906f9ad3ed5c1e0c4",
-        "checkedAt": "2026-09-14T14:33:50.192Z",
+        "commit": "ba0dbcb022df506f03f22a0957d5682808ba40a6",
+        "checkedAt": "2026-09-17T06:57:51.968Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -170908,7 +170908,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a9b97b1328da422d37d3975906f9ad3ed5c1e0c4",
+          "validatedAt": "2026-09-14T14:33:50.273Z",
+          "branch": "main",
+          "supersededAt": "2026-09-17T06:57:51.968Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "decadentsavant/baton",
+            "pluginIds": [
+              "io.github.decadentsavant.baton"
+            ],
+            "commit": "a9b97b1328da422d37d3975906f9ad3ed5c1e0c4",
+            "checkedAt": "2026-09-14T14:33:50.192Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jasasonc/omarchy-claude-swap-panel",
