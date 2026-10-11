@@ -318073,8 +318073,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T13:43:37.838Z",
-      "listingValidatedCommit": "8b9a4aded53227d9b998f687f9a9b65218697a1b",
-      "listingValidatedAt": "2026-10-08T13:43:37.838Z",
+      "listingValidatedCommit": "d828508051f33b440e4a354cd869c423ab7c4dea",
+      "listingValidatedAt": "2026-10-11T14:53:24.972Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -318083,8 +318083,8 @@
         "pluginIds": [
           "io.github.alexwest1981.sling"
         ],
-        "commit": "8b9a4aded53227d9b998f687f9a9b65218697a1b",
-        "checkedAt": "2026-10-08T13:43:37.748Z",
+        "commit": "d828508051f33b440e4a354cd869c423ab7c4dea",
+        "checkedAt": "2026-10-11T14:53:24.972Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -318093,29 +318093,6 @@
           "package-manager",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alexwest1981/sling",
-        "pluginIds": [
-          "io.github.alexwest1981.sling"
-        ],
-        "commit": "8b9a4aded53227d9b998f687f9a9b65218697a1b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T13:43:37.748Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T13:35:41.301Z",
-        "requestEventId": 32792721553,
-        "requestedAt": "2026-10-08T13:43:07Z",
-        "reviewedAt": "2026-10-08T13:43:37.748Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.alexwest1981.sling": {
@@ -318130,7 +318107,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alexwest1981/sling",
+        "pluginIds": [
+          "io.github.alexwest1981.sling"
+        ],
+        "commit": "d828508051f33b440e4a354cd869c423ab7c4dea",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T14:53:24.972Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T14:07:27.737Z",
+        "requestEventId": 32990072584,
+        "requestedAt": "2026-10-11T14:52:54Z",
+        "reviewedAt": "2026-10-11T14:53:24.972Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8b9a4aded53227d9b998f687f9a9b65218697a1b",
+          "validatedAt": "2026-10-08T13:43:37.838Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T14:53:24.972Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alexwest1981/sling",
+            "pluginIds": [
+              "io.github.alexwest1981.sling"
+            ],
+            "commit": "8b9a4aded53227d9b998f687f9a9b65218697a1b",
+            "checkedAt": "2026-10-08T13:43:37.748Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alexwest1981/sling",
+            "pluginIds": [
+              "io.github.alexwest1981.sling"
+            ],
+            "commit": "8b9a4aded53227d9b998f687f9a9b65218697a1b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T13:43:37.748Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T13:35:41.301Z",
+            "requestEventId": 32792721553,
+            "requestedAt": "2026-10-08T13:43:07Z",
+            "reviewedAt": "2026-10-08T13:43:37.748Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/qempexe/omarchy-omatune",
