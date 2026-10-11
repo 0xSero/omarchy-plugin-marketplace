@@ -33139,8 +33139,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-20",
       "listedAt": "2026-08-20T18:15:46.471Z",
-      "listingValidatedCommit": "4b761aba6dbc4293b2f171a8e2e5f2ceae34f7e9",
-      "listingValidatedAt": "2026-08-20T18:15:46.471Z",
+      "listingValidatedCommit": "60587d4fa072c003b37dcb03d8e9f9ad828a2d68",
+      "listingValidatedAt": "2026-10-11T13:41:56.854Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -33149,8 +33149,8 @@
         "pluginIds": [
           "nwarwick.omambience"
         ],
-        "commit": "4b761aba6dbc4293b2f171a8e2e5f2ceae34f7e9",
-        "checkedAt": "2026-08-20T11:12:33.963Z",
+        "commit": "60587d4fa072c003b37dcb03d8e9f9ad828a2d68",
+        "checkedAt": "2026-10-11T13:41:56.853Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -33164,7 +33164,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4b761aba6dbc4293b2f171a8e2e5f2ceae34f7e9",
+          "validatedAt": "2026-08-20T18:15:46.471Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T13:41:56.854Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nwarwick/omambience",
+            "pluginIds": [
+              "nwarwick.omambience"
+            ],
+            "commit": "4b761aba6dbc4293b2f171a8e2e5f2ceae34f7e9",
+            "checkedAt": "2026-08-20T11:12:33.963Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/weedwhitesandwine/Zenbu",
