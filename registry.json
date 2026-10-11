@@ -325188,8 +325188,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T09:11:27.158Z",
-      "listingValidatedCommit": "49b20bef93ad715047c1edf6d531ab92b83ba0b2",
-      "listingValidatedAt": "2026-10-11T09:11:27.158Z",
+      "listingValidatedCommit": "3121d8c26944c3eaf767d99c400e0df3b8602f87",
+      "listingValidatedAt": "2026-10-11T09:39:44.914Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -325198,8 +325198,8 @@
         "pluginIds": [
           "hakatamike.disc-deck"
         ],
-        "commit": "49b20bef93ad715047c1edf6d531ab92b83ba0b2",
-        "checkedAt": "2026-10-11T09:11:27.007Z",
+        "commit": "3121d8c26944c3eaf767d99c400e0df3b8602f87",
+        "checkedAt": "2026-10-11T09:39:44.914Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -325215,7 +325215,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "49b20bef93ad715047c1edf6d531ab92b83ba0b2",
+          "validatedAt": "2026-10-11T09:11:27.158Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T09:39:44.914Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hakatamike/disc_deck_omarchy",
+            "pluginIds": [
+              "hakatamike.disc-deck"
+            ],
+            "commit": "49b20bef93ad715047c1edf6d531ab92b83ba0b2",
+            "checkedAt": "2026-10-11T09:11:27.007Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/28allday/Gliff-Manager",
