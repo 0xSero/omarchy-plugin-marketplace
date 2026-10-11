@@ -327961,6 +327961,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/gfhdhytghd/hymission",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T22:15:25.180Z",
+      "listingValidatedCommit": "46edc19bf09f00566e68989dfc5b02d795b640e6",
+      "listingValidatedAt": "2026-10-11T22:15:25.180Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gfhdhytghd/hymission",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hymission"
+        ],
+        "commit": "46edc19bf09f00566e68989dfc5b02d795b640e6",
+        "checkedAt": "2026-10-11T22:15:25.045Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gfhdhytghd/hymission",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hymission"
+        ],
+        "commit": "46edc19bf09f00566e68989dfc5b02d795b640e6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T22:15:25.045Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T22:09:13.278Z",
+        "requestEventId": 33006113289,
+        "requestedAt": "2026-10-11T22:14:55Z",
+        "reviewedAt": "2026-10-11T22:15:25.045Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.gfhdhytghd.hymission": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
