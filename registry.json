@@ -319837,8 +319837,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-09",
       "listedAt": "2026-10-09T05:09:13.456Z",
-      "listingValidatedCommit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
-      "listingValidatedAt": "2026-10-09T05:09:13.456Z",
+      "listingValidatedCommit": "c19ac9ab7fbc325c79b18c687cfd2510597a34ff",
+      "listingValidatedAt": "2026-10-11T16:11:04.729Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -319847,35 +319847,14 @@
         "pluginIds": [
           "melkweg.mailflow"
         ],
-        "commit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
-        "checkedAt": "2026-10-09T05:09:13.323Z",
+        "commit": "c19ac9ab7fbc325c79b18c687cfd2510597a34ff",
+        "checkedAt": "2026-10-11T16:11:04.729Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mvalkier/omarchy-mailflow-plugin",
-        "pluginIds": [
-          "melkweg.mailflow"
-        ],
-        "commit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-09T05:09:13.323Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-09T05:06:44.071Z",
-        "requestEventId": 32847633526,
-        "requestedAt": "2026-10-09T05:08:46Z",
-        "reviewedAt": "2026-10-09T05:09:13.323Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "melkweg.mailflow": {
@@ -319886,7 +319865,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mvalkier/omarchy-mailflow-plugin",
+        "pluginIds": [
+          "melkweg.mailflow"
+        ],
+        "commit": "c19ac9ab7fbc325c79b18c687cfd2510597a34ff",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T16:11:04.729Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T15:41:05.891Z",
+        "requestEventId": 32992985246,
+        "requestedAt": "2026-10-11T16:10:26Z",
+        "reviewedAt": "2026-10-11T16:11:04.729Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
+          "validatedAt": "2026-10-09T05:09:13.456Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T16:11:04.729Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mvalkier/omarchy-mailflow-plugin",
+            "pluginIds": [
+              "melkweg.mailflow"
+            ],
+            "commit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
+            "checkedAt": "2026-10-09T05:09:13.323Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mvalkier/omarchy-mailflow-plugin",
+            "pluginIds": [
+              "melkweg.mailflow"
+            ],
+            "commit": "57c5a20a09ee74f29e12036eae8c40c8bd6aa61c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-09T05:09:13.323Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T05:06:44.071Z",
+            "requestEventId": 32847633526,
+            "requestedAt": "2026-10-09T05:08:46Z",
+            "reviewedAt": "2026-10-09T05:09:13.323Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/mvalkier/omarchy-yubikey-otp",
