@@ -229190,8 +229190,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T09:29:55.842Z",
-      "listingValidatedCommit": "8f015b81a71a43a4963d97fa00abe3e156ae9d5d",
-      "listingValidatedAt": "2026-09-22T09:29:55.842Z",
+      "listingValidatedCommit": "86caa06977ad98dd043614648b887dfc2732cce5",
+      "listingValidatedAt": "2026-10-11T08:31:09.139Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -229200,12 +229200,14 @@
         "pluginIds": [
           "io.github.iampoul.fishing-conditions"
         ],
-        "commit": "8f015b81a71a43a4963d97fa00abe3e156ae9d5d",
-        "checkedAt": "2026-09-22T09:29:55.742Z",
-        "outcome": "passed",
+        "commit": "86caa06977ad98dd043614648b887dfc2732cce5",
+        "checkedAt": "2026-10-11T08:31:09.139Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "remote-build"
+        ]
       },
       "plugins": {
         "io.github.iampoul.fishing-conditions": {
@@ -229215,7 +229217,50 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "iampoul/fishing-conditions",
+        "pluginIds": [
+          "io.github.iampoul.fishing-conditions"
+        ],
+        "commit": "86caa06977ad98dd043614648b887dfc2732cce5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T08:31:09.139Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T08:12:23.897Z",
+        "requestEventId": 32977627050,
+        "requestedAt": "2026-10-11T08:30:44Z",
+        "reviewedAt": "2026-10-11T08:31:09.139Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8f015b81a71a43a4963d97fa00abe3e156ae9d5d",
+          "validatedAt": "2026-09-22T09:29:55.842Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T08:31:09.139Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "iampoul/fishing-conditions",
+            "pluginIds": [
+              "io.github.iampoul.fishing-conditions"
+            ],
+            "commit": "8f015b81a71a43a4963d97fa00abe3e156ae9d5d",
+            "checkedAt": "2026-09-22T09:29:55.742Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Zeus-Deus/voxtype-omarchy-plugin",
