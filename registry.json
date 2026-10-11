@@ -256408,8 +256408,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T15:36:36.138Z",
-      "listingValidatedCommit": "3ee631d49e94b03751de5f1169ffc28cd9e76d6e",
-      "listingValidatedAt": "2026-10-09T21:21:13.400Z",
+      "listingValidatedCommit": "feefe427b8f61c02ee46c724a6b2b816905ec51b",
+      "listingValidatedAt": "2026-10-11T08:36:02.973Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -256418,8 +256418,8 @@
         "pluginIds": [
           "foamy.notification-center"
         ],
-        "commit": "3ee631d49e94b03751de5f1169ffc28cd9e76d6e",
-        "checkedAt": "2026-10-09T21:21:13.400Z",
+        "commit": "feefe427b8f61c02ee46c724a6b2b816905ec51b",
+        "checkedAt": "2026-10-11T08:36:02.973Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -256490,6 +256490,26 @@
             ],
             "commit": "579b1088f76649279b346095b649b7c4fc445b78",
             "checkedAt": "2026-10-02T17:06:16.752Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "3ee631d49e94b03751de5f1169ffc28cd9e76d6e",
+          "validatedAt": "2026-10-09T21:21:13.400Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T08:36:02.973Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "foamrider/foamy-notification-center",
+            "pluginIds": [
+              "foamy.notification-center"
+            ],
+            "commit": "3ee631d49e94b03751de5f1169ffc28cd9e76d6e",
+            "checkedAt": "2026-10-09T21:21:13.400Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
