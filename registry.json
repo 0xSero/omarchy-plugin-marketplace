@@ -312630,8 +312630,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T04:54:16.641Z",
-      "listingValidatedCommit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
-      "listingValidatedAt": "2026-10-07T04:54:16.641Z",
+      "listingValidatedCommit": "b354ecc15eb0f032728b22dff3f29f158ca103ff",
+      "listingValidatedAt": "2026-10-11T09:58:28.588Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -312640,35 +312640,14 @@
         "pluginIds": [
           "saigkill.meds"
         ],
-        "commit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
-        "checkedAt": "2026-10-07T04:54:16.507Z",
+        "commit": "b354ecc15eb0f032728b22dff3f29f158ca103ff",
+        "checkedAt": "2026-10-11T09:58:28.588Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "saigkill/omarchy-medical",
-        "pluginIds": [
-          "saigkill.meds"
-        ],
-        "commit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T04:54:16.507Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T04:04:00.993Z",
-        "requestEventId": 32658367694,
-        "requestedAt": "2026-10-07T04:20:03Z",
-        "reviewedAt": "2026-10-07T04:54:16.507Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "saigkill.meds": {
@@ -312678,7 +312657,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "saigkill/omarchy-medical",
+        "pluginIds": [
+          "saigkill.meds"
+        ],
+        "commit": "b354ecc15eb0f032728b22dff3f29f158ca103ff",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T09:58:28.588Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T09:27:27.288Z",
+        "requestEventId": 32980370269,
+        "requestedAt": "2026-10-11T09:58:03Z",
+        "reviewedAt": "2026-10-11T09:58:28.588Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
+          "validatedAt": "2026-10-07T04:54:16.641Z",
+          "branch": "master",
+          "supersededAt": "2026-10-11T09:58:28.588Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "saigkill/omarchy-medical",
+            "pluginIds": [
+              "saigkill.meds"
+            ],
+            "commit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
+            "checkedAt": "2026-10-07T04:54:16.507Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "saigkill/omarchy-medical",
+            "pluginIds": [
+              "saigkill.meds"
+            ],
+            "commit": "0cb0cd436e9813fe830d0bacb8dc1340d01e6f72",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T04:54:16.507Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T04:04:00.993Z",
+            "requestEventId": 32658367694,
+            "requestedAt": "2026-10-07T04:20:03Z",
+            "reviewedAt": "2026-10-07T04:54:16.507Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/HANCORE-linux/GitHub-Traffic-Board",
