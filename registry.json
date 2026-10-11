@@ -324908,8 +324908,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T23:42:02.632Z",
-      "listingValidatedCommit": "f1c4b0a7a3f2ab0fd72145ca1aa0a97646788c8d",
-      "listingValidatedAt": "2026-10-10T23:42:02.632Z",
+      "listingValidatedCommit": "fb5ab861e5aee2af48c38466e09852d16820d887",
+      "listingValidatedAt": "2026-10-11T12:42:25.431Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -324918,8 +324918,8 @@
         "pluginIds": [
           "dan4a.syschange"
         ],
-        "commit": "f1c4b0a7a3f2ab0fd72145ca1aa0a97646788c8d",
-        "checkedAt": "2026-10-10T23:42:02.493Z",
+        "commit": "fb5ab861e5aee2af48c38466e09852d16820d887",
+        "checkedAt": "2026-10-11T12:42:25.431Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -324928,29 +324928,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ddan4a/syschange",
-        "pluginIds": [
-          "dan4a.syschange"
-        ],
-        "commit": "f1c4b0a7a3f2ab0fd72145ca1aa0a97646788c8d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-10T23:42:02.493Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-10T23:39:27.006Z",
-        "requestEventId": 32963121018,
-        "requestedAt": "2026-10-10T23:41:34Z",
-        "reviewedAt": "2026-10-10T23:42:02.493Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "dan4a.syschange": {
@@ -324966,7 +324943,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ddan4a/syschange",
+        "pluginIds": [
+          "dan4a.syschange"
+        ],
+        "commit": "fb5ab861e5aee2af48c38466e09852d16820d887",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T12:42:25.431Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T12:15:55.841Z",
+        "requestEventId": 32985505792,
+        "requestedAt": "2026-10-11T12:41:58Z",
+        "reviewedAt": "2026-10-11T12:42:25.431Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f1c4b0a7a3f2ab0fd72145ca1aa0a97646788c8d",
+          "validatedAt": "2026-10-10T23:42:02.632Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T12:42:25.431Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ddan4a/syschange",
+            "pluginIds": [
+              "dan4a.syschange"
+            ],
+            "commit": "f1c4b0a7a3f2ab0fd72145ca1aa0a97646788c8d",
+            "checkedAt": "2026-10-10T23:42:02.493Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ddan4a/syschange",
+            "pluginIds": [
+              "dan4a.syschange"
+            ],
+            "commit": "f1c4b0a7a3f2ab0fd72145ca1aa0a97646788c8d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-10T23:42:02.493Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-10T23:39:27.006Z",
+            "requestEventId": 32963121018,
+            "requestedAt": "2026-10-10T23:41:34Z",
+            "reviewedAt": "2026-10-10T23:42:02.493Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/itsgg/omarchy-nodi",
