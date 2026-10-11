@@ -327740,6 +327740,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/TomZandt/omarchy-decklink",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T21:18:33.493Z",
+      "listingValidatedCommit": "de3930d4cd389e49d4f2a781c2d2d6256b6f418a",
+      "listingValidatedAt": "2026-10-11T21:18:33.493Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tomzandt/omarchy-decklink",
+        "pluginIds": [
+          "tzv.decklink"
+        ],
+        "commit": "de3930d4cd389e49d4f2a781c2d2d6256b6f418a",
+        "checkedAt": "2026-10-11T21:18:33.356Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tomzandt/omarchy-decklink",
+        "pluginIds": [
+          "tzv.decklink"
+        ],
+        "commit": "de3930d4cd389e49d4f2a781c2d2d6256b6f418a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T21:18:33.356Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T21:04:49.422Z",
+        "requestEventId": 33004112047,
+        "requestedAt": "2026-10-11T21:16:08Z",
+        "reviewedAt": "2026-10-11T21:18:33.356Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "tzv.decklink": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
