@@ -260717,8 +260717,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:26:09.193Z",
-      "listingValidatedCommit": "338943340be88811d33113ac0d6f18180372b452",
-      "listingValidatedAt": "2026-10-02T20:36:06.519Z",
+      "listingValidatedCommit": "e3e6998fcfd583537710391172827dccd7a50146",
+      "listingValidatedAt": "2026-10-11T22:22:19.339Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -260727,8 +260727,8 @@
         "pluginIds": [
           "derekross.opal"
         ],
-        "commit": "338943340be88811d33113ac0d6f18180372b452",
-        "checkedAt": "2026-10-02T20:36:06.519Z",
+        "commit": "e3e6998fcfd583537710391172827dccd7a50146",
+        "checkedAt": "2026-10-11T22:22:19.339Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -260754,31 +260754,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "derekross/opal",
-        "pluginIds": [
-          "derekross.opal"
-        ],
-        "commit": "338943340be88811d33113ac0d6f18180372b452",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T20:36:06.519Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T19:20:09.738Z",
-        "requestEventId": 32363963235,
-        "requestedAt": "2026-10-02T20:35:32Z",
-        "reviewedAt": "2026-10-02T20:36:06.519Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -260831,8 +260806,84 @@
             "reviewedAt": "2026-09-27T23:26:09.091Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "338943340be88811d33113ac0d6f18180372b452",
+          "validatedAt": "2026-10-02T20:36:06.519Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T22:22:19.339Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "derekross/opal",
+            "pluginIds": [
+              "derekross.opal"
+            ],
+            "commit": "338943340be88811d33113ac0d6f18180372b452",
+            "checkedAt": "2026-10-02T20:36:06.519Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "derekross/opal",
+            "pluginIds": [
+              "derekross.opal"
+            ],
+            "commit": "338943340be88811d33113ac0d6f18180372b452",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T20:36:06.519Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T19:20:09.738Z",
+            "requestEventId": 32363963235,
+            "requestedAt": "2026-10-02T20:35:32Z",
+            "reviewedAt": "2026-10-02T20:36:06.519Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "derekross/opal",
+        "pluginIds": [
+          "derekross.opal"
+        ],
+        "commit": "e3e6998fcfd583537710391172827dccd7a50146",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T22:22:19.339Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T19:48:54.553Z",
+        "requestEventId": 33006349107,
+        "requestedAt": "2026-10-11T22:21:50Z",
+        "reviewedAt": "2026-10-11T22:22:19.339Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/LessUnderRated/geoguess",
