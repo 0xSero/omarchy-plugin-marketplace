@@ -325525,6 +325525,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/GruperTal/omarchy-volume-beep",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T10:36:33.638Z",
+      "listingValidatedCommit": "4af7083d0d3f2fd1d3faaeda45b761037e63c798",
+      "listingValidatedAt": "2026-10-11T10:36:33.638Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grupertal/omarchy-volume-beep",
+        "pluginIds": [
+          "gruper.volume-beep"
+        ],
+        "commit": "4af7083d0d3f2fd1d3faaeda45b761037e63c798",
+        "checkedAt": "2026-10-11T10:36:33.531Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gruper.volume-beep": {
+          "category": "System",
+          "tags": [
+            "media",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
