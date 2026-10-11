@@ -326789,6 +326789,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/aishag80g-stack/omarchy-hyprland-layout",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T16:19:56.638Z",
+      "listingValidatedCommit": "258d4f100f38d3e80d8812035329e5d32a6ebf50",
+      "listingValidatedAt": "2026-10-11T16:19:56.638Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "aishag80g-stack/omarchy-hyprland-layout",
+        "pluginIds": [
+          "io.github.aishag80g-stack.hyprland-layout"
+        ],
+        "commit": "258d4f100f38d3e80d8812035329e5d32a6ebf50",
+        "checkedAt": "2026-10-11T16:19:56.506Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.aishag80g-stack.hyprland-layout": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
