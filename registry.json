@@ -325411,6 +325411,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/brrrassica/omavrything",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T10:24:44.567Z",
+      "listingValidatedCommit": "1837de7b937cbd0a2f03367cd685042255e06c65",
+      "listingValidatedAt": "2026-10-11T10:24:44.567Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "brrrassica/omavrything",
+        "pluginIds": [
+          "tech.alatcerdas.omavrything"
+        ],
+        "commit": "1837de7b937cbd0a2f03367cd685042255e06c65",
+        "checkedAt": "2026-10-11T10:24:44.430Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brrrassica/omavrything",
+        "pluginIds": [
+          "tech.alatcerdas.omavrything"
+        ],
+        "commit": "1837de7b937cbd0a2f03367cd685042255e06c65",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T10:24:44.430Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T10:21:06.484Z",
+        "requestEventId": 32981191039,
+        "requestedAt": "2026-10-11T10:24:11Z",
+        "reviewedAt": "2026-10-11T10:24:44.430Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "tech.alatcerdas.omavrything": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
