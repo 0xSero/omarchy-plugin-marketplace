@@ -325707,6 +325707,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tilman-schieber/omacompose",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T11:08:56.423Z",
+      "listingValidatedCommit": "591823189708f01a84343467ca26932530e4e519",
+      "listingValidatedAt": "2026-10-11T11:08:56.423Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tilman-schieber/omacompose",
+        "pluginIds": [
+          "io.github.tilman-schieber.omacompose"
+        ],
+        "commit": "591823189708f01a84343467ca26932530e4e519",
+        "checkedAt": "2026-10-11T11:08:56.284Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.tilman-schieber.omacompose": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
