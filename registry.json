@@ -326255,6 +326255,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/murdialthaf/omaspaces",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T13:58:28.141Z",
+      "listingValidatedCommit": "c3e8c89ddc9c5ca0d25df7a3e8035bc8388e7472",
+      "listingValidatedAt": "2026-10-11T13:58:28.141Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "murdialthaf/omaspaces",
+        "pluginIds": [
+          "murdi.omaspaces"
+        ],
+        "commit": "c3e8c89ddc9c5ca0d25df7a3e8035bc8388e7472",
+        "checkedAt": "2026-10-11T13:58:28.007Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "murdi.omaspaces": {
+          "category": "Widgets",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
