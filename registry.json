@@ -322239,8 +322239,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T08:02:29.053Z",
-      "listingValidatedCommit": "99a37b4ca612ecc7d268fc7572bb349b8c96b1e9",
-      "listingValidatedAt": "2026-10-10T08:02:29.053Z",
+      "listingValidatedCommit": "1b9fd8914beab069e464fa8531e4e6e7f600d7b9",
+      "listingValidatedAt": "2026-10-11T06:16:12.672Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -322249,8 +322249,8 @@
         "pluginIds": [
           "io.github.soham3301.net-rain"
         ],
-        "commit": "99a37b4ca612ecc7d268fc7572bb349b8c96b1e9",
-        "checkedAt": "2026-10-10T08:02:28.910Z",
+        "commit": "1b9fd8914beab069e464fa8531e4e6e7f600d7b9",
+        "checkedAt": "2026-10-11T06:16:12.672Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -322265,7 +322265,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "99a37b4ca612ecc7d268fc7572bb349b8c96b1e9",
+          "validatedAt": "2026-10-10T08:02:29.053Z",
+          "branch": "master",
+          "supersededAt": "2026-10-11T06:16:12.672Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "soham3301/net-rain",
+            "pluginIds": [
+              "io.github.soham3301.net-rain"
+            ],
+            "commit": "99a37b4ca612ecc7d268fc7572bb349b8c96b1e9",
+            "checkedAt": "2026-10-10T08:02:28.910Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/BasantPandey/omarchy-power-rename",
