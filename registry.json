@@ -16215,8 +16215,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-17",
       "listedAt": "2026-08-17T10:28:26.777Z",
-      "listingValidatedCommit": "0abacb9c3240b5510af06e58f7fc70d0e6273bed",
-      "listingValidatedAt": "2026-09-10T18:08:51.269Z",
+      "listingValidatedCommit": "c6174d1985268aecd08152a4f79c1ac0ba5d97d0",
+      "listingValidatedAt": "2026-10-11T06:46:11.104Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -16225,8 +16225,8 @@
         "pluginIds": [
           "bibek.focusd"
         ],
-        "commit": "0abacb9c3240b5510af06e58f7fc70d0e6273bed",
-        "checkedAt": "2026-09-10T18:08:51.269Z",
+        "commit": "c6174d1985268aecd08152a4f79c1ac0ba5d97d0",
+        "checkedAt": "2026-10-11T06:46:11.104Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -16244,28 +16244,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "bibekbhusal0/omarchy-focusd",
-        "pluginIds": [
-          "bibek.focusd"
-        ],
-        "commit": "0abacb9c3240b5510af06e58f7fc70d0e6273bed",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-10T18:08:51.269Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-09T20:12:06.872Z",
-        "requestEventId": 30920846054,
-        "requestedAt": "2026-09-10T17:43:26Z",
-        "reviewedAt": "2026-09-10T18:08:51.269Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -16287,8 +16265,75 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "0abacb9c3240b5510af06e58f7fc70d0e6273bed",
+          "validatedAt": "2026-09-10T18:08:51.269Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T06:46:11.104Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bibekbhusal0/omarchy-focusd",
+            "pluginIds": [
+              "bibek.focusd"
+            ],
+            "commit": "0abacb9c3240b5510af06e58f7fc70d0e6273bed",
+            "checkedAt": "2026-09-10T18:08:51.269Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bibekbhusal0/omarchy-focusd",
+            "pluginIds": [
+              "bibek.focusd"
+            ],
+            "commit": "0abacb9c3240b5510af06e58f7fc70d0e6273bed",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-10T18:08:51.269Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-09T20:12:06.872Z",
+            "requestEventId": 30920846054,
+            "requestedAt": "2026-09-10T17:43:26Z",
+            "reviewedAt": "2026-09-10T18:08:51.269Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bibekbhusal0/omarchy-focusd",
+        "pluginIds": [
+          "bibek.focusd"
+        ],
+        "commit": "c6174d1985268aecd08152a4f79c1ac0ba5d97d0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T06:46:11.104Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T06:15:46.228Z",
+        "requestEventId": 32974410850,
+        "requestedAt": "2026-10-11T06:45:47Z",
+        "reviewedAt": "2026-10-11T06:46:11.104Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/tallsam/omarchy-navbar-cat",
