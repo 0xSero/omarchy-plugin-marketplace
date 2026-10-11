@@ -328117,6 +328117,70 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/gfhdhytghd/HyprCapture",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T22:38:55.128Z",
+      "listingValidatedCommit": "02608ef196cf54c9e4c50eee9c9e5ec4663e1af1",
+      "listingValidatedAt": "2026-10-11T22:38:55.128Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gfhdhytghd/hyprcapture",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hyprcapture"
+        ],
+        "commit": "02608ef196cf54c9e4c50eee9c9e5ec4663e1af1",
+        "checkedAt": "2026-10-11T22:38:54.976Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gfhdhytghd/hyprcapture",
+        "pluginIds": [
+          "io.github.gfhdhytghd.hyprcapture"
+        ],
+        "commit": "02608ef196cf54c9e4c50eee9c9e5ec4663e1af1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T22:38:54.976Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T22:36:54.856Z",
+        "requestEventId": 33006897537,
+        "requestedAt": "2026-10-11T22:38:26Z",
+        "reviewedAt": "2026-10-11T22:38:54.976Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.gfhdhytghd.hyprcapture": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
