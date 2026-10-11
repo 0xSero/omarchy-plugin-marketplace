@@ -317004,8 +317004,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T12:59:46.421Z",
-      "listingValidatedCommit": "dd7b1d81dd2c0f419cda5c32c4a0281a5bc0c288",
-      "listingValidatedAt": "2026-10-08T17:46:06.895Z",
+      "listingValidatedCommit": "a67dad63b9aeec9ecde1dcd2316c6e40344de86e",
+      "listingValidatedAt": "2026-10-11T07:07:37.944Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -317014,8 +317014,8 @@
         "pluginIds": [
           "heast13.downtime"
         ],
-        "commit": "dd7b1d81dd2c0f419cda5c32c4a0281a5bc0c288",
-        "checkedAt": "2026-10-08T17:46:06.895Z",
+        "commit": "a67dad63b9aeec9ecde1dcd2316c6e40344de86e",
+        "checkedAt": "2026-10-11T07:07:37.944Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -317038,28 +317038,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "heast13/omarchy-downtime",
-        "pluginIds": [
-          "heast13.downtime"
-        ],
-        "commit": "dd7b1d81dd2c0f419cda5c32c4a0281a5bc0c288",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T17:46:06.895Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T17:03:54.534Z",
-        "requestEventId": 32812039676,
-        "requestedAt": "2026-10-08T17:45:31Z",
-        "reviewedAt": "2026-10-08T17:46:06.895Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -317106,8 +317084,75 @@
             "reviewedAt": "2026-10-08T12:59:46.314Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "dd7b1d81dd2c0f419cda5c32c4a0281a5bc0c288",
+          "validatedAt": "2026-10-08T17:46:06.895Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T07:07:37.944Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "heast13/omarchy-downtime",
+            "pluginIds": [
+              "heast13.downtime"
+            ],
+            "commit": "dd7b1d81dd2c0f419cda5c32c4a0281a5bc0c288",
+            "checkedAt": "2026-10-08T17:46:06.895Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "heast13/omarchy-downtime",
+            "pluginIds": [
+              "heast13.downtime"
+            ],
+            "commit": "dd7b1d81dd2c0f419cda5c32c4a0281a5bc0c288",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T17:46:06.895Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T17:03:54.534Z",
+            "requestEventId": 32812039676,
+            "requestedAt": "2026-10-08T17:45:31Z",
+            "reviewedAt": "2026-10-08T17:46:06.895Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "heast13/omarchy-downtime",
+        "pluginIds": [
+          "heast13.downtime"
+        ],
+        "commit": "a67dad63b9aeec9ecde1dcd2316c6e40344de86e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T07:07:37.944Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T06:38:49.355Z",
+        "requestEventId": 32975046077,
+        "requestedAt": "2026-10-11T07:07:02Z",
+        "reviewedAt": "2026-10-11T07:07:37.944Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Rthierry/omarchy-t2-thermal",
