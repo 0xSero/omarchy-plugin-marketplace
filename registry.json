@@ -324059,6 +324059,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dankestrick/OmaRT100",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T02:33:40.365Z",
+      "listingValidatedCommit": "9ae61847e4dbeff8bd951d128420e2a778bd6837",
+      "listingValidatedAt": "2026-10-11T02:33:40.365Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dankestrick/omart100",
+        "pluginIds": [
+          "io.github.dankestrick.omart100"
+        ],
+        "commit": "9ae61847e4dbeff8bd951d128420e2a778bd6837",
+        "checkedAt": "2026-10-11T02:33:40.274Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dankestrick/omart100",
+        "pluginIds": [
+          "io.github.dankestrick.omart100"
+        ],
+        "commit": "9ae61847e4dbeff8bd951d128420e2a778bd6837",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T02:33:40.274Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T02:25:17.430Z",
+        "requestEventId": 32967850212,
+        "requestedAt": "2026-10-11T02:33:09Z",
+        "reviewedAt": "2026-10-11T02:33:40.274Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dankestrick.omart100": {
+          "category": "Hardware",
+          "tags": [
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
