@@ -327438,6 +327438,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/TomZandt/omarchy-wirebar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T19:43:56.142Z",
+      "listingValidatedCommit": "e90f72b8ca2f6226972307fc1ccb3f074d951b0a",
+      "listingValidatedAt": "2026-10-11T19:43:56.142Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tomzandt/omarchy-wirebar",
+        "pluginIds": [
+          "tzv.wirebar"
+        ],
+        "commit": "e90f72b8ca2f6226972307fc1ccb3f074d951b0a",
+        "checkedAt": "2026-10-11T19:43:56.032Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "tzv.wirebar": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
