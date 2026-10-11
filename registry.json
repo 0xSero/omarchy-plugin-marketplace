@@ -319893,8 +319893,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-09",
       "listedAt": "2026-10-09T05:12:23.759Z",
-      "listingValidatedCommit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
-      "listingValidatedAt": "2026-10-09T05:12:23.759Z",
+      "listingValidatedCommit": "5d3c8cb43f3ecaf039d3197345ffd3fea1d71b41",
+      "listingValidatedAt": "2026-10-11T15:59:33.509Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -319903,8 +319903,8 @@
         "pluginIds": [
           "melkweg.yubikey-otp"
         ],
-        "commit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
-        "checkedAt": "2026-10-09T05:12:23.622Z",
+        "commit": "5d3c8cb43f3ecaf039d3197345ffd3fea1d71b41",
+        "checkedAt": "2026-10-11T15:59:33.509Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -319914,30 +319914,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mvalkier/omarchy-yubikey-otp",
-        "pluginIds": [
-          "melkweg.yubikey-otp"
-        ],
-        "commit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-09T05:12:23.622Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-09T05:06:52.620Z",
-        "requestEventId": 32847640538,
-        "requestedAt": "2026-10-09T05:08:55Z",
-        "reviewedAt": "2026-10-09T05:12:23.622Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "melkweg.yubikey-otp": {
@@ -319953,7 +319929,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mvalkier/omarchy-yubikey-otp",
+        "pluginIds": [
+          "melkweg.yubikey-otp"
+        ],
+        "commit": "5d3c8cb43f3ecaf039d3197345ffd3fea1d71b41",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T15:59:33.509Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T15:41:13.421Z",
+        "requestEventId": 32992551152,
+        "requestedAt": "2026-10-11T15:59:05Z",
+        "reviewedAt": "2026-10-11T15:59:33.509Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
+          "validatedAt": "2026-10-09T05:12:23.759Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T15:59:33.509Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mvalkier/omarchy-yubikey-otp",
+            "pluginIds": [
+              "melkweg.yubikey-otp"
+            ],
+            "commit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
+            "checkedAt": "2026-10-09T05:12:23.622Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mvalkier/omarchy-yubikey-otp",
+            "pluginIds": [
+              "melkweg.yubikey-otp"
+            ],
+            "commit": "219fa72e7c6635237947f2cef083e033c24b1ac3",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-09T05:12:23.622Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T05:06:52.620Z",
+            "requestEventId": 32847640538,
+            "requestedAt": "2026-10-09T05:08:55Z",
+            "reviewedAt": "2026-10-09T05:12:23.622Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/goldbarth/omarchy-arcula",
