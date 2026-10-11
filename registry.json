@@ -315529,8 +315529,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T21:33:00.985Z",
-      "listingValidatedCommit": "a2e252b3e2d563d182b30ad3758679c2a2be885c",
-      "listingValidatedAt": "2026-10-07T21:33:00.985Z",
+      "listingValidatedCommit": "18ad6b24387f1f8fd2225ed93bd82326b7034e6c",
+      "listingValidatedAt": "2026-10-11T07:34:49.827Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -315539,8 +315539,8 @@
         "pluginIds": [
           "io.github.pedroolivy.ci-ping"
         ],
-        "commit": "a2e252b3e2d563d182b30ad3758679c2a2be885c",
-        "checkedAt": "2026-10-07T21:33:00.898Z",
+        "commit": "18ad6b24387f1f8fd2225ed93bd82326b7034e6c",
+        "checkedAt": "2026-10-11T07:34:49.827Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -315555,7 +315555,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a2e252b3e2d563d182b30ad3758679c2a2be885c",
+          "validatedAt": "2026-10-07T21:33:00.985Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T07:34:49.827Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pedroolivy/omarchy-ci-ping",
+            "pluginIds": [
+              "io.github.pedroolivy.ci-ping"
+            ],
+            "commit": "a2e252b3e2d563d182b30ad3758679c2a2be885c",
+            "checkedAt": "2026-10-07T21:33:00.898Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/SalimRK/godark",
