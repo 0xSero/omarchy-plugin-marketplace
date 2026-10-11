@@ -221862,8 +221862,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T20:27:36.520Z",
-      "listingValidatedCommit": "912bc3ccf1a40d05a5ffedb959c691f0d2db0c90",
-      "listingValidatedAt": "2026-09-21T20:27:36.520Z",
+      "listingValidatedCommit": "93d7b2fbebd20ff213a9295acd203fef810dcae8",
+      "listingValidatedAt": "2026-10-11T11:34:14.340Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -221872,35 +221872,14 @@
         "pluginIds": [
           "io.github.rclinux.omablackbox"
         ],
-        "commit": "912bc3ccf1a40d05a5ffedb959c691f0d2db0c90",
-        "checkedAt": "2026-09-21T20:27:36.415Z",
+        "commit": "93d7b2fbebd20ff213a9295acd203fef810dcae8",
+        "checkedAt": "2026-10-11T11:34:14.340Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "rclinux/omablackbox",
-        "pluginIds": [
-          "io.github.rclinux.omablackbox"
-        ],
-        "commit": "912bc3ccf1a40d05a5ffedb959c691f0d2db0c90",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-21T20:27:36.415Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-20T17:23:46.050Z",
-        "requestEventId": 31555705022,
-        "requestedAt": "2026-09-21T20:01:39Z",
-        "reviewedAt": "2026-09-21T20:27:36.415Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.rclinux.omablackbox": {
@@ -221911,7 +221890,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rclinux/omablackbox",
+        "pluginIds": [
+          "io.github.rclinux.omablackbox"
+        ],
+        "commit": "93d7b2fbebd20ff213a9295acd203fef810dcae8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T11:34:14.340Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T10:49:16.684Z",
+        "requestEventId": 32983318028,
+        "requestedAt": "2026-10-11T11:33:45Z",
+        "reviewedAt": "2026-10-11T11:34:14.340Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "912bc3ccf1a40d05a5ffedb959c691f0d2db0c90",
+          "validatedAt": "2026-09-21T20:27:36.520Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T11:34:14.340Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rclinux/omablackbox",
+            "pluginIds": [
+              "io.github.rclinux.omablackbox"
+            ],
+            "commit": "912bc3ccf1a40d05a5ffedb959c691f0d2db0c90",
+            "checkedAt": "2026-09-21T20:27:36.415Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "rclinux/omablackbox",
+            "pluginIds": [
+              "io.github.rclinux.omablackbox"
+            ],
+            "commit": "912bc3ccf1a40d05a5ffedb959c691f0d2db0c90",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-21T20:27:36.415Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-20T17:23:46.050Z",
+            "requestEventId": 31555705022,
+            "requestedAt": "2026-09-21T20:01:39Z",
+            "reviewedAt": "2026-09-21T20:27:36.415Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/betnbd/Omagic",
