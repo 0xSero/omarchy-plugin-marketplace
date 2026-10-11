@@ -327359,6 +327359,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/WhiskeyTangoFussell/omarchy-plugin-screensavermanager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T19:36:55.728Z",
+      "listingValidatedCommit": "61a927916b8dc131d91f15e4e4b28ce4e087b453",
+      "listingValidatedAt": "2026-10-11T19:36:55.728Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "whiskeytangofussell/omarchy-plugin-screensavermanager",
+        "pluginIds": [
+          "io.github.whiskeytangofussell.screensavermanager"
+        ],
+        "commit": "61a927916b8dc131d91f15e4e4b28ce4e087b453",
+        "checkedAt": "2026-10-11T19:36:55.592Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "whiskeytangofussell/omarchy-plugin-screensavermanager",
+        "pluginIds": [
+          "io.github.whiskeytangofussell.screensavermanager"
+        ],
+        "commit": "61a927916b8dc131d91f15e4e4b28ce4e087b453",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T19:36:55.592Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T19:23:24.325Z",
+        "requestEventId": 33000498459,
+        "requestedAt": "2026-10-11T19:36:27Z",
+        "reviewedAt": "2026-10-11T19:36:55.592Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.whiskeytangofussell.screensavermanager": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
