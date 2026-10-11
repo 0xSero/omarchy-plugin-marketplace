@@ -324678,6 +324678,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/salmun-nister/omarchy-loot-drops",
+      "type": "plugin-source",
+      "addedAt": "2026-10-11",
+      "listedAt": "2026-10-11T06:56:00.529Z",
+      "listingValidatedCommit": "28d69101e231c0bb1a6dd478bdd6261064604238",
+      "listingValidatedAt": "2026-10-11T06:56:00.529Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "salmun-nister/omarchy-loot-drops",
+        "pluginIds": [
+          "salmun-nister.loot-drops"
+        ],
+        "commit": "28d69101e231c0bb1a6dd478bdd6261064604238",
+        "checkedAt": "2026-10-11T06:56:00.393Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "salmun-nister/omarchy-loot-drops",
+        "pluginIds": [
+          "salmun-nister.loot-drops"
+        ],
+        "commit": "28d69101e231c0bb1a6dd478bdd6261064604238",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T06:56:00.393Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T06:52:40.410Z",
+        "requestEventId": 32974685645,
+        "requestedAt": "2026-10-11T06:55:35Z",
+        "reviewedAt": "2026-10-11T06:56:00.393Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "salmun-nister.loot-drops": {
+          "category": "Widgets",
+          "tags": [
+            "games",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
