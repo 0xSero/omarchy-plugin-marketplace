@@ -326534,8 +326534,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T13:13:30.739Z",
-      "listingValidatedCommit": "6062276e8116fe98ef88e351b1be6b9892f53332",
-      "listingValidatedAt": "2026-10-11T14:45:54.190Z",
+      "listingValidatedCommit": "1644c256c3dcbafce151ee9a7fe5b418fd31d370",
+      "listingValidatedAt": "2026-10-11T18:11:56.554Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -326544,8 +326544,8 @@
         "pluginIds": [
           "mfabijanic.hyprlogi"
         ],
-        "commit": "6062276e8116fe98ef88e351b1be6b9892f53332",
-        "checkedAt": "2026-10-11T14:45:54.190Z",
+        "commit": "1644c256c3dcbafce151ee9a7fe5b418fd31d370",
+        "checkedAt": "2026-10-11T18:11:56.554Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -326567,27 +326567,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mfabijanic/hyprlogi-omarchy",
-        "pluginIds": [
-          "mfabijanic.hyprlogi"
-        ],
-        "commit": "6062276e8116fe98ef88e351b1be6b9892f53332",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T14:45:54.190Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T13:59:19.203Z",
-        "requestEventId": 32989806796,
-        "requestedAt": "2026-10-11T14:45:26Z",
-        "reviewedAt": "2026-10-11T14:45:54.190Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -326636,8 +326615,72 @@
             "reviewedAt": "2026-10-11T13:13:30.654Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "6062276e8116fe98ef88e351b1be6b9892f53332",
+          "validatedAt": "2026-10-11T14:45:54.190Z",
+          "branch": "main",
+          "supersededAt": "2026-10-11T18:11:56.554Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mfabijanic/hyprlogi-omarchy",
+            "pluginIds": [
+              "mfabijanic.hyprlogi"
+            ],
+            "commit": "6062276e8116fe98ef88e351b1be6b9892f53332",
+            "checkedAt": "2026-10-11T14:45:54.190Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mfabijanic/hyprlogi-omarchy",
+            "pluginIds": [
+              "mfabijanic.hyprlogi"
+            ],
+            "commit": "6062276e8116fe98ef88e351b1be6b9892f53332",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T14:45:54.190Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T13:59:19.203Z",
+            "requestEventId": 32989806796,
+            "requestedAt": "2026-10-11T14:45:26Z",
+            "reviewedAt": "2026-10-11T14:45:54.190Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mfabijanic/hyprlogi-omarchy",
+        "pluginIds": [
+          "mfabijanic.hyprlogi"
+        ],
+        "commit": "1644c256c3dcbafce151ee9a7fe5b418fd31d370",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-11T18:11:56.554Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-11T17:44:38.098Z",
+        "requestEventId": 32997388592,
+        "requestedAt": "2026-10-11T18:11:16Z",
+        "reviewedAt": "2026-10-11T18:11:56.554Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/berrimi/omaram",
