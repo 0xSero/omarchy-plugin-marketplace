@@ -328585,6 +328585,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mulcahyio/omarchy-app-picker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T01:07:51.993Z",
+      "listingValidatedCommit": "5beac3289af3cf11d49a99f9937181244d927c29",
+      "listingValidatedAt": "2026-10-12T01:07:51.993Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mulcahyio/omarchy-app-picker",
+        "pluginIds": [
+          "mulcahyio.app-picker"
+        ],
+        "commit": "5beac3289af3cf11d49a99f9937181244d927c29",
+        "checkedAt": "2026-10-12T01:07:51.877Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mulcahyio/omarchy-app-picker",
+        "pluginIds": [
+          "mulcahyio.app-picker"
+        ],
+        "commit": "5beac3289af3cf11d49a99f9937181244d927c29",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T01:07:51.877Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:04:00.150Z",
+        "requestEventId": 33011675770,
+        "requestedAt": "2026-10-12T01:07:20Z",
+        "reviewedAt": "2026-10-12T01:07:51.877Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mulcahyio.app-picker": {
+          "category": "Desktop",
+          "tags": [
+            "launcher",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
