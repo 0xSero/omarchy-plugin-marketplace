@@ -255203,8 +255203,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T14:08:06.002Z",
-      "listingValidatedCommit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
-      "listingValidatedAt": "2026-10-09T10:15:46.255Z",
+      "listingValidatedCommit": "4b453a2ae31b265453695dfea393a9abbaa1be91",
+      "listingValidatedAt": "2026-10-12T11:02:42.837Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -255213,8 +255213,8 @@
         "pluginIds": [
           "foamy.vitals"
         ],
-        "commit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
-        "checkedAt": "2026-10-09T10:15:46.254Z",
+        "commit": "4b453a2ae31b265453695dfea393a9abbaa1be91",
+        "checkedAt": "2026-10-12T11:02:42.837Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -255246,6 +255246,26 @@
             ],
             "commit": "fc86c676c07c1876f796a72abb8315bdb4ef3908",
             "checkedAt": "2026-09-27T14:08:05.896Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
+          "validatedAt": "2026-10-09T10:15:46.255Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T11:02:42.837Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "foamrider/foamy-vitals",
+            "pluginIds": [
+              "foamy.vitals"
+            ],
+            "commit": "2bf95464ad69f05c85ce08ad07da7bc78131b213",
+            "checkedAt": "2026-10-09T10:15:46.254Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
