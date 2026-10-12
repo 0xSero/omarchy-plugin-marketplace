@@ -330527,6 +330527,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lAvArt/gridfall",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:40:50.374Z",
+      "listingValidatedCommit": "e1c8afcc88f8581986f8ca13f9d887a77259d656",
+      "listingValidatedAt": "2026-10-12T17:40:50.374Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lavart/gridfall",
+        "pluginIds": [
+          "io.github.lavart.gridfall"
+        ],
+        "commit": "e1c8afcc88f8581986f8ca13f9d887a77259d656",
+        "checkedAt": "2026-10-12T17:40:50.236Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.lavart.gridfall": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
