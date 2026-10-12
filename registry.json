@@ -274567,8 +274567,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T02:48:32.303Z",
-      "listingValidatedCommit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
-      "listingValidatedAt": "2026-10-01T02:48:32.303Z",
+      "listingValidatedCommit": "0429b3ad5cbeeead648cc31deae70751e6117daa",
+      "listingValidatedAt": "2026-10-12T01:31:04.446Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -274577,39 +274577,17 @@
         "pluginIds": [
           "ubruckhaus.video-trans"
         ],
-        "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
-        "checkedAt": "2026-10-01T02:48:32.216Z",
+        "commit": "0429b3ad5cbeeead648cc31deae70751e6117daa",
+        "checkedAt": "2026-10-12T01:31:04.446Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager",
           "service-management",
-          "installer"
+          "installer",
+          "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ubruckhaus/omarchy-video-trans",
-        "pluginIds": [
-          "ubruckhaus.video-trans"
-        ],
-        "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T02:48:32.216Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T02:45:43.474Z",
-        "requestEventId": 32217398194,
-        "requestedAt": "2026-10-01T02:47:55Z",
-        "reviewedAt": "2026-10-01T02:48:32.216Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ubruckhaus.video-trans": {
@@ -274625,7 +274603,80 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-video-trans",
+        "pluginIds": [
+          "ubruckhaus.video-trans"
+        ],
+        "commit": "0429b3ad5cbeeead648cc31deae70751e6117daa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T01:31:04.446Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "installer",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T00:16:29.211Z",
+        "requestEventId": 33012470305,
+        "requestedAt": "2026-10-12T01:30:40Z",
+        "reviewedAt": "2026-10-12T01:31:04.446Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
+          "validatedAt": "2026-10-01T02:48:32.303Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T01:31:04.446Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-video-trans",
+            "pluginIds": [
+              "ubruckhaus.video-trans"
+            ],
+            "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
+            "checkedAt": "2026-10-01T02:48:32.216Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-video-trans",
+            "pluginIds": [
+              "ubruckhaus.video-trans"
+            ],
+            "commit": "8623de6d6a1ef98670f3c28916ddd99a9c13c730",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T02:48:32.216Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T02:45:43.474Z",
+            "requestEventId": 32217398194,
+            "requestedAt": "2026-10-01T02:47:55Z",
+            "reviewedAt": "2026-10-01T02:48:32.216Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/TarikDruzich/focus-timer",
