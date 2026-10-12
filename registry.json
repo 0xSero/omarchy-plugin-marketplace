@@ -331195,6 +331195,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/isjake/omatimer-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T21:09:51.368Z",
+      "listingValidatedCommit": "11a1dfcf4873297aa4f8c08d1a4d3258d7481e7a",
+      "listingValidatedAt": "2026-10-12T21:09:51.368Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "isjake/omatimer-plugin",
+        "pluginIds": [
+          "io.github.isjake.omatimer"
+        ],
+        "commit": "11a1dfcf4873297aa4f8c08d1a4d3258d7481e7a",
+        "checkedAt": "2026-10-12T21:09:51.231Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.isjake.omatimer": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
