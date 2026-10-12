@@ -331464,6 +331464,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/yeutterg/omarchy-on-screen-keyboard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T22:14:12.869Z",
+      "listingValidatedCommit": "a076c8a11070016cd937010cc46b98a03773d09d",
+      "listingValidatedAt": "2026-10-12T22:14:12.869Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yeutterg/omarchy-on-screen-keyboard",
+        "pluginIds": [
+          "io.github.yeutterg.onscreen-keyboard"
+        ],
+        "commit": "a076c8a11070016cd937010cc46b98a03773d09d",
+        "checkedAt": "2026-10-12T22:14:12.716Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yeutterg/omarchy-on-screen-keyboard",
+        "pluginIds": [
+          "io.github.yeutterg.onscreen-keyboard"
+        ],
+        "commit": "a076c8a11070016cd937010cc46b98a03773d09d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T22:14:12.716Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T22:01:18.756Z",
+        "requestEventId": 33084591974,
+        "requestedAt": "2026-10-12T22:13:46Z",
+        "reviewedAt": "2026-10-12T22:14:12.716Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.yeutterg.onscreen-keyboard": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
