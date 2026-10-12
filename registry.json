@@ -331033,6 +331033,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nixfred/shepr",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T20:44:06.160Z",
+      "listingValidatedCommit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
+      "listingValidatedAt": "2026-10-12T20:44:06.160Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nixfred/shepr",
+        "pluginIds": [
+          "nixfred.shepr"
+        ],
+        "commit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
+        "checkedAt": "2026-10-12T20:44:06.048Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nixfred/shepr",
+        "pluginIds": [
+          "nixfred.shepr"
+        ],
+        "commit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T20:44:06.048Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T20:29:01.568Z",
+        "requestEventId": 33079651375,
+        "requestedAt": "2026-10-12T20:43:36Z",
+        "reviewedAt": "2026-10-12T20:44:06.048Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nixfred.shepr": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
