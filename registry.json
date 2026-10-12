@@ -330299,6 +330299,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/zeroviger/omarchy-server-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:04:12.015Z",
+      "listingValidatedCommit": "e05642d847cfab22df8434e6ad97a3f0423116e4",
+      "listingValidatedAt": "2026-10-12T17:04:12.015Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zeroviger/omarchy-server-monitor",
+        "pluginIds": [
+          "mcp64.server-monitor"
+        ],
+        "commit": "e05642d847cfab22df8434e6ad97a3f0423116e4",
+        "checkedAt": "2026-10-12T17:04:11.929Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mcp64.server-monitor": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
