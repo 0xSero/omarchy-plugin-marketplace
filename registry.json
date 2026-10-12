@@ -328874,6 +328874,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/buschbrian/omarchy-night-sky",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T02:11:59.740Z",
+      "listingValidatedCommit": "7e5c4763ef36821fbf3e219861138095df24f02c",
+      "listingValidatedAt": "2026-10-12T02:11:59.740Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "buschbrian/omarchy-night-sky",
+        "pluginIds": [
+          "buschbrian.night-sky"
+        ],
+        "commit": "7e5c4763ef36821fbf3e219861138095df24f02c",
+        "checkedAt": "2026-10-12T02:11:59.608Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "buschbrian.night-sky": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
