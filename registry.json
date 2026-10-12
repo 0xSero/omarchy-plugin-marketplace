@@ -323538,8 +323538,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T03:08:30.571Z",
-      "listingValidatedCommit": "8325e14d07f25cf24ee5db5935825eb5442332de",
-      "listingValidatedAt": "2026-10-11T20:52:14.872Z",
+      "listingValidatedCommit": "5c7d5e791846a62fe7e04b72837e4272af4d01ce",
+      "listingValidatedAt": "2026-10-12T04:14:07.585Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -323548,8 +323548,8 @@
         "pluginIds": [
           "richardb.yagi"
         ],
-        "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
-        "checkedAt": "2026-10-11T20:52:14.872Z",
+        "commit": "5c7d5e791846a62fe7e04b72837e4272af4d01ce",
+        "checkedAt": "2026-10-12T04:14:07.585Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -323568,30 +323568,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "rickbacci/yagi",
-        "pluginIds": [
-          "richardb.yagi"
-        ],
-        "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T20:52:14.872Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T20:45:18.724Z",
-        "requestEventId": 33003230345,
-        "requestedAt": "2026-10-11T20:51:44Z",
-        "reviewedAt": "2026-10-11T20:52:14.872Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -323640,8 +323616,81 @@
             "reviewedAt": "2026-10-10T03:08:30.451Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
+          "validatedAt": "2026-10-11T20:52:14.872Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T04:14:07.585Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rickbacci/yagi",
+            "pluginIds": [
+              "richardb.yagi"
+            ],
+            "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
+            "checkedAt": "2026-10-11T20:52:14.872Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "rickbacci/yagi",
+            "pluginIds": [
+              "richardb.yagi"
+            ],
+            "commit": "8325e14d07f25cf24ee5db5935825eb5442332de",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T20:52:14.872Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T20:45:18.724Z",
+            "requestEventId": 33003230345,
+            "requestedAt": "2026-10-11T20:51:44Z",
+            "reviewedAt": "2026-10-11T20:52:14.872Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rickbacci/yagi",
+        "pluginIds": [
+          "richardb.yagi"
+        ],
+        "commit": "5c7d5e791846a62fe7e04b72837e4272af4d01ce",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T04:14:07.585Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:29:54.272Z",
+        "requestEventId": 33018272033,
+        "requestedAt": "2026-10-12T04:13:37Z",
+        "reviewedAt": "2026-10-12T04:14:07.585Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/thevideinfra/omarunner",
