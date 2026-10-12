@@ -330745,6 +330745,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/FernandoTechSpace/jarvis-ai-monitor-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:14:02.762Z",
+      "listingValidatedCommit": "1afd084fdd534dcc06170a005cbc5a8a2bc63730",
+      "listingValidatedAt": "2026-10-12T18:14:02.762Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "fernandotechspace/jarvis-ai-monitor-omarchy",
+        "pluginIds": [
+          "fernando.jarvis-ai-monitor"
+        ],
+        "commit": "1afd084fdd534dcc06170a005cbc5a8a2bc63730",
+        "checkedAt": "2026-10-12T18:14:02.611Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fernando.jarvis-ai-monitor": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
