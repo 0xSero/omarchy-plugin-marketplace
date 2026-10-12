@@ -329246,6 +329246,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/stewartjarod/omarchy-audible",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T04:48:23.542Z",
+      "listingValidatedCommit": "334f11ad5358d313d274ba83af2edf4f9cf12ff5",
+      "listingValidatedAt": "2026-10-12T04:48:23.542Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "stewartjarod/omarchy-audible",
+        "pluginIds": [
+          "stewartjarod.audible"
+        ],
+        "commit": "334f11ad5358d313d274ba83af2edf4f9cf12ff5",
+        "checkedAt": "2026-10-12T04:48:23.414Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "stewartjarod/omarchy-audible",
+        "pluginIds": [
+          "stewartjarod.audible"
+        ],
+        "commit": "334f11ad5358d313d274ba83af2edf4f9cf12ff5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T04:48:23.414Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T04:36:15.243Z",
+        "requestEventId": 33019535875,
+        "requestedAt": "2026-10-12T04:47:56Z",
+        "reviewedAt": "2026-10-12T04:48:23.415Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "stewartjarod.audible": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
