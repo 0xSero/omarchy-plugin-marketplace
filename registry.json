@@ -234713,8 +234713,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T17:42:37.107Z",
-      "listingValidatedCommit": "8806810e4b36ffd9351cfb710fff5a18b30fd545",
-      "listingValidatedAt": "2026-10-04T11:53:58.885Z",
+      "listingValidatedCommit": "bf2ace93fe6be23afd7aa7e20926028dce2dd219",
+      "listingValidatedAt": "2026-10-12T23:06:56.850Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -234723,8 +234723,8 @@
         "pluginIds": [
           "io.github.manateelazycat.fcitx-status"
         ],
-        "commit": "8806810e4b36ffd9351cfb710fff5a18b30fd545",
-        "checkedAt": "2026-10-04T11:53:58.885Z",
+        "commit": "bf2ace93fe6be23afd7aa7e20926028dce2dd219",
+        "checkedAt": "2026-10-12T23:06:56.850Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -234742,27 +234742,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-fctix-status",
-        "pluginIds": [
-          "io.github.manateelazycat.fcitx-status"
-        ],
-        "commit": "8806810e4b36ffd9351cfb710fff5a18b30fd545",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T11:53:58.885Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T10:36:31.031Z",
-        "requestEventId": 32440913873,
-        "requestedAt": "2026-10-04T11:41:49Z",
-        "reviewedAt": "2026-10-04T11:53:58.885Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -234807,8 +234786,72 @@
             "reviewedAt": "2026-09-22T17:42:37.004Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8806810e4b36ffd9351cfb710fff5a18b30fd545",
+          "validatedAt": "2026-10-04T11:53:58.885Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T23:06:56.850Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-fctix-status",
+            "pluginIds": [
+              "io.github.manateelazycat.fcitx-status"
+            ],
+            "commit": "8806810e4b36ffd9351cfb710fff5a18b30fd545",
+            "checkedAt": "2026-10-04T11:53:58.885Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-fctix-status",
+            "pluginIds": [
+              "io.github.manateelazycat.fcitx-status"
+            ],
+            "commit": "8806810e4b36ffd9351cfb710fff5a18b30fd545",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T11:53:58.885Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T10:36:31.031Z",
+            "requestEventId": 32440913873,
+            "requestedAt": "2026-10-04T11:41:49Z",
+            "reviewedAt": "2026-10-04T11:53:58.885Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-fctix-status",
+        "pluginIds": [
+          "io.github.manateelazycat.fcitx-status"
+        ],
+        "commit": "bf2ace93fe6be23afd7aa7e20926028dce2dd219",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T23:06:56.850Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T18:36:21.693Z",
+        "requestEventId": 33087039176,
+        "requestedAt": "2026-10-12T23:05:01Z",
+        "reviewedAt": "2026-10-12T23:06:56.850Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/dmitry-solomadin/omarchy-desktop-restore",
