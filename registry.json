@@ -324770,8 +324770,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T11:51:33.649Z",
-      "listingValidatedCommit": "009cff54a408ffdec90a3ce5f699583c07de2447",
-      "listingValidatedAt": "2026-10-12T12:17:21.398Z",
+      "listingValidatedCommit": "47c1b2bebefe7ad993d71474ab084ab5af7efb13",
+      "listingValidatedAt": "2026-10-12T22:25:31.885Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -324780,8 +324780,8 @@
         "pluginIds": [
           "ubruckhaus.wlan-monitor"
         ],
-        "commit": "009cff54a408ffdec90a3ce5f699583c07de2447",
-        "checkedAt": "2026-10-12T12:17:21.398Z",
+        "commit": "47c1b2bebefe7ad993d71474ab084ab5af7efb13",
+        "checkedAt": "2026-10-12T22:25:31.885Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -324852,6 +324852,26 @@
             ],
             "commit": "febed3a7e750ae5b90d4eb5732feee771a420aca",
             "checkedAt": "2026-10-12T10:33:25.851Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "009cff54a408ffdec90a3ce5f699583c07de2447",
+          "validatedAt": "2026-10-12T12:17:21.398Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T22:25:31.885Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-wlan-monitor",
+            "pluginIds": [
+              "ubruckhaus.wlan-monitor"
+            ],
+            "commit": "009cff54a408ffdec90a3ce5f699583c07de2447",
+            "checkedAt": "2026-10-12T12:17:21.398Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
