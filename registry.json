@@ -330874,6 +330874,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ianswope/g7-companion",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:57:34.670Z",
+      "listingValidatedCommit": "3c720b3356141283b3aad6dc1f85b6763844fb7a",
+      "listingValidatedAt": "2026-10-12T18:57:34.670Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ianswope/g7-companion",
+        "pluginIds": [
+          "ianswope.g7-companion"
+        ],
+        "commit": "3c720b3356141283b3aad6dc1f85b6763844fb7a",
+        "checkedAt": "2026-10-12T18:57:34.528Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ianswope.g7-companion": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
