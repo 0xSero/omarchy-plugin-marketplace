@@ -330688,6 +330688,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jburchel/omarchy-assistant",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T18:03:23.311Z",
+      "listingValidatedCommit": "30a6afe799c386295b67a9a1a3dbfad915a4d7ac",
+      "listingValidatedAt": "2026-10-12T18:03:23.311Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jburchel/omarchy-assistant",
+        "pluginIds": [
+          "io.github.jburchel.omarchy-assistant"
+        ],
+        "commit": "30a6afe799c386295b67a9a1a3dbfad915a4d7ac",
+        "checkedAt": "2026-10-12T18:03:23.172Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jburchel/omarchy-assistant",
+        "pluginIds": [
+          "io.github.jburchel.omarchy-assistant"
+        ],
+        "commit": "30a6afe799c386295b67a9a1a3dbfad915a4d7ac",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T18:03:23.172Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T17:56:10.019Z",
+        "requestEventId": 33069818487,
+        "requestedAt": "2026-10-12T18:02:28Z",
+        "reviewedAt": "2026-10-12T18:03:23.172Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.jburchel.omarchy-assistant": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
