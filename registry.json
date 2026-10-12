@@ -326838,8 +326838,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T01:40:47.858Z",
-      "listingValidatedCommit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
-      "listingValidatedAt": "2026-10-11T01:40:47.858Z",
+      "listingValidatedCommit": "b5b3a79a62b9e2637ac77f2c75d9488ce8abb362",
+      "listingValidatedAt": "2026-10-12T13:56:46.605Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -326848,35 +326848,14 @@
         "pluginIds": [
           "imranzero.2048"
         ],
-        "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
-        "checkedAt": "2026-10-11T01:40:47.721Z",
+        "commit": "b5b3a79a62b9e2637ac77f2c75d9488ce8abb362",
+        "checkedAt": "2026-10-12T13:56:46.605Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "imranzero/omarchy-2048",
-        "pluginIds": [
-          "imranzero.2048"
-        ],
-        "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T01:40:47.721Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T01:37:27.683Z",
-        "requestEventId": 32966495706,
-        "requestedAt": "2026-10-11T01:40:19Z",
-        "reviewedAt": "2026-10-11T01:40:47.721Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "imranzero.2048": {
@@ -326887,7 +326866,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "imranzero/omarchy-2048",
+        "pluginIds": [
+          "imranzero.2048"
+        ],
+        "commit": "b5b3a79a62b9e2637ac77f2c75d9488ce8abb362",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T13:56:46.605Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T13:03:37.860Z",
+        "requestEventId": 33052982418,
+        "requestedAt": "2026-10-12T13:56:10Z",
+        "reviewedAt": "2026-10-12T13:56:46.605Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
+          "validatedAt": "2026-10-11T01:40:47.858Z",
+          "branch": "master",
+          "supersededAt": "2026-10-12T13:56:46.605Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "imranzero/omarchy-2048",
+            "pluginIds": [
+              "imranzero.2048"
+            ],
+            "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
+            "checkedAt": "2026-10-11T01:40:47.721Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "imranzero/omarchy-2048",
+            "pluginIds": [
+              "imranzero.2048"
+            ],
+            "commit": "2737102581eb3f7ce380c5e8d45f75dd3fb868ef",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T01:40:47.721Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T01:37:27.683Z",
+            "requestEventId": 32966495706,
+            "requestedAt": "2026-10-11T01:40:19Z",
+            "reviewedAt": "2026-10-11T01:40:47.721Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/nicknow/omarchy-nicknow-omatxtvw",
