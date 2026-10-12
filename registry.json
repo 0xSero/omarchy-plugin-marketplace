@@ -328751,6 +328751,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/samcapshaw/dispatch",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T01:57:39.418Z",
+      "listingValidatedCommit": "9ca955e88cfb0caf33acfa7a6d116e02c209233b",
+      "listingValidatedAt": "2026-10-12T01:57:39.418Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "samcapshaw/dispatch",
+        "pluginIds": [
+          "io.github.samcapshaw.dispatch"
+        ],
+        "commit": "9ca955e88cfb0caf33acfa7a6d116e02c209233b",
+        "checkedAt": "2026-10-12T01:57:39.326Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "samcapshaw/dispatch",
+        "pluginIds": [
+          "io.github.samcapshaw.dispatch"
+        ],
+        "commit": "9ca955e88cfb0caf33acfa7a6d116e02c209233b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T01:57:39.326Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:53:00.271Z",
+        "requestEventId": 33013402030,
+        "requestedAt": "2026-10-12T01:57:10Z",
+        "reviewedAt": "2026-10-12T01:57:39.326Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.samcapshaw.dispatch": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "media",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
