@@ -331403,6 +331403,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Telep-IO/oposse",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T22:01:08.311Z",
+      "listingValidatedCommit": "21a1da0ddcaf922c56750c75d3b67509fcb6796c",
+      "listingValidatedAt": "2026-10-12T22:01:08.311Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "telep-io/oposse",
+        "pluginIds": [
+          "telep.posse"
+        ],
+        "commit": "21a1da0ddcaf922c56750c75d3b67509fcb6796c",
+        "checkedAt": "2026-10-12T22:01:08.182Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "telep-io/oposse",
+        "pluginIds": [
+          "telep.posse"
+        ],
+        "commit": "21a1da0ddcaf922c56750c75d3b67509fcb6796c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T22:01:08.182Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T21:57:07.731Z",
+        "requestEventId": 33083916899,
+        "requestedAt": "2026-10-12T22:00:32Z",
+        "reviewedAt": "2026-10-12T22:01:08.182Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "telep.posse": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
