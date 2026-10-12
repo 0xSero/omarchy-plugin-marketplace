@@ -330333,6 +330333,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/arnaldo-delisio/omarchy-memory-oomd",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:09:41.967Z",
+      "listingValidatedCommit": "949499704ffb06be65d363b457b2d85dadaaa813",
+      "listingValidatedAt": "2026-10-12T17:09:41.967Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "arnaldo-delisio/omarchy-memory-oomd",
+        "pluginIds": [
+          "io.github.arnaldo-delisio.memory-oomd"
+        ],
+        "commit": "949499704ffb06be65d363b457b2d85dadaaa813",
+        "checkedAt": "2026-10-12T17:09:41.814Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "arnaldo-delisio/omarchy-memory-oomd",
+        "pluginIds": [
+          "io.github.arnaldo-delisio.memory-oomd"
+        ],
+        "commit": "949499704ffb06be65d363b457b2d85dadaaa813",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T17:09:41.814Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T10:31:55.749Z",
+        "requestEventId": 33066548682,
+        "requestedAt": "2026-10-12T17:09:04Z",
+        "reviewedAt": "2026-10-12T17:09:41.814Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.arnaldo-delisio.memory-oomd": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
