@@ -329392,6 +329392,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/hnry047/omarchy-netmount",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T05:14:11.311Z",
+      "listingValidatedCommit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+      "listingValidatedAt": "2026-10-12T05:14:11.311Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hnry047/omarchy-netmount",
+        "pluginIds": [
+          "hnry047.netmount"
+        ],
+        "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+        "checkedAt": "2026-10-12T05:14:11.191Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hnry047/omarchy-netmount",
+        "pluginIds": [
+          "hnry047.netmount"
+        ],
+        "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T05:14:11.191Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T05:10:48.796Z",
+        "requestEventId": 33020501489,
+        "requestedAt": "2026-10-12T05:13:40Z",
+        "reviewedAt": "2026-10-12T05:14:11.191Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "hnry047.netmount": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
