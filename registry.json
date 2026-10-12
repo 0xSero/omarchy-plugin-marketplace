@@ -328812,6 +328812,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dankestrick/OmaCanon",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T02:04:02.214Z",
+      "listingValidatedCommit": "f9156fd20856fe633b9dea34a5f228457be14ee5",
+      "listingValidatedAt": "2026-10-12T02:04:02.214Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dankestrick/omacanon",
+        "pluginIds": [
+          "io.github.dankestrick.omacanon"
+        ],
+        "commit": "f9156fd20856fe633b9dea34a5f228457be14ee5",
+        "checkedAt": "2026-10-12T02:04:02.071Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dankestrick/omacanon",
+        "pluginIds": [
+          "io.github.dankestrick.omacanon"
+        ],
+        "commit": "f9156fd20856fe633b9dea34a5f228457be14ee5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T02:04:02.071Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T01:58:44.059Z",
+        "requestEventId": 33013626282,
+        "requestedAt": "2026-10-12T02:03:32Z",
+        "reviewedAt": "2026-10-12T02:04:02.071Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dankestrick.omacanon": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
