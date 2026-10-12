@@ -235018,8 +235018,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T17:53:50.952Z",
-      "listingValidatedCommit": "fd1238e350cedaf89dfe7484b73dbe643fd22c9d",
-      "listingValidatedAt": "2026-10-04T11:28:17.583Z",
+      "listingValidatedCommit": "f3cfafd47a516faa0c4a6337a3e51bc94220ad94",
+      "listingValidatedAt": "2026-10-12T23:19:31.286Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -235028,8 +235028,8 @@
         "pluginIds": [
           "io.github.manateelazycat.color-picker"
         ],
-        "commit": "fd1238e350cedaf89dfe7484b73dbe643fd22c9d",
-        "checkedAt": "2026-10-04T11:28:17.583Z",
+        "commit": "f3cfafd47a516faa0c4a6337a3e51bc94220ad94",
+        "checkedAt": "2026-10-12T23:19:31.286Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -235061,6 +235061,26 @@
             ],
             "commit": "d96f974f95cdf12954b284eb079464c4944858ca",
             "checkedAt": "2026-09-22T17:53:50.843Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "fd1238e350cedaf89dfe7484b73dbe643fd22c9d",
+          "validatedAt": "2026-10-04T11:28:17.583Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T23:19:31.286Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-color-picker",
+            "pluginIds": [
+              "io.github.manateelazycat.color-picker"
+            ],
+            "commit": "fd1238e350cedaf89dfe7484b73dbe643fd22c9d",
+            "checkedAt": "2026-10-04T11:28:17.583Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
