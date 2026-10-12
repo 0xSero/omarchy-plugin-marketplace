@@ -329988,6 +329988,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Anky209e/omarchy-project_manager",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T16:26:59.131Z",
+      "listingValidatedCommit": "c8ed6a434972f230ceb6b1368829516b0c01ee92",
+      "listingValidatedAt": "2026-10-12T16:26:59.131Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "anky209e/omarchy-project_manager",
+        "pluginIds": [
+          "io.github.anky209e.project-manager"
+        ],
+        "commit": "c8ed6a434972f230ceb6b1368829516b0c01ee92",
+        "checkedAt": "2026-10-12T16:26:59.010Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "anky209e/omarchy-project_manager",
+        "pluginIds": [
+          "io.github.anky209e.project-manager"
+        ],
+        "commit": "c8ed6a434972f230ceb6b1368829516b0c01ee92",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T16:26:59.010Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T06:43:14.475Z",
+        "requestEventId": 33063833602,
+        "requestedAt": "2026-10-12T16:26:27Z",
+        "reviewedAt": "2026-10-12T16:26:59.010Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.anky209e.project-manager": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
