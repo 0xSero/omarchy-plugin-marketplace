@@ -330631,6 +330631,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/joseluiss2003/joseluis.control-center",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:50:44.150Z",
+      "listingValidatedCommit": "be1b4caa4891d6acaa4ab5c8a2abe334c5072cc6",
+      "listingValidatedAt": "2026-10-12T17:50:44.150Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "joseluiss2003/joseluis.control-center",
+        "pluginIds": [
+          "joseluis.control-center"
+        ],
+        "commit": "be1b4caa4891d6acaa4ab5c8a2abe334c5072cc6",
+        "checkedAt": "2026-10-12T17:50:44.011Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "joseluiss2003/joseluis.control-center",
+        "pluginIds": [
+          "joseluis.control-center"
+        ],
+        "commit": "be1b4caa4891d6acaa4ab5c8a2abe334c5072cc6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T17:50:44.011Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T17:01:59.540Z",
+        "requestEventId": 33069071479,
+        "requestedAt": "2026-10-12T17:50:08Z",
+        "reviewedAt": "2026-10-12T17:50:44.011Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "joseluis.control-center": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
