@@ -328528,6 +328528,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/seunghan91/omarchy-drop-to-close",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T00:53:47.666Z",
+      "listingValidatedCommit": "a0e74df3c20e4902f42fc86208826a2d943e8d58",
+      "listingValidatedAt": "2026-10-12T00:53:47.666Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "seunghan91/omarchy-drop-to-close",
+        "pluginIds": [
+          "io.github.seunghan91.drop-to-close"
+        ],
+        "commit": "a0e74df3c20e4902f42fc86208826a2d943e8d58",
+        "checkedAt": "2026-10-12T00:53:47.577Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.seunghan91.drop-to-close": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
