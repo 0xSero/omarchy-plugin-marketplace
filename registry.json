@@ -321722,8 +321722,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-09",
       "listedAt": "2026-10-09T13:47:13.069Z",
-      "listingValidatedCommit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
-      "listingValidatedAt": "2026-10-09T13:47:13.069Z",
+      "listingValidatedCommit": "fdb50c49c8a31b8d1f8a05b1b3c2567a31a499b7",
+      "listingValidatedAt": "2026-10-12T04:16:58.491Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -321732,8 +321732,8 @@
         "pluginIds": [
           "songlairui.grokbot-usage"
         ],
-        "commit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
-        "checkedAt": "2026-10-09T13:47:12.929Z",
+        "commit": "fdb50c49c8a31b8d1f8a05b1b3c2567a31a499b7",
+        "checkedAt": "2026-10-12T04:16:58.491Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -321749,7 +321749,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
+          "validatedAt": "2026-10-09T13:47:13.069Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T04:16:58.491Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "songlairui/omarchy-grokbot-usage",
+            "pluginIds": [
+              "songlairui.grokbot-usage"
+            ],
+            "commit": "1ba861f55baf4d9e2b7ba8c717cce38dcedc1cb6",
+            "checkedAt": "2026-10-09T13:47:12.929Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/geoweir/zabbix-bar",
