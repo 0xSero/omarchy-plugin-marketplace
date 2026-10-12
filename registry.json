@@ -323370,8 +323370,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T02:01:16.149Z",
-      "listingValidatedCommit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
-      "listingValidatedAt": "2026-10-10T02:01:16.149Z",
+      "listingValidatedCommit": "94464be19b8d3241d58522aba7f9472987e7f61b",
+      "listingValidatedAt": "2026-10-12T03:05:59.651Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -323380,8 +323380,8 @@
         "pluginIds": [
           "pwnsxb.2048"
         ],
-        "commit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
-        "checkedAt": "2026-10-10T02:01:16.036Z",
+        "commit": "94464be19b8d3241d58522aba7f9472987e7f61b",
+        "checkedAt": "2026-10-12T03:05:59.651Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -323397,7 +323397,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
+          "validatedAt": "2026-10-10T02:01:16.149Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T03:05:59.651Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pwn27sbx/2048",
+            "pluginIds": [
+              "pwnsxb.2048"
+            ],
+            "commit": "7c53724282db4eb49abbb6fa493816979eec6dbb",
+            "checkedAt": "2026-10-10T02:01:16.036Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/latentoperator/omarchy-audible",
