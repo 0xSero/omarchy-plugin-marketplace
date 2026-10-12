@@ -330907,6 +330907,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/MaNi4/omarchy-job-queues",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T19:21:41.103Z",
+      "listingValidatedCommit": "1c1a09778f94481998982201b917b5dc3b8782d5",
+      "listingValidatedAt": "2026-10-12T19:21:41.103Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mani4/omarchy-job-queues",
+        "pluginIds": [
+          "mani4.job-queues"
+        ],
+        "commit": "1c1a09778f94481998982201b917b5dc3b8782d5",
+        "checkedAt": "2026-10-12T19:21:40.942Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mani4.job-queues": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
