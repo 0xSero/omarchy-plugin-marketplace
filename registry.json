@@ -330495,6 +330495,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/soham3301/display-particles",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T17:35:03.553Z",
+      "listingValidatedCommit": "3a933ff9a4100b22d9d0dd19e946d559c570ea65",
+      "listingValidatedAt": "2026-10-12T17:35:03.553Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "soham3301/display-particles",
+        "pluginIds": [
+          "io.github.soham3301.display-particles"
+        ],
+        "commit": "3a933ff9a4100b22d9d0dd19e946d559c570ea65",
+        "checkedAt": "2026-10-12T17:35:03.418Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.soham3301.display-particles": {
+          "category": "Appearance",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
