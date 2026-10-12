@@ -328284,8 +328284,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T20:22:53.044Z",
-      "listingValidatedCommit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
-      "listingValidatedAt": "2026-10-11T20:22:53.044Z",
+      "listingValidatedCommit": "0c6ce326582dc26b408cc1356bbb7424f1eaa0a1",
+      "listingValidatedAt": "2026-10-12T03:38:41.706Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -328294,8 +328294,8 @@
         "pluginIds": [
           "com.gaugedb.search"
         ],
-        "commit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
-        "checkedAt": "2026-10-11T20:22:52.955Z",
+        "commit": "0c6ce326582dc26b408cc1356bbb7424f1eaa0a1",
+        "checkedAt": "2026-10-12T03:38:41.706Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -328311,7 +328311,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
+          "validatedAt": "2026-10-11T20:22:53.044Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T03:38:41.706Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dyd4dsh7/gaugedb-omarchy",
+            "pluginIds": [
+              "com.gaugedb.search"
+            ],
+            "commit": "c6e9dc21efb087b6f3edd29495f56a8921d3aa0d",
+            "checkedAt": "2026-10-11T20:22:52.955Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/uBruckhaus/omarchy-my-plugins",
