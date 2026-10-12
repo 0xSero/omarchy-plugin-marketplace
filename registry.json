@@ -331162,6 +331162,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/nautilusmare/omarchy-launchpad",
+      "type": "plugin-source",
+      "addedAt": "2026-10-12",
+      "listedAt": "2026-10-12T20:59:22.255Z",
+      "listingValidatedCommit": "dd224335ef74ac0cefc984dc55f90169a86ada45",
+      "listingValidatedAt": "2026-10-12T20:59:22.255Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nautilusmare/omarchy-launchpad",
+        "pluginIds": [
+          "maurice.spacex"
+        ],
+        "commit": "dd224335ef74ac0cefc984dc55f90169a86ada45",
+        "checkedAt": "2026-10-12T20:59:22.111Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "maurice.spacex": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
