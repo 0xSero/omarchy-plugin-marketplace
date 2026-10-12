@@ -330193,8 +330193,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-12",
       "listedAt": "2026-10-12T16:22:26.565Z",
-      "listingValidatedCommit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
-      "listingValidatedAt": "2026-10-12T16:22:26.565Z",
+      "listingValidatedCommit": "61a95bedefcbcd2e712ec97081bb32f517a9149c",
+      "listingValidatedAt": "2026-10-12T23:37:51.418Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -330203,8 +330203,8 @@
         "pluginIds": [
           "andy.switch-display"
         ],
-        "commit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
-        "checkedAt": "2026-10-12T16:22:26.433Z",
+        "commit": "61a95bedefcbcd2e712ec97081bb32f517a9149c",
+        "checkedAt": "2026-10-12T23:37:51.418Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -330212,28 +330212,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-switch-display",
-        "pluginIds": [
-          "andy.switch-display"
-        ],
-        "commit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T16:22:26.433Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T08:44:23.230Z",
-        "requestEventId": 33063533368,
-        "requestedAt": "2026-10-12T16:21:58Z",
-        "reviewedAt": "2026-10-12T16:22:26.433Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "andy.switch-display": {
@@ -330249,7 +330227,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-switch-display",
+        "pluginIds": [
+          "andy.switch-display"
+        ],
+        "commit": "61a95bedefcbcd2e712ec97081bb32f517a9149c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-12T23:37:51.418Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T18:36:30.135Z",
+        "requestEventId": 33088456375,
+        "requestedAt": "2026-10-12T23:37:24Z",
+        "reviewedAt": "2026-10-12T23:37:51.418Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
+          "validatedAt": "2026-10-12T16:22:26.565Z",
+          "branch": "main",
+          "supersededAt": "2026-10-12T23:37:51.418Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-switch-display",
+            "pluginIds": [
+              "andy.switch-display"
+            ],
+            "commit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
+            "checkedAt": "2026-10-12T16:22:26.433Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-switch-display",
+            "pluginIds": [
+              "andy.switch-display"
+            ],
+            "commit": "c508ee1cd32f501fff4cdd22bbe15248c079054c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T16:22:26.433Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T08:44:23.230Z",
+            "requestEventId": 33063533368,
+            "requestedAt": "2026-10-12T16:21:58Z",
+            "reviewedAt": "2026-10-12T16:22:26.433Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Anky209e/omarchy-project_manager",
