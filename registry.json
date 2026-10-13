@@ -332027,6 +332027,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/nertwork/omarchy-ip-info",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T01:24:43.997Z",
+      "listingValidatedCommit": "fe0b19ac9e6e3e5ac7a27ae1c4c7a5feefa15a11",
+      "listingValidatedAt": "2026-10-13T01:24:43.997Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nertwork/omarchy-ip-info",
+        "pluginIds": [
+          "nertwork.ip-info"
+        ],
+        "commit": "fe0b19ac9e6e3e5ac7a27ae1c4c7a5feefa15a11",
+        "checkedAt": "2026-10-13T01:24:43.844Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nertwork.ip-info": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "vpn"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
