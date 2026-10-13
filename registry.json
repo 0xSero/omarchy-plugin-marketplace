@@ -333734,6 +333734,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/oghein/hide-learn-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T20:20:03.534Z",
+      "listingValidatedCommit": "115fc9acde070dfa76cf11c7d47f391c7cc0c339",
+      "listingValidatedAt": "2026-10-13T20:20:03.534Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "oghein/hide-learn-plugin",
+        "pluginIds": [
+          "hide.learn"
+        ],
+        "commit": "115fc9acde070dfa76cf11c7d47f391c7cc0c339",
+        "checkedAt": "2026-10-13T20:20:03.379Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "oghein/hide-learn-plugin",
+        "pluginIds": [
+          "hide.learn"
+        ],
+        "commit": "115fc9acde070dfa76cf11c7d47f391c7cc0c339",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T20:20:03.379Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T20:17:20.540Z",
+        "requestEventId": 33168978309,
+        "requestedAt": "2026-10-13T20:19:33Z",
+        "reviewedAt": "2026-10-13T20:20:03.379Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "hide.learn": {
+          "category": "Appearance",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
