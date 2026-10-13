@@ -333858,6 +333858,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/yaeloss/omuseful",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T20:32:41.776Z",
+      "listingValidatedCommit": "72494e6eeba867280d53566d1e691663758a1809",
+      "listingValidatedAt": "2026-10-13T20:32:41.776Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yaeloss/omuseful",
+        "pluginIds": [
+          "omuseful"
+        ],
+        "commit": "72494e6eeba867280d53566d1e691663758a1809",
+        "checkedAt": "2026-10-13T20:32:41.649Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yaeloss/omuseful",
+        "pluginIds": [
+          "omuseful"
+        ],
+        "commit": "72494e6eeba867280d53566d1e691663758a1809",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T20:32:41.649Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T20:26:39.866Z",
+        "requestEventId": 33169676112,
+        "requestedAt": "2026-10-13T20:29:15Z",
+        "reviewedAt": "2026-10-13T20:32:41.649Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omuseful": {
+          "category": "Widgets",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
