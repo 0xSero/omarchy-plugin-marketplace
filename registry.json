@@ -331883,6 +331883,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/AmbitiousRealism2025/t3-loupe",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T00:21:29.511Z",
+      "listingValidatedCommit": "6fb1ec8e2f7c573ca1178b038dfca15700926a7e",
+      "listingValidatedAt": "2026-10-13T00:21:29.511Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ambitiousrealism2025/t3-loupe",
+        "pluginIds": [
+          "ambitiousrealism.t3-loupe"
+        ],
+        "commit": "6fb1ec8e2f7c573ca1178b038dfca15700926a7e",
+        "checkedAt": "2026-10-13T00:21:29.366Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ambitiousrealism.t3-loupe": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
