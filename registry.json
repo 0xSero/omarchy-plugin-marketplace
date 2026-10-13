@@ -333007,6 +333007,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ozdil/quicknews",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T17:16:37.282Z",
+      "listingValidatedCommit": "fb31410689f98b2e8b3741aa29170be025548b30",
+      "listingValidatedAt": "2026-10-13T17:16:37.282Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ozdil/quicknews",
+        "pluginIds": [
+          "ozdil.quicknews"
+        ],
+        "commit": "fb31410689f98b2e8b3741aa29170be025548b30",
+        "checkedAt": "2026-10-13T17:16:37.154Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ozdil/quicknews",
+        "pluginIds": [
+          "ozdil.quicknews"
+        ],
+        "commit": "fb31410689f98b2e8b3741aa29170be025548b30",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T17:16:37.154Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T17:13:11.744Z",
+        "requestEventId": 33155576226,
+        "requestedAt": "2026-10-13T17:16:05Z",
+        "reviewedAt": "2026-10-13T17:16:37.154Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ozdil.quicknews": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
