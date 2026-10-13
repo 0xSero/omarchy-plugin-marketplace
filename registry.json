@@ -334235,6 +334235,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/slogonomo/live-quake",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T22:05:57.998Z",
+      "listingValidatedCommit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
+      "listingValidatedAt": "2026-10-13T22:05:57.998Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "slogonomo/live-quake",
+        "pluginIds": [
+          "io.github.slogonomo.live-quake"
+        ],
+        "commit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
+        "checkedAt": "2026-10-13T22:05:57.910Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "slogonomo/live-quake",
+        "pluginIds": [
+          "io.github.slogonomo.live-quake"
+        ],
+        "commit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T22:05:57.910Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T19:04:55.641Z",
+        "requestEventId": 33175914398,
+        "requestedAt": "2026-10-13T22:05:27Z",
+        "reviewedAt": "2026-10-13T22:05:57.910Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.slogonomo.live-quake": {
+          "category": "Appearance",
+          "tags": [
+            "games",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
