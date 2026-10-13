@@ -333279,6 +333279,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Arturo387/ssh-host",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T18:41:34.126Z",
+      "listingValidatedCommit": "18aa56031c5270f3feb2055232220df73e9e1050",
+      "listingValidatedAt": "2026-10-13T18:41:34.126Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "arturo387/ssh-host",
+        "pluginIds": [
+          "arturo.ssh-host"
+        ],
+        "commit": "18aa56031c5270f3feb2055232220df73e9e1050",
+        "checkedAt": "2026-10-13T18:41:33.992Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "arturo.ssh-host": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
