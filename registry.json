@@ -23609,8 +23609,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-18",
       "listedAt": "2026-08-18T20:41:07.118Z",
-      "listingValidatedCommit": "65ad8f85928588508faaeb39d85fc81c5414644a",
-      "listingValidatedAt": "2026-08-22T23:51:51.368Z",
+      "listingValidatedCommit": "440a370afa12f65bf73f2f109d9056b22f9016bc",
+      "listingValidatedAt": "2026-10-13T04:04:30.670Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -23619,8 +23619,8 @@
         "pluginIds": [
           "jhgundersen.oh-no-more-agents"
         ],
-        "commit": "65ad8f85928588508faaeb39d85fc81c5414644a",
-        "checkedAt": "2026-08-22T23:51:51.367Z",
+        "commit": "440a370afa12f65bf73f2f109d9056b22f9016bc",
+        "checkedAt": "2026-10-13T04:04:30.670Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -23657,6 +23657,26 @@
             "capabilities": [
               "remote-build"
             ]
+          }
+        },
+        {
+          "commit": "65ad8f85928588508faaeb39d85fc81c5414644a",
+          "validatedAt": "2026-08-22T23:51:51.368Z",
+          "branch": "main",
+          "supersededAt": "2026-10-13T04:04:30.670Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jhgundersen/omarchy-oh-no-more-agents-plugin",
+            "pluginIds": [
+              "jhgundersen.oh-no-more-agents"
+            ],
+            "commit": "65ad8f85928588508faaeb39d85fc81c5414644a",
+            "checkedAt": "2026-08-22T23:51:51.367Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
