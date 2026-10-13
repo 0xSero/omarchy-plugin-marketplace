@@ -333923,6 +333923,72 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/samcapshaw/omarchy-mail",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T20:44:32.686Z",
+      "listingValidatedCommit": "66f31a97e46cc8b9944f4a4c12419e14b7ec23b7",
+      "listingValidatedAt": "2026-10-13T20:44:32.686Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "samcapshaw/omarchy-mail",
+        "pluginIds": [
+          "io.github.samcapshaw.mail"
+        ],
+        "commit": "66f31a97e46cc8b9944f4a4c12419e14b7ec23b7",
+        "checkedAt": "2026-10-13T20:44:32.547Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "samcapshaw/omarchy-mail",
+        "pluginIds": [
+          "io.github.samcapshaw.mail"
+        ],
+        "commit": "66f31a97e46cc8b9944f4a4c12419e14b7ec23b7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T20:44:32.547Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "remote-git-execution-unpinned"
+        ],
+        "capabilities": [
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T16:55:38.566Z",
+        "requestEventId": 33170684532,
+        "requestedAt": "2026-10-13T20:43:57Z",
+        "reviewedAt": "2026-10-13T20:44:32.547Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.samcapshaw.mail": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
