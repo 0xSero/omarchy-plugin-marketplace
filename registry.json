@@ -334407,6 +334407,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/menobass/omarchy-stickit",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T22:29:17.857Z",
+      "listingValidatedCommit": "668853aef576a2b7e3a44fd3205a173b3b2bad61",
+      "listingValidatedAt": "2026-10-13T22:29:17.857Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "menobass/omarchy-stickit",
+        "pluginIds": [
+          "io.github.menobass.stickit"
+        ],
+        "commit": "668853aef576a2b7e3a44fd3205a173b3b2bad61",
+        "checkedAt": "2026-10-13T22:29:17.763Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "menobass/omarchy-stickit",
+        "pluginIds": [
+          "io.github.menobass.stickit"
+        ],
+        "commit": "668853aef576a2b7e3a44fd3205a173b3b2bad61",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T22:29:17.763Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T20:00:20.552Z",
+        "requestEventId": 33177224076,
+        "requestedAt": "2026-10-13T22:28:38Z",
+        "reviewedAt": "2026-10-13T22:29:17.763Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.menobass.stickit": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
