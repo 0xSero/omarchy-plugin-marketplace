@@ -331962,6 +331962,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/PuroDelphi/omarchy-quickshare",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T01:00:33.055Z",
+      "listingValidatedCommit": "c4d5ea8fea185125f74b05d38f7fbac6d38c7fed",
+      "listingValidatedAt": "2026-10-13T01:00:33.055Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "purodelphi/omarchy-quickshare",
+        "pluginIds": [
+          "macondo.quickshare"
+        ],
+        "commit": "c4d5ea8fea185125f74b05d38f7fbac6d38c7fed",
+        "checkedAt": "2026-10-13T01:00:32.925Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "purodelphi/omarchy-quickshare",
+        "pluginIds": [
+          "macondo.quickshare"
+        ],
+        "commit": "c4d5ea8fea185125f74b05d38f7fbac6d38c7fed",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T01:00:32.925Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T00:48:01.594Z",
+        "requestEventId": 33092051090,
+        "requestedAt": "2026-10-13T01:00:06Z",
+        "reviewedAt": "2026-10-13T01:00:32.925Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "macondo.quickshare": {
+          "category": "System",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
