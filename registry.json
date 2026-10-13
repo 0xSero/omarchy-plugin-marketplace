@@ -331722,8 +331722,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-12",
       "listedAt": "2026-10-12T19:27:03.932Z",
-      "listingValidatedCommit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
-      "listingValidatedAt": "2026-10-12T19:27:03.932Z",
+      "listingValidatedCommit": "73929a34df0e8cebb17fb6f767fba83c5e068fbd",
+      "listingValidatedAt": "2026-10-13T05:13:36.977Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -331732,8 +331732,8 @@
         "pluginIds": [
           "io.github.yeutterg.display-rotation"
         ],
-        "commit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
-        "checkedAt": "2026-10-12T19:27:03.792Z",
+        "commit": "73929a34df0e8cebb17fb6f767fba83c5e068fbd",
+        "checkedAt": "2026-10-13T05:13:36.977Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -331741,28 +331741,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "yeutterg/omarchy-display-rotation",
-        "pluginIds": [
-          "io.github.yeutterg.display-rotation"
-        ],
-        "commit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T19:27:03.792Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T19:22:17.031Z",
-        "requestEventId": 33075108995,
-        "requestedAt": "2026-10-12T19:26:34Z",
-        "reviewedAt": "2026-10-12T19:27:03.793Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.yeutterg.display-rotation": {
@@ -331774,7 +331752,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yeutterg/omarchy-display-rotation",
+        "pluginIds": [
+          "io.github.yeutterg.display-rotation"
+        ],
+        "commit": "73929a34df0e8cebb17fb6f767fba83c5e068fbd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T05:13:36.977Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T22:08:33.359Z",
+        "requestEventId": 33103401456,
+        "requestedAt": "2026-10-13T05:13:01Z",
+        "reviewedAt": "2026-10-13T05:13:36.977Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
+          "validatedAt": "2026-10-12T19:27:03.932Z",
+          "branch": "main",
+          "supersededAt": "2026-10-13T05:13:36.977Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yeutterg/omarchy-display-rotation",
+            "pluginIds": [
+              "io.github.yeutterg.display-rotation"
+            ],
+            "commit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
+            "checkedAt": "2026-10-12T19:27:03.792Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "yeutterg/omarchy-display-rotation",
+            "pluginIds": [
+              "io.github.yeutterg.display-rotation"
+            ],
+            "commit": "aa64cf9ac8bf1aa48ce483b032da3ff1731de173",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T19:27:03.792Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T19:22:17.031Z",
+            "requestEventId": 33075108995,
+            "requestedAt": "2026-10-12T19:26:34Z",
+            "reviewedAt": "2026-10-12T19:27:03.793Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/yeutterg/omarchy-lock-pin",
