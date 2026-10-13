@@ -333989,6 +333989,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/CaptainAwesomeDi/omaclock-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T20:50:47.951Z",
+      "listingValidatedCommit": "9002d39d65cef1df3747e4f4a4551fca14317e04",
+      "listingValidatedAt": "2026-10-13T20:50:47.951Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "captainawesomedi/omaclock-widget",
+        "pluginIds": [
+          "io.github.captainawesomedi.omaclock"
+        ],
+        "commit": "9002d39d65cef1df3747e4f4a4551fca14317e04",
+        "checkedAt": "2026-10-13T20:50:47.800Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "captainawesomedi/omaclock-widget",
+        "pluginIds": [
+          "io.github.captainawesomedi.omaclock"
+        ],
+        "commit": "9002d39d65cef1df3747e4f4a4551fca14317e04",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T20:50:47.800Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T20:47:44.500Z",
+        "requestEventId": 33171112896,
+        "requestedAt": "2026-10-13T20:50:08Z",
+        "reviewedAt": "2026-10-13T20:50:47.800Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.captainawesomedi.omaclock": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
