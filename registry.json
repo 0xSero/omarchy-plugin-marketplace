@@ -300813,8 +300813,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T15:34:10.063Z",
-      "listingValidatedCommit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
-      "listingValidatedAt": "2026-10-04T15:34:10.063Z",
+      "listingValidatedCommit": "2e3bdf945a3086f8ae5a53171c82ea7248e6bbdd",
+      "listingValidatedAt": "2026-10-13T00:55:49.403Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -300823,35 +300823,14 @@
         "pluginIds": [
           "imranzero.stashpad"
         ],
-        "commit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
-        "checkedAt": "2026-10-04T15:34:09.937Z",
+        "commit": "2e3bdf945a3086f8ae5a53171c82ea7248e6bbdd",
+        "checkedAt": "2026-10-13T00:55:49.403Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "imranzero/omarchy-stashpad",
-        "pluginIds": [
-          "imranzero.stashpad"
-        ],
-        "commit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T15:34:09.937Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T15:28:50.103Z",
-        "requestEventId": 32449691349,
-        "requestedAt": "2026-10-04T15:33:11Z",
-        "reviewedAt": "2026-10-04T15:34:09.937Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "imranzero.stashpad": {
@@ -300862,7 +300841,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "imranzero/omarchy-stashpad",
+        "pluginIds": [
+          "imranzero.stashpad"
+        ],
+        "commit": "2e3bdf945a3086f8ae5a53171c82ea7248e6bbdd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T00:55:49.403Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-12T13:37:49.321Z",
+        "requestEventId": 33091839078,
+        "requestedAt": "2026-10-13T00:55:17Z",
+        "reviewedAt": "2026-10-13T00:55:49.403Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
+          "validatedAt": "2026-10-04T15:34:10.063Z",
+          "branch": "master",
+          "supersededAt": "2026-10-13T00:55:49.403Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "imranzero/omarchy-stashpad",
+            "pluginIds": [
+              "imranzero.stashpad"
+            ],
+            "commit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
+            "checkedAt": "2026-10-04T15:34:09.937Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "imranzero/omarchy-stashpad",
+            "pluginIds": [
+              "imranzero.stashpad"
+            ],
+            "commit": "a3169f8ccd5122d63a461ee252423b4d8c307112",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T15:34:09.937Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T15:28:50.103Z",
+            "requestEventId": 32449691349,
+            "requestedAt": "2026-10-04T15:33:11Z",
+            "reviewedAt": "2026-10-04T15:34:09.937Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/RandintN/omarchy-plugin-downloads",
