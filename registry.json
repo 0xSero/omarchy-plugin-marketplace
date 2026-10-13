@@ -330161,8 +330161,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-12",
       "listedAt": "2026-10-12T05:14:11.311Z",
-      "listingValidatedCommit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
-      "listingValidatedAt": "2026-10-12T05:14:11.311Z",
+      "listingValidatedCommit": "5f815e8b1fbb1a8cf495be55e8e41579ae47ccf4",
+      "listingValidatedAt": "2026-10-13T02:27:57.210Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -330171,8 +330171,8 @@
         "pluginIds": [
           "hnry047.netmount"
         ],
-        "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
-        "checkedAt": "2026-10-12T05:14:11.191Z",
+        "commit": "5f815e8b1fbb1a8cf495be55e8e41579ae47ccf4",
+        "checkedAt": "2026-10-13T02:27:57.210Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -330181,29 +330181,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "hnry047/omarchy-netmount",
-        "pluginIds": [
-          "hnry047.netmount"
-        ],
-        "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T05:14:11.191Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T05:10:48.796Z",
-        "requestEventId": 33020501489,
-        "requestedAt": "2026-10-12T05:13:40Z",
-        "reviewedAt": "2026-10-12T05:14:11.191Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "hnry047.netmount": {
@@ -330217,7 +330194,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hnry047/omarchy-netmount",
+        "pluginIds": [
+          "hnry047.netmount"
+        ],
+        "commit": "5f815e8b1fbb1a8cf495be55e8e41579ae47ccf4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T02:27:57.210Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T01:41:48.702Z",
+        "requestEventId": 33095932115,
+        "requestedAt": "2026-10-13T02:27:25Z",
+        "reviewedAt": "2026-10-13T02:27:57.210Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+          "validatedAt": "2026-10-12T05:14:11.311Z",
+          "branch": "main",
+          "supersededAt": "2026-10-13T02:27:57.210Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "hnry047/omarchy-netmount",
+            "pluginIds": [
+              "hnry047.netmount"
+            ],
+            "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+            "checkedAt": "2026-10-12T05:14:11.191Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "hnry047/omarchy-netmount",
+            "pluginIds": [
+              "hnry047.netmount"
+            ],
+            "commit": "a533ee04e28a56ee2bccee460bb7c8f13230bbea",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T05:14:11.191Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T05:10:48.796Z",
+            "requestEventId": 33020501489,
+            "requestedAt": "2026-10-12T05:13:40Z",
+            "reviewedAt": "2026-10-12T05:14:11.191Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/bonavr/omafolio",
