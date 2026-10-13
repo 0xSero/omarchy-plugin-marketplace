@@ -332293,8 +332293,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-12",
       "listedAt": "2026-10-12T22:14:12.869Z",
-      "listingValidatedCommit": "a076c8a11070016cd937010cc46b98a03773d09d",
-      "listingValidatedAt": "2026-10-12T22:14:12.869Z",
+      "listingValidatedCommit": "378b09d395505e3e1cf30c625e456bbab9e4b830",
+      "listingValidatedAt": "2026-10-13T06:10:38.030Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -332303,8 +332303,8 @@
         "pluginIds": [
           "io.github.yeutterg.onscreen-keyboard"
         ],
-        "commit": "a076c8a11070016cd937010cc46b98a03773d09d",
-        "checkedAt": "2026-10-12T22:14:12.716Z",
+        "commit": "378b09d395505e3e1cf30c625e456bbab9e4b830",
+        "checkedAt": "2026-10-13T06:10:38.030Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -332313,29 +332313,6 @@
           "package-manager",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "yeutterg/omarchy-on-screen-keyboard",
-        "pluginIds": [
-          "io.github.yeutterg.onscreen-keyboard"
-        ],
-        "commit": "a076c8a11070016cd937010cc46b98a03773d09d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T22:14:12.716Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T22:01:18.756Z",
-        "requestEventId": 33084591974,
-        "requestedAt": "2026-10-12T22:13:46Z",
-        "reviewedAt": "2026-10-12T22:14:12.716Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.yeutterg.onscreen-keyboard": {
@@ -332351,7 +332328,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yeutterg/omarchy-on-screen-keyboard",
+        "pluginIds": [
+          "io.github.yeutterg.onscreen-keyboard"
+        ],
+        "commit": "378b09d395505e3e1cf30c625e456bbab9e4b830",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T06:10:38.030Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T05:16:59.797Z",
+        "requestEventId": 33106206073,
+        "requestedAt": "2026-10-13T06:09:58Z",
+        "reviewedAt": "2026-10-13T06:10:38.030Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a076c8a11070016cd937010cc46b98a03773d09d",
+          "validatedAt": "2026-10-12T22:14:12.869Z",
+          "branch": "main",
+          "supersededAt": "2026-10-13T06:10:38.030Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yeutterg/omarchy-on-screen-keyboard",
+            "pluginIds": [
+              "io.github.yeutterg.onscreen-keyboard"
+            ],
+            "commit": "a076c8a11070016cd937010cc46b98a03773d09d",
+            "checkedAt": "2026-10-12T22:14:12.716Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "yeutterg/omarchy-on-screen-keyboard",
+            "pluginIds": [
+              "io.github.yeutterg.onscreen-keyboard"
+            ],
+            "commit": "a076c8a11070016cd937010cc46b98a03773d09d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T22:14:12.716Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T22:01:18.756Z",
+            "requestEventId": 33084591974,
+            "requestedAt": "2026-10-12T22:13:46Z",
+            "reviewedAt": "2026-10-12T22:14:12.716Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AmbitiousRealism2025/t3-loupe",
