@@ -334525,6 +334525,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/uBruckhaus/omarchy-bluetooth-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T22:35:34.580Z",
+      "listingValidatedCommit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
+      "listingValidatedAt": "2026-10-13T22:35:34.580Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ubruckhaus/omarchy-bluetooth-monitor",
+        "pluginIds": [
+          "ubruckhaus.bluetooth-monitor"
+        ],
+        "commit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
+        "checkedAt": "2026-10-13T22:35:34.492Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-bluetooth-monitor",
+        "pluginIds": [
+          "ubruckhaus.bluetooth-monitor"
+        ],
+        "commit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T22:35:34.492Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T20:15:51.772Z",
+        "requestEventId": 33177535599,
+        "requestedAt": "2026-10-13T22:34:26Z",
+        "reviewedAt": "2026-10-13T22:35:34.492Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ubruckhaus.bluetooth-monitor": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
