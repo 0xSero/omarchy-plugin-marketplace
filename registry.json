@@ -333068,6 +333068,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/pxllbt/watermark",
+      "type": "plugin-source",
+      "addedAt": "2026-10-13",
+      "listedAt": "2026-10-13T17:42:11.511Z",
+      "listingValidatedCommit": "1dcfd532dd831d874a52f99036c1c17f1571bf8f",
+      "listingValidatedAt": "2026-10-13T17:42:11.511Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pxllbt/watermark",
+        "pluginIds": [
+          "pix.watermark"
+        ],
+        "commit": "1dcfd532dd831d874a52f99036c1c17f1571bf8f",
+        "checkedAt": "2026-10-13T17:42:11.394Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "pix.watermark": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
