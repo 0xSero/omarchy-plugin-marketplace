@@ -261704,8 +261704,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:38:49.371Z",
-      "listingValidatedCommit": "16470e641e9b5c573e6f33c576ca8dec8d8add9d",
-      "listingValidatedAt": "2026-10-11T09:03:44.457Z",
+      "listingValidatedCommit": "c5c938eacb59c0bdaed3c4fbb5ee975a6286e5ba",
+      "listingValidatedAt": "2026-10-13T21:56:38.001Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -261714,12 +261714,14 @@
         "pluginIds": [
           "ubruckhaus.simple-launcher-for-fools"
         ],
-        "commit": "16470e641e9b5c573e6f33c576ca8dec8d8add9d",
-        "checkedAt": "2026-10-11T09:03:44.457Z",
-        "outcome": "passed",
+        "commit": "c5c938eacb59c0bdaed3c4fbb5ee975a6286e5ba",
+        "checkedAt": "2026-10-13T21:56:38.001Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege"
+        ]
       },
       "plugins": {
         "ubruckhaus.simple-launcher-for-fools": {
@@ -261992,8 +261994,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "16470e641e9b5c573e6f33c576ca8dec8d8add9d",
+          "validatedAt": "2026-10-11T09:03:44.457Z",
+          "branch": "main",
+          "supersededAt": "2026-10-13T21:56:38.001Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-simple-launcher-for-fools",
+            "pluginIds": [
+              "ubruckhaus.simple-launcher-for-fools"
+            ],
+            "commit": "16470e641e9b5c573e6f33c576ca8dec8d8add9d",
+            "checkedAt": "2026-10-11T09:03:44.457Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-simple-launcher-for-fools",
+        "pluginIds": [
+          "ubruckhaus.simple-launcher-for-fools"
+        ],
+        "commit": "c5c938eacb59c0bdaed3c4fbb5ee975a6286e5ba",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-13T21:56:38.001Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T15:55:00.012Z",
+        "requestEventId": 33175340614,
+        "requestedAt": "2026-10-13T21:56:07Z",
+        "reviewedAt": "2026-10-13T21:56:38.001Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/edddine4-source/jev-challenge-lab",
