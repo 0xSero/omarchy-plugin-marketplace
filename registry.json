@@ -329554,8 +329554,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T20:26:38.335Z",
-      "listingValidatedCommit": "bdee6d61123683cf65507f058d8de6b749095832",
-      "listingValidatedAt": "2026-10-11T20:26:38.335Z",
+      "listingValidatedCommit": "b35b07eee212a30f085b692fd924245ac87948c0",
+      "listingValidatedAt": "2026-10-13T21:18:12.744Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -329564,8 +329564,8 @@
         "pluginIds": [
           "ubruckhaus.my-plugins"
         ],
-        "commit": "bdee6d61123683cf65507f058d8de6b749095832",
-        "checkedAt": "2026-10-11T20:26:38.247Z",
+        "commit": "b35b07eee212a30f085b692fd924245ac87948c0",
+        "checkedAt": "2026-10-13T21:18:12.744Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -329580,7 +329580,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bdee6d61123683cf65507f058d8de6b749095832",
+          "validatedAt": "2026-10-11T20:26:38.335Z",
+          "branch": "main",
+          "supersededAt": "2026-10-13T21:18:12.744Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-my-plugins",
+            "pluginIds": [
+              "ubruckhaus.my-plugins"
+            ],
+            "commit": "bdee6d61123683cf65507f058d8de6b749095832",
+            "checkedAt": "2026-10-11T20:26:38.247Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/sergiomh499/omp-usage",
