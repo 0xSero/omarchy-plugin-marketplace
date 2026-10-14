@@ -265967,8 +265967,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T11:06:47.529Z",
-      "listingValidatedCommit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
-      "listingValidatedAt": "2026-10-04T11:33:29.917Z",
+      "listingValidatedCommit": "c10048c436150ab7ec868d4ca34b1881c9a3bd58",
+      "listingValidatedAt": "2026-10-14T09:03:58.159Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -265977,8 +265977,8 @@
         "pluginIds": [
           "andy.language-switcher"
         ],
-        "commit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
-        "checkedAt": "2026-10-04T11:33:29.917Z",
+        "commit": "c10048c436150ab7ec868d4ca34b1881c9a3bd58",
+        "checkedAt": "2026-10-14T09:03:58.159Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -266002,29 +266002,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-language-switcher",
-        "pluginIds": [
-          "andy.language-switcher"
-        ],
-        "commit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T11:33:29.917Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T10:36:27.320Z",
-        "requestEventId": 32440328129,
-        "requestedAt": "2026-10-04T11:25:35Z",
-        "reviewedAt": "2026-10-04T11:33:29.917Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -266073,8 +266050,78 @@
             "reviewedAt": "2026-09-28T11:06:47.418Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
+          "validatedAt": "2026-10-04T11:33:29.917Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T09:03:58.159Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-language-switcher",
+            "pluginIds": [
+              "andy.language-switcher"
+            ],
+            "commit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
+            "checkedAt": "2026-10-04T11:33:29.917Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-language-switcher",
+            "pluginIds": [
+              "andy.language-switcher"
+            ],
+            "commit": "47fa725dc5af4687423692ebdb152d6a12681bd4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T11:33:29.917Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T10:36:27.320Z",
+            "requestEventId": 32440328129,
+            "requestedAt": "2026-10-04T11:25:35Z",
+            "reviewedAt": "2026-10-04T11:33:29.917Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-language-switcher",
+        "pluginIds": [
+          "andy.language-switcher"
+        ],
+        "commit": "c10048c436150ab7ec868d4ca34b1881c9a3bd58",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T09:03:58.159Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T05:20:51.256Z",
+        "requestEventId": 33210288189,
+        "requestedAt": "2026-10-14T09:01:10Z",
+        "reviewedAt": "2026-10-14T09:03:58.159Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/MariposaJon/omarchy_ukrail",
