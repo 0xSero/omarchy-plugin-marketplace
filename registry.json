@@ -336345,6 +336345,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/sadraalikhah/prism-dashboard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T13:16:56.678Z",
+      "listingValidatedCommit": "1fd2343e47260f7589de32a16e635d19a2503c24",
+      "listingValidatedAt": "2026-10-14T13:16:56.678Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sadraalikhah/prism-dashboard",
+        "pluginIds": [
+          "io.github.sadraalikhah.prism-dashboard"
+        ],
+        "commit": "1fd2343e47260f7589de32a16e635d19a2503c24",
+        "checkedAt": "2026-10-14T13:16:56.544Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.sadraalikhah.prism-dashboard": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
