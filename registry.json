@@ -337816,6 +337816,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/PavelLizunov/omarchy-loadlet",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:30:02.586Z",
+      "listingValidatedCommit": "3e8e8d4d5487ed296d21e74aa753d3a056ba2183",
+      "listingValidatedAt": "2026-10-14T21:30:02.586Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pavellizunov/omarchy-loadlet",
+        "pluginIds": [
+          "slovn.activity-lite"
+        ],
+        "commit": "3e8e8d4d5487ed296d21e74aa753d3a056ba2183",
+        "checkedAt": "2026-10-14T21:30:02.448Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pavellizunov/omarchy-loadlet",
+        "pluginIds": [
+          "slovn.activity-lite"
+        ],
+        "commit": "3e8e8d4d5487ed296d21e74aa753d3a056ba2183",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T21:30:02.448Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T13:06:16.715Z",
+        "requestEventId": 33270780905,
+        "requestedAt": "2026-10-14T21:21:53Z",
+        "reviewedAt": "2026-10-14T21:30:02.448Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "slovn.activity-lite": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
