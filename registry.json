@@ -338493,6 +338493,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/justfortheloveof/omarchy-bar-plugin-power-charge-types",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T22:36:48.800Z",
+      "listingValidatedCommit": "afac437e4bc51ea4ff79e8df01eaac5ecfdee36f",
+      "listingValidatedAt": "2026-10-14T22:36:48.800Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "justfortheloveof/omarchy-bar-plugin-power-charge-types",
+        "pluginIds": [
+          "io.github.justfortheloveof.power-charge-types"
+        ],
+        "commit": "afac437e4bc51ea4ff79e8df01eaac5ecfdee36f",
+        "checkedAt": "2026-10-14T22:36:48.660Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "justfortheloveof/omarchy-bar-plugin-power-charge-types",
+        "pluginIds": [
+          "io.github.justfortheloveof.power-charge-types"
+        ],
+        "commit": "afac437e4bc51ea4ff79e8df01eaac5ecfdee36f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T22:36:48.660Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T17:26:40.188Z",
+        "requestEventId": 33275982720,
+        "requestedAt": "2026-10-14T22:33:04Z",
+        "reviewedAt": "2026-10-14T22:36:48.661Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.justfortheloveof.power-charge-types": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
