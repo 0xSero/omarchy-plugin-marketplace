@@ -325910,8 +325910,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T08:02:29.053Z",
-      "listingValidatedCommit": "1b9fd8914beab069e464fa8531e4e6e7f600d7b9",
-      "listingValidatedAt": "2026-10-11T06:16:12.672Z",
+      "listingValidatedCommit": "17071fa5c52995362e868a5468ecf3efd88c1cac",
+      "listingValidatedAt": "2026-10-14T04:30:29.186Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -325920,8 +325920,8 @@
         "pluginIds": [
           "io.github.soham3301.net-rain"
         ],
-        "commit": "1b9fd8914beab069e464fa8531e4e6e7f600d7b9",
-        "checkedAt": "2026-10-11T06:16:12.672Z",
+        "commit": "17071fa5c52995362e868a5468ecf3efd88c1cac",
+        "checkedAt": "2026-10-14T04:30:29.186Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -325952,6 +325952,26 @@
             ],
             "commit": "99a37b4ca612ecc7d268fc7572bb349b8c96b1e9",
             "checkedAt": "2026-10-10T08:02:28.910Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "1b9fd8914beab069e464fa8531e4e6e7f600d7b9",
+          "validatedAt": "2026-10-11T06:16:12.672Z",
+          "branch": "master",
+          "supersededAt": "2026-10-14T04:30:29.186Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "soham3301/net-rain",
+            "pluginIds": [
+              "io.github.soham3301.net-rain"
+            ],
+            "commit": "1b9fd8914beab069e464fa8531e4e6e7f600d7b9",
+            "checkedAt": "2026-10-11T06:16:12.672Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
