@@ -173962,8 +173962,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-10",
       "listedAt": "2026-09-10T16:31:57.437Z",
-      "listingValidatedCommit": "4a6422756915c0dafda42a6a7e3d047d62bd9d4b",
-      "listingValidatedAt": "2026-09-10T16:31:57.437Z",
+      "listingValidatedCommit": "736eb246b9c4b7fbc882402b74eb100a69c76ac3",
+      "listingValidatedAt": "2026-10-14T21:26:22.378Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -173972,35 +173972,14 @@
         "pluginIds": [
           "faperac.displays"
         ],
-        "commit": "4a6422756915c0dafda42a6a7e3d047d62bd9d4b",
-        "checkedAt": "2026-09-10T16:31:57.340Z",
+        "commit": "736eb246b9c4b7fbc882402b74eb100a69c76ac3",
+        "checkedAt": "2026-10-14T21:26:22.378Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "faperac/omarchy-displays",
-        "pluginIds": [
-          "faperac.displays"
-        ],
-        "commit": "4a6422756915c0dafda42a6a7e3d047d62bd9d4b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-10T16:31:57.340Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-10T13:21:21.452Z",
-        "requestEventId": 30916825768,
-        "requestedAt": "2026-09-10T16:30:45Z",
-        "reviewedAt": "2026-09-10T16:31:57.340Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "faperac.displays": {
@@ -174012,7 +173991,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "faperac/omarchy-displays",
+        "pluginIds": [
+          "faperac.displays"
+        ],
+        "commit": "736eb246b9c4b7fbc882402b74eb100a69c76ac3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T21:26:22.378Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T19:06:20.467Z",
+        "requestEventId": 33269984163,
+        "requestedAt": "2026-10-14T21:11:38Z",
+        "reviewedAt": "2026-10-14T21:26:22.378Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "4a6422756915c0dafda42a6a7e3d047d62bd9d4b",
+          "validatedAt": "2026-09-10T16:31:57.437Z",
+          "branch": "master",
+          "supersededAt": "2026-10-14T21:26:22.378Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "faperac/omarchy-displays",
+            "pluginIds": [
+              "faperac.displays"
+            ],
+            "commit": "4a6422756915c0dafda42a6a7e3d047d62bd9d4b",
+            "checkedAt": "2026-09-10T16:31:57.340Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "faperac/omarchy-displays",
+            "pluginIds": [
+              "faperac.displays"
+            ],
+            "commit": "4a6422756915c0dafda42a6a7e3d047d62bd9d4b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-10T16:31:57.340Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-10T13:21:21.452Z",
+            "requestEventId": 30916825768,
+            "requestedAt": "2026-09-10T16:30:45Z",
+            "reviewedAt": "2026-09-10T16:31:57.340Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/nagualcode/omarchy-touchflow",
