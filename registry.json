@@ -338063,6 +338063,66 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/smolamSK/omarchy-glados-voice",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:55:58.364Z",
+      "listingValidatedCommit": "ced847d7f72fdac76408d7b238d78ecddb6b51a4",
+      "listingValidatedAt": "2026-10-14T21:55:58.364Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "smolamsk/omarchy-glados-voice",
+        "pluginIds": [
+          "io.github.smolamsk.glados-voice"
+        ],
+        "commit": "ced847d7f72fdac76408d7b238d78ecddb6b51a4",
+        "checkedAt": "2026-10-14T21:55:58.279Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "smolamsk/omarchy-glados-voice",
+        "pluginIds": [
+          "io.github.smolamsk.glados-voice"
+        ],
+        "commit": "ced847d7f72fdac76408d7b238d78ecddb6b51a4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T21:55:58.279Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T21:44:52.458Z",
+        "requestEventId": 33273342193,
+        "requestedAt": "2026-10-14T21:55:28Z",
+        "reviewedAt": "2026-10-14T21:55:58.279Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.smolamsk.glados-voice": {
+          "category": "Desktop",
+          "tags": [
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
