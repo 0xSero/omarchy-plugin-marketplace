@@ -337618,6 +337618,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/adrianratajczak/omarchy-crt",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:15:07.530Z",
+      "listingValidatedCommit": "02fb8a78b2914f3c00f3d4c26ce321b3f41c8b58",
+      "listingValidatedAt": "2026-10-14T21:15:07.530Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "adrianratajczak/omarchy-crt",
+        "pluginIds": [
+          "crt.kineskop"
+        ],
+        "commit": "02fb8a78b2914f3c00f3d4c26ce321b3f41c8b58",
+        "checkedAt": "2026-10-14T21:15:07.384Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "adrianratajczak/omarchy-crt",
+        "pluginIds": [
+          "crt.kineskop"
+        ],
+        "commit": "02fb8a78b2914f3c00f3d4c26ce321b3f41c8b58",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T21:15:07.384Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T11:26:38.629Z",
+        "requestEventId": 33269604311,
+        "requestedAt": "2026-10-14T21:07:01Z",
+        "reviewedAt": "2026-10-14T21:15:07.384Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "crt.kineskop": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
