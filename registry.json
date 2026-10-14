@@ -336083,6 +336083,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/yuskesuzki/aeoncinema-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T11:18:29.984Z",
+      "listingValidatedCommit": "b72a6945accce6ac87afab8eb4a5e1e7097ad524",
+      "listingValidatedAt": "2026-10-14T11:18:29.984Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yuskesuzki/aeoncinema-plugin",
+        "pluginIds": [
+          "com.yusuke.aeoncinema"
+        ],
+        "commit": "b72a6945accce6ac87afab8eb4a5e1e7097ad524",
+        "checkedAt": "2026-10-14T11:18:29.841Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "com.yusuke.aeoncinema": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
