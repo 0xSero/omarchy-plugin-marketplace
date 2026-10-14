@@ -335545,8 +335545,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T22:05:57.998Z",
-      "listingValidatedCommit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
-      "listingValidatedAt": "2026-10-13T22:05:57.998Z",
+      "listingValidatedCommit": "b3f95365e0fca805308095c665b672888fcc22f1",
+      "listingValidatedAt": "2026-10-14T16:44:56.249Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -335555,8 +335555,8 @@
         "pluginIds": [
           "io.github.slogonomo.live-quake"
         ],
-        "commit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
-        "checkedAt": "2026-10-13T22:05:57.910Z",
+        "commit": "b3f95365e0fca805308095c665b672888fcc22f1",
+        "checkedAt": "2026-10-14T16:44:56.249Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -335566,30 +335566,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "slogonomo/live-quake",
-        "pluginIds": [
-          "io.github.slogonomo.live-quake"
-        ],
-        "commit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T22:05:57.910Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-13T19:04:55.641Z",
-        "requestEventId": 33175914398,
-        "requestedAt": "2026-10-13T22:05:27Z",
-        "reviewedAt": "2026-10-13T22:05:57.910Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.slogonomo.live-quake": {
@@ -335605,7 +335581,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "slogonomo/live-quake",
+        "pluginIds": [
+          "io.github.slogonomo.live-quake"
+        ],
+        "commit": "b3f95365e0fca805308095c665b672888fcc22f1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T16:44:56.249Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T15:13:33.166Z",
+        "requestEventId": 33247202760,
+        "requestedAt": "2026-10-14T16:44:26Z",
+        "reviewedAt": "2026-10-14T16:44:56.249Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
+          "validatedAt": "2026-10-13T22:05:57.998Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T16:44:56.249Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "slogonomo/live-quake",
+            "pluginIds": [
+              "io.github.slogonomo.live-quake"
+            ],
+            "commit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
+            "checkedAt": "2026-10-13T22:05:57.910Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "slogonomo/live-quake",
+            "pluginIds": [
+              "io.github.slogonomo.live-quake"
+            ],
+            "commit": "f6b32e9a7f2eb8d2d82cabd15c46c35d86df9b02",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T22:05:57.910Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T19:04:55.641Z",
+            "requestEventId": 33175914398,
+            "requestedAt": "2026-10-13T22:05:27Z",
+            "reviewedAt": "2026-10-13T22:05:57.910Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/barlevalon/omarchy-next-event",
