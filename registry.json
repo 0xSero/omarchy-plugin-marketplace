@@ -336948,6 +336948,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/atanas-chalakov/omarchy-snapshots",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T19:10:10.553Z",
+      "listingValidatedCommit": "029c4ad3ebbcf6486b0c6ce54e7d10a9932ee325",
+      "listingValidatedAt": "2026-10-14T19:10:10.553Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "atanas-chalakov/omarchy-snapshots",
+        "pluginIds": [
+          "ac.snapshots"
+        ],
+        "commit": "029c4ad3ebbcf6486b0c6ce54e7d10a9932ee325",
+        "checkedAt": "2026-10-14T19:10:10.414Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "atanas-chalakov/omarchy-snapshots",
+        "pluginIds": [
+          "ac.snapshots"
+        ],
+        "commit": "029c4ad3ebbcf6486b0c6ce54e7d10a9932ee325",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T19:10:10.414Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T19:03:23.814Z",
+        "requestEventId": 33259707042,
+        "requestedAt": "2026-10-14T19:09:37Z",
+        "reviewedAt": "2026-10-14T19:10:10.414Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ac.snapshots": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
