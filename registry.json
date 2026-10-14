@@ -337901,6 +337901,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Morganczech/omarchy-sudoku-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:38:15.966Z",
+      "listingValidatedCommit": "c58f80f287e5ffd3a0bc26379f4a82c7b220d5e5",
+      "listingValidatedAt": "2026-10-14T21:38:15.966Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "morganczech/omarchy-sudoku-plugin",
+        "pluginIds": [
+          "gruut.sudoku"
+        ],
+        "commit": "c58f80f287e5ffd3a0bc26379f4a82c7b220d5e5",
+        "checkedAt": "2026-10-14T21:38:15.839Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gruut.sudoku": {
+          "category": "Other",
+          "tags": [
+            "games",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
