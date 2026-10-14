@@ -335910,6 +335910,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/waldseelen/omarchy-recon",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T10:41:43.629Z",
+      "listingValidatedCommit": "d542786ac6bce27d5ff5efd5eb329cd7767c13cc",
+      "listingValidatedAt": "2026-10-14T10:41:43.629Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "waldseelen/omarchy-recon",
+        "pluginIds": [
+          "waldseelen.recon"
+        ],
+        "commit": "d542786ac6bce27d5ff5efd5eb329cd7767c13cc",
+        "checkedAt": "2026-10-14T10:41:43.494Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "waldseelen.recon": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
