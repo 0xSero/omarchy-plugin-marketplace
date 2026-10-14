@@ -334829,8 +334829,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T22:35:34.580Z",
-      "listingValidatedCommit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
-      "listingValidatedAt": "2026-10-13T22:35:34.580Z",
+      "listingValidatedCommit": "a9c23af5b65d1ac0cda97ec7a835afa9623b2600",
+      "listingValidatedAt": "2026-10-14T01:30:53.898Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -334839,35 +334839,14 @@
         "pluginIds": [
           "ubruckhaus.bluetooth-monitor"
         ],
-        "commit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
-        "checkedAt": "2026-10-13T22:35:34.492Z",
+        "commit": "a9c23af5b65d1ac0cda97ec7a835afa9623b2600",
+        "checkedAt": "2026-10-14T01:30:53.898Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ubruckhaus/omarchy-bluetooth-monitor",
-        "pluginIds": [
-          "ubruckhaus.bluetooth-monitor"
-        ],
-        "commit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T22:35:34.492Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-13T20:15:51.772Z",
-        "requestEventId": 33177535599,
-        "requestedAt": "2026-10-13T22:34:26Z",
-        "reviewedAt": "2026-10-13T22:35:34.492Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ubruckhaus.bluetooth-monitor": {
@@ -334879,7 +334858,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-bluetooth-monitor",
+        "pluginIds": [
+          "ubruckhaus.bluetooth-monitor"
+        ],
+        "commit": "a9c23af5b65d1ac0cda97ec7a835afa9623b2600",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T01:30:53.898Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T01:17:54.430Z",
+        "requestEventId": 33186092310,
+        "requestedAt": "2026-10-14T01:30:22Z",
+        "reviewedAt": "2026-10-14T01:30:53.898Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
+          "validatedAt": "2026-10-13T22:35:34.580Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T01:30:53.898Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-bluetooth-monitor",
+            "pluginIds": [
+              "ubruckhaus.bluetooth-monitor"
+            ],
+            "commit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
+            "checkedAt": "2026-10-13T22:35:34.492Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-bluetooth-monitor",
+            "pluginIds": [
+              "ubruckhaus.bluetooth-monitor"
+            ],
+            "commit": "f66ab3a72117a804141b862fc68a4ca2bf75add5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T22:35:34.492Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T20:15:51.772Z",
+            "requestEventId": 33177535599,
+            "requestedAt": "2026-10-13T22:34:26Z",
+            "reviewedAt": "2026-10-13T22:35:34.492Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/juancasa/omarchy_vpn_widget",
