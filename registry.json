@@ -336117,6 +336117,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/felipeoliboni/omarchy-plugin-media",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T11:22:37.871Z",
+      "listingValidatedCommit": "4fdfb535009530c1ca4f6b79def57f946ed27994",
+      "listingValidatedAt": "2026-10-14T11:22:37.871Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "felipeoliboni/omarchy-plugin-media",
+        "pluginIds": [
+          "foliboni.media"
+        ],
+        "commit": "4fdfb535009530c1ca4f6b79def57f946ed27994",
+        "checkedAt": "2026-10-14T11:22:37.731Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "foliboni.media": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
