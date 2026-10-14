@@ -337244,6 +337244,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/renanmt/sokobanchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T20:46:15.475Z",
+      "listingValidatedCommit": "c4cce3fb6bd1b62551508d5e4e1225e8ae4ed2a6",
+      "listingValidatedAt": "2026-10-14T20:46:15.475Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "renanmt/sokobanchy",
+        "pluginIds": [
+          "renan.sokobanchy"
+        ],
+        "commit": "c4cce3fb6bd1b62551508d5e4e1225e8ae4ed2a6",
+        "checkedAt": "2026-10-14T20:46:15.389Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "renanmt/sokobanchy",
+        "pluginIds": [
+          "renan.sokobanchy"
+        ],
+        "commit": "c4cce3fb6bd1b62551508d5e4e1225e8ae4ed2a6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T20:46:15.389Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T02:39:33.535Z",
+        "requestEventId": 33266385317,
+        "requestedAt": "2026-10-14T20:30:56Z",
+        "reviewedAt": "2026-10-14T20:46:15.389Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "renan.sokobanchy": {
+          "category": "Other",
+          "tags": [
+            "games",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
