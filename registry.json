@@ -338384,6 +338384,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Nate-Slater/Omatracker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T22:19:09.157Z",
+      "listingValidatedCommit": "59dc494cbafae738da78a0dab403408e4fd6ab57",
+      "listingValidatedAt": "2026-10-14T22:19:09.157Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nate-slater/omatracker",
+        "pluginIds": [
+          "nate.omatracker"
+        ],
+        "commit": "59dc494cbafae738da78a0dab403408e4fd6ab57",
+        "checkedAt": "2026-10-14T22:19:09.024Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nate.omatracker": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
