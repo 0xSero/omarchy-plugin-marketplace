@@ -326224,8 +326224,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T02:25:52.183Z",
-      "listingValidatedCommit": "902851f9f7640240f6c09da667106d5a8454711c",
-      "listingValidatedAt": "2026-10-14T03:56:08.043Z",
+      "listingValidatedCommit": "16563918744daa3218cbc0cca5c74cc25473c567",
+      "listingValidatedAt": "2026-10-14T23:39:50.930Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -326234,8 +326234,8 @@
         "pluginIds": [
           "latentoperator.audible"
         ],
-        "commit": "902851f9f7640240f6c09da667106d5a8454711c",
-        "checkedAt": "2026-10-14T03:56:08.043Z",
+        "commit": "16563918744daa3218cbc0cca5c74cc25473c567",
+        "checkedAt": "2026-10-14T23:39:50.930Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -326258,28 +326258,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "latentoperator/omarchy-audible",
-        "pluginIds": [
-          "latentoperator.audible"
-        ],
-        "commit": "902851f9f7640240f6c09da667106d5a8454711c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T03:56:08.043Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-14T02:09:23.765Z",
-        "requestEventId": 33192731924,
-        "requestedAt": "2026-10-14T03:55:32Z",
-        "reviewedAt": "2026-10-14T03:56:08.043Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -326326,8 +326304,75 @@
             "reviewedAt": "2026-10-10T02:25:52.036Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "902851f9f7640240f6c09da667106d5a8454711c",
+          "validatedAt": "2026-10-14T03:56:08.043Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T23:39:50.930Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "latentoperator/omarchy-audible",
+            "pluginIds": [
+              "latentoperator.audible"
+            ],
+            "commit": "902851f9f7640240f6c09da667106d5a8454711c",
+            "checkedAt": "2026-10-14T03:56:08.043Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "latentoperator/omarchy-audible",
+            "pluginIds": [
+              "latentoperator.audible"
+            ],
+            "commit": "902851f9f7640240f6c09da667106d5a8454711c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T03:56:08.043Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-14T02:09:23.765Z",
+            "requestEventId": 33192731924,
+            "requestedAt": "2026-10-14T03:55:32Z",
+            "reviewedAt": "2026-10-14T03:56:08.043Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "latentoperator/omarchy-audible",
+        "pluginIds": [
+          "latentoperator.audible"
+        ],
+        "commit": "16563918744daa3218cbc0cca5c74cc25473c567",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T23:39:50.930Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T23:11:21.897Z",
+        "requestEventId": 33279879767,
+        "requestedAt": "2026-10-14T23:37:20Z",
+        "reviewedAt": "2026-10-14T23:39:50.930Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/rickbacci/yagi",
