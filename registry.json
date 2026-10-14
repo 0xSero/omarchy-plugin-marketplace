@@ -320780,8 +320780,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T12:24:51.447Z",
-      "listingValidatedCommit": "44eb541944dd3330a6646f291ee50add98b344be",
-      "listingValidatedAt": "2026-10-08T12:24:51.447Z",
+      "listingValidatedCommit": "80e06fd3070f516e414a92ba3c7efc9cf832b302",
+      "listingValidatedAt": "2026-10-14T21:11:55.680Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -320790,8 +320790,8 @@
         "pluginIds": [
           "ribattrw.pocket-pair"
         ],
-        "commit": "44eb541944dd3330a6646f291ee50add98b344be",
-        "checkedAt": "2026-10-08T12:24:51.335Z",
+        "commit": "80e06fd3070f516e414a92ba3c7efc9cf832b302",
+        "checkedAt": "2026-10-14T21:11:55.679Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -320802,30 +320802,6 @@
           "installer"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ribattrw/pocket-pair",
-        "pluginIds": [
-          "ribattrw.pocket-pair"
-        ],
-        "commit": "44eb541944dd3330a6646f291ee50add98b344be",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T12:24:51.335Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T12:21:44.582Z",
-        "requestEventId": 32786405838,
-        "requestedAt": "2026-10-08T12:24:19Z",
-        "reviewedAt": "2026-10-08T12:24:51.335Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "ribattrw.pocket-pair": {
           "category": "Developer Tools",
@@ -320834,7 +320810,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ribattrw/pocket-pair",
+        "pluginIds": [
+          "ribattrw.pocket-pair"
+        ],
+        "commit": "80e06fd3070f516e414a92ba3c7efc9cf832b302",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T21:11:55.679Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T12:15:19.233Z",
+        "requestEventId": 33268580450,
+        "requestedAt": "2026-10-14T20:55:39Z",
+        "reviewedAt": "2026-10-14T21:11:55.680Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "44eb541944dd3330a6646f291ee50add98b344be",
+          "validatedAt": "2026-10-08T12:24:51.447Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T21:11:55.680Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ribattrw/pocket-pair",
+            "pluginIds": [
+              "ribattrw.pocket-pair"
+            ],
+            "commit": "44eb541944dd3330a6646f291ee50add98b344be",
+            "checkedAt": "2026-10-08T12:24:51.335Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ribattrw/pocket-pair",
+            "pluginIds": [
+              "ribattrw.pocket-pair"
+            ],
+            "commit": "44eb541944dd3330a6646f291ee50add98b344be",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T12:24:51.335Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T12:21:44.582Z",
+            "requestEventId": 32786405838,
+            "requestedAt": "2026-10-08T12:24:19Z",
+            "reviewedAt": "2026-10-08T12:24:51.335Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/heast13/omarchy-downtime",
