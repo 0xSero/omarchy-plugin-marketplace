@@ -336888,6 +336888,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/phil-a/omarchy-syncthing",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T18:58:29.524Z",
+      "listingValidatedCommit": "214fbabf0a7cdde7cee052372a81705693045376",
+      "listingValidatedAt": "2026-10-14T18:58:29.524Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "phil-a/omarchy-syncthing",
+        "pluginIds": [
+          "syncthing-status.widget"
+        ],
+        "commit": "214fbabf0a7cdde7cee052372a81705693045376",
+        "checkedAt": "2026-10-14T18:58:29.382Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "phil-a/omarchy-syncthing",
+        "pluginIds": [
+          "syncthing-status.widget"
+        ],
+        "commit": "214fbabf0a7cdde7cee052372a81705693045376",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T18:58:29.382Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T01:05:38.440Z",
+        "requestEventId": 33258704825,
+        "requestedAt": "2026-10-14T18:57:59Z",
+        "reviewedAt": "2026-10-14T18:58:29.382Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "syncthing-status.widget": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
