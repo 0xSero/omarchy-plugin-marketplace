@@ -225828,8 +225828,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T00:13:38.367Z",
-      "listingValidatedCommit": "fba9e1fd368eb0fa038053023244c94d1e089062",
-      "listingValidatedAt": "2026-09-22T00:13:38.367Z",
+      "listingValidatedCommit": "3c0ef706f179793b937a66144f088647bb8de92f",
+      "listingValidatedAt": "2026-10-14T09:07:28.721Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -225838,8 +225838,8 @@
         "pluginIds": [
           "io.github.tomfaulkner.crossy-hop"
         ],
-        "commit": "fba9e1fd368eb0fa038053023244c94d1e089062",
-        "checkedAt": "2026-09-22T00:13:38.261Z",
+        "commit": "3c0ef706f179793b937a66144f088647bb8de92f",
+        "checkedAt": "2026-10-14T09:07:28.721Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -225855,7 +225855,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "fba9e1fd368eb0fa038053023244c94d1e089062",
+          "validatedAt": "2026-09-22T00:13:38.367Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T09:07:28.721Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tomfaulkner/crossy-hop",
+            "pluginIds": [
+              "io.github.tomfaulkner.crossy-hop"
+            ],
+            "commit": "fba9e1fd368eb0fa038053023244c94d1e089062",
+            "checkedAt": "2026-09-22T00:13:38.261Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/broken-branch/omarchy-github-kanban",
