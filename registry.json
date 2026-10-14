@@ -337499,6 +337499,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/LofiFren/omarchy-key-wheel",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:03:53.463Z",
+      "listingValidatedCommit": "dcd5b2586c25b81c362b8582295af0e78ab3e686",
+      "listingValidatedAt": "2026-10-14T21:03:53.463Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lofifren/omarchy-key-wheel",
+        "pluginIds": [
+          "lofifren.key-wheel"
+        ],
+        "commit": "dcd5b2586c25b81c362b8582295af0e78ab3e686",
+        "checkedAt": "2026-10-14T21:03:53.318Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "lofifren.key-wheel": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
