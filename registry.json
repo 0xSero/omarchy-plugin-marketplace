@@ -337533,6 +337533,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Kostya9406/omalight",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:07:57.277Z",
+      "listingValidatedCommit": "29247a74e4727dc069ef2bd74326e4fa37737e32",
+      "listingValidatedAt": "2026-10-14T21:07:57.277Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kostya9406/omalight",
+        "pluginIds": [
+          "io.github.kostya9406.omalight"
+        ],
+        "commit": "29247a74e4727dc069ef2bd74326e4fa37737e32",
+        "checkedAt": "2026-10-14T21:07:57.127Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.kostya9406.omalight": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
