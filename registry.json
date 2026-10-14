@@ -8480,8 +8480,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-15",
       "listedAt": "2026-08-15T11:39:39.098Z",
-      "listingValidatedCommit": "d4eb4ced78a415b90fd4925d6d44b2bf10839f5f",
-      "listingValidatedAt": "2026-09-17T13:35:15.874Z",
+      "listingValidatedCommit": "0fadff054f6962b3678087456d257896b257bef6",
+      "listingValidatedAt": "2026-10-14T17:54:08.194Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -8490,8 +8490,8 @@
         "pluginIds": [
           "io.github.salemsayed.omaonedrive"
         ],
-        "commit": "d4eb4ced78a415b90fd4925d6d44b2bf10839f5f",
-        "checkedAt": "2026-09-17T13:35:15.873Z",
+        "commit": "0fadff054f6962b3678087456d257896b257bef6",
+        "checkedAt": "2026-10-14T17:54:08.194Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -8595,6 +8595,49 @@
             "reviewedAt": "2026-09-01T23:56:55.013Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d4eb4ced78a415b90fd4925d6d44b2bf10839f5f",
+          "validatedAt": "2026-09-17T13:35:15.874Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T17:54:08.194Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "salemsayed/omaonedrive",
+            "pluginIds": [
+              "io.github.salemsayed.omaonedrive"
+            ],
+            "commit": "d4eb4ced78a415b90fd4925d6d44b2bf10839f5f",
+            "checkedAt": "2026-09-17T13:35:15.873Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "salemsayed/omaonedrive",
+            "pluginIds": [
+              "io.github.salemsayed.omaonedrive"
+            ],
+            "commit": "d4eb4ced78a415b90fd4925d6d44b2bf10839f5f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-17T13:35:15.873Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-15T07:46:14.811Z",
+            "requestEventId": 31321373892,
+            "requestedAt": "2026-09-17T13:07:04Z",
+            "reviewedAt": "2026-09-17T13:35:15.874Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -8603,19 +8646,19 @@
         "pluginIds": [
           "io.github.salemsayed.omaonedrive"
         ],
-        "commit": "d4eb4ced78a415b90fd4925d6d44b2bf10839f5f",
+        "commit": "0fadff054f6962b3678087456d257896b257bef6",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-17T13:35:15.873Z",
+        "baselineCheckedAt": "2026-10-14T17:54:08.194Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-15T07:46:14.811Z",
-        "requestEventId": 31321373892,
-        "requestedAt": "2026-09-17T13:07:04Z",
-        "reviewedAt": "2026-09-17T13:35:15.874Z",
+        "reviewedBaselineCheckedAt": "2026-10-14T05:31:02.386Z",
+        "requestEventId": 33253386246,
+        "requestedAt": "2026-10-14T17:53:38Z",
+        "reviewedAt": "2026-10-14T17:54:08.194Z",
         "reviewer": "HANCORE-linux"
       }
     },
