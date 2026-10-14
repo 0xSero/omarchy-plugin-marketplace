@@ -335843,6 +335843,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/BuFuuu/based",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T10:37:40.492Z",
+      "listingValidatedCommit": "3987ea098db7189c0c1026388e4feb02a1e6119c",
+      "listingValidatedAt": "2026-10-14T10:37:40.492Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bufuuu/based",
+        "pluginIds": [
+          "io.github.bufuuu.based"
+        ],
+        "commit": "3987ea098db7189c0c1026388e4feb02a1e6119c",
+        "checkedAt": "2026-10-14T10:37:40.357Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bufuuu/based",
+        "pluginIds": [
+          "io.github.bufuuu.based"
+        ],
+        "commit": "3987ea098db7189c0c1026388e4feb02a1e6119c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T10:37:40.357Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T10:34:39.093Z",
+        "requestEventId": 33217234505,
+        "requestedAt": "2026-10-14T10:37:11Z",
+        "reviewedAt": "2026-10-14T10:37:40.358Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.bufuuu.based": {
+          "category": "System",
+          "tags": [
+            "security",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
