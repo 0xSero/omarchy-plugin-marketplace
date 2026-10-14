@@ -339161,6 +339161,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/MaCleodWalker/omalattice",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T23:42:43.766Z",
+      "listingValidatedCommit": "8df999b1611e633be586b0931abf7f8fac4ffd82",
+      "listingValidatedAt": "2026-10-14T23:42:43.766Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "macleodwalker/omalattice",
+        "pluginIds": [
+          "io.github.macleodwalker.omalattice"
+        ],
+        "commit": "8df999b1611e633be586b0931abf7f8fac4ffd82",
+        "checkedAt": "2026-10-14T23:42:43.658Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "macleodwalker/omalattice",
+        "pluginIds": [
+          "io.github.macleodwalker.omalattice"
+        ],
+        "commit": "8df999b1611e633be586b0931abf7f8fac4ffd82",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T23:42:43.658Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T23:37:17.507Z",
+        "requestEventId": 33279971505,
+        "requestedAt": "2026-10-14T23:39:06Z",
+        "reviewedAt": "2026-10-14T23:42:43.658Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.macleodwalker.omalattice": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
