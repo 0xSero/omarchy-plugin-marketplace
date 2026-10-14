@@ -77061,8 +77061,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-25",
       "listedAt": "2026-08-25T15:35:25.386Z",
-      "listingValidatedCommit": "6c888ae7c5e7b20ac7a4ae714a1af0a9332805c1",
-      "listingValidatedAt": "2026-08-25T15:35:25.386Z",
+      "listingValidatedCommit": "6e546900f12cef27ac4562ad37acb177464f4638",
+      "listingValidatedAt": "2026-10-14T13:20:37.497Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -77071,35 +77071,14 @@
         "pluginIds": [
           "univeracity.limitless-library"
         ],
-        "commit": "6c888ae7c5e7b20ac7a4ae714a1af0a9332805c1",
-        "checkedAt": "2026-08-25T15:35:25.342Z",
+        "commit": "6e546900f12cef27ac4562ad37acb177464f4638",
+        "checkedAt": "2026-10-14T13:20:37.497Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "univeracity/limitless-omarchy",
-        "pluginIds": [
-          "univeracity.limitless-library"
-        ],
-        "commit": "6c888ae7c5e7b20ac7a4ae714a1af0a9332805c1",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-25T15:35:25.342Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-25T08:58:00.770Z",
-        "requestEventId": 29986793941,
-        "requestedAt": "2026-08-25T15:21:13Z",
-        "reviewedAt": "2026-08-25T15:35:25.343Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "univeracity.limitless-library": {
@@ -77111,7 +77090,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "univeracity/limitless-omarchy",
+        "pluginIds": [
+          "univeracity.limitless-library"
+        ],
+        "commit": "6e546900f12cef27ac4562ad37acb177464f4638",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T13:20:37.497Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T00:15:18.264Z",
+        "requestEventId": 33229109678,
+        "requestedAt": "2026-10-14T13:17:09Z",
+        "reviewedAt": "2026-10-14T13:20:37.497Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "6c888ae7c5e7b20ac7a4ae714a1af0a9332805c1",
+          "validatedAt": "2026-08-25T15:35:25.386Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T13:20:37.497Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "univeracity/limitless-omarchy",
+            "pluginIds": [
+              "univeracity.limitless-library"
+            ],
+            "commit": "6c888ae7c5e7b20ac7a4ae714a1af0a9332805c1",
+            "checkedAt": "2026-08-25T15:35:25.342Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "univeracity/limitless-omarchy",
+            "pluginIds": [
+              "univeracity.limitless-library"
+            ],
+            "commit": "6c888ae7c5e7b20ac7a4ae714a1af0a9332805c1",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-25T15:35:25.342Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-25T08:58:00.770Z",
+            "requestEventId": 29986793941,
+            "requestedAt": "2026-08-25T15:21:13Z",
+            "reviewedAt": "2026-08-25T15:35:25.343Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dlpwaters/omarchy-ebook-reader",
