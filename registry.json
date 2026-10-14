@@ -178673,8 +178673,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-11",
       "listedAt": "2026-09-11T18:49:29.780Z",
-      "listingValidatedCommit": "3681e68042009b5c10ef8db5cd58f3e2c0285743",
-      "listingValidatedAt": "2026-09-11T18:49:29.780Z",
+      "listingValidatedCommit": "0766b4ca7c3bbe5e85643bb51208468e1c0c8ba1",
+      "listingValidatedAt": "2026-10-14T23:47:28.176Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -178683,8 +178683,8 @@
         "pluginIds": [
           "reidenxerx.dgpu-status"
         ],
-        "commit": "3681e68042009b5c10ef8db5cd58f3e2c0285743",
-        "checkedAt": "2026-09-11T18:49:29.709Z",
+        "commit": "0766b4ca7c3bbe5e85643bb51208468e1c0c8ba1",
+        "checkedAt": "2026-10-14T23:47:28.176Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -178692,28 +178692,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "reidenxerx/omarchy-dgpu-status",
-        "pluginIds": [
-          "reidenxerx.dgpu-status"
-        ],
-        "commit": "3681e68042009b5c10ef8db5cd58f3e2c0285743",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-11T18:49:29.709Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-11T18:10:19.529Z",
-        "requestEventId": 30991918829,
-        "requestedAt": "2026-09-11T18:26:52Z",
-        "reviewedAt": "2026-09-11T18:49:29.709Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "reidenxerx.dgpu-status": {
@@ -178725,7 +178703,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "reidenxerx/omarchy-dgpu-status",
+        "pluginIds": [
+          "reidenxerx.dgpu-status"
+        ],
+        "commit": "0766b4ca7c3bbe5e85643bb51208468e1c0c8ba1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T23:47:28.176Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T23:30:18.139Z",
+        "requestEventId": 33280419781,
+        "requestedAt": "2026-10-14T23:46:57Z",
+        "reviewedAt": "2026-10-14T23:47:28.176Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3681e68042009b5c10ef8db5cd58f3e2c0285743",
+          "validatedAt": "2026-09-11T18:49:29.780Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T23:47:28.176Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "reidenxerx/omarchy-dgpu-status",
+            "pluginIds": [
+              "reidenxerx.dgpu-status"
+            ],
+            "commit": "3681e68042009b5c10ef8db5cd58f3e2c0285743",
+            "checkedAt": "2026-09-11T18:49:29.709Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "reidenxerx/omarchy-dgpu-status",
+            "pluginIds": [
+              "reidenxerx.dgpu-status"
+            ],
+            "commit": "3681e68042009b5c10ef8db5cd58f3e2c0285743",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-11T18:49:29.709Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-11T18:10:19.529Z",
+            "requestEventId": 30991918829,
+            "requestedAt": "2026-09-11T18:26:52Z",
+            "reviewedAt": "2026-09-11T18:49:29.709Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ReidenXerx/omarchy-idle-dim",
