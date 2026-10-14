@@ -339000,6 +339000,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/MeperDonas/omarchy-looknfeel",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T23:29:05.240Z",
+      "listingValidatedCommit": "e698d094071ab34be034f05b7a22ac39b7cc7150",
+      "listingValidatedAt": "2026-10-14T23:29:05.240Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "meperdonas/omarchy-looknfeel",
+        "pluginIds": [
+          "meperdonas.looknfeel"
+        ],
+        "commit": "e698d094071ab34be034f05b7a22ac39b7cc7150",
+        "checkedAt": "2026-10-14T23:29:05.042Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "meperdonas.looknfeel": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
