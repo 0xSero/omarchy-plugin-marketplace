@@ -337935,6 +337935,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/MeperDonas/omarchy-devstack",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:42:01.043Z",
+      "listingValidatedCommit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
+      "listingValidatedAt": "2026-10-14T21:42:01.043Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "meperdonas/omarchy-devstack",
+        "pluginIds": [
+          "meperdonas.devstack"
+        ],
+        "commit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
+        "checkedAt": "2026-10-14T21:42:00.892Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "meperdonas/omarchy-devstack",
+        "pluginIds": [
+          "meperdonas.devstack"
+        ],
+        "commit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T21:42:00.892Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T21:17:09.884Z",
+        "requestEventId": 33271781665,
+        "requestedAt": "2026-10-14T21:35:07Z",
+        "reviewedAt": "2026-10-14T21:42:00.893Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "meperdonas.devstack": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
