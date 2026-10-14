@@ -303523,8 +303523,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T20:07:50.516Z",
-      "listingValidatedCommit": "a5b6431f1482c253a063372a40f983282404e9ef",
-      "listingValidatedAt": "2026-10-09T08:32:21.781Z",
+      "listingValidatedCommit": "4eab5f2c7b43659fe68fc082d103739b943a8b98",
+      "listingValidatedAt": "2026-10-14T22:15:57.989Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -303533,12 +303533,14 @@
         "pluginIds": [
           "io.github.smorshenniygus.omaconvert"
         ],
-        "commit": "a5b6431f1482c253a063372a40f983282404e9ef",
-        "checkedAt": "2026-10-09T08:32:21.781Z",
-        "outcome": "passed",
+        "commit": "4eab5f2c7b43659fe68fc082d103739b943a8b98",
+        "checkedAt": "2026-10-14T22:15:57.989Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "service-management"
+        ]
       },
       "plugins": {
         "io.github.smorshenniygus.omaconvert": {
@@ -303590,8 +303592,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "a5b6431f1482c253a063372a40f983282404e9ef",
+          "validatedAt": "2026-10-09T08:32:21.781Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T22:15:57.989Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "smorshenniygus/omaconvert",
+            "pluginIds": [
+              "io.github.smorshenniygus.omaconvert"
+            ],
+            "commit": "a5b6431f1482c253a063372a40f983282404e9ef",
+            "checkedAt": "2026-10-09T08:32:21.781Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "smorshenniygus/omaconvert",
+        "pluginIds": [
+          "io.github.smorshenniygus.omaconvert"
+        ],
+        "commit": "4eab5f2c7b43659fe68fc082d103739b943a8b98",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T22:15:57.989Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T21:22:54.252Z",
+        "requestEventId": 33274702697,
+        "requestedAt": "2026-10-14T22:14:30Z",
+        "reviewedAt": "2026-10-14T22:15:57.989Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Charlie0113-T/omarchy_labs",
