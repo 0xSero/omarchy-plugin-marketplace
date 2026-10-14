@@ -319745,8 +319745,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T08:52:40.200Z",
-      "listingValidatedCommit": "711a56d610f321ac4cfa3576ba5658d54e4abad7",
-      "listingValidatedAt": "2026-10-08T08:52:40.200Z",
+      "listingValidatedCommit": "63f57c3084de4f5decbde04f6d4532bb0bbbc843",
+      "listingValidatedAt": "2026-10-14T14:52:11.372Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -319755,8 +319755,8 @@
         "pluginIds": [
           "io.github.alexwest1981.keyglow"
         ],
-        "commit": "711a56d610f321ac4cfa3576ba5658d54e4abad7",
-        "checkedAt": "2026-10-08T08:52:40.071Z",
+        "commit": "63f57c3084de4f5decbde04f6d4532bb0bbbc843",
+        "checkedAt": "2026-10-14T14:52:11.372Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -319765,29 +319765,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alexwest1981/keyglow",
-        "pluginIds": [
-          "io.github.alexwest1981.keyglow"
-        ],
-        "commit": "711a56d610f321ac4cfa3576ba5658d54e4abad7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T08:52:40.071Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T08:50:15.820Z",
-        "requestEventId": 32767162884,
-        "requestedAt": "2026-10-08T08:52:10Z",
-        "reviewedAt": "2026-10-08T08:52:40.071Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.alexwest1981.keyglow": {
@@ -319802,7 +319779,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alexwest1981/keyglow",
+        "pluginIds": [
+          "io.github.alexwest1981.keyglow"
+        ],
+        "commit": "63f57c3084de4f5decbde04f6d4532bb0bbbc843",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-14T14:52:11.372Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T14:26:30.268Z",
+        "requestEventId": 33237512214,
+        "requestedAt": "2026-10-14T14:51:39Z",
+        "reviewedAt": "2026-10-14T14:52:11.372Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "711a56d610f321ac4cfa3576ba5658d54e4abad7",
+          "validatedAt": "2026-10-08T08:52:40.200Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T14:52:11.372Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alexwest1981/keyglow",
+            "pluginIds": [
+              "io.github.alexwest1981.keyglow"
+            ],
+            "commit": "711a56d610f321ac4cfa3576ba5658d54e4abad7",
+            "checkedAt": "2026-10-08T08:52:40.071Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alexwest1981/keyglow",
+            "pluginIds": [
+              "io.github.alexwest1981.keyglow"
+            ],
+            "commit": "711a56d610f321ac4cfa3576ba5658d54e4abad7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T08:52:40.071Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T08:50:15.820Z",
+            "requestEventId": 32767162884,
+            "requestedAt": "2026-10-08T08:52:10Z",
+            "reviewedAt": "2026-10-08T08:52:40.071Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/iYassr/omarchy-laser",
