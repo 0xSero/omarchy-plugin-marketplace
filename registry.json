@@ -337739,6 +337739,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/nickp73/OmaNibble",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T21:22:40.940Z",
+      "listingValidatedCommit": "c95baab5ea65f11a9fea96e3ec43461229248148",
+      "listingValidatedAt": "2026-10-14T21:22:40.940Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nickp73/omanibble",
+        "pluginIds": [
+          "io.github.nickp73.omanibble"
+        ],
+        "commit": "c95baab5ea65f11a9fea96e3ec43461229248148",
+        "checkedAt": "2026-10-14T21:22:40.796Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.nickp73.omanibble": {
+          "category": "Other",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
