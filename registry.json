@@ -336206,6 +336206,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/paulmiddelkoop/ai-edit",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T11:36:58.614Z",
+      "listingValidatedCommit": "538c0f76bf2274baf12ee839acf75edccbae77dd",
+      "listingValidatedAt": "2026-10-14T11:36:58.614Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paulmiddelkoop/ai-edit",
+        "pluginIds": [
+          "ai-edit"
+        ],
+        "commit": "538c0f76bf2274baf12ee839acf75edccbae77dd",
+        "checkedAt": "2026-10-14T11:36:58.485Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ai-edit": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
