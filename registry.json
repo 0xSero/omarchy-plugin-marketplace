@@ -326444,8 +326444,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T14:09:30.587Z",
-      "listingValidatedCommit": "63f256011aff65f3c39c5b3b767aff68afa62f43",
-      "listingValidatedAt": "2026-10-13T04:58:40.382Z",
+      "listingValidatedCommit": "e0bc6945d3c7653cb94b0a50f737a006e0b7922f",
+      "listingValidatedAt": "2026-10-14T03:20:28.609Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -326454,8 +326454,8 @@
         "pluginIds": [
           "io.github.bmaltais.startbar"
         ],
-        "commit": "63f256011aff65f3c39c5b3b767aff68afa62f43",
-        "checkedAt": "2026-10-13T04:58:40.382Z",
+        "commit": "e0bc6945d3c7653cb94b0a50f737a006e0b7922f",
+        "checkedAt": "2026-10-14T03:20:28.609Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -326560,6 +326560,49 @@
             "reviewedAt": "2026-10-11T23:21:56.599Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "63f256011aff65f3c39c5b3b767aff68afa62f43",
+          "validatedAt": "2026-10-13T04:58:40.382Z",
+          "branch": "main",
+          "supersededAt": "2026-10-14T03:20:28.609Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bmaltais/startbar",
+            "pluginIds": [
+              "io.github.bmaltais.startbar"
+            ],
+            "commit": "63f256011aff65f3c39c5b3b767aff68afa62f43",
+            "checkedAt": "2026-10-13T04:58:40.382Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bmaltais/startbar",
+            "pluginIds": [
+              "io.github.bmaltais.startbar"
+            ],
+            "commit": "63f256011aff65f3c39c5b3b767aff68afa62f43",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T04:58:40.382Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T22:20:29.113Z",
+            "requestEventId": 33102700251,
+            "requestedAt": "2026-10-13T04:58:05Z",
+            "reviewedAt": "2026-10-13T04:58:40.382Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -326568,19 +326611,19 @@
         "pluginIds": [
           "io.github.bmaltais.startbar"
         ],
-        "commit": "63f256011aff65f3c39c5b3b767aff68afa62f43",
+        "commit": "e0bc6945d3c7653cb94b0a50f737a006e0b7922f",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T04:58:40.382Z",
+        "baselineCheckedAt": "2026-10-14T03:20:28.609Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-12T22:20:29.113Z",
-        "requestEventId": 33102700251,
-        "requestedAt": "2026-10-13T04:58:05Z",
-        "reviewedAt": "2026-10-13T04:58:40.382Z",
+        "reviewedBaselineCheckedAt": "2026-10-14T01:07:25.231Z",
+        "requestEventId": 33191144765,
+        "requestedAt": "2026-10-14T03:20:00Z",
+        "reviewedAt": "2026-10-14T03:20:28.609Z",
         "reviewer": "HANCORE-linux"
       }
     },
