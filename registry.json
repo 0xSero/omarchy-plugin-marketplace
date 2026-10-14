@@ -337304,6 +337304,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sterlingmchase/omarchy-pano",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T20:49:44.667Z",
+      "listingValidatedCommit": "47cb58ba1a02481839293c09007339a02a6c1dca",
+      "listingValidatedAt": "2026-10-14T20:49:44.667Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sterlingmchase/omarchy-pano",
+        "pluginIds": [
+          "sterling.pano"
+        ],
+        "commit": "47cb58ba1a02481839293c09007339a02a6c1dca",
+        "checkedAt": "2026-10-14T20:49:44.526Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "sterling.pano": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
