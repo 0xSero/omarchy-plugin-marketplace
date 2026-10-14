@@ -338700,6 +338700,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kruschewskyjoao95/superview-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-14",
+      "listedAt": "2026-10-14T22:55:44.930Z",
+      "listingValidatedCommit": "e3b3a482ecf0cc5476e33940c30f943e05d6f36e",
+      "listingValidatedAt": "2026-10-14T22:55:44.930Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kruschewskyjoao95/superview-plugin",
+        "pluginIds": [
+          "kruschewskyjoao95.superview"
+        ],
+        "commit": "e3b3a482ecf0cc5476e33940c30f943e05d6f36e",
+        "checkedAt": "2026-10-14T22:55:44.788Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kruschewskyjoao95.superview": {
+          "category": "Productivity",
+          "tags": [
+            "workspaces",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
