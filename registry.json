@@ -286894,8 +286894,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T03:24:56.947Z",
-      "listingValidatedCommit": "6076b12618664b1e43a37bf6aaa9e9fa7e5e8097",
-      "listingValidatedAt": "2026-10-02T03:24:56.947Z",
+      "listingValidatedCommit": "dc2e6bf5f2bd6e664da6c17cb063eec7ba1ddd2f",
+      "listingValidatedAt": "2026-10-14T14:36:31.542Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -286904,8 +286904,8 @@
         "pluginIds": [
           "glvr.ninja.obscure"
         ],
-        "commit": "6076b12618664b1e43a37bf6aaa9e9fa7e5e8097",
-        "checkedAt": "2026-10-02T03:24:56.823Z",
+        "commit": "dc2e6bf5f2bd6e664da6c17cb063eec7ba1ddd2f",
+        "checkedAt": "2026-10-14T14:36:31.542Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -286921,7 +286921,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "6076b12618664b1e43a37bf6aaa9e9fa7e5e8097",
+          "validatedAt": "2026-10-02T03:24:56.947Z",
+          "branch": "master",
+          "supersededAt": "2026-10-14T14:36:31.542Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "glvrr/obscure",
+            "pluginIds": [
+              "glvr.ninja.obscure"
+            ],
+            "commit": "6076b12618664b1e43a37bf6aaa9e9fa7e5e8097",
+            "checkedAt": "2026-10-02T03:24:56.823Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Badr-Emil/omarchy-immich-photos",
