@@ -339540,6 +339540,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/qempexe/omarchy-altscape",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T00:40:30.063Z",
+      "listingValidatedCommit": "598a57e122998bbdc1a7f025d3c66113ee13115c",
+      "listingValidatedAt": "2026-10-15T00:40:30.063Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "qempexe/omarchy-altscape",
+        "pluginIds": [
+          "io.github.qempexe.altscape"
+        ],
+        "commit": "598a57e122998bbdc1a7f025d3c66113ee13115c",
+        "checkedAt": "2026-10-15T00:40:29.822Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.qempexe.altscape": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
