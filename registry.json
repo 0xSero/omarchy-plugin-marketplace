@@ -338469,8 +338469,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-14",
       "listedAt": "2026-10-14T21:42:01.043Z",
-      "listingValidatedCommit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
-      "listingValidatedAt": "2026-10-14T21:42:01.043Z",
+      "listingValidatedCommit": "0a23541959e1bf6903e195d22ce5f5383bc89b86",
+      "listingValidatedAt": "2026-10-15T00:46:41.682Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -338479,8 +338479,8 @@
         "pluginIds": [
           "meperdonas.devstack"
         ],
-        "commit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
-        "checkedAt": "2026-10-14T21:42:00.892Z",
+        "commit": "0a23541959e1bf6903e195d22ce5f5383bc89b86",
+        "checkedAt": "2026-10-15T00:46:41.682Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -338490,30 +338490,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "meperdonas/omarchy-devstack",
-        "pluginIds": [
-          "meperdonas.devstack"
-        ],
-        "commit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T21:42:00.892Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "remote-build",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-14T21:17:09.884Z",
-        "requestEventId": 33271781665,
-        "requestedAt": "2026-10-14T21:35:07Z",
-        "reviewedAt": "2026-10-14T21:42:00.893Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "meperdonas.devstack": {
@@ -338525,7 +338501,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "meperdonas/omarchy-devstack",
+        "pluginIds": [
+          "meperdonas.devstack"
+        ],
+        "commit": "0a23541959e1bf6903e195d22ce5f5383bc89b86",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T00:46:41.682Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T00:39:47.785Z",
+        "requestEventId": 33283808187,
+        "requestedAt": "2026-10-15T00:46:05Z",
+        "reviewedAt": "2026-10-15T00:46:41.682Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
+          "validatedAt": "2026-10-14T21:42:01.043Z",
+          "branch": "master",
+          "supersededAt": "2026-10-15T00:46:41.682Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "meperdonas/omarchy-devstack",
+            "pluginIds": [
+              "meperdonas.devstack"
+            ],
+            "commit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
+            "checkedAt": "2026-10-14T21:42:00.892Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "meperdonas/omarchy-devstack",
+            "pluginIds": [
+              "meperdonas.devstack"
+            ],
+            "commit": "b1dbe3ee9b95d0360c74ad8fa5e0bab5bda49959",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T21:42:00.892Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-14T21:17:09.884Z",
+            "requestEventId": 33271781665,
+            "requestedAt": "2026-10-14T21:35:07Z",
+            "reviewedAt": "2026-10-14T21:42:00.893Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dnappier/netgear-poe",
