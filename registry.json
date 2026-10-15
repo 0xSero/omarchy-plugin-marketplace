@@ -339143,8 +339143,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-14",
       "listedAt": "2026-10-14T23:04:17.918Z",
-      "listingValidatedCommit": "3cb72676413cfcfc44f0ef8d0feeb8a807a67563",
-      "listingValidatedAt": "2026-10-14T23:04:17.918Z",
+      "listingValidatedCommit": "409d09e5e913509cc32915235e8d25a04af922e5",
+      "listingValidatedAt": "2026-10-15T00:16:16.606Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -339153,12 +339153,14 @@
         "pluginIds": [
           "meperdonas.work-vpn"
         ],
-        "commit": "3cb72676413cfcfc44f0ef8d0feeb8a807a67563",
-        "checkedAt": "2026-10-14T23:04:17.775Z",
-        "outcome": "passed",
+        "commit": "409d09e5e913509cc32915235e8d25a04af922e5",
+        "checkedAt": "2026-10-15T00:16:16.606Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "package-manager"
+        ]
       },
       "plugins": {
         "meperdonas.work-vpn": {
@@ -339174,7 +339176,50 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "meperdonas/omarchy-work-vpn",
+        "pluginIds": [
+          "meperdonas.work-vpn"
+        ],
+        "commit": "409d09e5e913509cc32915235e8d25a04af922e5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T00:16:16.606Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T23:45:54.865Z",
+        "requestEventId": 33282082533,
+        "requestedAt": "2026-10-15T00:15:35Z",
+        "reviewedAt": "2026-10-15T00:16:16.606Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3cb72676413cfcfc44f0ef8d0feeb8a807a67563",
+          "validatedAt": "2026-10-14T23:04:17.918Z",
+          "branch": "master",
+          "supersededAt": "2026-10-15T00:16:16.606Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "meperdonas/omarchy-work-vpn",
+            "pluginIds": [
+              "meperdonas.work-vpn"
+            ],
+            "commit": "3cb72676413cfcfc44f0ef8d0feeb8a807a67563",
+            "checkedAt": "2026-10-14T23:04:17.775Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/paulsamoluk/Desktop_Controls",
