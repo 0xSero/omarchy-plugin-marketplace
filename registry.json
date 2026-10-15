@@ -339373,6 +339373,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/vishaldpatel/omarchy-pass",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T00:02:41.036Z",
+      "listingValidatedCommit": "65e397316302084430755bd329d596d6433fe1f2",
+      "listingValidatedAt": "2026-10-15T00:02:41.036Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vishaldpatel/omarchy-pass",
+        "pluginIds": [
+          "vishal.pass"
+        ],
+        "commit": "65e397316302084430755bd329d596d6433fe1f2",
+        "checkedAt": "2026-10-15T00:02:40.889Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vishaldpatel/omarchy-pass",
+        "pluginIds": [
+          "vishal.pass"
+        ],
+        "commit": "65e397316302084430755bd329d596d6433fe1f2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T00:02:40.889Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T23:58:40.386Z",
+        "requestEventId": 33281206508,
+        "requestedAt": "2026-10-15T00:00:44Z",
+        "reviewedAt": "2026-10-15T00:02:40.889Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "vishal.pass": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
