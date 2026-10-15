@@ -149131,8 +149131,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-06",
       "listedAt": "2026-09-06T01:44:28.045Z",
-      "listingValidatedCommit": "8a6c42268d0c030e1a6a5e4ee46d0fd30e7128e3",
-      "listingValidatedAt": "2026-09-11T00:06:20.105Z",
+      "listingValidatedCommit": "8976aeeb481faba782c3a36ca759b67cd0583b99",
+      "listingValidatedAt": "2026-10-15T00:19:35.404Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -149141,8 +149141,8 @@
         "pluginIds": [
           "ewweberlin.quickswitch"
         ],
-        "commit": "8a6c42268d0c030e1a6a5e4ee46d0fd30e7128e3",
-        "checkedAt": "2026-09-11T00:06:20.105Z",
+        "commit": "8976aeeb481faba782c3a36ca759b67cd0583b99",
+        "checkedAt": "2026-10-15T00:19:35.404Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -149172,6 +149172,26 @@
             ],
             "commit": "10673ed98a01141128d6c79669d7268adc93a6c7",
             "checkedAt": "2026-09-06T01:44:27.970Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "8a6c42268d0c030e1a6a5e4ee46d0fd30e7128e3",
+          "validatedAt": "2026-09-11T00:06:20.105Z",
+          "branch": "master",
+          "supersededAt": "2026-10-15T00:19:35.404Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ewweberlin/quickswitch",
+            "pluginIds": [
+              "ewweberlin.quickswitch"
+            ],
+            "commit": "8a6c42268d0c030e1a6a5e4ee46d0fd30e7128e3",
+            "checkedAt": "2026-09-11T00:06:20.105Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
