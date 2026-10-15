@@ -340965,6 +340965,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/guirossibrum/EasyMathBooks",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T19:25:22.710Z",
+      "listingValidatedCommit": "f9d9120af89947849661d03884abb4733a0dfc08",
+      "listingValidatedAt": "2026-10-15T19:25:22.710Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "guirossibrum/easymathbooks",
+        "pluginIds": [
+          "grbrum.easymath"
+        ],
+        "commit": "f9d9120af89947849661d03884abb4733a0dfc08",
+        "checkedAt": "2026-10-15T19:25:22.564Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "grbrum.easymath": {
+          "category": "Kids",
+          "tags": [
+            "education",
+            "bar",
+            "kids"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
