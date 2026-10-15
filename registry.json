@@ -179712,8 +179712,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-11",
       "listedAt": "2026-09-11T20:56:05.275Z",
-      "listingValidatedCommit": "c6011cfbfecac5034df393806810d23d73fe0e36",
-      "listingValidatedAt": "2026-09-11T20:56:05.275Z",
+      "listingValidatedCommit": "9758c6b8af8641577ba5b28d5c053f28321f2b3d",
+      "listingValidatedAt": "2026-10-15T00:10:52.587Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -179722,35 +179722,14 @@
         "pluginIds": [
           "reidenxerx.keyboard-cleaner"
         ],
-        "commit": "c6011cfbfecac5034df393806810d23d73fe0e36",
-        "checkedAt": "2026-09-11T20:56:05.209Z",
+        "commit": "9758c6b8af8641577ba5b28d5c053f28321f2b3d",
+        "checkedAt": "2026-10-15T00:10:52.587Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "reidenxerx/omarchy-keyboard-cleaner",
-        "pluginIds": [
-          "reidenxerx.keyboard-cleaner"
-        ],
-        "commit": "c6011cfbfecac5034df393806810d23d73fe0e36",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-11T20:56:05.209Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-11T20:32:58.855Z",
-        "requestEventId": 30998959534,
-        "requestedAt": "2026-09-11T20:55:01Z",
-        "reviewedAt": "2026-09-11T20:56:05.209Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "reidenxerx.keyboard-cleaner": {
@@ -179762,7 +179741,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "reidenxerx/omarchy-keyboard-cleaner",
+        "pluginIds": [
+          "reidenxerx.keyboard-cleaner"
+        ],
+        "commit": "9758c6b8af8641577ba5b28d5c053f28321f2b3d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T00:10:52.587Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T23:30:29.558Z",
+        "requestEventId": 33281766207,
+        "requestedAt": "2026-10-15T00:10:23Z",
+        "reviewedAt": "2026-10-15T00:10:52.587Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c6011cfbfecac5034df393806810d23d73fe0e36",
+          "validatedAt": "2026-09-11T20:56:05.275Z",
+          "branch": "main",
+          "supersededAt": "2026-10-15T00:10:52.587Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "reidenxerx/omarchy-keyboard-cleaner",
+            "pluginIds": [
+              "reidenxerx.keyboard-cleaner"
+            ],
+            "commit": "c6011cfbfecac5034df393806810d23d73fe0e36",
+            "checkedAt": "2026-09-11T20:56:05.209Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "reidenxerx/omarchy-keyboard-cleaner",
+            "pluginIds": [
+              "reidenxerx.keyboard-cleaner"
+            ],
+            "commit": "c6011cfbfecac5034df393806810d23d73fe0e36",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-11T20:56:05.209Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-11T20:32:58.855Z",
+            "requestEventId": 30998959534,
+            "requestedAt": "2026-09-11T20:55:01Z",
+            "reviewedAt": "2026-09-11T20:56:05.209Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jose22072000/linux-hardware-center",
