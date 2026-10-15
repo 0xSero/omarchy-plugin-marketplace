@@ -340538,6 +340538,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rkocosmergon/shikigon",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T06:57:32.693Z",
+      "listingValidatedCommit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
+      "listingValidatedAt": "2026-10-15T06:57:32.693Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rkocosmergon/shikigon",
+        "pluginIds": [
+          "cosmergon.shikigon"
+        ],
+        "commit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
+        "checkedAt": "2026-10-15T06:57:32.581Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rkocosmergon/shikigon",
+        "pluginIds": [
+          "cosmergon.shikigon"
+        ],
+        "commit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T06:57:32.581Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T06:43:42.051Z",
+        "requestEventId": 33305970915,
+        "requestedAt": "2026-10-15T06:56:52Z",
+        "reviewedAt": "2026-10-15T06:57:32.581Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cosmergon.shikigon": {
+          "category": "Widgets",
+          "tags": [
+            "games",
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
