@@ -341518,6 +341518,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/blazejkapala/omarchy-banansms-monitor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T20:23:15.613Z",
+      "listingValidatedCommit": "cd9351c92cc38b63dae4eaff0934c831b96aafad",
+      "listingValidatedAt": "2026-10-15T20:23:15.613Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "blazejkapala/omarchy-banansms-monitor",
+        "pluginIds": [
+          "banan.banansms-monitor"
+        ],
+        "commit": "cd9351c92cc38b63dae4eaff0934c831b96aafad",
+        "checkedAt": "2026-10-15T20:23:15.471Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "blazejkapala/omarchy-banansms-monitor",
+        "pluginIds": [
+          "banan.banansms-monitor"
+        ],
+        "commit": "cd9351c92cc38b63dae4eaff0934c831b96aafad",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T20:23:15.471Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T08:14:01.486Z",
+        "requestEventId": 33374630391,
+        "requestedAt": "2026-10-15T20:17:54Z",
+        "reviewedAt": "2026-10-15T20:23:15.471Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "banan.banansms-monitor": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
