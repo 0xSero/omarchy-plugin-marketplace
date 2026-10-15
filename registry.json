@@ -339955,6 +339955,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Sxott-93/omarchy-wgpvpn",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T01:45:38.235Z",
+      "listingValidatedCommit": "d0f82b62a914402c3030b2fdc47c75c9ffc39175",
+      "listingValidatedAt": "2026-10-15T01:45:38.235Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sxott-93/omarchy-wgpvpn",
+        "pluginIds": [
+          "sxott.wgpvpn"
+        ],
+        "commit": "d0f82b62a914402c3030b2fdc47c75c9ffc39175",
+        "checkedAt": "2026-10-15T01:45:38.085Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sxott-93/omarchy-wgpvpn",
+        "pluginIds": [
+          "sxott.wgpvpn"
+        ],
+        "commit": "d0f82b62a914402c3030b2fdc47c75c9ffc39175",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T01:45:38.085Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T01:39:07.021Z",
+        "requestEventId": 33287215205,
+        "requestedAt": "2026-10-15T01:42:43Z",
+        "reviewedAt": "2026-10-15T01:45:38.085Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sxott.wgpvpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
