@@ -334804,8 +334804,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-12",
       "listedAt": "2026-10-12T20:44:06.160Z",
-      "listingValidatedCommit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
-      "listingValidatedAt": "2026-10-12T20:44:06.160Z",
+      "listingValidatedCommit": "58ac93ddebf7f01c13c6926b65b942e388cab84f",
+      "listingValidatedAt": "2026-10-15T02:42:25.942Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -334814,8 +334814,8 @@
         "pluginIds": [
           "nixfred.shepr"
         ],
-        "commit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
-        "checkedAt": "2026-10-12T20:44:06.048Z",
+        "commit": "58ac93ddebf7f01c13c6926b65b942e388cab84f",
+        "checkedAt": "2026-10-15T02:42:25.942Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -334823,28 +334823,6 @@
           "remote-build",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nixfred/shepr",
-        "pluginIds": [
-          "nixfred.shepr"
-        ],
-        "commit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T20:44:06.048Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T20:29:01.568Z",
-        "requestEventId": 33079651375,
-        "requestedAt": "2026-10-12T20:43:36Z",
-        "reviewedAt": "2026-10-12T20:44:06.048Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "nixfred.shepr": {
@@ -334859,7 +334837,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nixfred/shepr",
+        "pluginIds": [
+          "nixfred.shepr"
+        ],
+        "commit": "58ac93ddebf7f01c13c6926b65b942e388cab84f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T02:42:25.942Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-14T18:16:53.768Z",
+        "requestEventId": 33290710620,
+        "requestedAt": "2026-10-15T02:42:00Z",
+        "reviewedAt": "2026-10-15T02:42:25.942Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
+          "validatedAt": "2026-10-12T20:44:06.160Z",
+          "branch": "main",
+          "supersededAt": "2026-10-15T02:42:25.942Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nixfred/shepr",
+            "pluginIds": [
+              "nixfred.shepr"
+            ],
+            "commit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
+            "checkedAt": "2026-10-12T20:44:06.048Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nixfred/shepr",
+            "pluginIds": [
+              "nixfred.shepr"
+            ],
+            "commit": "1b97a6d207cd7be56699fae3ef4fbe2bdcda1cd3",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T20:44:06.048Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T20:29:01.568Z",
+            "requestEventId": 33079651375,
+            "requestedAt": "2026-10-12T20:43:36Z",
+            "reviewedAt": "2026-10-12T20:44:06.048Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/CoderLambert/omarchy-workspace-plugin",
