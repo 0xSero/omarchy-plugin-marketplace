@@ -215266,8 +215266,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-19",
       "listedAt": "2026-09-19T23:48:28.624Z",
-      "listingValidatedCommit": "6e8c30b4c1236a501c2aee230c723d1e34243611",
-      "listingValidatedAt": "2026-10-14T00:41:10.339Z",
+      "listingValidatedCommit": "16acca1481cdf73b041912b405c36ff09463a7d2",
+      "listingValidatedAt": "2026-10-15T01:09:31.161Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -215276,8 +215276,8 @@
         "pluginIds": [
           "david.omaamp"
         ],
-        "commit": "6e8c30b4c1236a501c2aee230c723d1e34243611",
-        "checkedAt": "2026-10-14T00:41:10.339Z",
+        "commit": "16acca1481cdf73b041912b405c36ff09463a7d2",
+        "checkedAt": "2026-10-15T01:09:31.161Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -215295,27 +215295,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "davidjpramsay/omagawd",
-        "pluginIds": [
-          "david.omaamp"
-        ],
-        "commit": "6e8c30b4c1236a501c2aee230c723d1e34243611",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T00:41:10.339Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-13T23:40:27.570Z",
-        "requestEventId": 33183821788,
-        "requestedAt": "2026-10-14T00:40:37Z",
-        "reviewedAt": "2026-10-14T00:41:10.339Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -215362,8 +215341,72 @@
             "reviewedAt": "2026-09-19T23:48:28.532Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "6e8c30b4c1236a501c2aee230c723d1e34243611",
+          "validatedAt": "2026-10-14T00:41:10.339Z",
+          "branch": "main",
+          "supersededAt": "2026-10-15T01:09:31.161Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davidjpramsay/omagawd",
+            "pluginIds": [
+              "david.omaamp"
+            ],
+            "commit": "6e8c30b4c1236a501c2aee230c723d1e34243611",
+            "checkedAt": "2026-10-14T00:41:10.339Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "davidjpramsay/omagawd",
+            "pluginIds": [
+              "david.omaamp"
+            ],
+            "commit": "6e8c30b4c1236a501c2aee230c723d1e34243611",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T00:41:10.339Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T23:40:27.570Z",
+            "requestEventId": 33183821788,
+            "requestedAt": "2026-10-14T00:40:37Z",
+            "reviewedAt": "2026-10-14T00:41:10.339Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "davidjpramsay/omagawd",
+        "pluginIds": [
+          "david.omaamp"
+        ],
+        "commit": "16acca1481cdf73b041912b405c36ff09463a7d2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T01:09:31.161Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T00:43:11.634Z",
+        "requestEventId": 33285055447,
+        "requestedAt": "2026-10-15T01:05:58Z",
+        "reviewedAt": "2026-10-15T01:09:31.161Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/SmoothPixels/cursor-accent",
