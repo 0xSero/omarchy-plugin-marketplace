@@ -340374,6 +340374,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Slylem0/omarchy-display-switch",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T05:17:09.738Z",
+      "listingValidatedCommit": "25d740985361de41cf93bd197dc372ebddfa1a1b",
+      "listingValidatedAt": "2026-10-15T05:17:09.738Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "slylem0/omarchy-display-switch",
+        "pluginIds": [
+          "slylem0.display-switch"
+        ],
+        "commit": "25d740985361de41cf93bd197dc372ebddfa1a1b",
+        "checkedAt": "2026-10-15T05:17:09.574Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "slylem0.display-switch": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
