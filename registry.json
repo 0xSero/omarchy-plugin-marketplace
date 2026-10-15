@@ -336588,8 +336588,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T19:13:38.055Z",
-      "listingValidatedCommit": "eb78de5d96e53e745aebb2b789b4c20c7da67529",
-      "listingValidatedAt": "2026-10-13T19:13:38.055Z",
+      "listingValidatedCommit": "b543699b46fab14f617cd05590b514aefca07d04",
+      "listingValidatedAt": "2026-10-15T02:22:25.558Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -336598,35 +336598,15 @@
         "pluginIds": [
           "maxrio9.focus-music"
         ],
-        "commit": "eb78de5d96e53e745aebb2b789b4c20c7da67529",
-        "checkedAt": "2026-10-13T19:13:37.922Z",
+        "commit": "b543699b46fab14f617cd05590b514aefca07d04",
+        "checkedAt": "2026-10-15T02:22:25.558Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
+          "bundled-executable-binary",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "maxrio9/omarchy-focus-music",
-        "pluginIds": [
-          "maxrio9.focus-music"
-        ],
-        "commit": "eb78de5d96e53e745aebb2b789b4c20c7da67529",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T19:13:37.922Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-13T15:57:55.302Z",
-        "requestEventId": 33164195101,
-        "requestedAt": "2026-10-13T19:12:56Z",
-        "reviewedAt": "2026-10-13T19:13:37.922Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "maxrio9.focus-music": {
@@ -336638,7 +336618,74 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "maxrio9/omarchy-focus-music",
+        "pluginIds": [
+          "maxrio9.focus-music"
+        ],
+        "commit": "b543699b46fab14f617cd05590b514aefca07d04",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T02:22:25.558Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T01:16:32.216Z",
+        "requestEventId": 33289601309,
+        "requestedAt": "2026-10-15T02:21:54Z",
+        "reviewedAt": "2026-10-15T02:22:25.558Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "eb78de5d96e53e745aebb2b789b4c20c7da67529",
+          "validatedAt": "2026-10-13T19:13:38.055Z",
+          "branch": "main",
+          "supersededAt": "2026-10-15T02:22:25.558Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "maxrio9/omarchy-focus-music",
+            "pluginIds": [
+              "maxrio9.focus-music"
+            ],
+            "commit": "eb78de5d96e53e745aebb2b789b4c20c7da67529",
+            "checkedAt": "2026-10-13T19:13:37.922Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "maxrio9/omarchy-focus-music",
+            "pluginIds": [
+              "maxrio9.focus-music"
+            ],
+            "commit": "eb78de5d96e53e745aebb2b789b4c20c7da67529",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T19:13:37.922Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T15:57:55.302Z",
+            "requestEventId": 33164195101,
+            "requestedAt": "2026-10-13T19:12:56Z",
+            "reviewedAt": "2026-10-13T19:13:37.922Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ezapmar/omarchy-blanca",
