@@ -340904,6 +340904,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/creolben/omarchy-equalizer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T19:21:44.459Z",
+      "listingValidatedCommit": "749b4a84b30bedb5c4837fca8c99fc1086d87138",
+      "listingValidatedAt": "2026-10-15T19:21:44.459Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "creolben/omarchy-equalizer",
+        "pluginIds": [
+          "io.github.creolben.equalizer"
+        ],
+        "commit": "749b4a84b30bedb5c4837fca8c99fc1086d87138",
+        "checkedAt": "2026-10-15T19:21:44.296Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "creolben/omarchy-equalizer",
+        "pluginIds": [
+          "io.github.creolben.equalizer"
+        ],
+        "commit": "749b4a84b30bedb5c4837fca8c99fc1086d87138",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T19:21:44.296Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T19:08:25.977Z",
+        "requestEventId": 33369188498,
+        "requestedAt": "2026-10-15T19:14:42Z",
+        "reviewedAt": "2026-10-15T19:21:44.297Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.creolben.equalizer": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
