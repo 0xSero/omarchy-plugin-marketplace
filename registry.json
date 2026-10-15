@@ -95823,8 +95823,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-28",
       "listedAt": "2026-08-28T06:12:27.092Z",
-      "listingValidatedCommit": "447b524ba1e5fa0db46303996c40b7c1a4894a45",
-      "listingValidatedAt": "2026-08-28T06:12:27.092Z",
+      "listingValidatedCommit": "9986f737b2cf3b5f42297581ce6e71e39dc1ffaf",
+      "listingValidatedAt": "2026-10-15T01:42:06.688Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -95833,8 +95833,8 @@
         "pluginIds": [
           "cbayschm.openclash"
         ],
-        "commit": "447b524ba1e5fa0db46303996c40b7c1a4894a45",
-        "checkedAt": "2026-08-28T06:12:27.043Z",
+        "commit": "9986f737b2cf3b5f42297581ce6e71e39dc1ffaf",
+        "checkedAt": "2026-10-15T01:42:06.688Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -95850,7 +95850,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "447b524ba1e5fa0db46303996c40b7c1a4894a45",
+          "validatedAt": "2026-08-28T06:12:27.092Z",
+          "branch": "main",
+          "supersededAt": "2026-10-15T01:42:06.688Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cbayschm74/omarchy-openclash",
+            "pluginIds": [
+              "cbayschm.openclash"
+            ],
+            "commit": "447b524ba1e5fa0db46303996c40b7c1a4894a45",
+            "checkedAt": "2026-08-28T06:12:27.043Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/staccDOTsol/omarchy-openzoo-plugin",
