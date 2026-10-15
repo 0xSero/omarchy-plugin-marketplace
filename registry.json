@@ -340095,8 +340095,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-15",
       "listedAt": "2026-10-15T00:40:30.063Z",
-      "listingValidatedCommit": "598a57e122998bbdc1a7f025d3c66113ee13115c",
-      "listingValidatedAt": "2026-10-15T00:40:30.063Z",
+      "listingValidatedCommit": "3f99f8fd814b61261685865d55271670afb4b8e8",
+      "listingValidatedAt": "2026-10-15T02:59:19.178Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -340105,8 +340105,8 @@
         "pluginIds": [
           "io.github.qempexe.altscape"
         ],
-        "commit": "598a57e122998bbdc1a7f025d3c66113ee13115c",
-        "checkedAt": "2026-10-15T00:40:29.822Z",
+        "commit": "3f99f8fd814b61261685865d55271670afb4b8e8",
+        "checkedAt": "2026-10-15T02:59:19.177Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -340122,7 +340122,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "598a57e122998bbdc1a7f025d3c66113ee13115c",
+          "validatedAt": "2026-10-15T00:40:30.063Z",
+          "branch": "main",
+          "supersededAt": "2026-10-15T02:59:19.178Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-altscape",
+            "pluginIds": [
+              "io.github.qempexe.altscape"
+            ],
+            "commit": "598a57e122998bbdc1a7f025d3c66113ee13115c",
+            "checkedAt": "2026-10-15T00:40:29.822Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/TylerSw1ft/omarchy-thock",
