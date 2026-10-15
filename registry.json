@@ -341044,6 +341044,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Divanyx/omaoutlook",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T19:33:25.289Z",
+      "listingValidatedCommit": "eede3d0871729af81c8c9c0af7ce18faafaa8468",
+      "listingValidatedAt": "2026-10-15T19:33:25.289Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "divanyx/omaoutlook",
+        "pluginIds": [
+          "omaoutlook"
+        ],
+        "commit": "eede3d0871729af81c8c9c0af7ce18faafaa8468",
+        "checkedAt": "2026-10-15T19:33:25.158Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "divanyx/omaoutlook",
+        "pluginIds": [
+          "omaoutlook"
+        ],
+        "commit": "eede3d0871729af81c8c9c0af7ce18faafaa8468",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T19:33:25.158Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T19:22:09.301Z",
+        "requestEventId": 33370280008,
+        "requestedAt": "2026-10-15T19:27:42Z",
+        "reviewedAt": "2026-10-15T19:33:25.158Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omaoutlook": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
