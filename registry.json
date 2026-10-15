@@ -341237,6 +341237,81 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/caderbyshire/BareFront-Omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T19:59:47.565Z",
+      "listingValidatedCommit": "acf12b514737078eed34403660eff4572d621b53",
+      "listingValidatedAt": "2026-10-15T19:59:47.565Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "caderbyshire/barefront-omarchy",
+        "pluginIds": [
+          "barefront.launcher"
+        ],
+        "commit": "acf12b514737078eed34403660eff4572d621b53",
+        "checkedAt": "2026-10-15T19:59:47.429Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "bundled-executable-binary",
+          "remote-build",
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "caderbyshire/barefront-omarchy",
+        "pluginIds": [
+          "barefront.launcher"
+        ],
+        "commit": "acf12b514737078eed34403660eff4572d621b53",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T19:59:47.429Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "bundled-executable-binary",
+          "remote-build",
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T19:54:56.694Z",
+        "requestEventId": 33373023585,
+        "requestedAt": "2026-10-15T19:59:18Z",
+        "reviewedAt": "2026-10-15T19:59:47.429Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "barefront.launcher": {
+          "category": "Desktop",
+          "tags": [
+            "games",
+            "launcher",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
