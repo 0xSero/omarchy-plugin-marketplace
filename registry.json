@@ -341428,6 +341428,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jgarza9788/joyride",
+      "type": "plugin-source",
+      "addedAt": "2026-10-15",
+      "listedAt": "2026-10-15T20:15:40.299Z",
+      "listingValidatedCommit": "6f7df35c37df56a74f1eb31eb506a3e7d8a1ff53",
+      "listingValidatedAt": "2026-10-15T20:15:40.299Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jgarza9788/joyride",
+        "pluginIds": [
+          "jgarza.joyride"
+        ],
+        "commit": "6f7df35c37df56a74f1eb31eb506a3e7d8a1ff53",
+        "checkedAt": "2026-10-15T20:15:40.158Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jgarza9788/joyride",
+        "pluginIds": [
+          "jgarza.joyride"
+        ],
+        "commit": "6f7df35c37df56a74f1eb31eb506a3e7d8a1ff53",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T20:15:40.158Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T20:09:16.683Z",
+        "requestEventId": 33374163151,
+        "requestedAt": "2026-10-15T20:12:41Z",
+        "reviewedAt": "2026-10-15T20:15:40.158Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jgarza.joyride": {
+          "category": "Hardware",
+          "tags": [
+            "games",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
