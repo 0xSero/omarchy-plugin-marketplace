@@ -336823,8 +336823,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T16:05:05.545Z",
-      "listingValidatedCommit": "64adeb68c8a9fd781a18d044368c1bc06fc552a5",
-      "listingValidatedAt": "2026-10-13T16:05:05.545Z",
+      "listingValidatedCommit": "51b9c55c2869bca3d992bf863443c145f8f82f14",
+      "listingValidatedAt": "2026-10-15T23:09:57.348Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -336833,35 +336833,14 @@
         "pluginIds": [
           "omarchy-focus"
         ],
-        "commit": "64adeb68c8a9fd781a18d044368c1bc06fc552a5",
-        "checkedAt": "2026-10-13T16:05:05.404Z",
+        "commit": "51b9c55c2869bca3d992bf863443c145f8f82f14",
+        "checkedAt": "2026-10-15T23:09:57.348Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "talhacaglar/omarchy-focus-widget",
-        "pluginIds": [
-          "omarchy-focus"
-        ],
-        "commit": "64adeb68c8a9fd781a18d044368c1bc06fc552a5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T16:05:05.404Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-13T16:00:49.159Z",
-        "requestEventId": 33150204750,
-        "requestedAt": "2026-10-13T16:04:14Z",
-        "reviewedAt": "2026-10-13T16:05:05.404Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "omarchy-focus": {
@@ -336877,7 +336856,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "talhacaglar/omarchy-focus-widget",
+        "pluginIds": [
+          "omarchy-focus"
+        ],
+        "commit": "51b9c55c2869bca3d992bf863443c145f8f82f14",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-15T23:09:57.348Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T09:11:13.749Z",
+        "requestEventId": 33388933555,
+        "requestedAt": "2026-10-15T23:09:24Z",
+        "reviewedAt": "2026-10-15T23:09:57.348Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "64adeb68c8a9fd781a18d044368c1bc06fc552a5",
+          "validatedAt": "2026-10-13T16:05:05.545Z",
+          "branch": "main",
+          "supersededAt": "2026-10-15T23:09:57.348Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "talhacaglar/omarchy-focus-widget",
+            "pluginIds": [
+              "omarchy-focus"
+            ],
+            "commit": "64adeb68c8a9fd781a18d044368c1bc06fc552a5",
+            "checkedAt": "2026-10-13T16:05:05.404Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "talhacaglar/omarchy-focus-widget",
+            "pluginIds": [
+              "omarchy-focus"
+            ],
+            "commit": "64adeb68c8a9fd781a18d044368c1bc06fc552a5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T16:05:05.404Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T16:00:49.159Z",
+            "requestEventId": 33150204750,
+            "requestedAt": "2026-10-13T16:04:14Z",
+            "reviewedAt": "2026-10-13T16:05:05.404Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/eldtechnologies/omarchy-plugin-unifi-protect",
