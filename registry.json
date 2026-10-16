@@ -343691,6 +343691,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/erikrjohansson/omarchy-hotkey-wheel",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T13:35:09.063Z",
+      "listingValidatedCommit": "31b15bf4578eff2e9cadbbccab580cf53d43eaa1",
+      "listingValidatedAt": "2026-10-16T13:35:09.063Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "erikrjohansson/omarchy-hotkey-wheel",
+        "pluginIds": [
+          "io.github.erikrjohansson.hotkey-wheel"
+        ],
+        "commit": "31b15bf4578eff2e9cadbbccab580cf53d43eaa1",
+        "checkedAt": "2026-10-16T13:35:08.906Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "erikrjohansson/omarchy-hotkey-wheel",
+        "pluginIds": [
+          "io.github.erikrjohansson.hotkey-wheel"
+        ],
+        "commit": "31b15bf4578eff2e9cadbbccab580cf53d43eaa1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T13:35:08.906Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T07:46:23.299Z",
+        "requestEventId": 33448958798,
+        "requestedAt": "2026-10-16T13:28:43Z",
+        "reviewedAt": "2026-10-16T13:35:08.906Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.erikrjohansson.hotkey-wheel": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
