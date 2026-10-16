@@ -39508,8 +39508,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-21",
       "listedAt": "2026-08-21T05:26:33.086Z",
-      "listingValidatedCommit": "0f65f5fa1558aa9e20eb7bc01f76e7610f1cdc53",
-      "listingValidatedAt": "2026-10-03T22:11:09.288Z",
+      "listingValidatedCommit": "676bac86139d349655c7419b2b3f55be32f419d3",
+      "listingValidatedAt": "2026-10-16T03:58:10.860Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -39518,8 +39518,8 @@
         "pluginIds": [
           "luca.obsidian-daily"
         ],
-        "commit": "0f65f5fa1558aa9e20eb7bc01f76e7610f1cdc53",
-        "checkedAt": "2026-10-03T22:11:09.288Z",
+        "commit": "676bac86139d349655c7419b2b3f55be32f419d3",
+        "checkedAt": "2026-10-16T03:58:10.860Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -39672,6 +39672,51 @@
             "reviewedAt": "2026-09-02T01:41:32.239Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "0f65f5fa1558aa9e20eb7bc01f76e7610f1cdc53",
+          "validatedAt": "2026-10-03T22:11:09.288Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T03:58:10.860Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lucanerlich/obsidian-daily-qs",
+            "pluginIds": [
+              "luca.obsidian-daily"
+            ],
+            "commit": "0f65f5fa1558aa9e20eb7bc01f76e7610f1cdc53",
+            "checkedAt": "2026-10-03T22:11:09.288Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lucanerlich/obsidian-daily-qs",
+            "pluginIds": [
+              "luca.obsidian-daily"
+            ],
+            "commit": "0f65f5fa1558aa9e20eb7bc01f76e7610f1cdc53",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T22:11:09.288Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T21:18:32.591Z",
+            "requestEventId": 32416169096,
+            "requestedAt": "2026-10-03T21:51:02Z",
+            "reviewedAt": "2026-10-03T22:11:09.288Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -39680,20 +39725,20 @@
         "pluginIds": [
           "luca.obsidian-daily"
         ],
-        "commit": "0f65f5fa1558aa9e20eb7bc01f76e7610f1cdc53",
+        "commit": "676bac86139d349655c7419b2b3f55be32f419d3",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T22:11:09.288Z",
+        "baselineCheckedAt": "2026-10-16T03:58:10.860Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "bundled-executable-binary",
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-03T21:18:32.591Z",
-        "requestEventId": 32416169096,
-        "requestedAt": "2026-10-03T21:51:02Z",
-        "reviewedAt": "2026-10-03T22:11:09.288Z",
+        "reviewedBaselineCheckedAt": "2026-10-15T20:07:41.867Z",
+        "requestEventId": 33406818834,
+        "requestedAt": "2026-10-16T03:57:45Z",
+        "reviewedAt": "2026-10-16T03:58:10.860Z",
         "reviewer": "HANCORE-linux"
       }
     },
