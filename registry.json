@@ -340794,8 +340794,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-14",
       "listedAt": "2026-10-14T11:30:30.990Z",
-      "listingValidatedCommit": "28e2c017fe4e574ad2df88fc53dd71fa08c0dab5",
-      "listingValidatedAt": "2026-10-14T11:30:30.990Z",
+      "listingValidatedCommit": "1b23c7080b501178a5bf0cc728ae2fc3aacb9171",
+      "listingValidatedAt": "2026-10-16T16:28:26.999Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -340804,35 +340804,14 @@
         "pluginIds": [
           "shpaq.omateamcal"
         ],
-        "commit": "28e2c017fe4e574ad2df88fc53dd71fa08c0dab5",
-        "checkedAt": "2026-10-14T11:30:30.847Z",
+        "commit": "1b23c7080b501178a5bf0cc728ae2fc3aacb9171",
+        "checkedAt": "2026-10-16T16:28:26.999Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "shpaq4fun/omateamcal",
-        "pluginIds": [
-          "shpaq.omateamcal"
-        ],
-        "commit": "28e2c017fe4e574ad2df88fc53dd71fa08c0dab5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T11:30:30.847Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-14T08:09:46.761Z",
-        "requestEventId": 33220849145,
-        "requestedAt": "2026-10-14T11:29:48Z",
-        "reviewedAt": "2026-10-14T11:30:30.847Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "shpaq.omateamcal": {
@@ -340843,7 +340822,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "shpaq4fun/omateamcal",
+        "pluginIds": [
+          "shpaq.omateamcal"
+        ],
+        "commit": "1b23c7080b501178a5bf0cc728ae2fc3aacb9171",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T16:28:26.999Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T08:14:19.955Z",
+        "requestEventId": 33462588708,
+        "requestedAt": "2026-10-16T16:15:01Z",
+        "reviewedAt": "2026-10-16T16:28:26.999Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "28e2c017fe4e574ad2df88fc53dd71fa08c0dab5",
+          "validatedAt": "2026-10-14T11:30:30.990Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T16:28:26.999Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "shpaq4fun/omateamcal",
+            "pluginIds": [
+              "shpaq.omateamcal"
+            ],
+            "commit": "28e2c017fe4e574ad2df88fc53dd71fa08c0dab5",
+            "checkedAt": "2026-10-14T11:30:30.847Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "shpaq4fun/omateamcal",
+            "pluginIds": [
+              "shpaq.omateamcal"
+            ],
+            "commit": "28e2c017fe4e574ad2df88fc53dd71fa08c0dab5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T11:30:30.847Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-14T08:09:46.761Z",
+            "requestEventId": 33220849145,
+            "requestedAt": "2026-10-14T11:29:48Z",
+            "reviewedAt": "2026-10-14T11:30:30.847Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/paulmiddelkoop/ai-edit",
