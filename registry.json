@@ -347844,6 +347844,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mjennings3/vibebox",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T21:11:23.697Z",
+      "listingValidatedCommit": "07e704619e24873caf53c83ff8aa03d5342c1732",
+      "listingValidatedAt": "2026-10-16T21:11:23.697Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mjennings3/vibebox",
+        "pluginIds": [
+          "mjennings3.vibebox"
+        ],
+        "commit": "07e704619e24873caf53c83ff8aa03d5342c1732",
+        "checkedAt": "2026-10-16T21:11:23.558Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mjennings3.vibebox": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
