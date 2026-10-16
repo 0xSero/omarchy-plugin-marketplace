@@ -346076,6 +346076,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/JeoCrypto/omarchy-spotlight-apps",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T18:08:01.926Z",
+      "listingValidatedCommit": "7facb4e1409c584060f07bef663934478add884b",
+      "listingValidatedAt": "2026-10-16T18:08:01.926Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jeocrypto/omarchy-spotlight-apps",
+        "pluginIds": [
+          "io.github.jeocrypto.launchpad"
+        ],
+        "commit": "7facb4e1409c584060f07bef663934478add884b",
+        "checkedAt": "2026-10-16T18:08:01.778Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.jeocrypto.launchpad": {
+          "category": "Desktop",
+          "tags": [
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
