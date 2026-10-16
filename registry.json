@@ -329671,8 +329671,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T14:35:50.765Z",
-      "listingValidatedCommit": "08a1037644f51e09a97d230888106474073d6d4f",
-      "listingValidatedAt": "2026-10-10T23:04:10.335Z",
+      "listingValidatedCommit": "7de08a7e7556fceac9168cce0443b3e0f4a648ab",
+      "listingValidatedAt": "2026-10-16T00:00:32.555Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -329681,8 +329681,8 @@
         "pluginIds": [
           "io.github.gillmania.display-setups"
         ],
-        "commit": "08a1037644f51e09a97d230888106474073d6d4f",
-        "checkedAt": "2026-10-10T23:04:10.335Z",
+        "commit": "7de08a7e7556fceac9168cce0443b3e0f4a648ab",
+        "checkedAt": "2026-10-16T00:00:32.555Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -329701,28 +329701,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gillmania/omarchy-display-setups",
-        "pluginIds": [
-          "io.github.gillmania.display-setups"
-        ],
-        "commit": "08a1037644f51e09a97d230888106474073d6d4f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-10T23:04:10.335Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-10T20:16:54.547Z",
-        "requestEventId": 32962028771,
-        "requestedAt": "2026-10-10T23:03:39Z",
-        "reviewedAt": "2026-10-10T23:04:10.335Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -329769,8 +329747,75 @@
             "reviewedAt": "2026-10-10T14:35:50.641Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "08a1037644f51e09a97d230888106474073d6d4f",
+          "validatedAt": "2026-10-10T23:04:10.335Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T00:00:32.555Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gillmania/omarchy-display-setups",
+            "pluginIds": [
+              "io.github.gillmania.display-setups"
+            ],
+            "commit": "08a1037644f51e09a97d230888106474073d6d4f",
+            "checkedAt": "2026-10-10T23:04:10.335Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gillmania/omarchy-display-setups",
+            "pluginIds": [
+              "io.github.gillmania.display-setups"
+            ],
+            "commit": "08a1037644f51e09a97d230888106474073d6d4f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-10T23:04:10.335Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-10T20:16:54.547Z",
+            "requestEventId": 32962028771,
+            "requestedAt": "2026-10-10T23:03:39Z",
+            "reviewedAt": "2026-10-10T23:04:10.335Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gillmania/omarchy-display-setups",
+        "pluginIds": [
+          "io.github.gillmania.display-setups"
+        ],
+        "commit": "7de08a7e7556fceac9168cce0443b3e0f4a648ab",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T00:00:32.555Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T23:09:58.590Z",
+        "requestEventId": 33391715190,
+        "requestedAt": "2026-10-16T00:00:00Z",
+        "reviewedAt": "2026-10-16T00:00:32.555Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/rwilson131/omarchy.music-assistant",
