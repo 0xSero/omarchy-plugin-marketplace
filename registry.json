@@ -344285,8 +344285,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-15",
       "listedAt": "2026-10-15T06:50:23.293Z",
-      "listingValidatedCommit": "579bf3a8f15a55cedd37c813d5812450d4848552",
-      "listingValidatedAt": "2026-10-15T06:50:23.293Z",
+      "listingValidatedCommit": "50b2169d677b67c07392afaf20e1dd31057d0aa4",
+      "listingValidatedAt": "2026-10-16T20:59:19.801Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -344295,41 +344295,18 @@
         "pluginIds": [
           "jaj.tidal"
         ],
-        "commit": "579bf3a8f15a55cedd37c813d5812450d4848552",
-        "checkedAt": "2026-10-15T06:50:23.206Z",
+        "commit": "50b2169d677b67c07392afaf20e1dd31057d0aa4",
+        "checkedAt": "2026-10-16T20:59:19.801Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "package-manager",
+          "bundled-executable-binary",
           "service-management",
           "remote-build",
+          "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "jeffe747/omarchy-tidal-music-player",
-        "pluginIds": [
-          "jaj.tidal"
-        ],
-        "commit": "579bf3a8f15a55cedd37c813d5812450d4848552",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-15T06:50:23.206Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-15T06:48:18.241Z",
-        "requestEventId": 33305497513,
-        "requestedAt": "2026-10-15T06:49:56Z",
-        "reviewedAt": "2026-10-15T06:50:23.206Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "jaj.tidal": {
@@ -344339,7 +344316,83 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jeffe747/omarchy-tidal-music-player",
+        "pluginIds": [
+          "jaj.tidal"
+        ],
+        "commit": "50b2169d677b67c07392afaf20e1dd31057d0aa4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T20:59:19.801Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "service-management",
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T20:26:15.383Z",
+        "requestEventId": 33482288293,
+        "requestedAt": "2026-10-16T20:47:02Z",
+        "reviewedAt": "2026-10-16T20:59:19.801Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "579bf3a8f15a55cedd37c813d5812450d4848552",
+          "validatedAt": "2026-10-15T06:50:23.293Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T20:59:19.801Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jeffe747/omarchy-tidal-music-player",
+            "pluginIds": [
+              "jaj.tidal"
+            ],
+            "commit": "579bf3a8f15a55cedd37c813d5812450d4848552",
+            "checkedAt": "2026-10-15T06:50:23.206Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jeffe747/omarchy-tidal-music-player",
+            "pluginIds": [
+              "jaj.tidal"
+            ],
+            "commit": "579bf3a8f15a55cedd37c813d5812450d4848552",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-15T06:50:23.206Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-15T06:48:18.241Z",
+            "requestEventId": 33305497513,
+            "requestedAt": "2026-10-15T06:49:56Z",
+            "reviewedAt": "2026-10-15T06:50:23.206Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/rkocosmergon/shikigon",
