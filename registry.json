@@ -347995,6 +347995,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/uBruckhaus/omarchy-ai-agents-map",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T21:31:10.729Z",
+      "listingValidatedCommit": "a1588f83a7e4e9433d6c0a56c3d30de2e79ba7f1",
+      "listingValidatedAt": "2026-10-16T21:31:10.729Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ubruckhaus/omarchy-ai-agents-map",
+        "pluginIds": [
+          "ubruckhaus.ai-agents-map"
+        ],
+        "commit": "a1588f83a7e4e9433d6c0a56c3d30de2e79ba7f1",
+        "checkedAt": "2026-10-16T21:31:10.616Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ubruckhaus/omarchy-ai-agents-map",
+        "pluginIds": [
+          "ubruckhaus.ai-agents-map"
+        ],
+        "commit": "a1588f83a7e4e9433d6c0a56c3d30de2e79ba7f1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T21:31:10.616Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T21:20:42.294Z",
+        "requestEventId": 33485095956,
+        "requestedAt": "2026-10-16T21:28:59Z",
+        "reviewedAt": "2026-10-16T21:31:10.616Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "ubruckhaus.ai-agents-map": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
