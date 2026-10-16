@@ -344845,6 +344845,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/leandro-3rne/window-switcher-for-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T15:50:26.105Z",
+      "listingValidatedCommit": "335c6667c82539390421f134d85794c662e8b58c",
+      "listingValidatedAt": "2026-10-16T15:50:26.105Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "leandro-3rne/window-switcher-for-omarchy",
+        "pluginIds": [
+          "io.github.leandro-3rne.window-switcher"
+        ],
+        "commit": "335c6667c82539390421f134d85794c662e8b58c",
+        "checkedAt": "2026-10-16T15:50:26.004Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.leandro-3rne.window-switcher": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
