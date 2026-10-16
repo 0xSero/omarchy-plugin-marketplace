@@ -345059,6 +345059,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/piazzaAI/omarchy-appearance",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T16:23:44.763Z",
+      "listingValidatedCommit": "17371f707a01f46565cf195885799d1402d360de",
+      "listingValidatedAt": "2026-10-16T16:23:44.763Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "piazzaai/omarchy-appearance",
+        "pluginIds": [
+          "piazza.appearance"
+        ],
+        "commit": "17371f707a01f46565cf195885799d1402d360de",
+        "checkedAt": "2026-10-16T16:23:44.625Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "piazza.appearance": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
