@@ -344502,6 +344502,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/dries-robuxio/omarchy-tidy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T15:10:50.696Z",
+      "listingValidatedCommit": "8cfa8754cc5d3440895a057d1b336bead8cca957",
+      "listingValidatedAt": "2026-10-16T15:10:50.696Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dries-robuxio/omarchy-tidy",
+        "pluginIds": [
+          "io.github.dries-robuxio.tidy"
+        ],
+        "commit": "8cfa8754cc5d3440895a057d1b336bead8cca957",
+        "checkedAt": "2026-10-16T15:10:50.551Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.dries-robuxio.tidy": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
