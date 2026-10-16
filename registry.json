@@ -79645,8 +79645,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-25",
       "listedAt": "2026-08-25T20:05:12.514Z",
-      "listingValidatedCommit": "4793dd2b988254110407eeadac61b974f264a708",
-      "listingValidatedAt": "2026-09-30T20:53:02.148Z",
+      "listingValidatedCommit": "d77f3e6c404a6c0872d177e4810515bde41efcbd",
+      "listingValidatedAt": "2026-10-16T18:16:12.447Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -79655,8 +79655,8 @@
         "pluginIds": [
           "mryll.meteobar"
         ],
-        "commit": "4793dd2b988254110407eeadac61b974f264a708",
-        "checkedAt": "2026-09-30T20:53:02.147Z",
+        "commit": "d77f3e6c404a6c0872d177e4810515bde41efcbd",
+        "checkedAt": "2026-10-16T18:16:12.447Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -79963,6 +79963,53 @@
             "reviewedAt": "2026-09-11T05:39:11.329Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "4793dd2b988254110407eeadac61b974f264a708",
+          "validatedAt": "2026-09-30T20:53:02.148Z",
+          "branch": "master",
+          "supersededAt": "2026-10-16T18:16:12.447Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mryll/meteobar",
+            "pluginIds": [
+              "mryll.meteobar"
+            ],
+            "commit": "4793dd2b988254110407eeadac61b974f264a708",
+            "checkedAt": "2026-09-30T20:53:02.147Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mryll/meteobar",
+            "pluginIds": [
+              "mryll.meteobar"
+            ],
+            "commit": "4793dd2b988254110407eeadac61b974f264a708",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-30T20:53:02.147Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T20:51:46.350Z",
+            "requestEventId": 32200326324,
+            "requestedAt": "2026-09-30T20:52:19Z",
+            "reviewedAt": "2026-09-30T20:53:02.148Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -79971,10 +80018,10 @@
         "pluginIds": [
           "mryll.meteobar"
         ],
-        "commit": "4793dd2b988254110407eeadac61b974f264a708",
+        "commit": "d77f3e6c404a6c0872d177e4810515bde41efcbd",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-30T20:53:02.147Z",
+        "baselineCheckedAt": "2026-10-16T18:16:12.447Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -79982,10 +80029,10 @@
           "remote-build",
           "privilege"
         ],
-        "reviewedBaselineCheckedAt": "2026-09-16T20:51:46.350Z",
-        "requestEventId": 32200326324,
-        "requestedAt": "2026-09-30T20:52:19Z",
-        "reviewedAt": "2026-09-30T20:53:02.148Z",
+        "reviewedBaselineCheckedAt": "2026-10-16T15:52:25.981Z",
+        "requestEventId": 33471435322,
+        "requestedAt": "2026-10-16T18:13:28Z",
+        "reviewedAt": "2026-10-16T18:16:12.447Z",
         "reviewer": "HANCORE-linux"
       }
     },
