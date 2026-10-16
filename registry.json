@@ -342047,8 +342047,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-14",
       "listedAt": "2026-10-14T21:42:01.043Z",
-      "listingValidatedCommit": "7cc4ffba2752845608778d66f3d5144a93512b8b",
-      "listingValidatedAt": "2026-10-15T01:16:55.935Z",
+      "listingValidatedCommit": "e3521b84874808eb78b22fbfca94836e9a02d33f",
+      "listingValidatedAt": "2026-10-16T18:48:15.091Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -342057,8 +342057,8 @@
         "pluginIds": [
           "meperdonas.devstack"
         ],
-        "commit": "7cc4ffba2752845608778d66f3d5144a93512b8b",
-        "checkedAt": "2026-10-15T01:16:55.935Z",
+        "commit": "e3521b84874808eb78b22fbfca94836e9a02d33f",
+        "checkedAt": "2026-10-16T18:48:15.091Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -342178,6 +342178,55 @@
             "reviewedAt": "2026-10-15T00:46:41.682Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "7cc4ffba2752845608778d66f3d5144a93512b8b",
+          "validatedAt": "2026-10-15T01:16:55.935Z",
+          "branch": "master",
+          "supersededAt": "2026-10-16T18:48:15.091Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "meperdonas/omarchy-devstack",
+            "pluginIds": [
+              "meperdonas.devstack"
+            ],
+            "commit": "7cc4ffba2752845608778d66f3d5144a93512b8b",
+            "checkedAt": "2026-10-15T01:16:55.935Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "meperdonas/omarchy-devstack",
+            "pluginIds": [
+              "meperdonas.devstack"
+            ],
+            "commit": "7cc4ffba2752845608778d66f3d5144a93512b8b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-15T01:16:55.935Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-15T01:06:23.492Z",
+            "requestEventId": 33285335475,
+            "requestedAt": "2026-10-15T01:10:47Z",
+            "reviewedAt": "2026-10-15T01:16:55.935Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -342186,10 +342235,10 @@
         "pluginIds": [
           "meperdonas.devstack"
         ],
-        "commit": "7cc4ffba2752845608778d66f3d5144a93512b8b",
+        "commit": "e3521b84874808eb78b22fbfca94836e9a02d33f",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-15T01:16:55.935Z",
+        "baselineCheckedAt": "2026-10-16T18:48:15.091Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -342198,10 +342247,10 @@
           "package-manager",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-15T01:06:23.492Z",
-        "requestEventId": 33285335475,
-        "requestedAt": "2026-10-15T01:10:47Z",
-        "reviewedAt": "2026-10-15T01:16:55.935Z",
+        "reviewedBaselineCheckedAt": "2026-10-16T05:25:05.009Z",
+        "requestEventId": 33473914026,
+        "requestedAt": "2026-10-16T18:47:39Z",
+        "reviewedAt": "2026-10-16T18:48:15.091Z",
         "reviewer": "HANCORE-linux"
       }
     },
