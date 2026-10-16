@@ -343796,6 +343796,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/MaNi4/omarchy-rails-inspector",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T13:44:13.122Z",
+      "listingValidatedCommit": "48f618f9ebaf9341eab541cf673c539530287f68",
+      "listingValidatedAt": "2026-10-16T13:44:13.122Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mani4/omarchy-rails-inspector",
+        "pluginIds": [
+          "mani4.rails-inspector"
+        ],
+        "commit": "48f618f9ebaf9341eab541cf673c539530287f68",
+        "checkedAt": "2026-10-16T13:44:12.991Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mani4.rails-inspector": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
