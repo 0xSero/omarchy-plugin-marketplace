@@ -223559,8 +223559,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T18:17:13.939Z",
-      "listingValidatedCommit": "7f0ecc71252980694e74fb839e3e86dea6bdcb5b",
-      "listingValidatedAt": "2026-09-21T18:17:13.939Z",
+      "listingValidatedCommit": "e94233c0710a719384356b660f4573300d202f24",
+      "listingValidatedAt": "2026-10-16T19:53:11.843Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -223569,8 +223569,8 @@
         "pluginIds": [
           "ozdil.omastudio"
         ],
-        "commit": "7f0ecc71252980694e74fb839e3e86dea6bdcb5b",
-        "checkedAt": "2026-09-21T18:17:13.844Z",
+        "commit": "e94233c0710a719384356b660f4573300d202f24",
+        "checkedAt": "2026-10-16T19:53:11.843Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -223586,7 +223586,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7f0ecc71252980694e74fb839e3e86dea6bdcb5b",
+          "validatedAt": "2026-09-21T18:17:13.939Z",
+          "branch": "master",
+          "supersededAt": "2026-10-16T19:53:11.843Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozdil/omarchy-omastudio",
+            "pluginIds": [
+              "ozdil.omastudio"
+            ],
+            "commit": "7f0ecc71252980694e74fb839e3e86dea6bdcb5b",
+            "checkedAt": "2026-09-21T18:17:13.844Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Marobotic/omarchy-discord-vc",
