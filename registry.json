@@ -343657,6 +343657,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tonydelligatti-boop/omarchy-remote-nvidia",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T13:31:27.224Z",
+      "listingValidatedCommit": "c5a644bda90ec272e9023be0ab434581ffc1577e",
+      "listingValidatedAt": "2026-10-16T13:31:27.224Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tonydelligatti-boop/omarchy-remote-nvidia",
+        "pluginIds": [
+          "remote-nvidia"
+        ],
+        "commit": "c5a644bda90ec272e9023be0ab434581ffc1577e",
+        "checkedAt": "2026-10-16T13:31:27.080Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "remote-nvidia": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
