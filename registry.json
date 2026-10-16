@@ -344065,6 +344065,75 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/kehao-playground/omaremote",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T14:19:31.167Z",
+      "listingValidatedCommit": "36f7d8d09c88746e446dfb6f75e10a5f39ab057b",
+      "listingValidatedAt": "2026-10-16T14:19:31.167Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kehao-playground/omaremote",
+        "pluginIds": [
+          "io.github.kehao-chen.omaremote"
+        ],
+        "commit": "36f7d8d09c88746e446dfb6f75e10a5f39ab057b",
+        "checkedAt": "2026-10-16T14:19:31.077Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "remote-build",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kehao-playground/omaremote",
+        "pluginIds": [
+          "io.github.kehao-chen.omaremote"
+        ],
+        "commit": "36f7d8d09c88746e446dfb6f75e10a5f39ab057b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T14:19:31.077Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "remote-build",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T00:43:09.687Z",
+        "requestEventId": 33453155513,
+        "requestedAt": "2026-10-16T14:19:01Z",
+        "reviewedAt": "2026-10-16T14:19:31.077Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.kehao-chen.omaremote": {
+          "category": "Hardware",
+          "tags": [
+            "quickshell",
+            "hyprland",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
