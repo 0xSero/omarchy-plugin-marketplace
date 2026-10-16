@@ -344708,6 +344708,64 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/othavi0/omanotes",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T15:39:49.435Z",
+      "listingValidatedCommit": "4beb6888c6b3747080c9ae63beed4195d07bdbf3",
+      "listingValidatedAt": "2026-10-16T15:39:49.435Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "othavi0/omanotes",
+        "pluginIds": [
+          "othavi0.omanotes"
+        ],
+        "commit": "4beb6888c6b3747080c9ae63beed4195d07bdbf3",
+        "checkedAt": "2026-10-16T15:39:49.322Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "othavi0/omanotes",
+        "pluginIds": [
+          "othavi0.omanotes"
+        ],
+        "commit": "4beb6888c6b3747080c9ae63beed4195d07bdbf3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T15:39:49.322Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T15:26:36.935Z",
+        "requestEventId": 33459139354,
+        "requestedAt": "2026-10-16T15:30:21Z",
+        "reviewedAt": "2026-10-16T15:39:49.322Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "othavi0.omanotes": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
