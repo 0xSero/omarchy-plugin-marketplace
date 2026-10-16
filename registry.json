@@ -345451,6 +345451,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/anavarre/omarchy-lightning",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T16:55:42.545Z",
+      "listingValidatedCommit": "30e3a5a470a0a3ae33a08bf75df6ca974fbeb7cc",
+      "listingValidatedAt": "2026-10-16T16:55:42.545Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "anavarre/omarchy-lightning",
+        "pluginIds": [
+          "anavarre.lightning"
+        ],
+        "commit": "30e3a5a470a0a3ae33a08bf75df6ca974fbeb7cc",
+        "checkedAt": "2026-10-16T16:55:42.406Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "anavarre.lightning": {
+          "category": "Productivity",
+          "tags": [
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
