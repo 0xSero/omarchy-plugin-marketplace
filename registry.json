@@ -343996,6 +343996,75 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/zangetsu02/omarchy-fortivpn",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T14:04:45.782Z",
+      "listingValidatedCommit": "7619270faa4fefe0ee5dd1aee14ff8e6140e1591",
+      "listingValidatedAt": "2026-10-16T14:04:45.782Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zangetsu02/omarchy-fortivpn",
+        "pluginIds": [
+          "io.github.zangetsu02.fortivpn"
+        ],
+        "commit": "7619270faa4fefe0ee5dd1aee14ff8e6140e1591",
+        "checkedAt": "2026-10-16T14:04:45.668Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zangetsu02/omarchy-fortivpn",
+        "pluginIds": [
+          "io.github.zangetsu02.fortivpn"
+        ],
+        "commit": "7619270faa4fefe0ee5dd1aee14ff8e6140e1591",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T14:04:45.668Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T11:46:29.219Z",
+        "requestEventId": 33451921819,
+        "requestedAt": "2026-10-16T14:04:10Z",
+        "reviewedAt": "2026-10-16T14:04:45.668Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.zangetsu02.fortivpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
