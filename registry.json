@@ -179926,8 +179926,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-11",
       "listedAt": "2026-09-11T19:05:59.345Z",
-      "listingValidatedCommit": "fe34d2c55c1a2e422ecd1bb0da6645d04a26031f",
-      "listingValidatedAt": "2026-09-11T19:05:59.345Z",
+      "listingValidatedCommit": "5e4b9a3ceb9271b971b5499e1c6344e3a9b83fcf",
+      "listingValidatedAt": "2026-10-16T00:17:45.464Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -179936,35 +179936,14 @@
         "pluginIds": [
           "reidenxerx.emoji-picker"
         ],
-        "commit": "fe34d2c55c1a2e422ecd1bb0da6645d04a26031f",
-        "checkedAt": "2026-09-11T19:05:59.269Z",
+        "commit": "5e4b9a3ceb9271b971b5499e1c6344e3a9b83fcf",
+        "checkedAt": "2026-10-16T00:17:45.464Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "reidenxerx/omarchy-emoji-picker",
-        "pluginIds": [
-          "reidenxerx.emoji-picker"
-        ],
-        "commit": "fe34d2c55c1a2e422ecd1bb0da6645d04a26031f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-11T19:05:59.269Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-11T18:06:37.857Z",
-        "requestEventId": 30992768188,
-        "requestedAt": "2026-09-11T18:44:19Z",
-        "reviewedAt": "2026-09-11T19:05:59.269Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "reidenxerx.emoji-picker": {
@@ -179975,7 +179954,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "reidenxerx/omarchy-emoji-picker",
+        "pluginIds": [
+          "reidenxerx.emoji-picker"
+        ],
+        "commit": "5e4b9a3ceb9271b971b5499e1c6344e3a9b83fcf",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T00:17:45.464Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T23:58:58.687Z",
+        "requestEventId": 33392640687,
+        "requestedAt": "2026-10-16T00:16:21Z",
+        "reviewedAt": "2026-10-16T00:17:45.464Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "fe34d2c55c1a2e422ecd1bb0da6645d04a26031f",
+          "validatedAt": "2026-09-11T19:05:59.345Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T00:17:45.464Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "reidenxerx/omarchy-emoji-picker",
+            "pluginIds": [
+              "reidenxerx.emoji-picker"
+            ],
+            "commit": "fe34d2c55c1a2e422ecd1bb0da6645d04a26031f",
+            "checkedAt": "2026-09-11T19:05:59.269Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "reidenxerx/omarchy-emoji-picker",
+            "pluginIds": [
+              "reidenxerx.emoji-picker"
+            ],
+            "commit": "fe34d2c55c1a2e422ecd1bb0da6645d04a26031f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-11T19:05:59.269Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-11T18:06:37.857Z",
+            "requestEventId": 30992768188,
+            "requestedAt": "2026-09-11T18:44:19Z",
+            "reviewedAt": "2026-09-11T19:05:59.269Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/keegan-sucks/rss-feeder",
