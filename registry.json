@@ -286484,8 +286484,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T01:03:50.539Z",
-      "listingValidatedCommit": "73fab1016c1ffd29c249a4d75d93fe492768accb",
-      "listingValidatedAt": "2026-10-13T20:28:51.226Z",
+      "listingValidatedCommit": "b8b8442897735a9026f136cff300305020fe6d2d",
+      "listingValidatedAt": "2026-10-16T14:42:57.767Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -286494,8 +286494,8 @@
         "pluginIds": [
           "ozdil.omablock"
         ],
-        "commit": "73fab1016c1ffd29c249a4d75d93fe492768accb",
-        "checkedAt": "2026-10-13T20:28:51.226Z",
+        "commit": "b8b8442897735a9026f136cff300305020fe6d2d",
+        "checkedAt": "2026-10-16T14:42:57.767Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -286614,6 +286614,53 @@
             "reviewedAt": "2026-10-02T18:32:16.809Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "73fab1016c1ffd29c249a4d75d93fe492768accb",
+          "validatedAt": "2026-10-13T20:28:51.226Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T14:42:57.767Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozdil/omarchy-omablock",
+            "pluginIds": [
+              "ozdil.omablock"
+            ],
+            "commit": "73fab1016c1ffd29c249a4d75d93fe492768accb",
+            "checkedAt": "2026-10-13T20:28:51.226Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ozdil/omarchy-omablock",
+            "pluginIds": [
+              "ozdil.omablock"
+            ],
+            "commit": "73fab1016c1ffd29c249a4d75d93fe492768accb",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T20:28:51.226Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T09:23:50.287Z",
+            "requestEventId": 33169412460,
+            "requestedAt": "2026-10-13T20:25:34Z",
+            "reviewedAt": "2026-10-13T20:28:51.226Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -286622,10 +286669,10 @@
         "pluginIds": [
           "ozdil.omablock"
         ],
-        "commit": "73fab1016c1ffd29c249a4d75d93fe492768accb",
+        "commit": "b8b8442897735a9026f136cff300305020fe6d2d",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T20:28:51.226Z",
+        "baselineCheckedAt": "2026-10-16T14:42:57.767Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -286633,10 +286680,10 @@
           "package-manager",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-13T09:23:50.287Z",
-        "requestEventId": 33169412460,
-        "requestedAt": "2026-10-13T20:25:34Z",
-        "reviewedAt": "2026-10-13T20:28:51.226Z",
+        "reviewedBaselineCheckedAt": "2026-10-16T13:50:16.358Z",
+        "requestEventId": 33454863987,
+        "requestedAt": "2026-10-16T14:38:56Z",
+        "reviewedAt": "2026-10-16T14:42:57.767Z",
         "reviewer": "HANCORE-linux"
       }
     },
