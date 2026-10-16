@@ -344788,6 +344788,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nachfq/omarchy-peek",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T15:46:16.770Z",
+      "listingValidatedCommit": "63b0917d0e425c180681335883cbd1d43d00c425",
+      "listingValidatedAt": "2026-10-16T15:46:16.770Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nachfq/omarchy-peek",
+        "pluginIds": [
+          "nachfq.peek"
+        ],
+        "commit": "63b0917d0e425c180681335883cbd1d43d00c425",
+        "checkedAt": "2026-10-16T15:46:16.628Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nachfq/omarchy-peek",
+        "pluginIds": [
+          "nachfq.peek"
+        ],
+        "commit": "63b0917d0e425c180681335883cbd1d43d00c425",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T15:46:16.628Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T15:39:32.254Z",
+        "requestEventId": 33460028597,
+        "requestedAt": "2026-10-16T15:41:53Z",
+        "reviewedAt": "2026-10-16T15:46:16.628Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nachfq.peek": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
