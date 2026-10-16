@@ -179593,8 +179593,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-11",
       "listedAt": "2026-09-11T18:59:49.647Z",
-      "listingValidatedCommit": "a5ef5ae76c4816af6c5623ffb02bb54d374e32b8",
-      "listingValidatedAt": "2026-09-25T09:10:47.563Z",
+      "listingValidatedCommit": "f18288b7a5616f84775b8c83dc9da98b33cff91d",
+      "listingValidatedAt": "2026-10-16T00:10:28.025Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -179603,8 +179603,8 @@
         "pluginIds": [
           "reidenxerx.clipboard-shelf"
         ],
-        "commit": "a5ef5ae76c4816af6c5623ffb02bb54d374e32b8",
-        "checkedAt": "2026-09-25T09:10:47.563Z",
+        "commit": "f18288b7a5616f84775b8c83dc9da98b33cff91d",
+        "checkedAt": "2026-10-16T00:10:28.025Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -179622,27 +179622,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "reidenxerx/omarchy-clipboard-shelf",
-        "pluginIds": [
-          "reidenxerx.clipboard-shelf"
-        ],
-        "commit": "a5ef5ae76c4816af6c5623ffb02bb54d374e32b8",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-25T09:10:47.563Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-22T19:27:38.299Z",
-        "requestEventId": 31821395100,
-        "requestedAt": "2026-09-25T08:26:40Z",
-        "reviewedAt": "2026-09-25T09:10:47.563Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -179687,8 +179666,72 @@
             "reviewedAt": "2026-09-11T18:59:49.568Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "a5ef5ae76c4816af6c5623ffb02bb54d374e32b8",
+          "validatedAt": "2026-09-25T09:10:47.563Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T00:10:28.025Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "reidenxerx/omarchy-clipboard-shelf",
+            "pluginIds": [
+              "reidenxerx.clipboard-shelf"
+            ],
+            "commit": "a5ef5ae76c4816af6c5623ffb02bb54d374e32b8",
+            "checkedAt": "2026-09-25T09:10:47.563Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "reidenxerx/omarchy-clipboard-shelf",
+            "pluginIds": [
+              "reidenxerx.clipboard-shelf"
+            ],
+            "commit": "a5ef5ae76c4816af6c5623ffb02bb54d374e32b8",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-25T09:10:47.563Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-22T19:27:38.299Z",
+            "requestEventId": 31821395100,
+            "requestedAt": "2026-09-25T08:26:40Z",
+            "reviewedAt": "2026-09-25T09:10:47.563Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "reidenxerx/omarchy-clipboard-shelf",
+        "pluginIds": [
+          "reidenxerx.clipboard-shelf"
+        ],
+        "commit": "f18288b7a5616f84775b8c83dc9da98b33cff91d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T00:10:28.025Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T23:58:38.299Z",
+        "requestEventId": 33392297357,
+        "requestedAt": "2026-10-16T00:09:57Z",
+        "reviewedAt": "2026-10-16T00:10:28.025Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/ReidenXerx/omarchy-cockpit",
