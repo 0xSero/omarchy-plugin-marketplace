@@ -344134,6 +344134,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/austinwilkerson/omarchy-rog-helper",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T14:26:29.368Z",
+      "listingValidatedCommit": "847eca985367b99db5430fb26ab6645e814c9b50",
+      "listingValidatedAt": "2026-10-16T14:26:29.368Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "austinwilkerson/omarchy-rog-helper",
+        "pluginIds": [
+          "rog-helper"
+        ],
+        "commit": "847eca985367b99db5430fb26ab6645e814c9b50",
+        "checkedAt": "2026-10-16T14:26:29.228Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "austinwilkerson/omarchy-rog-helper",
+        "pluginIds": [
+          "rog-helper"
+        ],
+        "commit": "847eca985367b99db5430fb26ab6645e814c9b50",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T14:26:29.228Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T14:24:00.346Z",
+        "requestEventId": 33453723263,
+        "requestedAt": "2026-10-16T14:25:54Z",
+        "reviewedAt": "2026-10-16T14:26:29.228Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "rog-helper": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
