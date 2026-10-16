@@ -347427,6 +347427,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jeffsauer/mod3-solitaire-bar-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T20:35:40.466Z",
+      "listingValidatedCommit": "8fb5b8f49265f71fac6e8631302c3533e1de26b8",
+      "listingValidatedAt": "2026-10-16T20:35:40.466Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jeffsauer/mod3-solitaire-bar-widget",
+        "pluginIds": [
+          "io.github.jeffsauer.mod3-solitaire"
+        ],
+        "commit": "8fb5b8f49265f71fac6e8631302c3533e1de26b8",
+        "checkedAt": "2026-10-16T20:35:40.370Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jeffsauer/mod3-solitaire-bar-widget",
+        "pluginIds": [
+          "io.github.jeffsauer.mod3-solitaire"
+        ],
+        "commit": "8fb5b8f49265f71fac6e8631302c3533e1de26b8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T20:35:40.370Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T14:29:10.438Z",
+        "requestEventId": 33480721010,
+        "requestedAt": "2026-10-16T20:24:22Z",
+        "reviewedAt": "2026-10-16T20:35:40.370Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.jeffsauer.mod3-solitaire": {
+          "category": "Widgets",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
