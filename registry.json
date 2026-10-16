@@ -346221,6 +346221,66 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/TylerSw1ft/omarchy-arrange",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T18:20:01.430Z",
+      "listingValidatedCommit": "9e56722848a84060311e453a2051d50bb71aa5c8",
+      "listingValidatedAt": "2026-10-16T18:20:01.430Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tylersw1ft/omarchy-arrange",
+        "pluginIds": [
+          "tylersw1ft.arrange"
+        ],
+        "commit": "9e56722848a84060311e453a2051d50bb71aa5c8",
+        "checkedAt": "2026-10-16T18:20:01.282Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tylersw1ft/omarchy-arrange",
+        "pluginIds": [
+          "tylersw1ft.arrange"
+        ],
+        "commit": "9e56722848a84060311e453a2051d50bb71aa5c8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T18:20:01.282Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T18:13:39.614Z",
+        "requestEventId": 33471548790,
+        "requestedAt": "2026-10-16T18:15:02Z",
+        "reviewedAt": "2026-10-16T18:20:01.282Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "tylersw1ft.arrange": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
