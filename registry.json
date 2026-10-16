@@ -130021,8 +130021,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-02",
       "listedAt": "2026-09-02T11:29:09.628Z",
-      "listingValidatedCommit": "7f543a2fb1afaba4a5614f752eb127b30d55b4cc",
-      "listingValidatedAt": "2026-10-01T09:17:06.422Z",
+      "listingValidatedCommit": "b770579f20df6bbcefdc5779dabb1c8d5180462e",
+      "listingValidatedAt": "2026-10-16T17:30:28.511Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -130031,8 +130031,8 @@
         "pluginIds": [
           "gladimdim.config-sync"
         ],
-        "commit": "7f543a2fb1afaba4a5614f752eb127b30d55b4cc",
-        "checkedAt": "2026-10-01T09:17:06.422Z",
+        "commit": "b770579f20df6bbcefdc5779dabb1c8d5180462e",
+        "checkedAt": "2026-10-16T17:30:28.511Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -130082,6 +130082,26 @@
             ],
             "commit": "f176347895b5c6ecf999c895a2cb127e1e9e97ba",
             "checkedAt": "2026-09-11T14:50:00.014Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "7f543a2fb1afaba4a5614f752eb127b30d55b4cc",
+          "validatedAt": "2026-10-01T09:17:06.422Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T17:30:28.511Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gladimdim/omarchy-config-sync-plugin",
+            "pluginIds": [
+              "gladimdim.config-sync"
+            ],
+            "commit": "7f543a2fb1afaba4a5614f752eb127b30d55b4cc",
+            "checkedAt": "2026-10-01T09:17:06.422Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
