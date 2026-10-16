@@ -338263,8 +338263,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-12",
       "listedAt": "2026-10-12T21:20:09.988Z",
-      "listingValidatedCommit": "0f00032dad4c1d0061494c272ff1b82003fc817b",
-      "listingValidatedAt": "2026-10-12T21:20:09.988Z",
+      "listingValidatedCommit": "2b8476afc11c23ea80c40371e437c8ceb3350979",
+      "listingValidatedAt": "2026-10-16T20:47:36.407Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -338273,8 +338273,8 @@
         "pluginIds": [
           "syndicalt.eventloom"
         ],
-        "commit": "0f00032dad4c1d0061494c272ff1b82003fc817b",
-        "checkedAt": "2026-10-12T21:20:09.880Z",
+        "commit": "2b8476afc11c23ea80c40371e437c8ceb3350979",
+        "checkedAt": "2026-10-16T20:47:36.407Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -338282,28 +338282,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "syndicalt/omarchy-eventloom",
-        "pluginIds": [
-          "syndicalt.eventloom"
-        ],
-        "commit": "0f00032dad4c1d0061494c272ff1b82003fc817b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T21:20:09.880Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T21:13:49.839Z",
-        "requestEventId": 33081661697,
-        "requestedAt": "2026-10-12T21:19:28Z",
-        "reviewedAt": "2026-10-12T21:20:09.880Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "syndicalt.eventloom": {
@@ -338314,7 +338292,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "syndicalt/omarchy-eventloom",
+        "pluginIds": [
+          "syndicalt.eventloom"
+        ],
+        "commit": "2b8476afc11c23ea80c40371e437c8ceb3350979",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T20:47:36.407Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T21:42:26.398Z",
+        "requestEventId": 33481771896,
+        "requestedAt": "2026-10-16T20:39:22Z",
+        "reviewedAt": "2026-10-16T20:47:36.407Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0f00032dad4c1d0061494c272ff1b82003fc817b",
+          "validatedAt": "2026-10-12T21:20:09.988Z",
+          "branch": "master",
+          "supersededAt": "2026-10-16T20:47:36.407Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "syndicalt/omarchy-eventloom",
+            "pluginIds": [
+              "syndicalt.eventloom"
+            ],
+            "commit": "0f00032dad4c1d0061494c272ff1b82003fc817b",
+            "checkedAt": "2026-10-12T21:20:09.880Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "syndicalt/omarchy-eventloom",
+            "pluginIds": [
+              "syndicalt.eventloom"
+            ],
+            "commit": "0f00032dad4c1d0061494c272ff1b82003fc817b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T21:20:09.880Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T21:13:49.839Z",
+            "requestEventId": 33081661697,
+            "requestedAt": "2026-10-12T21:19:28Z",
+            "reviewedAt": "2026-10-12T21:20:09.880Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/sjmaquina/ssh-desk",
