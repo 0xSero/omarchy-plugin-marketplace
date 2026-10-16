@@ -136955,8 +136955,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T16:09:17.037Z",
-      "listingValidatedCommit": "d8eee430ee729727c2eab9c29c609a301fe23dd1",
-      "listingValidatedAt": "2026-09-04T16:09:17.037Z",
+      "listingValidatedCommit": "ff07b5a1621ee0d04cb0542b48e66ec35a6e33cc",
+      "listingValidatedAt": "2026-10-16T16:08:49.619Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -136965,8 +136965,8 @@
         "pluginIds": [
           "mikebenner.netbird"
         ],
-        "commit": "d8eee430ee729727c2eab9c29c609a301fe23dd1",
-        "checkedAt": "2026-09-04T16:09:16.975Z",
+        "commit": "ff07b5a1621ee0d04cb0542b48e66ec35a6e33cc",
+        "checkedAt": "2026-10-16T16:08:49.619Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -136974,28 +136974,6 @@
           "service-management",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mikebenner/omarchy-netbird",
-        "pluginIds": [
-          "mikebenner.netbird"
-        ],
-        "commit": "d8eee430ee729727c2eab9c29c609a301fe23dd1",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-04T16:09:16.975Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-03T04:57:05.284Z",
-        "requestEventId": 30565829044,
-        "requestedAt": "2026-09-04T15:58:34Z",
-        "reviewedAt": "2026-09-04T16:09:16.976Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "mikebenner.netbird": {
@@ -137007,7 +136985,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mikebenner/omarchy-netbird",
+        "pluginIds": [
+          "mikebenner.netbird"
+        ],
+        "commit": "ff07b5a1621ee0d04cb0542b48e66ec35a6e33cc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T16:08:49.619Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T04:21:59.937Z",
+        "requestEventId": 33462058805,
+        "requestedAt": "2026-10-16T16:08:11Z",
+        "reviewedAt": "2026-10-16T16:08:49.619Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "d8eee430ee729727c2eab9c29c609a301fe23dd1",
+          "validatedAt": "2026-09-04T16:09:17.037Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T16:08:49.619Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mikebenner/omarchy-netbird",
+            "pluginIds": [
+              "mikebenner.netbird"
+            ],
+            "commit": "d8eee430ee729727c2eab9c29c609a301fe23dd1",
+            "checkedAt": "2026-09-04T16:09:16.975Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mikebenner/omarchy-netbird",
+            "pluginIds": [
+              "mikebenner.netbird"
+            ],
+            "commit": "d8eee430ee729727c2eab9c29c609a301fe23dd1",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-04T16:09:16.975Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-03T04:57:05.284Z",
+            "requestEventId": 30565829044,
+            "requestedAt": "2026-09-04T15:58:34Z",
+            "reviewedAt": "2026-09-04T16:09:16.976Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/renerocksai/omapress",
