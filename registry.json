@@ -347810,6 +347810,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/the0Kanu/omarchy-system-values",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T21:07:25.238Z",
+      "listingValidatedCommit": "4909dad6450bf2a975f77bba534320a1ae5a4842",
+      "listingValidatedAt": "2026-10-16T21:07:25.238Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "the0kanu/omarchy-system-values",
+        "pluginIds": [
+          "user.system-values"
+        ],
+        "commit": "4909dad6450bf2a975f77bba534320a1ae5a4842",
+        "checkedAt": "2026-10-16T21:07:25.101Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "user.system-values": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
