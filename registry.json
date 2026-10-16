@@ -346685,6 +346685,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Pixel-Jack/omarchy-met-wallpaper",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T19:11:53.739Z",
+      "listingValidatedCommit": "b0f1bac8b802435909182084ff73e7679516c66e",
+      "listingValidatedAt": "2026-10-16T19:11:53.739Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pixel-jack/omarchy-met-wallpaper",
+        "pluginIds": [
+          "pixel-jack.met-wallpaper"
+        ],
+        "commit": "b0f1bac8b802435909182084ff73e7679516c66e",
+        "checkedAt": "2026-10-16T19:11:53.592Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pixel-jack/omarchy-met-wallpaper",
+        "pluginIds": [
+          "pixel-jack.met-wallpaper"
+        ],
+        "commit": "b0f1bac8b802435909182084ff73e7679516c66e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T19:11:53.592Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T19:06:57.189Z",
+        "requestEventId": 33475409970,
+        "requestedAt": "2026-10-16T19:08:54Z",
+        "reviewedAt": "2026-10-16T19:11:53.592Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "pixel-jack.met-wallpaper": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "media",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
