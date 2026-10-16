@@ -337360,8 +337360,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T06:32:34.457Z",
-      "listingValidatedCommit": "a3a37a68733eeaf11f01b6432392c67a0c4c8e1b",
-      "listingValidatedAt": "2026-10-14T20:56:33.896Z",
+      "listingValidatedCommit": "46e1d29ad2dcef2935750283bebd107ba6f94fed",
+      "listingValidatedAt": "2026-10-16T03:20:59.853Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -337370,8 +337370,8 @@
         "pluginIds": [
           "keasbeexd.vigil"
         ],
-        "commit": "a3a37a68733eeaf11f01b6432392c67a0c4c8e1b",
-        "checkedAt": "2026-10-14T20:56:33.896Z",
+        "commit": "46e1d29ad2dcef2935750283bebd107ba6f94fed",
+        "checkedAt": "2026-10-16T03:20:59.853Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -337486,6 +337486,53 @@
             "reviewedAt": "2026-10-14T03:26:53.288Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "a3a37a68733eeaf11f01b6432392c67a0c4c8e1b",
+          "validatedAt": "2026-10-14T20:56:33.896Z",
+          "branch": "master",
+          "supersededAt": "2026-10-16T03:20:59.853Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "keasbeexd/omarchy-vigil",
+            "pluginIds": [
+              "keasbeexd.vigil"
+            ],
+            "commit": "a3a37a68733eeaf11f01b6432392c67a0c4c8e1b",
+            "checkedAt": "2026-10-14T20:56:33.896Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "keasbeexd/omarchy-vigil",
+            "pluginIds": [
+              "keasbeexd.vigil"
+            ],
+            "commit": "a3a37a68733eeaf11f01b6432392c67a0c4c8e1b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T20:56:33.896Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-14T18:10:10.820Z",
+            "requestEventId": 33267903107,
+            "requestedAt": "2026-10-14T20:48:48Z",
+            "reviewedAt": "2026-10-14T20:56:33.896Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -337494,10 +337541,10 @@
         "pluginIds": [
           "keasbeexd.vigil"
         ],
-        "commit": "a3a37a68733eeaf11f01b6432392c67a0c4c8e1b",
+        "commit": "46e1d29ad2dcef2935750283bebd107ba6f94fed",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T20:56:33.896Z",
+        "baselineCheckedAt": "2026-10-16T03:20:59.853Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -337505,10 +337552,10 @@
           "package-manager",
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-14T18:10:10.820Z",
-        "requestEventId": 33267903107,
-        "requestedAt": "2026-10-14T20:48:48Z",
-        "reviewedAt": "2026-10-14T20:56:33.896Z",
+        "reviewedBaselineCheckedAt": "2026-10-16T02:49:27.414Z",
+        "requestEventId": 33404209641,
+        "requestedAt": "2026-10-16T03:19:00Z",
+        "reviewedAt": "2026-10-16T03:20:59.853Z",
         "reviewer": "HANCORE-linux"
       }
     },
