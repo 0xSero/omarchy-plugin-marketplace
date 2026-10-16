@@ -345360,6 +345360,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/zurco34/omarchy-appdrawer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T16:47:28.471Z",
+      "listingValidatedCommit": "c56bd7403366fa84b2e6d0b2a42386900c8ae37f",
+      "listingValidatedAt": "2026-10-16T16:47:28.471Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zurco34/omarchy-appdrawer",
+        "pluginIds": [
+          "eikenes.appdrawer"
+        ],
+        "commit": "c56bd7403366fa84b2e6d0b2a42386900c8ae37f",
+        "checkedAt": "2026-10-16T16:47:28.314Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "eikenes.appdrawer": {
+          "category": "Desktop",
+          "tags": [
+            "games",
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
