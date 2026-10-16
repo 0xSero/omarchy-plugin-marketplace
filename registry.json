@@ -322395,8 +322395,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T07:54:44.216Z",
-      "listingValidatedCommit": "c1ad399cd18fad4ba379d8fcdb6d925b4c7d8268",
-      "listingValidatedAt": "2026-10-09T13:17:15.464Z",
+      "listingValidatedCommit": "4b5245f7c56014bf38419d2136c4ef9316a4ef2b",
+      "listingValidatedAt": "2026-10-16T13:48:54.338Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -322405,8 +322405,8 @@
         "pluginIds": [
           "io.github.objlako.hyprveil"
         ],
-        "commit": "c1ad399cd18fad4ba379d8fcdb6d925b4c7d8268",
-        "checkedAt": "2026-10-09T13:17:15.464Z",
+        "commit": "4b5245f7c56014bf38419d2136c4ef9316a4ef2b",
+        "checkedAt": "2026-10-16T13:48:54.338Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -322430,29 +322430,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "objlako/omarchy-hyprveil",
-        "pluginIds": [
-          "io.github.objlako.hyprveil"
-        ],
-        "commit": "c1ad399cd18fad4ba379d8fcdb6d925b4c7d8268",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-09T13:17:15.464Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-09T12:22:26.051Z",
-        "requestEventId": 32877716320,
-        "requestedAt": "2026-10-09T13:16:31Z",
-        "reviewedAt": "2026-10-09T13:17:15.464Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -322499,8 +322476,78 @@
             "reviewedAt": "2026-10-08T07:54:44.114Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "c1ad399cd18fad4ba379d8fcdb6d925b4c7d8268",
+          "validatedAt": "2026-10-09T13:17:15.464Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T13:48:54.338Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "objlako/omarchy-hyprveil",
+            "pluginIds": [
+              "io.github.objlako.hyprveil"
+            ],
+            "commit": "c1ad399cd18fad4ba379d8fcdb6d925b4c7d8268",
+            "checkedAt": "2026-10-09T13:17:15.464Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "objlako/omarchy-hyprveil",
+            "pluginIds": [
+              "io.github.objlako.hyprveil"
+            ],
+            "commit": "c1ad399cd18fad4ba379d8fcdb6d925b4c7d8268",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-09T13:17:15.464Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T12:22:26.051Z",
+            "requestEventId": 32877716320,
+            "requestedAt": "2026-10-09T13:16:31Z",
+            "reviewedAt": "2026-10-09T13:17:15.464Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "objlako/omarchy-hyprveil",
+        "pluginIds": [
+          "io.github.objlako.hyprveil"
+        ],
+        "commit": "4b5245f7c56014bf38419d2136c4ef9316a4ef2b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T13:48:54.338Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T07:40:48.150Z",
+        "requestEventId": 33450385470,
+        "requestedAt": "2026-10-16T13:46:04Z",
+        "reviewedAt": "2026-10-16T13:48:54.338Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/akitwra/omadropshare",
