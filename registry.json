@@ -346999,6 +346999,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/devfrp/omarchy-dev-ports",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T19:45:15.388Z",
+      "listingValidatedCommit": "154e6ccaf11386473cc49a4ab3f2b1e6e9592831",
+      "listingValidatedAt": "2026-10-16T19:45:15.388Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "devfrp/omarchy-dev-ports",
+        "pluginIds": [
+          "devfrp.dev-ports"
+        ],
+        "commit": "154e6ccaf11386473cc49a4ab3f2b1e6e9592831",
+        "checkedAt": "2026-10-16T19:45:15.243Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "devfrp.dev-ports": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
