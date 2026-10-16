@@ -345736,6 +345736,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ReidenXerx/omarchy-reserve",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T17:40:15.571Z",
+      "listingValidatedCommit": "bc2b7e5967e63a999bbc72818972ff73e7dba545",
+      "listingValidatedAt": "2026-10-16T17:40:15.571Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "reidenxerx/omarchy-reserve",
+        "pluginIds": [
+          "reidenxerx.reserve"
+        ],
+        "commit": "bc2b7e5967e63a999bbc72818972ff73e7dba545",
+        "checkedAt": "2026-10-16T17:40:15.462Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "reidenxerx.reserve": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
