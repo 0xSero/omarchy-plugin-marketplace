@@ -340819,8 +340819,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-14",
       "listedAt": "2026-10-14T22:12:17.860Z",
-      "listingValidatedCommit": "613805d5d0938705df9ff511241aff90dab1ffef",
-      "listingValidatedAt": "2026-10-14T22:12:17.860Z",
+      "listingValidatedCommit": "584cd9ed2068cbb3cfbd88b124fda9f147fa8f7c",
+      "listingValidatedAt": "2026-10-16T00:34:48.055Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -340829,8 +340829,8 @@
         "pluginIds": [
           "galeasandres.antigravity-usage"
         ],
-        "commit": "613805d5d0938705df9ff511241aff90dab1ffef",
-        "checkedAt": "2026-10-14T22:12:17.722Z",
+        "commit": "584cd9ed2068cbb3cfbd88b124fda9f147fa8f7c",
+        "checkedAt": "2026-10-16T00:34:48.055Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -340838,28 +340838,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "galeasandres/omarchy-antigravity-usage",
-        "pluginIds": [
-          "galeasandres.antigravity-usage"
-        ],
-        "commit": "613805d5d0938705df9ff511241aff90dab1ffef",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T22:12:17.722Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-14T22:09:23.007Z",
-        "requestEventId": 33274512726,
-        "requestedAt": "2026-10-14T22:11:37Z",
-        "reviewedAt": "2026-10-14T22:12:17.723Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "galeasandres.antigravity-usage": {
@@ -340869,7 +340847,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "galeasandres/omarchy-antigravity-usage",
+        "pluginIds": [
+          "galeasandres.antigravity-usage"
+        ],
+        "commit": "584cd9ed2068cbb3cfbd88b124fda9f147fa8f7c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T00:34:48.055Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T19:53:58.121Z",
+        "requestEventId": 33393543851,
+        "requestedAt": "2026-10-16T00:34:17Z",
+        "reviewedAt": "2026-10-16T00:34:48.055Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "613805d5d0938705df9ff511241aff90dab1ffef",
+          "validatedAt": "2026-10-14T22:12:17.860Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T00:34:48.055Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "galeasandres/omarchy-antigravity-usage",
+            "pluginIds": [
+              "galeasandres.antigravity-usage"
+            ],
+            "commit": "613805d5d0938705df9ff511241aff90dab1ffef",
+            "checkedAt": "2026-10-14T22:12:17.722Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "galeasandres/omarchy-antigravity-usage",
+            "pluginIds": [
+              "galeasandres.antigravity-usage"
+            ],
+            "commit": "613805d5d0938705df9ff511241aff90dab1ffef",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T22:12:17.722Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-14T22:09:23.007Z",
+            "requestEventId": 33274512726,
+            "requestedAt": "2026-10-14T22:11:37Z",
+            "reviewedAt": "2026-10-14T22:12:17.723Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Nate-Slater/Omatracker",
