@@ -185943,8 +185943,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-13",
       "listedAt": "2026-09-13T16:04:01.375Z",
-      "listingValidatedCommit": "243a2a8503742341d66acd16147b1ca54deb3638",
-      "listingValidatedAt": "2026-10-11T04:30:22.300Z",
+      "listingValidatedCommit": "f7d566fd7545b430a5771f7ecff6dacd007756b5",
+      "listingValidatedAt": "2026-10-16T14:51:04.986Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -185953,12 +185953,14 @@
         "pluginIds": [
           "ozdil.security-sentinel"
         ],
-        "commit": "243a2a8503742341d66acd16147b1ca54deb3638",
-        "checkedAt": "2026-10-11T04:30:22.300Z",
-        "outcome": "passed",
+        "commit": "f7d566fd7545b430a5771f7ecff6dacd007756b5",
+        "checkedAt": "2026-10-16T14:51:04.986Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege"
+        ]
       },
       "plugins": {
         "ozdil.security-sentinel": {
@@ -185991,8 +185993,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "243a2a8503742341d66acd16147b1ca54deb3638",
+          "validatedAt": "2026-10-11T04:30:22.300Z",
+          "branch": "master",
+          "supersededAt": "2026-10-16T14:51:04.986Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozdil/omarchy-security-sentinel",
+            "pluginIds": [
+              "ozdil.security-sentinel"
+            ],
+            "commit": "243a2a8503742341d66acd16147b1ca54deb3638",
+            "checkedAt": "2026-10-11T04:30:22.300Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ozdil/omarchy-security-sentinel",
+        "pluginIds": [
+          "ozdil.security-sentinel"
+        ],
+        "commit": "f7d566fd7545b430a5771f7ecff6dacd007756b5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T14:51:04.986Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T13:51:20.463Z",
+        "requestEventId": 33455759690,
+        "requestedAt": "2026-10-16T14:49:38Z",
+        "reviewedAt": "2026-10-16T14:51:04.986Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Yendor86/omarchy-portal",
