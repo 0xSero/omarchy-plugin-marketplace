@@ -347629,6 +347629,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tristanhooper/omarchy-workspace-red-dots",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T20:51:29.704Z",
+      "listingValidatedCommit": "63d9781a0cd7af30e54990af61ebb27f494869d0",
+      "listingValidatedAt": "2026-10-16T20:51:29.704Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tristanhooper/omarchy-workspace-red-dots",
+        "pluginIds": [
+          "thooper.workspace-red-dots"
+        ],
+        "commit": "63d9781a0cd7af30e54990af61ebb27f494869d0",
+        "checkedAt": "2026-10-16T20:51:29.526Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "thooper.workspace-red-dots": {
+          "category": "Appearance",
+          "tags": [
+            "workspaces",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
