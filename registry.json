@@ -302654,8 +302654,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T12:26:26.620Z",
-      "listingValidatedCommit": "18b82123d2381f71187ad2f995eca318b9aba4c5",
-      "listingValidatedAt": "2026-10-04T14:23:37.241Z",
+      "listingValidatedCommit": "2b37864492a5de80da3bbc354364390b84c44890",
+      "listingValidatedAt": "2026-10-16T02:35:44.539Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -302664,8 +302664,8 @@
         "pluginIds": [
           "andy.days"
         ],
-        "commit": "18b82123d2381f71187ad2f995eca318b9aba4c5",
-        "checkedAt": "2026-10-04T14:23:37.241Z",
+        "commit": "2b37864492a5de80da3bbc354364390b84c44890",
+        "checkedAt": "2026-10-16T02:35:44.539Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -302688,29 +302688,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-days",
-        "pluginIds": [
-          "andy.days"
-        ],
-        "commit": "18b82123d2381f71187ad2f995eca318b9aba4c5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-04T14:23:37.241Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-04T14:11:36.615Z",
-        "requestEventId": 32447148407,
-        "requestedAt": "2026-10-04T14:23:12Z",
-        "reviewedAt": "2026-10-04T14:23:37.241Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -302759,8 +302736,78 @@
             "reviewedAt": "2026-10-04T12:26:26.514Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "18b82123d2381f71187ad2f995eca318b9aba4c5",
+          "validatedAt": "2026-10-04T14:23:37.241Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T02:35:44.539Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-days",
+            "pluginIds": [
+              "andy.days"
+            ],
+            "commit": "18b82123d2381f71187ad2f995eca318b9aba4c5",
+            "checkedAt": "2026-10-04T14:23:37.241Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-days",
+            "pluginIds": [
+              "andy.days"
+            ],
+            "commit": "18b82123d2381f71187ad2f995eca318b9aba4c5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-04T14:23:37.241Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-04T14:11:36.615Z",
+            "requestEventId": 32447148407,
+            "requestedAt": "2026-10-04T14:23:12Z",
+            "reviewedAt": "2026-10-04T14:23:37.241Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-days",
+        "pluginIds": [
+          "andy.days"
+        ],
+        "commit": "2b37864492a5de80da3bbc354364390b84c44890",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T02:35:44.539Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T01:25:21.372Z",
+        "requestEventId": 33400574834,
+        "requestedAt": "2026-10-16T02:35:13Z",
+        "reviewedAt": "2026-10-16T02:35:44.539Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/xolghadr/omarchy-screen-off",
