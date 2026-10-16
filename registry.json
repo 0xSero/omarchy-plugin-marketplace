@@ -348277,6 +348277,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/dDan4a/omarchy-grafana-alerts",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T23:02:12.563Z",
+      "listingValidatedCommit": "5f73ab48b87a78c5b87d87eb5b7e7541236cdb41",
+      "listingValidatedAt": "2026-10-16T23:02:12.563Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ddan4a/omarchy-grafana-alerts",
+        "pluginIds": [
+          "dan4a.grafana-alerts"
+        ],
+        "commit": "5f73ab48b87a78c5b87d87eb5b7e7541236cdb41",
+        "checkedAt": "2026-10-16T23:02:12.407Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dan4a.grafana-alerts": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
