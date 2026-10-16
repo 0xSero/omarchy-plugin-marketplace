@@ -291610,8 +291610,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T04:58:36.404Z",
-      "listingValidatedCommit": "f52eabfa2a2057dea7c114e512fae76d1ede1e63",
-      "listingValidatedAt": "2026-10-02T16:50:21.830Z",
+      "listingValidatedCommit": "50f6952340e038defcf2b78f424bf25bf86e379e",
+      "listingValidatedAt": "2026-10-16T18:58:37.127Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -291620,8 +291620,8 @@
         "pluginIds": [
           "leninzapata.super-clipboard-snippet"
         ],
-        "commit": "f52eabfa2a2057dea7c114e512fae76d1ede1e63",
-        "checkedAt": "2026-10-02T16:50:21.830Z",
+        "commit": "50f6952340e038defcf2b78f424bf25bf86e379e",
+        "checkedAt": "2026-10-16T18:58:37.127Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -291638,27 +291638,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "leninzapata/omarchy-super-clipboard-snippet",
-        "pluginIds": [
-          "leninzapata.super-clipboard-snippet"
-        ],
-        "commit": "f52eabfa2a2057dea7c114e512fae76d1ede1e63",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T16:50:21.830Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T15:43:06.450Z",
-        "requestEventId": 32349202137,
-        "requestedAt": "2026-10-02T16:27:30Z",
-        "reviewedAt": "2026-10-02T16:50:21.830Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -291703,8 +291682,72 @@
             "reviewedAt": "2026-10-02T04:58:36.290Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f52eabfa2a2057dea7c114e512fae76d1ede1e63",
+          "validatedAt": "2026-10-02T16:50:21.830Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T18:58:37.127Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "leninzapata/omarchy-super-clipboard-snippet",
+            "pluginIds": [
+              "leninzapata.super-clipboard-snippet"
+            ],
+            "commit": "f52eabfa2a2057dea7c114e512fae76d1ede1e63",
+            "checkedAt": "2026-10-02T16:50:21.830Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "leninzapata/omarchy-super-clipboard-snippet",
+            "pluginIds": [
+              "leninzapata.super-clipboard-snippet"
+            ],
+            "commit": "f52eabfa2a2057dea7c114e512fae76d1ede1e63",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T16:50:21.830Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T15:43:06.450Z",
+            "requestEventId": 32349202137,
+            "requestedAt": "2026-10-02T16:27:30Z",
+            "reviewedAt": "2026-10-02T16:50:21.830Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "leninzapata/omarchy-super-clipboard-snippet",
+        "pluginIds": [
+          "leninzapata.super-clipboard-snippet"
+        ],
+        "commit": "50f6952340e038defcf2b78f424bf25bf86e379e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-16T18:58:37.127Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T18:28:21.907Z",
+        "requestEventId": 33474648737,
+        "requestedAt": "2026-10-16T18:58:09Z",
+        "reviewedAt": "2026-10-16T18:58:37.127Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/uripg/omarchy-tablet",
