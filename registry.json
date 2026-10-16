@@ -333654,8 +333654,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T16:19:56.638Z",
-      "listingValidatedCommit": "258d4f100f38d3e80d8812035329e5d32a6ebf50",
-      "listingValidatedAt": "2026-10-11T16:19:56.638Z",
+      "listingValidatedCommit": "26a8170bf33fac3e7c87452632de90ac08b0d8fb",
+      "listingValidatedAt": "2026-10-16T15:20:26.735Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -333664,8 +333664,8 @@
         "pluginIds": [
           "io.github.aishag80g-stack.hyprland-layout"
         ],
-        "commit": "258d4f100f38d3e80d8812035329e5d32a6ebf50",
-        "checkedAt": "2026-10-11T16:19:56.506Z",
+        "commit": "26a8170bf33fac3e7c87452632de90ac08b0d8fb",
+        "checkedAt": "2026-10-16T15:20:26.735Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -333681,7 +333681,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "258d4f100f38d3e80d8812035329e5d32a6ebf50",
+          "validatedAt": "2026-10-11T16:19:56.638Z",
+          "branch": "main",
+          "supersededAt": "2026-10-16T15:20:26.735Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "aishag80g-stack/omarchy-hyprland-layout",
+            "pluginIds": [
+              "io.github.aishag80g-stack.hyprland-layout"
+            ],
+            "commit": "258d4f100f38d3e80d8812035329e5d32a6ebf50",
+            "checkedAt": "2026-10-11T16:19:56.506Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/SlipsKnuten/omarchy-caster",
