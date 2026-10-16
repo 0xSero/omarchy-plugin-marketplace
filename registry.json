@@ -345703,6 +345703,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/remulef/omarchy-magi-evangelion",
+      "type": "plugin-source",
+      "addedAt": "2026-10-16",
+      "listedAt": "2026-10-16T17:35:52.525Z",
+      "listingValidatedCommit": "17952b5fe014f3d04838c785a1a25b55546abe93",
+      "listingValidatedAt": "2026-10-16T17:35:52.525Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "remulef/omarchy-magi-evangelion",
+        "pluginIds": [
+          "evangelion.magi"
+        ],
+        "commit": "17952b5fe014f3d04838c785a1a25b55546abe93",
+        "checkedAt": "2026-10-16T17:35:52.389Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "evangelion.magi": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
