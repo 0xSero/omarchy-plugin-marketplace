@@ -16261,8 +16261,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-17",
       "listedAt": "2026-08-17T10:07:46.098Z",
-      "listingValidatedCommit": "6674b804fff7e1fc771c9b604af064137b431468",
-      "listingValidatedAt": "2026-08-27T17:23:12.682Z",
+      "listingValidatedCommit": "8b3e1756fb3a6adde19f2ee3cadb8dfca69b17a2",
+      "listingValidatedAt": "2026-10-17T17:11:43.358Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -16271,15 +16271,15 @@
         "pluginIds": [
           "leyanora.libvirt"
         ],
-        "commit": "6674b804fff7e1fc771c9b604af064137b431468",
-        "checkedAt": "2026-08-27T17:23:12.682Z",
+        "commit": "8b3e1756fb3a6adde19f2ee3cadb8dfca69b17a2",
+        "checkedAt": "2026-10-17T17:11:43.358Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "service-management",
           "privilege",
-          "package-manager"
+          "package-manager",
+          "service-management"
         ]
       },
       "plugins": {
@@ -16386,6 +16386,53 @@
             "reviewedAt": "2026-08-25T00:05:12.413Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "6674b804fff7e1fc771c9b604af064137b431468",
+          "validatedAt": "2026-08-27T17:23:12.682Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T17:11:43.358Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "leyanora/omarchy-libvirt",
+            "pluginIds": [
+              "leyanora.libvirt"
+            ],
+            "commit": "6674b804fff7e1fc771c9b604af064137b431468",
+            "checkedAt": "2026-08-27T17:23:12.682Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "leyanora/omarchy-libvirt",
+            "pluginIds": [
+              "leyanora.libvirt"
+            ],
+            "commit": "6674b804fff7e1fc771c9b604af064137b431468",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-27T17:23:12.682Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-27T08:05:15.528Z",
+            "requestEventId": 30117400077,
+            "requestedAt": "2026-08-27T16:35:40Z",
+            "reviewedAt": "2026-08-27T17:23:12.682Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -16394,21 +16441,21 @@
         "pluginIds": [
           "leyanora.libvirt"
         ],
-        "commit": "6674b804fff7e1fc771c9b604af064137b431468",
+        "commit": "8b3e1756fb3a6adde19f2ee3cadb8dfca69b17a2",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-27T17:23:12.682Z",
+        "baselineCheckedAt": "2026-10-17T17:11:43.358Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
-          "service-management",
           "privilege",
-          "package-manager"
+          "package-manager",
+          "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-08-27T08:05:15.528Z",
-        "requestEventId": 30117400077,
-        "requestedAt": "2026-08-27T16:35:40Z",
-        "reviewedAt": "2026-08-27T17:23:12.682Z",
+        "reviewedBaselineCheckedAt": "2026-10-17T16:46:01.996Z",
+        "requestEventId": 33531243874,
+        "requestedAt": "2026-10-17T17:11:09Z",
+        "reviewedAt": "2026-10-17T17:11:43.358Z",
         "reviewer": "HANCORE-linux"
       }
     },
