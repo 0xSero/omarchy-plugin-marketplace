@@ -327382,8 +327382,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-09",
       "listedAt": "2026-10-09T08:26:52.234Z",
-      "listingValidatedCommit": "51a14b771c2d9a7d32884a4e4ea70ebfbc47e838",
-      "listingValidatedAt": "2026-10-09T08:26:52.234Z",
+      "listingValidatedCommit": "c885c3298c058e662e94bd56bb168e8207575f82",
+      "listingValidatedAt": "2026-10-17T04:01:53.452Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -327392,8 +327392,8 @@
         "pluginIds": [
           "gladimdim.omakey"
         ],
-        "commit": "51a14b771c2d9a7d32884a4e4ea70ebfbc47e838",
-        "checkedAt": "2026-10-09T08:26:52.127Z",
+        "commit": "c885c3298c058e662e94bd56bb168e8207575f82",
+        "checkedAt": "2026-10-17T04:01:53.452Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -327404,31 +327404,6 @@
           "installer",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gladimdim/omakey-omarchy-plugin",
-        "pluginIds": [
-          "gladimdim.omakey"
-        ],
-        "commit": "51a14b771c2d9a7d32884a4e4ea70ebfbc47e838",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-09T08:26:52.127Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "remote-build",
-          "privilege",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-09T08:19:10.126Z",
-        "requestEventId": 32858882912,
-        "requestedAt": "2026-10-09T08:26:24Z",
-        "reviewedAt": "2026-10-09T08:26:52.127Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "gladimdim.omakey": {
@@ -327443,7 +327418,85 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gladimdim/omakey-omarchy-plugin",
+        "pluginIds": [
+          "gladimdim.omakey"
+        ],
+        "commit": "c885c3298c058e662e94bd56bb168e8207575f82",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T04:01:53.452Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build",
+          "privilege",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T07:49:41.689Z",
+        "requestEventId": 33501674126,
+        "requestedAt": "2026-10-17T04:00:07Z",
+        "reviewedAt": "2026-10-17T04:01:53.452Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "51a14b771c2d9a7d32884a4e4ea70ebfbc47e838",
+          "validatedAt": "2026-10-09T08:26:52.234Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T04:01:53.452Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gladimdim/omakey-omarchy-plugin",
+            "pluginIds": [
+              "gladimdim.omakey"
+            ],
+            "commit": "51a14b771c2d9a7d32884a4e4ea70ebfbc47e838",
+            "checkedAt": "2026-10-09T08:26:52.127Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build",
+              "privilege",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gladimdim/omakey-omarchy-plugin",
+            "pluginIds": [
+              "gladimdim.omakey"
+            ],
+            "commit": "51a14b771c2d9a7d32884a4e4ea70ebfbc47e838",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-09T08:26:52.127Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "remote-build",
+              "privilege",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T08:19:10.126Z",
+            "requestEventId": 32858882912,
+            "requestedAt": "2026-10-09T08:26:24Z",
+            "reviewedAt": "2026-10-09T08:26:52.127Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/geoochi/omarchy-mac-battctl",
