@@ -343621,7 +343621,7 @@
           "meperdonas.work-vpn"
         ],
         "commit": "0f7ea83f5623c920972c4b90a97cfe06afa629ce",
-        "checkedAt": "2026-10-17T00:22:42.687Z",
+        "checkedAt": "2026-10-17T00:56:27.242Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -343635,11 +343635,7 @@
             "bar",
             "system"
           ],
-          "manifestPath": "manifest.json",
-          "installation": {
-            "mode": "manual",
-            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
-          }
+          "manifestPath": "manifest.json"
         }
       },
       "listingValidationHistory": [

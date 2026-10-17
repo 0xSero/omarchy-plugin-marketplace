@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T00:52:51.815Z",
+  "generatedAt": "2026-10-17T00:56:27.242Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -303798,14 +303798,14 @@
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
       "verificationCommit": "0f7ea83f5623c920972c4b90a97cfe06afa629ce",
-      "verificationCheckedAt": "2026-10-17T00:22:42.687Z",
+      "verificationCheckedAt": "2026-10-17T00:56:27.242Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-10-14",
       "listedAt": "2026-10-14T23:04:17.918Z",
       "repositoryLayout": "root-plugin",
-      "installAvailable": false,
-      "installCommand": "",
-      "installNote": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions.",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/MeperDonas/omarchy-work-vpn.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
       "category": "System",
       "tags": [
         "vpn",
@@ -303838,7 +303838,7 @@
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "3dfa44052b0f3954e89cd22ff4c31c4570a8d6fa279b74ad1f3fe9978efe820e",
       "versionUpdatedAt": "2026-10-16T00:14:13.507Z",
-      "status": "Manual setup"
+      "status": "Available"
     },
     {
       "id": "psamoluk.desktop-controls",
