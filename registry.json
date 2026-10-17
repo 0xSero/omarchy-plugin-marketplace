@@ -301270,8 +301270,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T15:29:04.112Z",
-      "listingValidatedCommit": "0c4558f189dcb35f2498d85b1aa29a52ec1a01ac",
-      "listingValidatedAt": "2026-10-03T15:29:04.112Z",
+      "listingValidatedCommit": "e2eb11f86c18243c1434d62a4c9867541e0a99b3",
+      "listingValidatedAt": "2026-10-17T03:21:06.868Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -301280,8 +301280,8 @@
         "pluginIds": [
           "silfayner.fita"
         ],
-        "commit": "0c4558f189dcb35f2498d85b1aa29a52ec1a01ac",
-        "checkedAt": "2026-10-03T15:29:03.984Z",
+        "commit": "e2eb11f86c18243c1434d62a4c9867541e0a99b3",
+        "checkedAt": "2026-10-17T03:21:06.868Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -301295,7 +301295,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0c4558f189dcb35f2498d85b1aa29a52ec1a01ac",
+          "validatedAt": "2026-10-03T15:29:04.112Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T03:21:06.868Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "siflaynerdias/omarchy-fita",
+            "pluginIds": [
+              "silfayner.fita"
+            ],
+            "commit": "0c4558f189dcb35f2498d85b1aa29a52ec1a01ac",
+            "checkedAt": "2026-10-03T15:29:03.984Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/0800tim/touchbard",
