@@ -352926,6 +352926,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/cjbricklz/omarchy-acer-xb273u-v3",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T23:40:44.181Z",
+      "listingValidatedCommit": "ace69294714f0cfba716fb214abb27bc231ef3f3",
+      "listingValidatedAt": "2026-10-17T23:40:44.181Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cjbricklz/omarchy-acer-xb273u-v3",
+        "pluginIds": [
+          "puck.acer-xb273u-v3"
+        ],
+        "commit": "ace69294714f0cfba716fb214abb27bc231ef3f3",
+        "checkedAt": "2026-10-17T23:40:44.039Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cjbricklz/omarchy-acer-xb273u-v3",
+        "pluginIds": [
+          "puck.acer-xb273u-v3"
+        ],
+        "commit": "ace69294714f0cfba716fb214abb27bc231ef3f3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T23:40:44.039Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T16:30:44.468Z",
+        "requestEventId": 33545655831,
+        "requestedAt": "2026-10-17T23:18:02Z",
+        "reviewedAt": "2026-10-17T23:40:44.039Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "puck.acer-xb273u-v3": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
