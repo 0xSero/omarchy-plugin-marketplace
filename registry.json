@@ -350298,6 +350298,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lnhdb/omarchy-benq-rd270q",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T08:55:46.291Z",
+      "listingValidatedCommit": "46ffe9875077f2512449aaeba5e80af57b523b34",
+      "listingValidatedAt": "2026-10-17T08:55:46.291Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lnhdb/omarchy-benq-rd270q",
+        "pluginIds": [
+          "lnhdb.benq-rd270q"
+        ],
+        "commit": "46ffe9875077f2512449aaeba5e80af57b523b34",
+        "checkedAt": "2026-10-17T08:55:46.147Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lnhdb/omarchy-benq-rd270q",
+        "pluginIds": [
+          "lnhdb.benq-rd270q"
+        ],
+        "commit": "46ffe9875077f2512449aaeba5e80af57b523b34",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T08:55:46.147Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T08:52:49.914Z",
+        "requestEventId": 33512002697,
+        "requestedAt": "2026-10-17T08:55:18Z",
+        "reviewedAt": "2026-10-17T08:55:46.147Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "lnhdb.benq-rd270q": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
