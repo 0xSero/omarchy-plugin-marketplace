@@ -352280,6 +352280,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/enxy0/omarchy-sony-xm5",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T22:48:43.990Z",
+      "listingValidatedCommit": "34ef5c396acc845f126b57ed3fee10b9bf6fde47",
+      "listingValidatedAt": "2026-10-17T22:48:43.990Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "enxy0/omarchy-sony-xm5",
+        "pluginIds": [
+          "io.github.enxy0.sonyxm5"
+        ],
+        "commit": "34ef5c396acc845f126b57ed3fee10b9bf6fde47",
+        "checkedAt": "2026-10-17T22:48:43.847Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "enxy0/omarchy-sony-xm5",
+        "pluginIds": [
+          "io.github.enxy0.sonyxm5"
+        ],
+        "commit": "34ef5c396acc845f126b57ed3fee10b9bf6fde47",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T22:48:43.847Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T12:28:16.812Z",
+        "requestEventId": 33544383258,
+        "requestedAt": "2026-10-17T22:40:58Z",
+        "reviewedAt": "2026-10-17T22:48:43.847Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.enxy0.sonyxm5": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
