@@ -334675,8 +334675,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T10:24:44.567Z",
-      "listingValidatedCommit": "1837de7b937cbd0a2f03367cd685042255e06c65",
-      "listingValidatedAt": "2026-10-11T10:24:44.567Z",
+      "listingValidatedCommit": "92dfeb14fcdaece9fbcccb5c7ca449c747dec9ca",
+      "listingValidatedAt": "2026-10-17T16:57:50.842Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -334685,8 +334685,8 @@
         "pluginIds": [
           "tech.alatcerdas.omavrything"
         ],
-        "commit": "1837de7b937cbd0a2f03367cd685042255e06c65",
-        "checkedAt": "2026-10-11T10:24:44.430Z",
+        "commit": "92dfeb14fcdaece9fbcccb5c7ca449c747dec9ca",
+        "checkedAt": "2026-10-17T16:57:50.841Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -334696,30 +334696,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "brrrassica/omavrything",
-        "pluginIds": [
-          "tech.alatcerdas.omavrything"
-        ],
-        "commit": "1837de7b937cbd0a2f03367cd685042255e06c65",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T10:24:44.430Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T10:21:06.484Z",
-        "requestEventId": 32981191039,
-        "requestedAt": "2026-10-11T10:24:11Z",
-        "reviewedAt": "2026-10-11T10:24:44.430Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "tech.alatcerdas.omavrything": {
@@ -334735,7 +334711,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brrrassica/omavrything",
+        "pluginIds": [
+          "tech.alatcerdas.omavrything"
+        ],
+        "commit": "92dfeb14fcdaece9fbcccb5c7ca449c747dec9ca",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T16:57:50.841Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T04:27:35.981Z",
+        "requestEventId": 33530637750,
+        "requestedAt": "2026-10-17T16:57:18Z",
+        "reviewedAt": "2026-10-17T16:57:50.842Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1837de7b937cbd0a2f03367cd685042255e06c65",
+          "validatedAt": "2026-10-11T10:24:44.567Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T16:57:50.842Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "brrrassica/omavrything",
+            "pluginIds": [
+              "tech.alatcerdas.omavrything"
+            ],
+            "commit": "1837de7b937cbd0a2f03367cd685042255e06c65",
+            "checkedAt": "2026-10-11T10:24:44.430Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "brrrassica/omavrything",
+            "pluginIds": [
+              "tech.alatcerdas.omavrything"
+            ],
+            "commit": "1837de7b937cbd0a2f03367cd685042255e06c65",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T10:24:44.430Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T10:21:06.484Z",
+            "requestEventId": 32981191039,
+            "requestedAt": "2026-10-11T10:24:11Z",
+            "reviewedAt": "2026-10-11T10:24:44.430Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/GruperTal/omarchy-volume-beep",
