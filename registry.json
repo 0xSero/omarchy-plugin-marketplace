@@ -353089,6 +353089,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Remyyyyyl/omarchy-active-window-plus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T23:51:08.251Z",
+      "listingValidatedCommit": "cb34b02f897619ae7043cb25ba14bafc4c7c7f3a",
+      "listingValidatedAt": "2026-10-17T23:51:08.251Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "remyyyyyl/omarchy-active-window-plus",
+        "pluginIds": [
+          "remyyyyyl.active-window-plus"
+        ],
+        "commit": "cb34b02f897619ae7043cb25ba14bafc4c7c7f3a",
+        "checkedAt": "2026-10-17T23:51:08.138Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "remyyyyyl.active-window-plus": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
