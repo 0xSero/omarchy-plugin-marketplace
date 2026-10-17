@@ -322971,8 +322971,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T18:52:21.672Z",
-      "listingValidatedCommit": "24465475e47ac038356b83dd250ca57b8fe5606b",
-      "listingValidatedAt": "2026-10-07T18:52:21.672Z",
+      "listingValidatedCommit": "fe09021183a9f60bc80a6aed3564191f25e65af8",
+      "listingValidatedAt": "2026-10-17T15:56:56.109Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -322981,8 +322981,8 @@
         "pluginIds": [
           "io.github.ofa14-prog.dynamic-island"
         ],
-        "commit": "24465475e47ac038356b83dd250ca57b8fe5606b",
-        "checkedAt": "2026-10-07T18:52:21.554Z",
+        "commit": "fe09021183a9f60bc80a6aed3564191f25e65af8",
+        "checkedAt": "2026-10-17T15:56:56.109Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -322991,29 +322991,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ofa14-prog/omarchy-dynamic-island",
-        "pluginIds": [
-          "io.github.ofa14-prog.dynamic-island"
-        ],
-        "commit": "24465475e47ac038356b83dd250ca57b8fe5606b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T18:52:21.554Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T18:32:49.541Z",
-        "requestEventId": 32717377333,
-        "requestedAt": "2026-10-07T18:51:45Z",
-        "reviewedAt": "2026-10-07T18:52:21.554Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.ofa14-prog.dynamic-island": {
@@ -323025,7 +323002,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ofa14-prog/omarchy-dynamic-island",
+        "pluginIds": [
+          "io.github.ofa14-prog.dynamic-island"
+        ],
+        "commit": "fe09021183a9f60bc80a6aed3564191f25e65af8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T15:56:56.109Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T10:48:58.533Z",
+        "requestEventId": 33527557213,
+        "requestedAt": "2026-10-17T15:51:32Z",
+        "reviewedAt": "2026-10-17T15:56:56.109Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "24465475e47ac038356b83dd250ca57b8fe5606b",
+          "validatedAt": "2026-10-07T18:52:21.672Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T15:56:56.109Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ofa14-prog/omarchy-dynamic-island",
+            "pluginIds": [
+              "io.github.ofa14-prog.dynamic-island"
+            ],
+            "commit": "24465475e47ac038356b83dd250ca57b8fe5606b",
+            "checkedAt": "2026-10-07T18:52:21.554Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ofa14-prog/omarchy-dynamic-island",
+            "pluginIds": [
+              "io.github.ofa14-prog.dynamic-island"
+            ],
+            "commit": "24465475e47ac038356b83dd250ca57b8fe5606b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T18:52:21.554Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T18:32:49.541Z",
+            "requestEventId": 32717377333,
+            "requestedAt": "2026-10-07T18:51:45Z",
+            "reviewedAt": "2026-10-07T18:52:21.554Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/arikisonfire/omarchy-sbx-enclave",
