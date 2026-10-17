@@ -350174,6 +350174,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/superb-striker/media-controller-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T07:46:47.009Z",
+      "listingValidatedCommit": "fd544790404aa76c4a5a6f7cb09be833eed9f5c6",
+      "listingValidatedAt": "2026-10-17T07:46:47.009Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "superb-striker/media-controller-plugin",
+        "pluginIds": [
+          "io.github.superb-striker.media-controller"
+        ],
+        "commit": "fd544790404aa76c4a5a6f7cb09be833eed9f5c6",
+        "checkedAt": "2026-10-17T07:46:46.917Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.superb-striker.media-controller": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
