@@ -350208,6 +350208,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ramoncardena/omavaults",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T07:55:19.186Z",
+      "listingValidatedCommit": "04540216b2b09ea3301407d5c12a872335133687",
+      "listingValidatedAt": "2026-10-17T07:55:19.186Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ramoncardena/omavaults",
+        "pluginIds": [
+          "io.github.ramoncardena.omavaults"
+        ],
+        "commit": "04540216b2b09ea3301407d5c12a872335133687",
+        "checkedAt": "2026-10-17T07:55:19.037Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ramoncardena.omavaults": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
