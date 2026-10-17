@@ -284320,8 +284320,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T16:55:30.760Z",
-      "listingValidatedCommit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
-      "listingValidatedAt": "2026-10-12T00:50:20.062Z",
+      "listingValidatedCommit": "36c71852dcec999c7d17bf7fdb44123774ecf5dd",
+      "listingValidatedAt": "2026-10-17T23:44:31.877Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -284330,8 +284330,8 @@
         "pluginIds": [
           "ubruckhaus.simple-reader"
         ],
-        "commit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
-        "checkedAt": "2026-10-12T00:50:20.062Z",
+        "commit": "36c71852dcec999c7d17bf7fdb44123774ecf5dd",
+        "checkedAt": "2026-10-17T23:44:31.877Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -284455,6 +284455,55 @@
             "reviewedAt": "2026-10-11T21:39:50.140Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
+          "validatedAt": "2026-10-12T00:50:20.062Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T23:44:31.877Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-simple-reader",
+            "pluginIds": [
+              "ubruckhaus.simple-reader"
+            ],
+            "commit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
+            "checkedAt": "2026-10-12T00:50:20.062Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-simple-reader",
+            "pluginIds": [
+              "ubruckhaus.simple-reader"
+            ],
+            "commit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-12T00:50:20.062Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T00:13:13.463Z",
+            "requestEventId": 33011087683,
+            "requestedAt": "2026-10-12T00:49:54Z",
+            "reviewedAt": "2026-10-12T00:50:20.062Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -284463,10 +284512,10 @@
         "pluginIds": [
           "ubruckhaus.simple-reader"
         ],
-        "commit": "f96b0a4e604f84e3ff28e7c9632492f10c5a7cfc",
+        "commit": "36c71852dcec999c7d17bf7fdb44123774ecf5dd",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T00:50:20.062Z",
+        "baselineCheckedAt": "2026-10-17T23:44:31.877Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -284475,10 +284524,10 @@
           "service-management",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-12T00:13:13.463Z",
-        "requestEventId": 33011087683,
-        "requestedAt": "2026-10-12T00:49:54Z",
-        "reviewedAt": "2026-10-12T00:50:20.062Z",
+        "reviewedBaselineCheckedAt": "2026-10-17T14:42:05.198Z",
+        "requestEventId": 33545929751,
+        "requestedAt": "2026-10-17T23:25:56Z",
+        "reviewedAt": "2026-10-17T23:44:31.877Z",
         "reviewer": "HANCORE-linux"
       }
     },
