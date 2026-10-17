@@ -351506,6 +351506,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/overp0werj0int/powerbar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T21:25:01.373Z",
+      "listingValidatedCommit": "52c547af7588c2910ab0a18b0ad734228bcb1a3e",
+      "listingValidatedAt": "2026-10-17T21:25:01.373Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "overp0werj0int/powerbar",
+        "pluginIds": [
+          "p0werj0int.powerbar"
+        ],
+        "commit": "52c547af7588c2910ab0a18b0ad734228bcb1a3e",
+        "checkedAt": "2026-10-17T21:25:01.227Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "p0werj0int.powerbar": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
