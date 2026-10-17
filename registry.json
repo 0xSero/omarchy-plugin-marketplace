@@ -227050,8 +227050,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T22:12:13.881Z",
-      "listingValidatedCommit": "37c695675dab22178b9f6e7b43a6139894444f47",
-      "listingValidatedAt": "2026-09-21T22:12:13.881Z",
+      "listingValidatedCommit": "e3253d5424e2247f54771efe6c686acb50b161c7",
+      "listingValidatedAt": "2026-10-17T03:53:59.989Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -227060,8 +227060,8 @@
         "pluginIds": [
           "elevenmates"
         ],
-        "commit": "37c695675dab22178b9f6e7b43a6139894444f47",
-        "checkedAt": "2026-09-21T22:12:13.783Z",
+        "commit": "e3253d5424e2247f54771efe6c686acb50b161c7",
+        "checkedAt": "2026-10-17T03:53:59.989Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -227076,7 +227076,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "37c695675dab22178b9f6e7b43a6139894444f47",
+          "validatedAt": "2026-09-21T22:12:13.881Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T03:53:59.989Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cielebak/omarchy-elevenmates",
+            "pluginIds": [
+              "elevenmates"
+            ],
+            "commit": "37c695675dab22178b9f6e7b43a6139894444f47",
+            "checkedAt": "2026-09-21T22:12:13.783Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/pashaydev/omarchy-game-focus",
