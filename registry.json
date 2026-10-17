@@ -347452,8 +347452,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-16",
       "listedAt": "2026-10-16T19:26:40.304Z",
-      "listingValidatedCommit": "10ee44180062e2ed472dddee2b2a72d11306022e",
-      "listingValidatedAt": "2026-10-16T19:26:40.304Z",
+      "listingValidatedCommit": "83cb1c7c9457160aa53aec587746806f2edc4300",
+      "listingValidatedAt": "2026-10-17T00:46:54.651Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -347462,8 +347462,8 @@
         "pluginIds": [
           "io.github.gillmania.zenbook-duo-screenpad"
         ],
-        "commit": "10ee44180062e2ed472dddee2b2a72d11306022e",
-        "checkedAt": "2026-10-16T19:26:40.164Z",
+        "commit": "83cb1c7c9457160aa53aec587746806f2edc4300",
+        "checkedAt": "2026-10-17T00:46:54.651Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -347474,31 +347474,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "gillmania/zenbook-duo-screenpad",
-        "pluginIds": [
-          "io.github.gillmania.zenbook-duo-screenpad"
-        ],
-        "commit": "10ee44180062e2ed472dddee2b2a72d11306022e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T19:26:40.164Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-16T19:23:49.677Z",
-        "requestEventId": 33476565655,
-        "requestedAt": "2026-10-16T19:25:57Z",
-        "reviewedAt": "2026-10-16T19:26:40.164Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.gillmania.zenbook-duo-screenpad": {
@@ -347514,7 +347489,85 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gillmania/zenbook-duo-screenpad",
+        "pluginIds": [
+          "io.github.gillmania.zenbook-duo-screenpad"
+        ],
+        "commit": "83cb1c7c9457160aa53aec587746806f2edc4300",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T00:46:54.651Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T21:46:22.349Z",
+        "requestEventId": 33494711413,
+        "requestedAt": "2026-10-17T00:46:25Z",
+        "reviewedAt": "2026-10-17T00:46:54.651Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "10ee44180062e2ed472dddee2b2a72d11306022e",
+          "validatedAt": "2026-10-16T19:26:40.304Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T00:46:54.651Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gillmania/zenbook-duo-screenpad",
+            "pluginIds": [
+              "io.github.gillmania.zenbook-duo-screenpad"
+            ],
+            "commit": "10ee44180062e2ed472dddee2b2a72d11306022e",
+            "checkedAt": "2026-10-16T19:26:40.164Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "gillmania/zenbook-duo-screenpad",
+            "pluginIds": [
+              "io.github.gillmania.zenbook-duo-screenpad"
+            ],
+            "commit": "10ee44180062e2ed472dddee2b2a72d11306022e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T19:26:40.164Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T19:23:49.677Z",
+            "requestEventId": 33476565655,
+            "requestedAt": "2026-10-16T19:25:57Z",
+            "reviewedAt": "2026-10-16T19:26:40.164Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AbdulmalikGh1/omarchy-pomodoro",
