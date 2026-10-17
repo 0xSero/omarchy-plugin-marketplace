@@ -353031,6 +353031,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/neilofneils404/clone-keeper",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T23:47:49.901Z",
+      "listingValidatedCommit": "91cb6cc73a4e9905edc5f9361b06f7d3bcbf4a43",
+      "listingValidatedAt": "2026-10-17T23:47:49.901Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "neilofneils404/clone-keeper",
+        "pluginIds": [
+          "neil.clone-keeper"
+        ],
+        "commit": "91cb6cc73a4e9905edc5f9361b06f7d3bcbf4a43",
+        "checkedAt": "2026-10-17T23:47:49.790Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "neilofneils404/clone-keeper",
+        "pluginIds": [
+          "neil.clone-keeper"
+        ],
+        "commit": "91cb6cc73a4e9905edc5f9361b06f7d3bcbf4a43",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T23:47:49.790Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T16:46:08.619Z",
+        "requestEventId": 33546006599,
+        "requestedAt": "2026-10-17T23:28:21Z",
+        "reviewedAt": "2026-10-17T23:47:49.790Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "neil.clone-keeper": {
+          "category": "System",
+          "tags": [
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
