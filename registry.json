@@ -43435,8 +43435,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-21",
       "listedAt": "2026-08-21T11:08:53.088Z",
-      "listingValidatedCommit": "6772b78318adc9d8e507ba2222285c2af682ded4",
-      "listingValidatedAt": "2026-08-21T11:08:53.088Z",
+      "listingValidatedCommit": "84068f854aa063ca534a961c18d88382231ca7a9",
+      "listingValidatedAt": "2026-10-17T03:27:54.449Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -43445,8 +43445,8 @@
         "pluginIds": [
           "io.github.kristoferlund.webcam"
         ],
-        "commit": "6772b78318adc9d8e507ba2222285c2af682ded4",
-        "checkedAt": "2026-08-21T11:08:53.066Z",
+        "commit": "84068f854aa063ca534a961c18d88382231ca7a9",
+        "checkedAt": "2026-10-17T03:27:54.449Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -43462,7 +43462,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "6772b78318adc9d8e507ba2222285c2af682ded4",
+          "validatedAt": "2026-08-21T11:08:53.088Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T03:27:54.449Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "kristoferlund/omarchy-webcam",
+            "pluginIds": [
+              "io.github.kristoferlund.webcam"
+            ],
+            "commit": "6772b78318adc9d8e507ba2222285c2af682ded4",
+            "checkedAt": "2026-08-21T11:08:53.066Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/btsouth/signal",
