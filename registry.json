@@ -349917,6 +349917,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/0w3n-N/inkcast",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T06:24:38.416Z",
+      "listingValidatedCommit": "735df0d5b5e1d7ee832e369d241a512d88fe2502",
+      "listingValidatedAt": "2026-10-17T06:24:38.416Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "0w3n-n/inkcast",
+        "pluginIds": [
+          "io.github.0w3n-n.inkcast"
+        ],
+        "commit": "735df0d5b5e1d7ee832e369d241a512d88fe2502",
+        "checkedAt": "2026-10-17T06:24:38.276Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "0w3n-n/inkcast",
+        "pluginIds": [
+          "io.github.0w3n-n.inkcast"
+        ],
+        "commit": "735df0d5b5e1d7ee832e369d241a512d88fe2502",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T06:24:38.276Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T06:09:24.453Z",
+        "requestEventId": 33506986562,
+        "requestedAt": "2026-10-17T06:24:07Z",
+        "reviewedAt": "2026-10-17T06:24:38.276Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.0w3n-n.inkcast": {
+          "category": "Productivity",
+          "tags": [
+            "education",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
