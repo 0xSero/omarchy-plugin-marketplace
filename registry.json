@@ -43643,8 +43643,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-21",
       "listedAt": "2026-08-21T10:08:26.042Z",
-      "listingValidatedCommit": "1831a4f0dfab8e9887fb2031c1a375b704b0b921",
-      "listingValidatedAt": "2026-08-21T10:08:26.042Z",
+      "listingValidatedCommit": "8419c2e56c0e33d2cc3eeefeff556a2fa2689bcf",
+      "listingValidatedAt": "2026-10-17T21:53:33.198Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -43653,8 +43653,8 @@
         "pluginIds": [
           "io.github.sspaeti.timezones"
         ],
-        "commit": "1831a4f0dfab8e9887fb2031c1a375b704b0b921",
-        "checkedAt": "2026-08-21T10:08:26.017Z",
+        "commit": "8419c2e56c0e33d2cc3eeefeff556a2fa2689bcf",
+        "checkedAt": "2026-10-17T21:53:33.198Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -43670,7 +43670,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1831a4f0dfab8e9887fb2031c1a375b704b0b921",
+          "validatedAt": "2026-08-21T10:08:26.042Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T21:53:33.198Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sspaeti/omarchy-timezones-plugin",
+            "pluginIds": [
+              "io.github.sspaeti.timezones"
+            ],
+            "commit": "1831a4f0dfab8e9887fb2031c1a375b704b0b921",
+            "checkedAt": "2026-08-21T10:08:26.017Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/michielryvers/omarchy-awair",
