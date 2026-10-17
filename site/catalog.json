@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T21:10:20.372Z",
+  "generatedAt": "2026-10-17T21:13:48.626Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -5043,8 +5043,8 @@
       "verificationSnapshotStatus": "verified",
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
-      "verificationCommit": "c707e55b51f8992a3c249a894a90565b7c538945",
-      "verificationCheckedAt": "2026-10-16T00:57:21.247Z",
+      "verificationCommit": "faf9b1a41dd5e7f3b126c82270f4685ec3e09590",
+      "verificationCheckedAt": "2026-10-17T21:13:48.292Z",
       "manifestPath": "manifest.json",
       "addedAt": "2026-08-13",
       "listedAt": "2026-08-13T10:34:42.541Z",
@@ -5059,7 +5059,7 @@
       ],
       "license": "MIT",
       "stars": 10,
-      "repositoryUpdatedAt": "2026-10-15T18:14:38Z",
+      "repositoryUpdatedAt": "2026-10-17T20:15:29Z",
       "repositoryRelease": {
         "tag": "v1.0.0",
         "url": "https://github.com/crmne/omarchy-active-window/tree/v1.0.0"
@@ -5075,17 +5075,17 @@
       "previewThumbnailHeight": 450,
       "previewSourceWidth": 2560,
       "previewSourceHeight": 1600,
-      "listingValidatedCommit": "c707e55b51f8992a3c249a894a90565b7c538945",
-      "listingValidatedAt": "2026-10-16T00:57:21.247Z",
+      "listingValidatedCommit": "faf9b1a41dd5e7f3b126c82270f4685ec3e09590",
+      "listingValidatedAt": "2026-10-17T21:13:48.292Z",
       "listingValidatedBranch": "main",
-      "upstreamObservedCommit": "c707e55b51f8992a3c249a894a90565b7c538945",
+      "upstreamObservedCommit": "faf9b1a41dd5e7f3b126c82270f4685ec3e09590",
       "upstreamObservedBranch": "main",
-      "upstreamCheckedAt": "2026-10-16T09:00:42.855Z",
+      "upstreamCheckedAt": "2026-10-17T21:13:48.626Z",
       "upstreamCheckStatus": "passed",
-      "upstreamValidatedCommit": "c707e55b51f8992a3c249a894a90565b7c538945",
-      "upstreamValidatedAt": "2026-10-16T00:57:21.795Z",
+      "upstreamValidatedCommit": "faf9b1a41dd5e7f3b126c82270f4685ec3e09590",
+      "upstreamValidatedAt": "2026-10-17T21:13:48.626Z",
       "upstreamValidationVersion": 1,
-      "upstreamSourceFingerprint": "083ac5efe668aa842f46a662ff2d390a3618d9c1ff03b1e1d4a6beeb77e2c207",
+      "upstreamSourceFingerprint": "851435029bcb33f6b286125d27137179f92e609ea3331ffc21754b87322f7a8d",
       "status": "Available"
     },
     {
