@@ -353123,6 +353123,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/yaqyn/omarchy-counter",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T23:54:28.407Z",
+      "listingValidatedCommit": "90fd2ca73ef71cbadd4065e083d013003212a649",
+      "listingValidatedAt": "2026-10-17T23:54:28.407Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yaqyn/omarchy-counter",
+        "pluginIds": [
+          "yaqyn.counter"
+        ],
+        "commit": "90fd2ca73ef71cbadd4065e083d013003212a649",
+        "checkedAt": "2026-10-17T23:54:28.316Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yaqyn/omarchy-counter",
+        "pluginIds": [
+          "yaqyn.counter"
+        ],
+        "commit": "90fd2ca73ef71cbadd4065e083d013003212a649",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T23:54:28.316Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T18:48:26.323Z",
+        "requestEventId": 33546396448,
+        "requestedAt": "2026-10-17T23:40:07Z",
+        "reviewedAt": "2026-10-17T23:54:28.316Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "yaqyn.counter": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
