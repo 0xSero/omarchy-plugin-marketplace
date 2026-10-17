@@ -334931,8 +334931,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T18:24:48.916Z",
-      "listingValidatedCommit": "53e855f6d15c3a762797294ba66d700beae2e0af",
-      "listingValidatedAt": "2026-10-15T20:06:21.239Z",
+      "listingValidatedCommit": "07a60bf0808c3cbe45362f7d201670108d6a127d",
+      "listingValidatedAt": "2026-10-17T01:29:40.156Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -334941,12 +334941,14 @@
         "pluginIds": [
           "janitorhead.quotatank"
         ],
-        "commit": "53e855f6d15c3a762797294ba66d700beae2e0af",
-        "checkedAt": "2026-10-15T20:06:21.239Z",
-        "outcome": "passed",
+        "commit": "07a60bf0808c3cbe45362f7d201670108d6a127d",
+        "checkedAt": "2026-10-17T01:29:40.156Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "service-management"
+        ]
       },
       "plugins": {
         "janitorhead.quotatank": {
@@ -334998,8 +335000,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "53e855f6d15c3a762797294ba66d700beae2e0af",
+          "validatedAt": "2026-10-15T20:06:21.239Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T01:29:40.156Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "janitorhead/omarchy-quotatank",
+            "pluginIds": [
+              "janitorhead.quotatank"
+            ],
+            "commit": "53e855f6d15c3a762797294ba66d700beae2e0af",
+            "checkedAt": "2026-10-15T20:06:21.239Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "janitorhead/omarchy-quotatank",
+        "pluginIds": [
+          "janitorhead.quotatank"
+        ],
+        "commit": "07a60bf0808c3cbe45362f7d201670108d6a127d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T01:29:40.156Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T22:36:27.978Z",
+        "requestEventId": 33496232055,
+        "requestedAt": "2026-10-17T01:26:08Z",
+        "reviewedAt": "2026-10-17T01:29:40.156Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/mug31/omarchy-tablet",
