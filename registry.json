@@ -350045,6 +350045,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lisim/omarchy-ytmusic",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T06:50:55.059Z",
+      "listingValidatedCommit": "b6f5f4952289e8f0b92a5f944a0237d8676d5a02",
+      "listingValidatedAt": "2026-10-17T06:50:55.059Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lisim/omarchy-ytmusic",
+        "pluginIds": [
+          "lisim.ytmusic"
+        ],
+        "commit": "b6f5f4952289e8f0b92a5f944a0237d8676d5a02",
+        "checkedAt": "2026-10-17T06:50:54.915Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lisim/omarchy-ytmusic",
+        "pluginIds": [
+          "lisim.ytmusic"
+        ],
+        "commit": "b6f5f4952289e8f0b92a5f944a0237d8676d5a02",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T06:50:54.915Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T06:23:16.323Z",
+        "requestEventId": 33507883835,
+        "requestedAt": "2026-10-17T06:50:23Z",
+        "reviewedAt": "2026-10-17T06:50:54.916Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "lisim.ytmusic": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
