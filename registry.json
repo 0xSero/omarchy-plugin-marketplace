@@ -351754,6 +351754,42 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/worstpoetGIT/accent-picker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T21:57:04.428Z",
+      "listingValidatedCommit": "87560f1ef53b388a2ad31d7d6697fb6b4a964292",
+      "listingValidatedAt": "2026-10-17T21:57:04.428Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "worstpoetgit/accent-picker",
+        "pluginIds": [
+          "worstpoet.accent-picker"
+        ],
+        "commit": "87560f1ef53b388a2ad31d7d6697fb6b4a964292",
+        "checkedAt": "2026-10-17T21:57:04.285Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "worstpoet.accent-picker": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
