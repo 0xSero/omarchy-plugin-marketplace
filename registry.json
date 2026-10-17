@@ -344383,8 +344383,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-15",
       "listedAt": "2026-10-15T02:16:55.867Z",
-      "listingValidatedCommit": "16440df85187a266e3a617016cfaff2f2dd02334",
-      "listingValidatedAt": "2026-10-15T02:16:55.867Z",
+      "listingValidatedCommit": "2760a4d4a4673782ebdf36dacae91183e2e56708",
+      "listingValidatedAt": "2026-10-17T02:13:03.499Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -344393,8 +344393,8 @@
         "pluginIds": [
           "io.github.bmaltais.startdrive"
         ],
-        "commit": "16440df85187a266e3a617016cfaff2f2dd02334",
-        "checkedAt": "2026-10-15T02:16:55.754Z",
+        "commit": "2760a4d4a4673782ebdf36dacae91183e2e56708",
+        "checkedAt": "2026-10-17T02:13:03.499Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -344403,29 +344403,6 @@
           "package-manager",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "bmaltais/startdrive",
-        "pluginIds": [
-          "io.github.bmaltais.startdrive"
-        ],
-        "commit": "16440df85187a266e3a617016cfaff2f2dd02334",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-15T02:16:55.754Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-15T02:10:08.676Z",
-        "requestEventId": 33289111741,
-        "requestedAt": "2026-10-15T02:13:47Z",
-        "reviewedAt": "2026-10-15T02:16:55.754Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.bmaltais.startdrive": {
@@ -344440,7 +344417,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bmaltais/startdrive",
+        "pluginIds": [
+          "io.github.bmaltais.startdrive"
+        ],
+        "commit": "2760a4d4a4673782ebdf36dacae91183e2e56708",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-17T02:13:03.499Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T00:58:03.713Z",
+        "requestEventId": 33497856347,
+        "requestedAt": "2026-10-17T02:12:34Z",
+        "reviewedAt": "2026-10-17T02:13:03.499Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "16440df85187a266e3a617016cfaff2f2dd02334",
+          "validatedAt": "2026-10-15T02:16:55.867Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T02:13:03.499Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bmaltais/startdrive",
+            "pluginIds": [
+              "io.github.bmaltais.startdrive"
+            ],
+            "commit": "16440df85187a266e3a617016cfaff2f2dd02334",
+            "checkedAt": "2026-10-15T02:16:55.754Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bmaltais/startdrive",
+            "pluginIds": [
+              "io.github.bmaltais.startdrive"
+            ],
+            "commit": "16440df85187a266e3a617016cfaff2f2dd02334",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-15T02:16:55.754Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-15T02:10:08.676Z",
+            "requestEventId": 33289111741,
+            "requestedAt": "2026-10-15T02:13:47Z",
+            "reviewedAt": "2026-10-15T02:16:55.754Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/baltavay/omarchy-translate",
