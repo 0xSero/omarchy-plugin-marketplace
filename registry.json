@@ -42226,8 +42226,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-21",
       "listedAt": "2026-08-21T08:45:50.676Z",
-      "listingValidatedCommit": "58d9c358e9f2b76e5f807325cb2e2f4d031fd68a",
-      "listingValidatedAt": "2026-08-27T17:42:33.028Z",
+      "listingValidatedCommit": "909f700e40d270622667bd7af939d249c49b59ab",
+      "listingValidatedAt": "2026-10-17T22:11:30.722Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -42236,13 +42236,12 @@
         "pluginIds": [
           "io.github.dpr.omarchy-market"
         ],
-        "commit": "58d9c358e9f2b76e5f807325cb2e2f4d031fd68a",
-        "checkedAt": "2026-08-27T17:42:33.028Z",
+        "commit": "909f700e40d270622667bd7af939d249c49b59ab",
+        "checkedAt": "2026-10-17T22:11:30.722Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "privilege",
           "remote-build"
         ]
       },
@@ -42347,6 +42346,51 @@
             "reviewedAt": "2026-08-21T19:59:35.012Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "58d9c358e9f2b76e5f807325cb2e2f4d031fd68a",
+          "validatedAt": "2026-08-27T17:42:33.028Z",
+          "branch": "master",
+          "supersededAt": "2026-10-17T22:11:30.722Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dprc137/omarchy-market",
+            "pluginIds": [
+              "io.github.dpr.omarchy-market"
+            ],
+            "commit": "58d9c358e9f2b76e5f807325cb2e2f4d031fd68a",
+            "checkedAt": "2026-08-27T17:42:33.028Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dprc137/omarchy-market",
+            "pluginIds": [
+              "io.github.dpr.omarchy-market"
+            ],
+            "commit": "58d9c358e9f2b76e5f807325cb2e2f4d031fd68a",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-27T17:42:33.028Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-26T22:22:36.935Z",
+            "requestEventId": 30117722181,
+            "requestedAt": "2026-08-27T16:42:14Z",
+            "reviewedAt": "2026-08-27T17:42:33.028Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -42355,20 +42399,19 @@
         "pluginIds": [
           "io.github.dpr.omarchy-market"
         ],
-        "commit": "58d9c358e9f2b76e5f807325cb2e2f4d031fd68a",
+        "commit": "909f700e40d270622667bd7af939d249c49b59ab",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-27T17:42:33.028Z",
+        "baselineCheckedAt": "2026-10-17T22:11:30.722Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
-          "privilege",
           "remote-build"
         ],
-        "reviewedBaselineCheckedAt": "2026-08-26T22:22:36.935Z",
-        "requestEventId": 30117722181,
-        "requestedAt": "2026-08-27T16:42:14Z",
-        "reviewedAt": "2026-08-27T17:42:33.028Z",
+        "reviewedBaselineCheckedAt": "2026-10-17T20:38:28.863Z",
+        "requestEventId": 33543289422,
+        "requestedAt": "2026-10-17T22:11:06Z",
+        "reviewedAt": "2026-10-17T22:11:30.722Z",
         "reviewer": "HANCORE-linux"
       }
     },
