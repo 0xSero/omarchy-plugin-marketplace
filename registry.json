@@ -349448,6 +349448,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mark-omarov/omanow-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-17",
+      "listedAt": "2026-10-17T02:58:25.635Z",
+      "listingValidatedCommit": "b2bf0237a38e4443e9010dabdafd6c444caae2b5",
+      "listingValidatedAt": "2026-10-17T02:58:25.635Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mark-omarov/omanow-plugin",
+        "pluginIds": [
+          "io.github.mark-omarov.omanow"
+        ],
+        "commit": "b2bf0237a38e4443e9010dabdafd6c444caae2b5",
+        "checkedAt": "2026-10-17T02:58:25.473Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.mark-omarov.omanow": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
