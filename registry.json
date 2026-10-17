@@ -56992,8 +56992,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-23",
       "listedAt": "2026-08-23T10:08:45.868Z",
-      "listingValidatedCommit": "8470829792023413f0208133a5b05a3aaa2b7e4a",
-      "listingValidatedAt": "2026-09-13T22:04:19.032Z",
+      "listingValidatedCommit": "6e18cd01fd9d0907bdd74f5d9d3011b23d1e7d25",
+      "listingValidatedAt": "2026-10-17T16:25:15.503Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -57002,8 +57002,8 @@
         "pluginIds": [
           "donovan.aura"
         ],
-        "commit": "8470829792023413f0208133a5b05a3aaa2b7e4a",
-        "checkedAt": "2026-09-13T22:04:19.032Z",
+        "commit": "6e18cd01fd9d0907bdd74f5d9d3011b23d1e7d25",
+        "checkedAt": "2026-10-17T16:25:15.503Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -57062,6 +57062,26 @@
             "requestedAt": "2026-08-23T09:59:26Z",
             "reviewedAt": "2026-08-23T10:08:45.839Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "8470829792023413f0208133a5b05a3aaa2b7e4a",
+          "validatedAt": "2026-09-13T22:04:19.032Z",
+          "branch": "main",
+          "supersededAt": "2026-10-17T16:25:15.503Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "donovansb/omarchy-aura",
+            "pluginIds": [
+              "donovan.aura"
+            ],
+            "commit": "8470829792023413f0208133a5b05a3aaa2b7e4a",
+            "checkedAt": "2026-09-13T22:04:19.032Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
