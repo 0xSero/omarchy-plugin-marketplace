@@ -225932,8 +225932,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T20:20:45.347Z",
-      "listingValidatedCommit": "80799c793f6d6ab6bab3b474302319c255b761cd",
-      "listingValidatedAt": "2026-09-21T20:20:45.347Z",
+      "listingValidatedCommit": "432a649b4de159907b9db7246d3a4e5bb8980a37",
+      "listingValidatedAt": "2026-10-18T16:15:48.965Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -225942,8 +225942,8 @@
         "pluginIds": [
           "d3m0nz.clock-fr"
         ],
-        "commit": "80799c793f6d6ab6bab3b474302319c255b761cd",
-        "checkedAt": "2026-09-21T20:20:45.243Z",
+        "commit": "432a649b4de159907b9db7246d3a4e5bb8980a37",
+        "checkedAt": "2026-10-18T16:15:48.965Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -225958,7 +225958,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "80799c793f6d6ab6bab3b474302319c255b761cd",
+          "validatedAt": "2026-09-21T20:20:45.347Z",
+          "branch": "main",
+          "supersededAt": "2026-10-18T16:15:48.965Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "d3m0nzonfire/clock-fr",
+            "pluginIds": [
+              "d3m0nz.clock-fr"
+            ],
+            "commit": "80799c793f6d6ab6bab3b474302319c255b761cd",
+            "checkedAt": "2026-09-21T20:20:45.243Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/pdfrg/rpbar",
