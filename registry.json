@@ -354192,6 +354192,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/TechLuddite/Jeans-Instability",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T09:29:03.257Z",
+      "listingValidatedCommit": "dc85fa1de6c6fc4949cdd692980c154b14a834dc",
+      "listingValidatedAt": "2026-10-18T09:29:03.257Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "techluddite/jeans-instability",
+        "pluginIds": [
+          "io.github.techluddite.jeans-instability"
+        ],
+        "commit": "dc85fa1de6c6fc4949cdd692980c154b14a834dc",
+        "checkedAt": "2026-10-18T09:29:03.129Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.techluddite.jeans-instability": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
