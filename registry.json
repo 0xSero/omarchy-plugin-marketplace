@@ -354857,6 +354857,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/imzihuailin/speedtest-map",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T15:06:32.463Z",
+      "listingValidatedCommit": "3bb532197a4bc1f3fc8546e9c7ae05e39b136cab",
+      "listingValidatedAt": "2026-10-18T15:06:32.463Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "imzihuailin/speedtest-map",
+        "pluginIds": [
+          "speedtest-map"
+        ],
+        "commit": "3bb532197a4bc1f3fc8546e9c7ae05e39b136cab",
+        "checkedAt": "2026-10-18T15:06:32.307Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "imzihuailin/speedtest-map",
+        "pluginIds": [
+          "speedtest-map"
+        ],
+        "commit": "3bb532197a4bc1f3fc8546e9c7ae05e39b136cab",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T15:06:32.307Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T14:05:36.165Z",
+        "requestEventId": 33577220851,
+        "requestedAt": "2026-10-18T15:03:04Z",
+        "reviewedAt": "2026-10-18T15:06:32.307Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "speedtest-map": {
+          "category": "System",
+          "tags": [
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
