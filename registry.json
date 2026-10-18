@@ -353214,6 +353214,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/JRH89/omapet",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T00:01:02.127Z",
+      "listingValidatedCommit": "a307dd38e2a0d9670b0ce89f1d9e737ffa51760d",
+      "listingValidatedAt": "2026-10-18T00:01:02.127Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jrh89/omapet",
+        "pluginIds": [
+          "jrh89.omapet"
+        ],
+        "commit": "a307dd38e2a0d9670b0ce89f1d9e737ffa51760d",
+        "checkedAt": "2026-10-18T00:01:01.980Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jrh89/omapet",
+        "pluginIds": [
+          "jrh89.omapet"
+        ],
+        "commit": "a307dd38e2a0d9670b0ce89f1d9e737ffa51760d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T00:01:01.980Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T21:00:53.685Z",
+        "requestEventId": 33547040557,
+        "requestedAt": "2026-10-18T00:00:14Z",
+        "reviewedAt": "2026-10-18T00:01:01.980Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jrh89.omapet": {
+          "category": "Widgets",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
