@@ -354128,6 +354128,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/stikkx/omarchy-labelprint",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T09:09:36.579Z",
+      "listingValidatedCommit": "22648ff2cf766a41ed989599dac274ec78cca988",
+      "listingValidatedAt": "2026-10-18T09:09:36.579Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "stikkx/omarchy-labelprint",
+        "pluginIds": [
+          "stikkx.labelprint"
+        ],
+        "commit": "22648ff2cf766a41ed989599dac274ec78cca988",
+        "checkedAt": "2026-10-18T09:09:36.418Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "stikkx/omarchy-labelprint",
+        "pluginIds": [
+          "stikkx.labelprint"
+        ],
+        "commit": "22648ff2cf766a41ed989599dac274ec78cca988",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T09:09:36.418Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T09:07:19.511Z",
+        "requestEventId": 33563859097,
+        "requestedAt": "2026-10-18T09:09:06Z",
+        "reviewedAt": "2026-10-18T09:09:36.418Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "stikkx.labelprint": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
