@@ -353564,6 +353564,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/duketopceo/omarchy-nordvpn",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T01:49:08.941Z",
+      "listingValidatedCommit": "f1429e043f4b2ca3d9ea03138d247ccb613c637d",
+      "listingValidatedAt": "2026-10-18T01:49:08.941Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "duketopceo/omarchy-nordvpn",
+        "pluginIds": [
+          "io.github.duketopceo.nordvpn"
+        ],
+        "commit": "f1429e043f4b2ca3d9ea03138d247ccb613c637d",
+        "checkedAt": "2026-10-18T01:49:08.821Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "duketopceo/omarchy-nordvpn",
+        "pluginIds": [
+          "io.github.duketopceo.nordvpn"
+        ],
+        "commit": "f1429e043f4b2ca3d9ea03138d247ccb613c637d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T01:49:08.821Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T01:45:22.297Z",
+        "requestEventId": 33550493891,
+        "requestedAt": "2026-10-18T01:48:21Z",
+        "reviewedAt": "2026-10-18T01:49:08.821Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.duketopceo.nordvpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
