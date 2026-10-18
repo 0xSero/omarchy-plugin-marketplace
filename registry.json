@@ -301837,8 +301837,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T13:47:59.559Z",
-      "listingValidatedCommit": "e8434c228695245b8a6b308a728434bf79001981",
-      "listingValidatedAt": "2026-10-03T13:47:59.559Z",
+      "listingValidatedCommit": "7be38296534a35fddf62c17ac5f8d59326aadba0",
+      "listingValidatedAt": "2026-10-18T15:50:22.843Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -301847,8 +301847,8 @@
         "pluginIds": [
           "mechurisr.asteroid-radar"
         ],
-        "commit": "e8434c228695245b8a6b308a728434bf79001981",
-        "checkedAt": "2026-10-03T13:47:59.430Z",
+        "commit": "7be38296534a35fddf62c17ac5f8d59326aadba0",
+        "checkedAt": "2026-10-18T15:50:22.843Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -301864,7 +301864,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e8434c228695245b8a6b308a728434bf79001981",
+          "validatedAt": "2026-10-03T13:47:59.559Z",
+          "branch": "main",
+          "supersededAt": "2026-10-18T15:50:22.843Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mechurisr/omarchy-asteroid-radar",
+            "pluginIds": [
+              "mechurisr.asteroid-radar"
+            ],
+            "commit": "e8434c228695245b8a6b308a728434bf79001981",
+            "checkedAt": "2026-10-03T13:47:59.430Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/n0d3xt-max/n0d3x.agents",
