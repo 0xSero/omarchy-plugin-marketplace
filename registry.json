@@ -354096,6 +354096,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/voyagen/oma-flight-tracker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T08:28:37.935Z",
+      "listingValidatedCommit": "ebeb9d994e5713fe70fa9301779dfeb8616d64c3",
+      "listingValidatedAt": "2026-10-18T08:28:37.935Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "voyagen/oma-flight-tracker",
+        "pluginIds": [
+          "voyagen.flight-tracker"
+        ],
+        "commit": "ebeb9d994e5713fe70fa9301779dfeb8616d64c3",
+        "checkedAt": "2026-10-18T08:28:37.790Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "voyagen.flight-tracker": {
+          "category": "Widgets",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
