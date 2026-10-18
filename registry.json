@@ -354485,6 +354485,66 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/lugio/omarchy-fingerprint",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T11:55:56.134Z",
+      "listingValidatedCommit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
+      "listingValidatedAt": "2026-10-18T11:55:56.134Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lugio/omarchy-fingerprint",
+        "pluginIds": [
+          "io.github.lugio.fingerprint"
+        ],
+        "commit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
+        "checkedAt": "2026-10-18T11:55:55.994Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lugio/omarchy-fingerprint",
+        "pluginIds": [
+          "io.github.lugio.fingerprint"
+        ],
+        "commit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T11:55:55.994Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T11:51:41.246Z",
+        "requestEventId": 33569779197,
+        "requestedAt": "2026-10-18T11:55:27Z",
+        "reviewedAt": "2026-10-18T11:55:55.994Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.lugio.fingerprint": {
+          "category": "System",
+          "tags": [
+            "security",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
