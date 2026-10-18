@@ -353957,6 +353957,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ommgh/sift",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T08:00:11.438Z",
+      "listingValidatedCommit": "a239f3ab09174cbd8783d0ee71c3629f5f7dd297",
+      "listingValidatedAt": "2026-10-18T08:00:11.438Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ommgh/sift",
+        "pluginIds": [
+          "io.github.ommgh.sift"
+        ],
+        "commit": "a239f3ab09174cbd8783d0ee71c3629f5f7dd297",
+        "checkedAt": "2026-10-18T08:00:11.353Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "package-manager",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ommgh/sift",
+        "pluginIds": [
+          "io.github.ommgh.sift"
+        ],
+        "commit": "a239f3ab09174cbd8783d0ee71c3629f5f7dd297",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T08:00:11.353Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "package-manager",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T07:57:30.426Z",
+        "requestEventId": 33561515259,
+        "requestedAt": "2026-10-18T07:59:40Z",
+        "reviewedAt": "2026-10-18T08:00:11.353Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ommgh.sift": {
+          "category": "Productivity",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
