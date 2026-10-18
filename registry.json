@@ -354447,6 +354447,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/fsavoia/omarchy-antigravity",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T11:37:06.324Z",
+      "listingValidatedCommit": "efaf670333a5fcee8abf10aef218eb57ea00c32b",
+      "listingValidatedAt": "2026-10-18T11:37:06.324Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "fsavoia/omarchy-antigravity",
+        "pluginIds": [
+          "fsavoia.antigravity-usage"
+        ],
+        "commit": "efaf670333a5fcee8abf10aef218eb57ea00c32b",
+        "checkedAt": "2026-10-18T11:37:06.178Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "fsavoia.antigravity-usage": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
