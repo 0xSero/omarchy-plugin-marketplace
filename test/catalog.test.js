@@ -378,11 +378,18 @@ test("stars represent repository stars and are shared by plugins from the same r
 });
 
 test("root plugins default to Quattro while curated exceptions use manual setup", () => {
-  const overview = catalog.plugins.find((plugin) => plugin.id === "omarchy-overview");
-  assert.equal(
-    overview?.installCommand,
-    "omarchy plugin add https://github.com/AyushKr2003/omarchy-overview.git --enable",
-  );
+  assert.deepEqual(communityInstall({ repo: "https://github.com/AyushKr2003/omarchy-overview" }, "manifest.json"), {
+    repositoryLayout: "root-plugin",
+    installAvailable: true,
+    installCommand: "omarchy plugin add https://github.com/AyushKr2003/omarchy-overview.git --enable",
+    installNote: "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
+  });
+  // Upstream sources change between refreshes, so check the published catalog by invariant, not by one plugin.
+  const installable = catalog.plugins.filter((plugin) => plugin.repositoryLayout === "root-plugin" && plugin.installAvailable);
+  assert.ok(installable.length > 0);
+  for (const plugin of installable) {
+    assert.equal(plugin.installCommand, `omarchy plugin add ${plugin.repo.replace(/(\.git)?$/, ".git")} --enable`, plugin.id);
+  }
 
   const nearby = catalog.plugins.find((plugin) => plugin.id === "oma.nearby");
   assert.equal(nearby?.repositoryLayout, "root-plugin");
