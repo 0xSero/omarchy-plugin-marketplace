@@ -354413,6 +354413,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/the0Kanu/omarchy-network-panel-plus-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T11:31:43.023Z",
+      "listingValidatedCommit": "ab8944d4cb4a9499f8c7a327fd8ca13c22d8d258",
+      "listingValidatedAt": "2026-10-18T11:31:43.023Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "the0kanu/omarchy-network-panel-plus-plugin",
+        "pluginIds": [
+          "io.github.the0kanu.network-panel-plus"
+        ],
+        "commit": "ab8944d4cb4a9499f8c7a327fd8ca13c22d8d258",
+        "checkedAt": "2026-10-18T11:31:42.928Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.the0kanu.network-panel-plus": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
