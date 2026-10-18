@@ -353890,6 +353890,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/NostrDanish/omarchy-nym-vpn",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T06:55:19.982Z",
+      "listingValidatedCommit": "9825ec2545a091869e68eace86ebc22a653d0c0f",
+      "listingValidatedAt": "2026-10-18T06:55:19.982Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nostrdanish/omarchy-nym-vpn",
+        "pluginIds": [
+          "io.github.nostrdanish.nym-vpn"
+        ],
+        "commit": "9825ec2545a091869e68eace86ebc22a653d0c0f",
+        "checkedAt": "2026-10-18T06:55:19.832Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "privilege",
+          "service-management",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nostrdanish/omarchy-nym-vpn",
+        "pluginIds": [
+          "io.github.nostrdanish.nym-vpn"
+        ],
+        "commit": "9825ec2545a091869e68eace86ebc22a653d0c0f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T06:55:19.832Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "privilege",
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T06:53:20.294Z",
+        "requestEventId": 33559445909,
+        "requestedAt": "2026-10-18T06:54:30Z",
+        "reviewedAt": "2026-10-18T06:55:19.833Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.nostrdanish.nym-vpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
