@@ -355011,8 +355011,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-18",
       "listedAt": "2026-10-18T15:03:26.579Z",
-      "listingValidatedCommit": "143bba374a28bd508dddfcf439809c8634a16ef1",
-      "listingValidatedAt": "2026-10-18T15:03:26.579Z",
+      "listingValidatedCommit": "03390b121a172bacb9df146f6a7089151eb6e5de",
+      "listingValidatedAt": "2026-10-18T16:31:43.873Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -355021,8 +355021,8 @@
         "pluginIds": [
           "iesta.workspace-osd"
         ],
-        "commit": "143bba374a28bd508dddfcf439809c8634a16ef1",
-        "checkedAt": "2026-10-18T15:03:26.475Z",
+        "commit": "03390b121a172bacb9df146f6a7089151eb6e5de",
+        "checkedAt": "2026-10-18T16:31:43.873Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -355038,7 +355038,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "143bba374a28bd508dddfcf439809c8634a16ef1",
+          "validatedAt": "2026-10-18T15:03:26.579Z",
+          "branch": "main",
+          "supersededAt": "2026-10-18T16:31:43.873Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "iesta/omarchy-workspace-osd",
+            "pluginIds": [
+              "iesta.workspace-osd"
+            ],
+            "commit": "143bba374a28bd508dddfcf439809c8634a16ef1",
+            "checkedAt": "2026-10-18T15:03:26.475Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/imzihuailin/speedtest-map",
