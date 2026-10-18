@@ -354675,6 +354675,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/gladimdim/omacros",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T12:44:42.888Z",
+      "listingValidatedCommit": "8b77254b9920cb0bbe3491f83c700bcd7231adfc",
+      "listingValidatedAt": "2026-10-18T12:44:42.888Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gladimdim/omacros",
+        "pluginIds": [
+          "gladimdim.omacros"
+        ],
+        "commit": "8b77254b9920cb0bbe3491f83c700bcd7231adfc",
+        "checkedAt": "2026-10-18T12:44:42.730Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gladimdim.omacros": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
