@@ -353499,6 +353499,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Cluxnei/omarchy-jbl-quantum",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T01:45:47.932Z",
+      "listingValidatedCommit": "2dad8b135af744d97260f645a14b2cf52afa6ac9",
+      "listingValidatedAt": "2026-10-18T01:45:47.932Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cluxnei/omarchy-jbl-quantum",
+        "pluginIds": [
+          "cluxnei.jbl-quantum"
+        ],
+        "commit": "2dad8b135af744d97260f645a14b2cf52afa6ac9",
+        "checkedAt": "2026-10-18T01:45:47.801Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cluxnei/omarchy-jbl-quantum",
+        "pluginIds": [
+          "cluxnei.jbl-quantum"
+        ],
+        "commit": "2dad8b135af744d97260f645a14b2cf52afa6ac9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T01:45:47.801Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T01:39:47.968Z",
+        "requestEventId": 33550396108,
+        "requestedAt": "2026-10-18T01:45:19Z",
+        "reviewedAt": "2026-10-18T01:45:47.801Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cluxnei.jbl-quantum": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
