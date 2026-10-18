@@ -353791,6 +353791,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Mersad-Moghaddam/omarchy-clipdeck",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T05:23:27.320Z",
+      "listingValidatedCommit": "b0c6e206d54a57edbd5b00f36310995dfd074a13",
+      "listingValidatedAt": "2026-10-18T05:23:27.320Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mersad-moghaddam/omarchy-clipdeck",
+        "pluginIds": [
+          "io.github.mersadmoghaddam.clipdeck"
+        ],
+        "commit": "b0c6e206d54a57edbd5b00f36310995dfd074a13",
+        "checkedAt": "2026-10-18T05:23:27.181Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mersad-moghaddam/omarchy-clipdeck",
+        "pluginIds": [
+          "io.github.mersadmoghaddam.clipdeck"
+        ],
+        "commit": "b0c6e206d54a57edbd5b00f36310995dfd074a13",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T05:23:27.181Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T05:14:28.857Z",
+        "requestEventId": 33556732857,
+        "requestedAt": "2026-10-18T05:22:56Z",
+        "reviewedAt": "2026-10-18T05:23:27.181Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.mersadmoghaddam.clipdeck": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "bar",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
