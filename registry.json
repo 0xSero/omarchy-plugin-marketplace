@@ -353728,6 +353728,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/manateelazycat/omarchy-file-previewer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T04:28:45.348Z",
+      "listingValidatedCommit": "eb713704b0e0f328ecd0edb675c91e710d165ee3",
+      "listingValidatedAt": "2026-10-18T04:28:45.348Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "manateelazycat/omarchy-file-previewer",
+        "pluginIds": [
+          "io.github.manateelazycat.file-previewer"
+        ],
+        "commit": "eb713704b0e0f328ecd0edb675c91e710d165ee3",
+        "checkedAt": "2026-10-18T04:28:45.219Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-file-previewer",
+        "pluginIds": [
+          "io.github.manateelazycat.file-previewer"
+        ],
+        "commit": "eb713704b0e0f328ecd0edb675c91e710d165ee3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T04:28:45.219Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T04:24:31.143Z",
+        "requestEventId": 33555165628,
+        "requestedAt": "2026-10-18T04:28:16Z",
+        "reviewedAt": "2026-10-18T04:28:45.219Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.manateelazycat.file-previewer": {
+          "category": "Desktop",
+          "tags": [
+            "media",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
