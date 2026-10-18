@@ -354610,6 +354610,71 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/DomeMcFly/omarchy-dictation",
+      "type": "plugin-source",
+      "addedAt": "2026-10-18",
+      "listedAt": "2026-10-18T12:40:39.653Z",
+      "listingValidatedCommit": "8ead8d3d2770e2ec64c51a4cc1808a305517ff48",
+      "listingValidatedAt": "2026-10-18T12:40:39.653Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "domemcfly/omarchy-dictation",
+        "pluginIds": [
+          "dominic.live-dictation"
+        ],
+        "commit": "8ead8d3d2770e2ec64c51a4cc1808a305517ff48",
+        "checkedAt": "2026-10-18T12:40:39.508Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "domemcfly/omarchy-dictation",
+        "pluginIds": [
+          "dominic.live-dictation"
+        ],
+        "commit": "8ead8d3d2770e2ec64c51a4cc1808a305517ff48",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-18T12:40:39.508Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T12:38:16.876Z",
+        "requestEventId": 33571446806,
+        "requestedAt": "2026-10-18T12:40:13Z",
+        "reviewedAt": "2026-10-18T12:40:39.508Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "dominic.live-dictation": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
